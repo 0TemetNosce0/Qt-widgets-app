@@ -1,0 +1,3535 @@
+<?xml version="1.0" encoding="gbk"?>
+<root> 
+    <area id="Main" name="直辖市" en="Main"> 
+        <area id="Beijing" name="北京" en="Beijing"> 
+            <city id="101010100" name="北京" en="Beijing" /> 
+            <city id="101010200" name="海淀" en="Haidian" /> 
+            <city id="101010300" name="朝阳" en="Chaoyang" /> 
+            <city id="101010400" name="顺义" en="Shunyi" /> 
+            <city id="101010500" name="怀柔" en="Huairou" /> 
+            <city id="101010600" name="通州" en="Tongzhou" /> 
+            <city id="101010700" name="昌平" en="Changping" /> 
+            <city id="101010800" name="延庆" en="Yanqing" /> 
+            <city id="101010900" name="丰台" en="Fengtai" /> 
+            <city id="101011000" name="石景山" en="Shijingshan" /> 
+            <city id="101011100" name="大兴" en="Daxing" /> 
+            <city id="101011200" name="房山" en="Fangshan" /> 
+            <city id="101011300" name="密云" en="Miyun" /> 
+            <city id="101011400" name="门头沟" en="Mentougou" /> 
+            <city id="101011500" name="平谷" en="Pinggu" /> 
+        </area> 
+        <area id="Shanghai" name="上海" en="Shanghai"> 
+            <city id="101020100" name="上海" en="Shanghai" /> 
+            <city id="101020200" name="闵行" en="Minhang" /> 
+            <city id="101020300" name="宝山" en="Baoshan" /> 
+            <city id="101020500" name="嘉定" en="Jiading" /> 
+            <city id="101020600" name="南汇" en="Nanhui" /> 
+            <city id="101020700" name="金山" en="Jinshan" /> 
+            <city id="101020800" name="青浦" en="Qingpu" /> 
+            <city id="101020900" name="松江" en="Songjiang" /> 
+            <city id="101021000" name="奉贤" en="Fengxian" /> 
+            <city id="101021100" name="崇明" en="Chongming" /> 
+            <city id="101021200" name="徐家汇" en="Xujiahui" /> 
+            <city id="101021300" name="浦东" en="Pudong" /> 
+        </area> 
+        <area id="Tianjin" name="天津" en="Tianjin"> 
+            <city id="101030100" name="天津" en="Tianjin" /> 
+            <city id="101030200" name="武清" en="Wuqing" /> 
+            <city id="101030300" name="宝坻" en="Baodi" /> 
+            <city id="101030400" name="东丽" en="Dongli" /> 
+            <city id="101030500" name="西青" en="Xiqing" /> 
+            <city id="101030600" name="北辰" en="Beichen" /> 
+            <city id="101030700" name="宁河" en="Ninghe" /> 
+            <city id="101030800" name="汉沽" en="Hangu" /> 
+            <city id="101030900" name="静海" en="Jinghai" /> 
+            <city id="101031000" name="津南" en="Jinnan" /> 
+            <city id="101031100" name="塘沽" en="Tanggu" /> 
+            <city id="101031200" name="大港" en="Dagang" /> 
+            <city id="101031400" name="蓟县" en="Jixian" /> 
+        </area> 
+        <area id="Chongqing" name="重庆" en="Chongqing"> 
+            <city id="101040100" name="重庆" en="Chongqing" /> 
+            <city id="101040200" name="永川" en="Yongchuan" /> 
+            <city id="101040300" name="合川" en="Hechuan" /> 
+            <city id="101040400" name="南川" en="Nanchuan" /> 
+            <city id="101040500" name="江津" en="Jiangjin" /> 
+            <city id="101040600" name="万盛" en="Wansheng" /> 
+            <city id="101040700" name="渝北" en="Yubei" /> 
+            <city id="101040800" name="北碚" en="Beibei" /> 
+            <city id="101040900" name="巴南" en="Banan" /> 
+            <city id="101041000" name="长命" en="Changshou" /> 
+            <city id="101041100" name="黔江" en="Qianjiang" /> 
+            <city id="101041300" name="万州" en="Wanzhou" /> 
+            <city id="101041400" name="涪陵" en="Fuling" /> 
+            <city id="101041500" name="开县" en="Kaixian" /> 
+            <city id="101041600" name="城口" en="Chengkou" /> 
+            <city id="101041700" name="云阳" en="Yunyang" /> 
+            <city id="101041800" name="巫溪" en="Wuxi" /> 
+            <city id="101041900" name="奉节" en="Fengjie" /> 
+            <city id="101042000" name="巫山" en="Wushan" /> 
+            <city id="101042100" name="潼南" en="Tongnan" /> 
+            <city id="101042200" name="垫江" en="Dianjiang" /> 
+            <city id="101042300" name="梁平" en="Liangping" /> 
+            <city id="101042400" name="忠县" en="Zhongxian" /> 
+            <city id="101042500" name="石柱" en="Shizhu" /> 
+            <city id="101042600" name="大足" en="Dazu" /> 
+            <city id="101042700" name="荣昌" en="Rongchang" /> 
+            <city id="101042800" name="铜梁" en="Tongliang" /> 
+            <city id="101042900" name="璧山" en="Bishan" /> 
+            <city id="101043000" name="丰都" en="Fengdu" /> 
+            <city id="101043100" name="武隆" en="Wulong" /> 
+            <city id="101043200" name="彭水" en="Pengshui" /> 
+            <city id="101043300" name="綦江" en="Qijiang" /> 
+            <city id="101043400" name="酉阳" en="Youyang" /> 
+            <city id="101043600" name="秀山" en="Xiushan" /> 
+        </area> 
+    </area> 
+    <area id="Heilongjiang" name="黑龙江" en="Heilongjiang"> 
+        <area id="Haerbin" name="哈尔滨" en="Haerbin"> 
+            <city id="101050101" name="哈尔滨" en="Haerbin" /> 
+            <city id="101050102" name="双城" en="Shuangcheng" /> 
+            <city id="101050103" name="呼兰" en="Hulan" /> 
+            <city id="101050104" name="阿城" en="Acheng" /> 
+            <city id="101050105" name="宾县" en="Binxian" /> 
+            <city id="101050106" name="依兰" en="Yilan" /> 
+            <city id="101050107" name="巴彦" en="Bayan" /> 
+            <city id="101050108" name="通河" en="Tonghe" /> 
+            <city id="101050109" name="高洁" en="Fangzheng" /> 
+            <city id="101050110" name="延寿" en="Yanshou" /> 
+            <city id="101050111" name="尚志" en="Shangzhi" /> 
+            <city id="101050112" name="五常" en="Wuchang" /> 
+            <city id="101050113" name="木兰" en="Mulan" /> 
+        </area> 
+        <area id="Qiqihaer" name="齐齐哈尔" en="Qiqihaer"> 
+            <city id="101050201" name="齐齐哈尔" en="Qiqihaer" /> 
+            <city id="101050202" name="讷河" en="Nehe" /> 
+            <city id="101050203" name="龙江" en="Longjiang" /> 
+            <city id="101050204" name="甘南" en="Gannan" /> 
+            <city id="101050205" name="充裕" en="Fuyu" /> 
+            <city id="101050206" name="依安" en="Yian" /> 
+            <city id="101050207" name="拜泉" en="Baiquan" /> 
+            <city id="101050208" name="克山" en="Keshan" /> 
+            <city id="101050209" name="克东" en="Kedong" /> 
+            <city id="101050210" name="泰来" en="Tailai" /> 
+        </area> 
+        <area id="Mudanjiang" name="牡丹江" en="Mudanjiang"> 
+            <city id="101050301" name="牡丹江" en="Mudanjiang" /> 
+            <city id="101050302" name="海林" en="Hailin" /> 
+            <city id="101050303" name="穆棱" en="Muling" /> 
+            <city id="101050304" name="林口" en="Linkou" /> 
+            <city id="101050305" name="绥芬河" en="Suifenhe" /> 
+            <city id="101050306" name="宁安" en="Ningan" /> 
+            <city id="101050307" name="东宁" en="Dongning" /> 
+        </area> 
+        <area id="Jiamusi" name="佳木斯" en="Jiamusi"> 
+            <city id="101050401" name="佳木斯" en="Jiamusi" /> 
+            <city id="101050402" name="汤原" en="Tangyuan" /> 
+            <city id="101050403" name="抚远" en="Fuyuan" /> 
+            <city id="101050404" name="桦川" en="Huachuan" /> 
+            <city id="101050405" name="桦南" en="Huanan" /> 
+            <city id="101050406" name="同江" en="Tongjiang" /> 
+            <city id="101050407" name="富锦" en="Fujin" /> 
+        </area> 
+        <area id="Suihua" name="绥化" en="Suihua"> 
+            <city id="101050501" name="绥化" en="Suihua" /> 
+            <city id="101050502" name="肇东" en="Zhaodong" /> 
+            <city id="101050503" name="安达" en="Anda" /> 
+            <city id="101050504" name="海伦" en="Hailun" /> 
+            <city id="101050505" name="明水" en="Mingshui" /> 
+            <city id="101050506" name="望奎" en="Wangkui" /> 
+            <city id="101050507" name="兰西" en="Lanxi" /> 
+            <city id="101050508" name="青冈" en="Qinggang" /> 
+            <city id="101050509" name="庆安" en="Qingan" /> 
+            <city id="101050510" name="绥棱" en="Suiling" /> 
+        </area> 
+        <area id="Heihe" name="黑河" en="Heihe"> 
+            <city id="101050601" name="黑河" en="Heihe" /> 
+            <city id="101050602" name="嫩江" en="Nenjiang" /> 
+            <city id="101050603" name="孙吴" en="Sunwu" /> 
+            <city id="101050604" name="逊克" en="Xunke" /> 
+            <city id="101050605" name="五大连池" en="Wudalianchi" /> 
+            <city id="101050606" name="北安" en="Beian" /> 
+        </area> 
+        <area id="Daxinganling" name="大兴安岭" en="Daxinganling"> 
+            <city id="101050701" name="大兴安岭" en="Daxinganling" /> 
+            <city id="101050702" name="塔河" en="Tahe" /> 
+            <city id="101050703" name="漠河" en="Mohe" /> 
+            <city id="101050704" name="呼玛" en="Huma" /> 
+            <city id="101050705" name="呼中" en="Huzhong" /> 
+            <city id="101050706" name="新林" en="Xinlin" /> 
+            <city id="101050708" name="加格达奇" en="Jiagedaqi" /> 
+        </area> 
+        <area id="Yichun" name="伊春" en="Yichun"> 
+            <city id="101050801" name="伊春" en="Yichun" /> 
+            <city id="101050802" name="乌伊岭" en="Wuyiling" /> 
+            <city id="101050803" name="五营" en="Wuying" /> 
+            <city id="101050804" name="铁力" en="Tieli" /> 
+            <city id="101050805" name="嘉荫" en="Jiayin" /> 
+        </area> 
+        <area id="Daqing" name="大庆" en="Daqing"> 
+            <city id="101050901" name="大庆" en="Daqing" /> 
+            <city id="101050902" name="林甸" en="Lindian" /> 
+            <city id="101050903" name="肇州" en="Zhaozhou" /> 
+            <city id="101050904" name="肇源" en="Zhaoyuan" /> 
+            <city id="101050905" name="杜尔伯特" en="Duerbote" /> 
+        </area> 
+        <area id="Qitaihe" name="七台河" en="Qitaihe"> 
+            <city id="101051002" name="七台河" en="Qitaihe" /> 
+            <city id="101051003" name="勃利" en="Boli" /> 
+        </area> 
+        <area id="Jixi" name="鸡西" en="Jixi"> 
+            <city id="101051101" name="鸡西" en="Jixi" /> 
+            <city id="101051102" name="虎林" en="Hulin" /> 
+            <city id="101051103" name="密山" en="Mishan" /> 
+            <city id="101051104" name="鸡东" en="Jidong" /> 
+        </area> 
+        <area id="Hegang" name="鹤岗" en="Hegang"> 
+            <city id="101051201" name="鹤岗" en="Hegang" /> 
+            <city id="101051202" name="绥滨" en="Suibin" /> 
+            <city id="101051203" name="萝北" en="Luobei" /> 
+        </area> 
+        <area id="Shuangyashan" name="双鸭山" en="Shuangyashan"> 
+            <city id="101051301" name="双鸭山" en="Shuangyashan" /> 
+            <city id="101051302" name="集贤" en="Jixian" /> 
+            <city id="101051303" name="宝清" en="Baoqing" /> 
+            <city id="101051304" name="饶河" en="Raohe" /> 
+            <city id="101051305" name="友情" en="Youyi" /> 
+        </area> 
+    </area> 
+    <area id="Jilin" name="吉林" en="Jilin"> 
+        <area id="Changchun" name="长春" en="Changchun"> 
+            <city id="101060101" name="长春" en="Changchun" /> 
+            <city id="101060102" name="农安" en="Nongan" /> 
+            <city id="101060103" name="德惠" en="Dehui" /> 
+            <city id="101060104" name="九台" en="Jiutai" /> 
+            <city id="101060105" name="榆树" en="Yushu" /> 
+            <city id="101060106" name="双阳" en="Shuangyang" /> 
+        </area> 
+        <area id="Jilin" name="吉林" en="Jilin"> 
+            <city id="101060201" name="吉林" en="Jilin" /> 
+            <city id="101060202" name="舒兰" en="Shulan" /> 
+            <city id="101060203" name="永吉" en="Yongji" /> 
+            <city id="101060204" name="蛟河" en="Jiaohe" /> 
+            <city id="101060205" name="磐石" en="Panshi" /> 
+            <city id="101060206" name="桦甸" en="Huadian" /> 
+        </area> 
+        <area id="Yanbian" name="延边" en="Yanbian"> 
+            <city id="101060301" name="延吉" en="Yanji" /> 
+            <city id="101060302" name="敦化" en="Dunhua" /> 
+            <city id="101060303" name="安图" en="Antu" /> 
+            <city id="101060304" name="汪清" en="Wangqing" /> 
+            <city id="101060305" name="和龙" en="Helong" /> 
+            <city id="101060307" name="龙井" en="Longjing" /> 
+            <city id="101060308" name="珲春" en="Hunchun" /> 
+            <city id="101060309" name="图们" en="Tumen" /> 
+        </area> 
+        <area id="Siping" name="四平" en="Siping"> 
+            <city id="101060401" name="四平" en="Siping" /> 
+            <city id="101060402" name="双辽" en="Shuangliao" /> 
+            <city id="101060403" name="梨树" en="Lishu" /> 
+            <city id="101060404" name="公主岭" en="Gongzhuling" /> 
+            <city id="101060405" name="伊通" en="Yitong" /> 
+        </area> 
+        <area id="Tonghua" name="通化" en="Tonghua"> 
+            <city id="101060501" name="通化" en="Tonghua" /> 
+            <city id="101060502" name="梅河口" en="Meihekou" /> 
+            <city id="101060503" name="柳河" en="Liuhe" /> 
+            <city id="101060504" name="辉南" en="Huinan" /> 
+            <city id="101060505" name="集安" en="Jian" /> 
+            <city id="101060506" name="通化县" en="Tonghuaxian" /> 
+        </area> 
+        <area id="Baicheng" name="白城" en="Baicheng"> 
+            <city id="101060601" name="白城" en="Baicheng" /> 
+            <city id="101060602" name="洮南" en="Taonan" /> 
+            <city id="101060603" name="大安" en="Daan" /> 
+            <city id="101060604" name="镇赉" en="Zhenlai" /> 
+            <city id="101060605" name="通榆" en="Tongyu" /> 
+        </area> 
+        <area id="Liaoyuan" name="辽源" en="Liaoyuan"> 
+            <city id="101060701" name="辽源" en="Liaoyuan" /> 
+            <city id="101060702" name="东丰" en="Dongfeng" /> 
+            <city id="101060703" name="东辽" en="Dongliao" /> 
+        </area> 
+        <area id="Songyuan" name="松原" en="Songyuan"> 
+            <city id="101060801" name="松原" en="Songyuan" /> 
+            <city id="101060802" name="乾安" en="Qianan" /> 
+            <city id="101060803" name="前郭" en="Qianguo" /> 
+            <city id="101060804" name="长岭" en="Changling" /> 
+            <city id="101060805" name="扶余" en="Fuyu" /> 
+        </area> 
+        <area id="Baishan" name="白山" en="Baishan"> 
+            <city id="101060901" name="白山" en="Baishan" /> 
+            <city id="101060902" name="靖宇" en="Jingyu" /> 
+            <city id="101060903" name="临江" en="Linjiang" /> 
+            <city id="101060904" name="东岗" en="Donggang" /> 
+            <city id="101060905" name="长白" en="Changbai" /> 
+            <city id="101060906" name="抚松" en="Fusong" /> 
+            <city id="101060907" name="江源" en="Jiangyuan" /> 
+        </area> 
+    </area> 
+    <area id="Liaoning" name="辽宁" en="Liaoning"> 
+        <area id="Shenyang" name="沈阳" en="Shenyang"> 
+            <city id="101070101" name="沈阳" en="Shenyang" /> 
+            <city id="101070103" name="辽中" en="Liaozhong" /> 
+            <city id="101070104" name="康平" en="Kangping" /> 
+            <city id="101070105" name="法库" en="Faku" /> 
+            <city id="101070106" name="新民" en="Xinmin" /> 
+        </area> 
+        <area id="Dalian" name="大连" en="Dalian"> 
+            <city id="101070201" name="大连" en="Dalian" /> 
+            <city id="101070202" name="瓦房店" en="Wafangdian" /> 
+            <city id="101070203" name="金州" en="Jinzhou" /> 
+            <city id="101070204" name="普兰店" en="Pulandian" /> 
+            <city id="101070205" name="旅顺" en="Lvshun" /> 
+            <city id="101070206" name="长海" en="Changhai" /> 
+            <city id="101070207" name="庄河" en="Zhuanghe" /> 
+        </area> 
+        <area id="Anshan" name="鞍山" en="Anshan"> 
+            <city id="101070301" name="鞍山" en="Anshan" /> 
+            <city id="101070302" name="台安" en="Taian" /> 
+            <city id="101070303" name="岫岩" en="Xiuyan" /> 
+            <city id="101070304" name="海城" en="Haicheng" /> 
+        </area> 
+        <area id="Fushun" name="抚顺" en="Fushun"> 
+            <city id="101070401" name="抚顺" en="Fushun" /> 
+            <city id="101070402" name="新宾" en="Xinbin" /> 
+            <city id="101070403" name="清原" en="Qingyuan" /> 
+            <city id="101070404" name="章党" en="Zhangdang" /> 
+        </area> 
+        <area id="Benxi" name="本溪" en="Benxi"> 
+            <city id="101070501" name="本溪" en="Benxi" /> 
+            <city id="101070502" name="本溪县" en="Benxixian" /> 
+            <city id="101070504" name="桓仁" en="Huanren" /> 
+        </area> 
+        <area id="Dandong" name="丹东" en="Dandong"> 
+            <city id="101070601" name="丹东" en="Dandong" /> 
+            <city id="101070602" name="凤城" en="Fengcheng" /> 
+            <city id="101070603" name="宽甸" en="Kuandian" /> 
+            <city id="101070604" name="东港" en="Donggang" /> 
+        </area> 
+        <area id="Jinzhou" name="锦州" en="Jinzhou"> 
+            <city id="101070701" name="锦州" en="Jinzhou" /> 
+            <city id="101070702" name="凌海" en="Linghai" /> 
+            <city id="101070704" name="义县" en="Yixian" /> 
+            <city id="101070705" name="黑山" en="Heishan" /> 
+            <city id="101070706" name="北镇" en="Beizhen" /> 
+        </area> 
+        <area id="Yingkou" name="营口" en="Yingkou"> 
+            <city id="101070801" name="营口" en="Yingkou" /> 
+            <city id="101070802" name="大石桥" en="Dashiqiao" /> 
+            <city id="101070803" name="盖州" en="Gaizhou" /> 
+        </area> 
+        <area id="Fuxin" name="阜新" en="Fuxin"> 
+            <city id="101070901" name="阜新" en="Fuxin" /> 
+            <city id="101070902" name="彰武" en="Zhangwu" /> 
+        </area> 
+        <area id="Liaoyang" name="辽阳" en="Liaoyang"> 
+            <city id="101071001" name="辽阳" en="Liaoyang" /> 
+            <city id="101071002" name="辽阳县" en="Liaoyangxian" /> 
+            <city id="101071003" name="灯塔" en="Dengta" /> 
+            <city id="101071004" name="弓长岭" en="Gongchangling" /> 
+        </area> 
+        <area id="Tieling" name="铁岭" en="Tieling"> 
+            <city id="101071101" name="铁岭" en="Tieling" /> 
+            <city id="101071102" name="开原" en="Kaiyuan" /> 
+            <city id="101071103" name="昌图" en="Changtu" /> 
+            <city id="101071104" name="西丰" en="Xifeng" /> 
+            <city id="101071105" name="铁法" en="Tiefa" /> 
+        </area> 
+        <area id="Chaoyang" name="朝阳" en="Chaoyang"> 
+            <city id="101071201" name="朝阳" en="Chaoyang" /> 
+            <city id="101071203" name="凌源" en="Lingyuan" /> 
+            <city id="101071204" name="喀左" en="Kazuo" /> 
+            <city id="101071205" name="北票" en="Beipiao" /> 
+            <city id="101071207" name="建平县" en="Jianpingxian" /> 
+        </area> 
+        <area id="Panjin" name="盘锦" en="Panjin"> 
+            <city id="101071301" name="盘锦" en="Panjin" /> 
+            <city id="101071302" name="大洼" en="Dawa" /> 
+            <city id="101071303" name="盘山" en="Panshan" /> 
+        </area> 
+        <area id="Huludao" name="葫芦岛" en="Huludao"> 
+            <city id="101071401" name="葫芦岛" en="Huludao" /> 
+            <city id="101071402" name="建昌" en="Jianchang" /> 
+            <city id="101071403" name="绥中" en="Suizhong" /> 
+            <city id="101071404" name="兴城" en="Xingcheng" /> 
+        </area> 
+    </area> 
+    <area id="Neimenggu" name="内蒙古" en="Neimenggu"> 
+        <area id="Huhehaote" name="呼和浩特" en="Huhehaote"> 
+            <city id="101080101" name="呼和浩特" en="Huhehaote" /> 
+            <city id="101080102" name="土左旗" en="Tuzuoqi" /> 
+            <city id="101080103" name="托县" en="Tuoxian" /> 
+            <city id="101080104" name="和林" en="Helin" /> 
+            <city id="101080105" name="净水河" en="Qingshuihe" /> 
+            <city id="101080106" name="呼市郊区" en="Hushijiaoqu" /> 
+            <city id="101080107" name="武川" en="Wuchuan" /> 
+        </area> 
+        <area id="Baotou" name="包头" en="Baotou"> 
+            <city id="101080201" name="包头" en="Baotou" /> 
+            <city id="101080202" name="白云鄂博" en="Baiyunebo" /> 
+            <city id="101080203" name="满都拉" en="Mandula" /> 
+            <city id="101080204" name="土右旗" en="Tuyouqi" /> 
+            <city id="101080205" name="固阳" en="Guyang" /> 
+            <city id="101080206" name="达茂旗" en="Damaoqi" /> 
+            <city id="101080207" name="希拉穆仁" en="Xilamuren" /> 
+        </area> 
+        <area id="Wuhai" name="乌海" en="Wuhai"> 
+            <city id="101080301" name="乌海" en="Wuhai" /> 
+        </area> 
+        <area id="Wulanchabu" name="乌兰察布" en="Wulanchabu"> 
+            <city id="101080401" name="集宁" en="Jining" /> 
+            <city id="101080402" name="卓资" en="Zhuozi" /> 
+            <city id="101080403" name="化德" en="Huade" /> 
+            <city id="101080404" name="商都" en="Shangdu" /> 
+            <city id="101080406" name="兴和" en="Xinghe" /> 
+            <city id="101080407" name="凉城" en="Liangcheng" /> 
+            <city id="101080408" name="察右前旗" en="Chayouqianqi" /> 
+            <city id="101080409" name="察右中旗" en="Chayouzhongqi" /> 
+            <city id="101080410" name="察右后旗" en="Chayouhouqi" /> 
+            <city id="101080411" name="四子王旗" en="Siziwangqi" /> 
+            <city id="101080412" name="丰镇" en="Fengzhen" /> 
+        </area> 
+        <area id="Tongliao" name="通辽" en="Tongliao"> 
+            <city id="101080501" name="通辽" en="Tongliao" /> 
+            <city id="101080502" name="舍伯吐" en="Shebotu" /> 
+            <city id="101080503" name="科左中旗" en="Kezuozhongqi" /> 
+            <city id="101080504" name="科左后旗" en="Kezuohouqi" /> 
+            <city id="101080505" name="青龙山" en="Qinglongshan" /> 
+            <city id="101080506" name="开鲁" en="Kailu" /> 
+            <city id="101080507" name="库伦" en="Kulun" /> 
+            <city id="101080508" name="奈曼" en="Naiman" /> 
+            <city id="101080509" name="扎鲁特" en="Zhalute" /> 
+            <city id="101080511" name="巴雅尔吐胡硕" en="Bayaertuhushuo" /> 
+            <city id="101081108" name="霍林郭勒" en="Huolinguole" /> 
+        </area> 
+        <area id="Chifeng" name="赤峰" en="Chifeng"> 
+            <city id="101080601" name="赤峰" en="Chifeng" /> 
+            <city id="101080603" name="阿鲁旗" en="Aluqi" /> 
+            <city id="101080604" name="浩尔吐" en="Haoertu" /> 
+            <city id="101080605" name="巴林左旗" en="Balinzuoqi" /> 
+            <city id="101080606" name="巴林右旗" en="Balinyouqi" /> 
+            <city id="101080607" name="林西" en="Linxi" /> 
+            <city id="101080608" name="克什克腾" en="Keshiketeng" /> 
+            <city id="101080609" name="翁牛特" en="Wengniute" /> 
+            <city id="101080610" name="岗子" en="Gangzi" /> 
+            <city id="101080611" name="喀喇沁" en="Kalaqin" /> 
+            <city id="101080612" name="八里罕" en="Balihan" /> 
+            <city id="101080613" name="宁城" en="Ningcheng" /> 
+            <city id="101080614" name="敖汉" en="Aohan" /> 
+            <city id="101080615" name="宝国吐" en="Baoguotu" /> 
+        </area> 
+        <area id="Eerduosi" name="鄂尔多斯" en="Eerduosi"> 
+            <city id="101080701" name="鄂尔多斯" en="Eerduosi" /> 
+            <city id="101080703" name="达拉特" en="Dalate" /> 
+            <city id="101080704" name="准格尔" en="Zhungeer" /> 
+            <city id="101080705" name="鄂前旗" en="Eqianqi" /> 
+            <city id="101080706" name="河南" en="Henan" /> 
+            <city id="101080707" name="伊克乌素" en="Yikewusu" /> 
+            <city id="101080708" name="鄂托克" en="Etuoke" /> 
+            <city id="101080709" name="杭锦旗" en="Hangjinqi" /> 
+            <city id="101080710" name="乌审旗" en="Wushenqi" /> 
+            <city id="101080711" name="伊金霍洛" en="Yijinhuoluo" /> 
+            <city id="101080712" name="乌审召" en="Wushenzhao" /> 
+            <city id="101080713" name="东胜" en="Dongsheng" /> 
+        </area> 
+        <area id="Bayanzhuor" name="巴彦淖尔" en="Bayanzhuor"> 
+            <city id="101080801" name="临河" en="Linhe" /> 
+            <city id="101080802" name="五原" en="Wuyuan" /> 
+            <city id="101080803" name="磴口" en="Dengkou" /> 
+            <city id="101080804" name="乌前旗" en="Wuqianqi" /> 
+            <city id="101080805" name="大佘太" en="Dashetai" /> 
+            <city id="101080806" name="乌中旗" en="Wuzhongqi" /> 
+            <city id="101080807" name="乌后旗" en="Wuhouqi" /> 
+            <city id="101080808" name="海力素" en="Hailisu" /> 
+            <city id="101080809" name="那仁宝力格" en="Narenbaolige" /> 
+            <city id="101080810" name="杭锦后旗" en="Hangjinhouqi" /> 
+        </area> 
+        <area id="Xilinguole" name="锡林郭勒" en="Xilinguole"> 
+            <city id="101080901" name="锡林浩特" en="Xilinhaote" /> 
+            <city id="101080903" name="二连浩特" en="Erlianhaote" /> 
+            <city id="101080904" name="阿巴嘎" en="Abaga" /> 
+            <city id="101080906" name="苏左旗" en="Suzuoqi" /> 
+            <city id="101080907" name="苏右旗" en="Suyouqi" /> 
+            <city id="101080908" name="朱日和" en="Zhurihe" /> 
+            <city id="101080909" name="东乌旗" en="Dongwuqi" /> 
+            <city id="101080910" name="西乌旗" en="Xiwuqi" /> 
+            <city id="101080911" name="太仆寺" en="Taibusiqi" /> 
+            <city id="101080912" name="镶黄旗" en="Xianghuang" /> 
+            <city id="101080913" name="正镶白旗" en="Zhengxiangbaiqi" /> 
+            <city id="101080914" name="正蓝旗" en="Zhenglanqi" /> 
+            <city id="101080915" name="多伦" en="Duolun" /> 
+            <city id="101080916" name="博克图" en="Boketu" /> 
+            <city id="101080917" name="乌拉盖" en="Wulagai" /> 
+        </area> 
+        <area id="Hulunbeier" name="呼伦贝尔" en="Hulunbeier"> 
+            <city id="101081001" name="海拉尔" en="Hailaer" /> 
+            <city id="101081002" name="小二沟" en="Xiaoergou" /> 
+            <city id="101081003" name="阿荣旗" en="Arongqi" /> 
+            <city id="101081004" name="莫力达瓦" en="Molidawa" /> 
+            <city id="101081005" name="鄂伦春旗" en="Elunchunqi" /> 
+            <city id="101081006" name="鄂温克旗" en="Ewenkeqi" /> 
+            <city id="101081007" name="陈旗" en="Chenqi" /> 
+            <city id="101081008" name="新左旗" en="Xinzuoqi" /> 
+            <city id="101081009" name="新右旗" en="Xinyouqi" /> 
+            <city id="101081010" name="满洲里" en="Manzhouli" /> 
+            <city id="101081011" name="牙克石" en="Yakeshi" /> 
+            <city id="101081012" name="扎兰屯" en="Zhalantun" /> 
+            <city id="101081014" name="额尔古纳" en="Eerguna" /> 
+            <city id="101081015" name="根河" en="Genhe" /> 
+            <city id="101081016" name="图里河" en="Tulihe" /> 
+        </area> 
+        <area id="Wulanhaote" name="乌兰浩特" en="Wulanhaote"> 
+            <city id="101081101" name="乌兰浩特" en="Wulanhaote" /> 
+            <city id="101080510" name="高力板" en="Gaoliban" /> 
+            <city id="101081102" name="阿尔山" en="Aershan" /> 
+            <city id="101081103" name="科右中旗" en="Keyouzhongqi" /> 
+            <city id="101081104" name="胡尔勒" en="Huerle" /> 
+            <city id="101081105" name="扎赉特" en="Zhalaite" /> 
+            <city id="101081106" name="索伦" en="Suolun" /> 
+            <city id="101081107" name="突泉" en="Tuquan" /> 
+            <city id="101081109" name="科右前旗" en="Keyouqianqi" /> 
+        </area> 
+        <area id="Alashanmeng" name="阿拉善盟" en="Alashanmeng"> 
+            <city id="101081201" name="阿左旗" en="Azuoqi" /> 
+            <city id="101081202" name="阿右旗" en="Ayouqi" /> 
+            <city id="101081203" name="额济纳" en="Ejina" /> 
+            <city id="101081204" name="拐子湖" en="Guaizihu" /> 
+            <city id="101081205" name="吉兰太" en="Jilantai" /> 
+            <city id="101081206" name="锡林高勒" en="Xilingaole" /> 
+            <city id="101081207" name="头道湖" en="Toudaohu" /> 
+            <city id="101081208" name="中泉子" en="Zhongquanzi" /> 
+            <city id="101081209" name="诺尔公" en="Nuoergong" /> 
+            <city id="101081210" name="雅布赖" en="Yabulai" /> 
+            <city id="101081211" name="乌斯泰" en="Wusitai" /> 
+            <city id="101081212" name="孪井滩" en="Luanjingtan" /> 
+        </area> 
+    </area> 
+    <area id="Hebei" name="河北" en="Hebei"> 
+        <area id="Shijiazhuang" name="石家庄" en="Shijiazhuang"> 
+            <city id="101090101" name="石家庄" en="Shijiazhuang" /> 
+            <city id="101090102" name="井陉" en="Jingxing" /> 
+            <city id="101090103" name="正定" en="Zhengding" /> 
+            <city id="101090104" name="栾城" en="Luancheng" /> 
+            <city id="101090105" name="行唐" en="Xingtang" /> 
+            <city id="101090106" name="灵寿" en="Lingshou" /> 
+            <city id="101090107" name="高邑" en="Gaoyi" /> 
+            <city id="101090108" name="深泽" en="Shenze" /> 
+            <city id="101090109" name="赞皇" en="Zanhuang" /> 
+            <city id="101090110" name="无极" en="Wuji" /> 
+            <city id="101090111" name="平山" en="Pingshan" /> 
+            <city id="101090112" name="元氏" en="Yuanshi" /> 
+            <city id="101090113" name="赵县" en="Zhaoxian" /> 
+            <city id="101090114" name="辛集" en="Xinji" /> 
+            <city id="101090115" name="藁城" en="Gaocheng" /> 
+            <city id="101090116" name="晋州" en="Jinzhou" /> 
+            <city id="101090117" name="新乐" en="Xinle" /> 
+            <city id="101090118" name="鹿泉" en="Luquan" /> 
+        </area> 
+        <area id="Baoding" name="保定" en="Baoding"> 
+            <city id="101090201" name="保定" en="Baoding" /> 
+            <city id="101090202" name="满城" en="Mancheng" /> 
+            <city id="101090203" name="阜平" en="Fuping" /> 
+            <city id="101090204" name="徐水" en="Xushui" /> 
+            <city id="101090205" name="唐县" en="Tangxian" /> 
+            <city id="101090206" name="高阳" en="Gaoyang" /> 
+            <city id="101090207" name="容城" en="Rongcheng" /> 
+            <city id="101090209" name="涞源" en="Laiyuan" /> 
+            <city id="101090210" name="望都" en="Wangdu" /> 
+            <city id="101090211" name="安新" en="Anxin" /> 
+            <city id="101090212" name="易县" en="Yixian" /> 
+            <city id="101090214" name="曲阳" en="Quyang" /> 
+            <city id="101090215" name="蠡县" en="Lixian" /> 
+            <city id="101090216" name="顺平" en="Shunping" /> 
+            <city id="101090217" name="雄县" en="Xiongxian" /> 
+            <city id="101090218" name="" en="Zhuozhou" /> 
+            <city id="101090219" name="定州" en="Dingzhou" /> 
+            <city id="101090220" name="安国" en="Anguo" /> 
+            <city id="101090221" name="高碑店" en="Gaobeidian" /> 
+            <city id="101090222" name="涞水" en="Laishui" /> 
+            <city id="101090223" name="定兴" en="Dingxing" /> 
+            <city id="101090224" name="清苑" en="Qingyuan" /> 
+            <city id="101090225" name="博野" en="Boye" /> 
+        </area> 
+        <area id="Zhangjiakou" name="张家口" en="Zhangjiakou"> 
+            <city id="101090301" name="张家口" en="Zhangjiakou" /> 
+            <city id="101090302" name="宣化" en="Xuanhua" /> 
+            <city id="101090303" name="张北" en="Zhangbei" /> 
+            <city id="101090304" name="康保" en="Kangbao" /> 
+            <city id="101090305" name="沽源" en="Guyuan" /> 
+            <city id="101090306" name="尚义" en="Shangyi" /> 
+            <city id="101090307" name="蔚县" en="Yuxian" /> 
+            <city id="101090308" name="阳原" en="Yangyuan" /> 
+            <city id="101090309" name="怀安" en="Huaian" /> 
+            <city id="101090310" name="万全" en="Wanquan" /> 
+            <city id="101090311" name="怀来" en="Huailai" /> 
+            <city id="101090312" name="涿鹿" en="Zhuolu" /> 
+            <city id="101090313" name="赤城" en="Chicheng" /> 
+            <city id="101090314" name="崇礼" en="Chongli" /> 
+        </area> 
+        <area id="Chengde" name="承德" en="Chengde"> 
+            <city id="101090402" name="承德" en="Chengde" /> 
+            <city id="101090403" name="承德县" en="Chengdexian" /> 
+            <city id="101090404" name="兴隆" en="Xinglong" /> 
+            <city id="101090405" name="平泉" en="Pingquan" /> 
+            <city id="101090406" name="滦平" en="Luanping" /> 
+            <city id="101090407" name="隆化" en="Longhua" /> 
+            <city id="101090408" name="丰宁" en="Fengning" /> 
+            <city id="101090409" name="宽城" en="Kuancheng" /> 
+            <city id="101090410" name="围场" en="Weichang" /> 
+        </area> 
+        <area id="Tangshan" name="唐山" en="Tangshan"> 
+            <city id="101090501" name="唐山" en="Tangshan" /> 
+            <city id="101090502" name="丰南" en="Fengnan" /> 
+            <city id="101090503" name="丰润" en="Fengrun" /> 
+            <city id="101090504" name="滦县" en="Luanxian" /> 
+            <city id="101090505" name="滦南" en="Luannan" /> 
+            <city id="101090506" name="乐亭" en="Leting" /> 
+            <city id="101090507" name="迁西" en="Qianxi" /> 
+            <city id="101090508" name="玉田" en="Yutian" /> 
+            <city id="101090509" name="唐海" en="Tanghai" /> 
+            <city id="101090510" name="遵化" en="Zunhua" /> 
+            <city id="101090511" name="迁安" en="Qianan" /> 
+            <city id="101090512" name="曹妃甸" en="Caofeidian" /> 
+        </area> 
+        <area id="Langfang" name="廊坊" en="Langfang"> 
+            <city id="101090601" name="廊坊" en="Langfang" /> 
+            <city id="101090602" name="固安" en="Guan" /> 
+            <city id="101090603" name="永清" en="Yongqing" /> 
+            <city id="101090604" name="香河" en="Xianghe" /> 
+            <city id="101090605" name="大城" en="Dacheng" /> 
+            <city id="101090606" name="文安" en="Wenan" /> 
+            <city id="101090607" name="大厂" en="Dachang" /> 
+            <city id="101090608" name="霸州" en="Bazhou" /> 
+            <city id="101090609" name="三河" en="Sanhe" /> 
+        </area> 
+        <area id="Cangzhou" name="沧州" en="Cangzhou"> 
+            <city id="101090701" name="沧州" en="Cangzhou" /> 
+            <city id="101090702" name="青县" en="Qingxian" /> 
+            <city id="101090703" name="东光" en="Dongguang" /> 
+            <city id="101090704" name="海兴" en="Haixing" /> 
+            <city id="101090705" name="盐山" en="Yanshan" /> 
+            <city id="101090706" name="肃宁" en="Suning" /> 
+            <city id="101090707" name="南皮" en="Nanpi" /> 
+            <city id="101090708" name="吴桥" en="Wuqiao" /> 
+            <city id="101090709" name="献县" en="Xianxian" /> 
+            <city id="101090710" name="孟村" en="Mengcun" /> 
+            <city id="101090711" name="泊头" en="Botou" /> 
+            <city id="101090712" name="任丘" en="Renqiu" /> 
+            <city id="101090713" name="黄骅" en="Huanghua" /> 
+            <city id="101090714" name="河间" en="Hejian" /> 
+            <city id="101090716" name="沧县" en="Cangxian" /> 
+        </area> 
+        <area id="Hengshui" name="衡水" en="Hengshui"> 
+            <city id="101090801" name="衡水" en="Hengshui" /> 
+            <city id="101090802" name="枣强" en="Zao" /> 
+            <city id="101090803" name="武邑" en="Wuyi" /> 
+            <city id="101090804" name="武强" en="Wu" /> 
+            <city id="101090805" name="饶阳" en="Raoyang" /> 
+            <city id="101090806" name="安平" en="Anping" /> 
+            <city id="101090807" name="故城" en="Gucheng" /> 
+            <city id="101090808" name="景县" en="Jingxian" /> 
+            <city id="101090809" name="阜城" en="Fucheng" /> 
+            <city id="101090810" name="冀州" en="Jizhou" /> 
+            <city id="101090811" name="深州" en="Shenzhou" /> 
+        </area> 
+        <area id="Xingtai" name="邢台" en="Xingtai"> 
+            <city id="101090901" name="邢台" en="Xingtai" /> 
+            <city id="101090902" name="临城" en="Lincheng" /> 
+            <city id="101090904" name="内丘" en="Neiqiu" /> 
+            <city id="101090905" name="柏乡" en="Baixiang" /> 
+            <city id="101090906" name="隆尧" en="Longyao" /> 
+            <city id="101090907" name="南和" en="Nanhe" /> 
+            <city id="101090908" name="宁晋" en="Ningjin" /> 
+            <city id="101090909" name="巨鹿" en="Julu" /> 
+            <city id="101090910" name="新河" en="Xinhe" /> 
+            <city id="101090911" name="广宗" en="Guangzong" /> 
+            <city id="101090912" name="平乡" en="Pingxiang" /> 
+            <city id="101090913" name="威县" en="Weixian" /> 
+            <city id="101090914" name="清河" en="Qinghe" /> 
+            <city id="101090915" name="临西" en="Linxi" /> 
+            <city id="101090916" name="南宫" en="Nangong" /> 
+            <city id="101090917" name="沙河" en="Shahe" /> 
+            <city id="101090918" name="任县" en="Renxian" /> 
+        </area> 
+        <area id="Handan" name="邯郸" en="Handan"> 
+            <city id="101091001" name="邯郸" en="Handan" /> 
+            <city id="101091002" name="峰峰" en="Fengfeng" /> 
+            <city id="101091003" name="临漳" en="Linzhang" /> 
+            <city id="101091004" name="成安" en="Chengan" /> 
+            <city id="101091005" name="大名" en="Daming" /> 
+            <city id="101091006" name="涉县" en="Shexian" /> 
+            <city id="101091007" name="磁县" en="Cixian" /> 
+            <city id="101091008" name="肥乡" en="Feixiang" /> 
+            <city id="101091009" name="永年" en="Yongnian" /> 
+            <city id="101091010" name="邱县" en="Qiuxian" /> 
+            <city id="101091011" name="鸡泽" en="Jize" /> 
+            <city id="101091012" name="广平" en="Guangping" /> 
+            <city id="101091013" name="馆陶" en="Guantao" /> 
+            <city id="101091014" name="魏县" en="Weixian" /> 
+            <city id="101091015" name="曲周" en="Quzhou" /> 
+            <city id="101091016" name="武安" en="Wuan" /> 
+        </area> 
+        <area id="Qinhuangdao" name="秦皇岛" en="Qinhuangdao"> 
+            <city id="101091101" name="秦皇岛" en="Qinhuangdao" /> 
+            <city id="101091102" name="青龙" en="Qinglong" /> 
+            <city id="101091103" name="昌黎" en="Changli" /> 
+            <city id="101091104" name="抚宁" en="Funing" /> 
+            <city id="101091105" name="卢龙" en="Lulong" /> 
+            <city id="101091106" name="北戴河" en="Beidaihe" /> 
+        </area> 
+    </area> 
+    <area id="Shanxi" name="山西" en="Shanxi"> 
+        <area id="Taiyuan" name="太原" en="Taiyuan"> 
+            <city id="101100101" name="太原" en="Taiyuan" /> 
+            <city id="101100102" name="清徐" en="Qingxu" /> 
+            <city id="101100103" name="阳曲" en="Yangqu" /> 
+            <city id="101100104" name="娄烦" en="Loufan" /> 
+            <city id="101100105" name="古交" en="Gujiao" /> 
+            <city id="101100106" name="尖草坪区" en="Jiancaopingqu" /> 
+            <city id="101100107" name="小店区" en="Xiaodianqu" /> 
+        </area> 
+        <area id="Datong" name="大同" en="Datong"> 
+            <city id="101100201" name="大同" en="Datong" /> 
+            <city id="101100202" name="阳高" en="Yanggao" /> 
+            <city id="101100203" name="大同县" en="Datongxian" /> 
+            <city id="101100204" name="天镇" en="Tianzhen" /> 
+            <city id="101100205" name="广灵" en="Guangling" /> 
+            <city id="101100206" name="灵丘" en="Lingqiu" /> 
+            <city id="101100207" name="浑源" en="Hunyuan" /> 
+            <city id="101100208" name="左云" en="Zuoyun" /> 
+        </area> 
+        <area id="Yangquan" name="阳泉" en="Yangquan"> 
+            <city id="101100301" name="阳泉" en="Yangquan" /> 
+            <city id="101100302" name="盂县" en="Yuxian" /> 
+            <city id="101100303" name="安定" en="Pingding" /> 
+        </area> 
+        <area id="Jinzhong" name="晋中" en="Jinzhong"> 
+            <city id="101100401" name="晋中" en="Jinzhong" /> 
+            <city id="101100402" name="榆次" en="Yuci" /> 
+            <city id="101100403" name="榆社" en="Yushe" /> 
+            <city id="101100404" name="左权" en="Zuoquan" /> 
+            <city id="101100405" name="温柔" en="Heshun" /> 
+            <city id="101100406" name="昔阳" en="Xiyang" /> 
+            <city id="101100407" name="寿阳" en="Shouyang" /> 
+            <city id="101100408" name="太谷" en="Taigu" /> 
+            <city id="101100409" name="祁县" en="Qixian" /> 
+            <city id="101100410" name="平遥" en="Pingyao" /> 
+            <city id="101100411" name="灵石" en="Lingshi" /> 
+            <city id="101100412" name="介休" en="Jiexiu" /> 
+        </area> 
+        <area id="Changzhi" name="长治" en="Changzhi"> 
+            <city id="101100501" name="长治" en="Changzhi" /> 
+            <city id="101100502" name="黎城" en="Licheng" /> 
+            <city id="101100503" name="屯留" en="Tunliu" /> 
+            <city id="101100504" name="潞城" en="Lucheng" /> 
+            <city id="101100505" name="襄垣" en="Xiangyuan" /> 
+            <city id="101100506" name="平顺" en="Pingshun" /> 
+            <city id="101100507" name="武乡" en="Wuxiang" /> 
+            <city id="101100508" name="沁县" en="Qinxian" /> 
+            <city id="101100509" name="长子" en="Zhangzi" /> 
+            <city id="101100510" name="沁源" en="Qinyuan" /> 
+            <city id="101100511" name="壶关" en="Huguan" /> 
+        </area> 
+        <area id="Jincheng" name="晋城" en="Jincheng"> 
+            <city id="101100601" name="晋城" en="Jincheng" /> 
+            <city id="101100602" name="沁水" en="Qinshui" /> 
+            <city id="101100603" name="阳城" en="Yangcheng" /> 
+            <city id="101100604" name="陵川" en="Lingchuan" /> 
+            <city id="101100605" name="高平" en="Gaoping" /> 
+            <city id="101100606" name="泽州" en="Zezhou" /> 
+        </area> 
+        <area id="Linfen" name="临汾" en="Linfen"> 
+            <city id="101100701" name="临汾" en="Linfen" /> 
+            <city id="101100702" name="曲沃" en="Quwo" /> 
+            <city id="101100703" name="永和" en="Yonghe" /> 
+            <city id="101100704" name="隰县" en="Xixian" /> 
+            <city id="101100705" name="大宁" en="Daning" /> 
+            <city id="101100706" name="吉县" en="Jixian" /> 
+            <city id="101100707" name="襄汾" en="Xiangfen" /> 
+            <city id="101100708" name="蒲县" en="Puxian" /> 
+            <city id="101100709" name="汾西" en="Fenxi" /> 
+            <city id="101100710" name="洪洞" en="Hongtong" /> 
+            <city id="101100711" name="霍州" en="Huozhou" /> 
+            <city id="101100712" name="乡宁" en="Xiangning" /> 
+            <city id="101100713" name="翼城" en="Yicheng" /> 
+            <city id="101100714" name="侯马" en="Houma" /> 
+            <city id="101100715" name="浮山" en="Fushan" /> 
+            <city id="101100716" name="安泽" en="Anze" /> 
+            <city id="101100717" name="古县" en="Guxian" /> 
+        </area> 
+        <area id="Yuncheng" name="运城" en="Yuncheng"> 
+            <city id="101100801" name="运城" en="Yuncheng" /> 
+            <city id="101100802" name="临猗" en="Linyi" /> 
+            <city id="101100803" name="稷山" en="Jishan" /> 
+            <city id="101100804" name="万荣" en="Wanrong" /> 
+            <city id="101100805" name="河津" en="Hejin" /> 
+            <city id="101100806" name="新绛" en="Xinjiang" /> 
+            <city id="101100807" name="绛县" en="Jiangxian" /> 
+            <city id="101100808" name="闻喜" en="Wenxi" /> 
+            <city id="101100809" name="垣曲" en="Yuanqu" /> 
+            <city id="101100810" name="永济" en="Yongji" /> 
+            <city id="101100811" name="芮城" en="Ruicheng" /> 
+            <city id="101100812" name="夏县" en="Xiaxian" /> 
+            <city id="101100813" name="平陆" en="Pinglu" /> 
+        </area> 
+        <area id="Shuozhou" name="朔州" en="Shuozhou"> 
+            <city id="101100901" name="朔州" en="Shuozhou" /> 
+            <city id="101100902" name="平鲁" en="Pinglu" /> 
+            <city id="101100903" name="山阴" en="Shanyin" /> 
+            <city id="101100904" name="右玉" en="Youyu" /> 
+            <city id="101100905" name="应县" en="Yingxian" /> 
+            <city id="101100906" name="怀仁" en="Huairen" /> 
+        </area> 
+        <area id="Xinzhou" name="忻州" en="Xinzhou"> 
+            <city id="101101001" name="忻州" en="Xinzhou" /> 
+            <city id="101101002" name="定襄" en="Dingxiang" /> 
+            <city id="101101003" name="五台县" en="Wutaixian" /> 
+            <city id="101101004" name="河曲" en="Hequ" /> 
+            <city id="101101005" name="偏关" en="Pianguan" /> 
+            <city id="101101006" name="神池" en="Shenchi" /> 
+            <city id="101101007" name="宁武" en="Ningwu" /> 
+            <city id="101101008" name="代县" en="Daixian" /> 
+            <city id="101101009" name="繁峙" en="Fanshi" /> 
+            <city id="101101010" name="五台山" en="Wutaishan" /> 
+            <city id="101101011" name="保德" en="Baode" /> 
+            <city id="101101012" name="静乐" en="Jingle" /> 
+            <city id="101101013" name="岢岚" en="Kelan" /> 
+            <city id="101101014" name="五寨" en="Wuzhai" /> 
+            <city id="101101015" name="原平" en="Yuanping" /> 
+        </area> 
+        <area id="Lvliang" name="吕梁" en="Lvliang"> 
+            <city id="101101100" name="吕梁" en="Lvliang" /> 
+            <city id="101101101" name="离石" en="Lishi" /> 
+            <city id="101101102" name="临县" en="Linxian" /> 
+            <city id="101101103" name="兴县" en="Xingxian" /> 
+            <city id="101101104" name="岚县" en="Lanxian" /> 
+            <city id="101101105" name="柳林" en="Liulin" /> 
+            <city id="101101106" name="石楼" en="Shilou" /> 
+            <city id="101101107" name="方山" en="Fangshan" /> 
+            <city id="101101108" name="交口" en="Jiaokou" /> 
+            <city id="101101109" name="中阳" en="Zhongyang" /> 
+            <city id="101101110" name="孝义" en="Xiaoyi" /> 
+            <city id="101101111" name="汾阳" en="Fenyang" /> 
+            <city id="101101112" name="文水" en="Wenshui" /> 
+            <city id="101101113" name="交城" en="Jiaocheng" /> 
+        </area> 
+    </area> 
+    <area id="Shanxi" name="陕西" en="Shanxi"> 
+        <area id="Xian" name="西安" en="Xian"> 
+            <city id="101110101" name="西安" en="Xian" /> 
+            <city id="101110102" name="长安" en="Changan" /> 
+            <city id="101110103" name="临潼" en="Lintong" /> 
+            <city id="101110104" name="蓝田" en="Lantian" /> 
+            <city id="101110105" name="周至" en="Zhouzhi" /> 
+            <city id="101110106" name="户县" en="Huxian" /> 
+            <city id="101110107" name="高陵" en="Gaoling" /> 
+        </area> 
+        <area id="Xianyang" name="咸阳" en="Xianyang"> 
+            <city id="101110200" name="咸阳" en="Xianyang" /> 
+            <city id="101110201" name="三原" en="Sanyuan" /> 
+            <city id="101110202" name="礼泉" en="Liquan" /> 
+            <city id="101110203" name="永寿" en="Yongshou" /> 
+            <city id="101110204" name="淳化" en="Chunhua" /> 
+            <city id="101110205" name="泾阳" en="Jingyang" /> 
+            <city id="101110206" name="武功" en="Wugong" /> 
+            <city id="101110207" name="乾县" en="Qianxian" /> 
+            <city id="101110208" name="彬县" en="Binxian" /> 
+            <city id="101110209" name="长武" en="Changwu" /> 
+            <city id="101110210" name="旬邑" en="Xunyi" /> 
+            <city id="101110211" name="兴平" en="Xingping" /> 
+        </area> 
+        <area id="Yanan" name="延安" en="Yanan"> 
+            <city id="101110300" name="延安" en="Yanan" /> 
+            <city id="101110301" name="耽误" en="Yanchang" /> 
+            <city id="101110302" name="延川" en="Yanchuan" /> 
+            <city id="101110303" name="子长" en="Zichang" /> 
+            <city id="101110304" name="宜川" en="Yichuan" /> 
+            <city id="101110305" name="富县" en="Fuxian" /> 
+            <city id="101110306" name="志丹" en="Zhidan" /> 
+            <city id="101110307" name="安塞" en="Ansai" /> 
+            <city id="101110308" name="甘泉" en="Ganquan" /> 
+            <city id="101110309" name="洛川" en="Luochuan" /> 
+            <city id="101110310" name="黄陵" en="Huangling" /> 
+            <city id="101110311" name="黄龙" en="Huanglong" /> 
+            <city id="101110312" name="吴起" en="Wuqi" /> 
+        </area> 
+        <area id="Yulin" name="榆林" en="Yulin"> 
+            <city id="101110401" name="榆林" en="Yulin" /> 
+            <city id="101110402" name="府谷" en="Fugu" /> 
+            <city id="101110403" name="神木" en="Shenmu" /> 
+            <city id="101110404" name="佳县" en="Jiaxian" /> 
+            <city id="101110405" name="定边" en="Dingbian" /> 
+            <city id="101110406" name="靖边" en="Jingbian" /> 
+            <city id="101110407" name="横山" en="Hengshan" /> 
+            <city id="101110408" name="米脂" en="Mizhi" /> 
+            <city id="101110409" name="子洲" en="Zizhou" /> 
+            <city id="101110410" name="绥德" en="Suide" /> 
+            <city id="101110411" name="吴堡" en="Wubu" /> 
+            <city id="101110412" name="清涧" en="Qingjian" /> 
+            <city id="101110413" name="榆阳" en="Yuyang" /> 
+        </area> 
+        <area id="Weinan" name="渭南" en="Weinan"> 
+            <city id="101110501" name="渭南" en="Weinan" /> 
+            <city id="101110502" name="华县" en="Huaxian" /> 
+            <city id="101110503" name="潼关" en="Tongguan" /> 
+            <city id="101110504" name="大荔" en="Dali" /> 
+            <city id="101110505" name="白水" en="Baishui" /> 
+            <city id="101110506" name="富平" en="Fuping" /> 
+            <city id="101110507" name="蒲城" en="Pucheng" /> 
+            <city id="101110508" name="澄城" en="Chengcheng" /> 
+            <city id="101110509" name="合阳" en="Heyang" /> 
+            <city id="101110510" name="韩城" en="Hancheng" /> 
+            <city id="101110511" name="华阴" en="Huayin" /> 
+        </area> 
+        <area id="Shangluo" name="商洛" en="Shangluo"> 
+            <city id="101110601" name="商洛" en="Shangluo" /> 
+            <city id="101110602" name="洛南" en="Luonan" /> 
+            <city id="101110603" name="柞水" en="Zhashui" /> 
+            <city id="101110604" name="商州" en="Shangzhou" /> 
+            <city id="101110605" name="镇安" en="Zhenan" /> 
+            <city id="101110606" name="丹凤" en="Danfeng" /> 
+            <city id="101110607" name="商南" en="Shangnan" /> 
+            <city id="101110608" name="山阳" en="Shanyang" /> 
+        </area> 
+        <area id="Ankang" name="安康" en="Ankang"> 
+            <city id="101110701" name="安康" en="Ankang" /> 
+            <city id="101110702" name="" en="Ziyang" /> 
+            <city id="101110703" name="石泉" en="Shiquan" /> 
+            <city id="101110704" name="汉阴" en="Hanyin" /> 
+            <city id="101110705" name="旬阳" en="Xunyang" /> 
+            <city id="101110706" name="岚皋" en="Langao" /> 
+            <city id="101110707" name="平利" en="Pingli" /> 
+            <city id="101110708" name="白河" en="Baihe" /> 
+            <city id="101110709" name="镇坪" en="Zhenping" /> 
+            <city id="101110710" name="宁陕" en="Ningshan" /> 
+        </area> 
+        <area id="Hanzhong" name="汉中" en="Hanzhong"> 
+            <city id="101110801" name="汉中" en="Hanzhong" /> 
+            <city id="101110802" name="略阳" en="Lueyang" /> 
+            <city id="101110803" name="勉县" en="Mianxian" /> 
+            <city id="101110804" name="留坝" en="Liuba" /> 
+            <city id="101110805" name="洋县" en="Yangxian" /> 
+            <city id="101110806" name="城固" en="Chenggu" /> 
+            <city id="101110807" name="西乡" en="Xixiang" /> 
+            <city id="101110808" name="佛坪" en="Fuoping" /> 
+            <city id="101110809" name="宁强" en="Ning" /> 
+            <city id="101110810" name="南郑" en="Nanzheng" /> 
+            <city id="101110811" name="镇巴" en="Zhenba" /> 
+        </area> 
+        <area id="Baoji" name="宝鸡" en="Baoji"> 
+            <city id="101110901" name="宝鸡" en="Baoji" /> 
+            <city id="101110903" name="千阳" en="Qianyang" /> 
+            <city id="101110904" name="麟游" en="Linyou" /> 
+            <city id="101110905" name="岐山" en="Qishan" /> 
+            <city id="101110906" name="凤翔" en="Fengxiang" /> 
+            <city id="101110907" name="扶风" en="Fufeng" /> 
+            <city id="101110908" name="眉县" en="Meixian" /> 
+            <city id="101110909" name="太白" en="Taibai" /> 
+            <city id="101110910" name="凤县" en="Fengxian" /> 
+            <city id="101110911" name="陇县" en="Longxian" /> 
+            <city id="101110912" name="陈仓" en="Chencang" /> 
+        </area> 
+        <area id="Tongchuan" name="铜川" en="Tongchuan"> 
+            <city id="101111001" name="铜川" en="Tongchuan" /> 
+            <city id="101111002" name="耀县" en="Yaoxian" /> 
+            <city id="101111003" name="宜君" en="Yijun" /> 
+            <city id="101111004" name="耀州" en="Yaozhou" /> 
+        </area> 
+        <area id="Yangling" name="杨凌" en="Yangling"> 
+            <city id="101111101" name="杨凌" en="Yangling" /> 
+        </area> 
+    </area> 
+    <area id="Shandong" name="山东" en="Shandong"> 
+        <area id="Jinan" name="济南" en="Jinan"> 
+            <city id="101120101" name="济南" en="Jinan" /> 
+            <city id="101120102" name="长清" en="Changqing" /> 
+            <city id="101120103" name="商河" en="Shanghe" /> 
+            <city id="101120104" name="章丘" en="Zhangqiu" /> 
+            <city id="101120105" name="平阴" en="Pingyin" /> 
+            <city id="101120106" name="济阳" en="Jiyang" /> 
+        </area> 
+        <area id="Qingdao" name="青岛" en="Qingdao"> 
+            <city id="101120201" name="青岛" en="Qingdao" /> 
+            <city id="101120202" name="崂山" en="Laoshan" /> 
+            <city id="101120204" name="即墨" en="Jimo" /> 
+            <city id="101120205" name="胶州" en="Jiaozhou" /> 
+            <city id="101120206" name="胶南" en="Jiaonan" /> 
+            <city id="101120207" name="莱西" en="Laixi" /> 
+            <city id="101120208" name="平度" en="Pingdu" /> 
+        </area> 
+        <area id="Zibo" name="淄博" en="Zibo"> 
+            <city id="101120301" name="淄博" en="Zibo" /> 
+            <city id="101120302" name="淄川" en="Zichuan" /> 
+            <city id="101120303" name="博山" en="Boshan" /> 
+            <city id="101120304" name="高青" en="Gaoqing" /> 
+            <city id="101120305" name="周村" en="Zhoucun" /> 
+            <city id="101120306" name="沂源" en="Yiyuan" /> 
+            <city id="101120307" name="桓台" en="Huantai" /> 
+            <city id="101120308" name="临淄" en="Linzi" /> 
+        </area> 
+        <area id="Dezhou" name="德州" en="Dezhou"> 
+            <city id="101120401" name="德州" en="Dezhou" /> 
+            <city id="101120402" name="武城" en="Wucheng" /> 
+            <city id="101120403" name="临邑" en="Linyi" /> 
+            <city id="101120404" name="陵县" en="Lingxian" /> 
+            <city id="101120405" name="齐河" en="Qihe" /> 
+            <city id="101120406" name="乐陵" en="Leling" /> 
+            <city id="101120407" name="庆云" en="Qingyun" /> 
+            <city id="101120408" name="平原" en="Pingyuan" /> 
+            <city id="101120409" name="宁津" en="Ningjin" /> 
+            <city id="101120410" name="夏津" en="Xiajin" /> 
+            <city id="101120411" name="禹城" en="Yucheng" /> 
+        </area> 
+        <area id="Yantai" name="烟台" en="Yantai"> 
+            <city id="101120501" name="烟台" en="Yantai" /> 
+            <city id="101120502" name="莱州" en="Laizhou" /> 
+            <city id="101120503" name="长岛" en="Changdao" /> 
+            <city id="101120504" name="蓬莱" en="Penglai" /> 
+            <city id="101120505" name="龙口" en="Longkou" /> 
+            <city id="101120506" name="招远" en="Zhaoyuan" /> 
+            <city id="101120507" name="栖霞" en="Qixia" /> 
+            <city id="101120508" name="福山" en="Fushan" /> 
+            <city id="101120509" name="牟平" en="Mouping" /> 
+            <city id="101120510" name="莱阳" en="Laiyang" /> 
+            <city id="101120511" name="海阳" en="Haiyang" /> 
+        </area> 
+        <area id="Weifang" name="潍坊" en="Weifang"> 
+            <city id="101120601" name="潍坊" en="Weifang" /> 
+            <city id="101120602" name="青州" en="Qingzhou" /> 
+            <city id="101120603" name="寿光" en="Shouguang" /> 
+            <city id="101120604" name="临朐" en="Linqu" /> 
+            <city id="101120605" name="昌乐" en="Changle" /> 
+            <city id="101120606" name="昌邑" en="Changyi" /> 
+            <city id="101120607" name="安丘" en="Anqiu" /> 
+            <city id="101120608" name="高密" en="Gaomi" /> 
+            <city id="101120609" name="诸城" en="Zhucheng" /> 
+        </area> 
+        <area id="Jining" name="济宁" en="Jining"> 
+            <city id="101120701" name="济宁" en="Jining" /> 
+            <city id="101120702" name="嘉祥" en="Jiaxiang" /> 
+            <city id="101120703" name="微山" en="Weishan" /> 
+            <city id="101120704" name="鱼台" en="Yutai" /> 
+            <city id="101120705" name="兖州" en="Yanzhou" /> 
+            <city id="101120706" name="金乡" en="Jinxiang" /> 
+            <city id="101120707" name="汶上" en="Wenshang" /> 
+            <city id="101120708" name="泗水" en="Sishui" /> 
+            <city id="101120709" name="梁山" en="Liangshan" /> 
+            <city id="101120710" name="曲阜" en="Qufu" /> 
+            <city id="101120711" name="邹城" en="Zoucheng" /> 
+        </area> 
+        <area id="Taian" name="泰安" en="Taian"> 
+            <city id="101120801" name="泰安" en="Taian" /> 
+            <city id="101120802" name="新泰" en="Xintai" /> 
+            <city id="101120804" name="肥城" en="Feicheng" /> 
+            <city id="101120805" name="东平" en="Dongping" /> 
+            <city id="101120806" name="宁阳" en="Ningyang" /> 
+        </area> 
+        <area id="Linyi" name="临沂" en="Linyi"> 
+            <city id="101120901" name="临沂" en="Linyi" /> 
+            <city id="101120902" name="莒南" en="Junan" /> 
+            <city id="101120903" name="沂南" en="Yinan" /> 
+            <city id="101120904" name="苍山" en="Cangshan" /> 
+            <city id="101120905" name="临沭" en="Linshu" /> 
+            <city id="101120906" name="郯城" en="Tancheng" /> 
+            <city id="101120907" name="蒙阴" en="Mengyin" /> 
+            <city id="101120908" name="平邑" en="Pingyi" /> 
+            <city id="101120909" name="费县" en="Feixian" /> 
+            <city id="101120910" name="沂水" en="Yishui" /> 
+        </area> 
+        <area id="Heze" name="菏泽" en="Heze"> 
+            <city id="101121001" name="菏泽" en="Heze" /> 
+            <city id="101121002" name="鄄城" en="Juancheng" /> 
+            <city id="101121003" name="郓城" en="Yuncheng" /> 
+            <city id="101121004" name="东明" en="Dongming" /> 
+            <city id="101121005" name="定陶" en="Dingtao" /> 
+            <city id="101121006" name="巨野" en="Juye" /> 
+            <city id="101121007" name="曹县" en="Caoxian" /> 
+            <city id="101121008" name="成武" en="Chengwu" /> 
+            <city id="101121009" name="单县" en="Shanxian" /> 
+        </area> 
+        <area id="Binzhou" name="滨州" en="Binzhou"> 
+            <city id="101121101" name="滨州" en="Binzhou" /> 
+            <city id="101121102" name="博兴" en="Boxing" /> 
+            <city id="101121103" name="无棣" en="Wudi" /> 
+            <city id="101121104" name="阳信" en="Yangxin" /> 
+            <city id="101121105" name="惠民" en="Huimin" /> 
+            <city id="101121106" name="沾化" en="Zhanhua" /> 
+            <city id="101121107" name="邹平" en="Zouping" /> 
+        </area> 
+        <area id="Dongying" name="东营" en="Dongying"> 
+            <city id="101121201" name="东营" en="Dongying" /> 
+            <city id="101121202" name="河口" en="Hekou" /> 
+            <city id="101121203" name="垦利" en="Kenli" /> 
+            <city id="101121204" name="利津" en="Lijin" /> 
+            <city id="101121205" name="广饶" en="Guangrao" /> 
+        </area> 
+        <area id="Weihai" name="威海" en="Weihai"> 
+            <city id="101121301" name="威海" en="Weihai" /> 
+            <city id="101121302" name="文登" en="Wendeng" /> 
+            <city id="101121303" name="荣成" en="Rongcheng" /> 
+            <city id="101121304" name="乳山" en="Rushan" /> 
+            <city id="101121305" name="成山头" en="Chengshantou" /> 
+            <city id="101121306" name="石岛" en="Shidao" /> 
+        </area> 
+        <area id="Zaozhuang" name="枣庄" en="Zaozhuang"> 
+            <city id="101121401" name="枣庄" en="Zaozhuang" /> 
+            <city id="101121402" name="薛城" en="Xuecheng" /> 
+            <city id="101121403" name="峄城" en="Yicheng" /> 
+            <city id="101121404" name="台儿庄" en="Taierzhuang" /> 
+            <city id="101121405" name="滕州" en="Tengzhou" /> 
+        </area> 
+        <area id="Rizhao" name="日照" en="Rizhao"> 
+            <city id="101121501" name="日照" en="Rizhao" /> 
+            <city id="101121502" name="五莲" en="Wulian" /> 
+            <city id="101121503" name="莒县" en="Juxian" /> 
+        </area> 
+        <area id="Laiwu" name="莱芜" en="Laiwu"> 
+            <city id="101121601" name="莱芜" en="Laiwu" /> 
+        </area> 
+        <area id="Liaocheng" name="聊城" en="Liaocheng"> 
+            <city id="101121701" name="聊城" en="Liaocheng" /> 
+            <city id="101121702" name="冠县" en="Guanxian" /> 
+            <city id="101121703" name="阳谷" en="Yanggu" /> 
+            <city id="101121704" name="高唐" en="Gaotang" /> 
+            <city id="101121705" name="茌平" en="Chiping" /> 
+            <city id="101121706" name="东阿" en="Donge" /> 
+            <city id="101121707" name="临清" en="Linqing" /> 
+            <city id="101121709" name="莘县" en="Shenxian" /> 
+        </area> 
+    </area> 
+    <area id="Xinjiang" name="新疆" en="Xinjiang"> 
+        <area id="Wulumuqi" name="乌鲁木齐" en="Wulumuqi"> 
+            <city id="101130101" name="乌鲁木齐" en="Wulumuqi" /> 
+            <city id="101130103" name="小渠子" en="Xiaoquzi" /> 
+            <city id="101130105" name="达坂城" en="Dabancheng" /> 
+            <city id="101130108" name="乌鲁木齐牧试站" en="Wulumuqimushizhan" /> 
+            <city id="101130109" name="天池" en="Tianchi" /> 
+            <city id="101130110" name="白杨沟" en="Baiyanggou" /> 
+        </area> 
+        <area id="Keyi" name="克拉玛依" en="Keyi"> 
+            <city id="101130201" name="克拉玛依" en="Keyi" /> 
+            <city id="101130202" name="乌尔禾" en="Wuerhe" /> 
+            <city id="101130203" name="白碱滩" en="Baijiantan" /> 
+        </area> 
+        <area id="Shihezi" name="石河子" en="Shihezi"> 
+            <city id="101130301" name="石河子" en="Shihezi" /> 
+            <city id="101130302" name="炮台" en="Paotai" /> 
+            <city id="101130303" name="莫索湾" en="Mosuowan" /> 
+        </area> 
+        <area id="Changji" name="昌吉" en="Changji"> 
+            <city id="101130401" name="昌吉" en="Changji" /> 
+            <city id="101130402" name="呼图壁" en="Hutubi" /> 
+            <city id="101130403" name="米泉" en="Miquan" /> 
+            <city id="101130404" name="阜康" en="Fukang" /> 
+            <city id="101130405" name="吉木萨尔" en="Jimusaer" /> 
+            <city id="101130406" name="奇台" en="Qitai" /> 
+            <city id="101130407" name="玛纳斯" en="Manasi" /> 
+            <city id="101130408" name="木垒" en="Mulei" /> 
+            <city id="101130409" name="蔡家湖" en="Caijiahu" /> 
+        </area> 
+        <area id="Tulufan" name="吐鲁番" en="Tulufan"> 
+            <city id="101130501" name="吐鲁番" en="Tulufan" /> 
+            <city id="101130502" name="托克逊" en="Tuokexun" /> 
+            <city id="101130504" name="鄯善" en="Shanshan" /> 
+        </area> 
+        <area id="Bayinguoleng" name="巴音郭楞" en="Bayinguoleng"> 
+            <city id="101130601" name="库尔勒" en="Kuerle" /> 
+            <city id="101130602" name="轮台" en="Luntai" /> 
+            <city id="101130603" name="尉犁" en="Weili" /> 
+            <city id="101130604" name="若羌" en="Ruo" /> 
+            <city id="101130605" name="且末" en="Qiemo" /> 
+            <city id="101130606" name="和静" en="Hejing" /> 
+            <city id="101130607" name="焉耆" en="Yanqi" /> 
+            <city id="101130608" name="和硕" en="Shuo" /> 
+            <city id="101130610" name="巴音布鲁克" en="Bayinbuluke" /> 
+            <city id="101130611" name="铁干里克" en="Tieganlike" /> 
+            <city id="101130612" name="博湖" en="Bohu" /> 
+            <city id="101130613" name="塔中" en="Tazhong" /> 
+            <city id="101130614" name="巴仑台" en="Baluntai" /> 
+        </area> 
+        <area id="Alaer" name="阿拉尔" en="Alaer"> 
+            <city id="101130701" name="阿拉尔" en="Alaer" /> 
+        </area> 
+        <area id="Akesu" name="阿克苏" en="Akesu"> 
+            <city id="101130801" name="阿克苏" en="Akesu" /> 
+            <city id="101130802" name="乌什" en="Wushi" /> 
+            <city id="101130803" name="温宿" en="Wensu" /> 
+            <city id="101130804" name="拜城" en="Baicheng" /> 
+            <city id="101130805" name="新和" en="Xinhe" /> 
+            <city id="101130806" name="沙雅" en="Shaya" /> 
+            <city id="101130807" name="库车" en="Kuche" /> 
+            <city id="101130808" name="柯坪" en="Keping" /> 
+            <city id="101130809" name="阿瓦提" en="Awati" /> 
+        </area> 
+        <area id="Kashi" name="喀什" en="Kashi"> 
+            <city id="101130901" name="喀什" en="Kashi" /> 
+            <city id="101130902" name="英吉沙" en="Yingjisha" /> 
+            <city id="101130903" name="塔什库尔干" en="Tashikuergan" /> 
+            <city id="101130904" name="麦盖提" en="Maigaiti" /> 
+            <city id="101130905" name="莎车" en="Shache" /> 
+            <city id="101130906" name="叶城" en="Yecheng" /> 
+            <city id="101130907" name="泽普" en="Zepu" /> 
+            <city id="101130908" name="巴楚" en="Bachu" /> 
+            <city id="101130909" name="岳普湖" en="Yuepuhu" /> 
+            <city id="101130910" name="伽师" en="Jiashi" /> 
+            <city id="101130911" name="疏附" en="Shufu" /> 
+            <city id="101130912" name="疏勒" en="Shule" /> 
+        </area> 
+        <area id="Yili" name="伊犁" en="Yili"> 
+            <city id="101131001" name="伊宁" en="Yining" /> 
+            <city id="101131002" name="察布查尔" en="Chabuchaer" /> 
+            <city id="101131003" name="尼勒克" en="Nileke" /> 
+            <city id="101131004" name="伊宁县" en="Yiningxian" /> 
+            <city id="101131005" name="巩留" en="Gongliu" /> 
+            <city id="101131006" name="新源" en="Xinyuan" /> 
+            <city id="101131007" name="昭苏" en="Zhaosu" /> 
+            <city id="101131008" name="特克斯" en="Tekesi" /> 
+            <city id="101131009" name="霍城" en="Huocheng" /> 
+            <city id="101131010" name="霍尔果斯" en="Huoerguosi" /> 
+            <city id="101131011" name="奎屯" en="Kuitunshi" /> 
+        </area> 
+        <area id="Tacheng" name="塔城" en="Tacheng"> 
+            <city id="101131101" name="塔城" en="Tacheng" /> 
+            <city id="101131102" name="裕民" en="Yumin" /> 
+            <city id="101131103" name="额敏" en="Emin" /> 
+            <city id="101131104" name="和布克赛尔" en="Hebukesaier" /> 
+            <city id="101131105" name="托里" en="Tuoli" /> 
+            <city id="101131106" name="乌苏" en="Wusu" /> 
+            <city id="101131107" name="沙湾" en="Shawan" /> 
+        </area> 
+        <area id="Hami" name="哈密" en="Hami"> 
+            <city id="101131201" name="哈密" en="Hami" /> 
+            <city id="101131203" name="巴里坤" en="Balikun" /> 
+            <city id="101131204" name="伊吾" en="Yiwu" /> 
+        </area> 
+        <area id="Hetian" name="和田" en="Hetian"> 
+            <city id="101131301" name="和田" en="Hetian" /> 
+            <city id="101131302" name="皮山" en="Pishan" /> 
+            <city id="101131303" name="策勒" en="Cele" /> 
+            <city id="101131304" name="墨玉" en="Moyu" /> 
+            <city id="101131305" name="洛浦" en="Luopu" /> 
+            <city id="101131306" name="民丰" en="Minfeng" /> 
+            <city id="101131307" name="于田" en="Yutian" /> 
+        </area> 
+        <area id="Aletai" name="阿勒泰" en="Aletai"> 
+            <city id="101131401" name="阿勒泰" en="Aletai" /> 
+            <city id="101131402" name="哈巴河" en="Habahe" /> 
+            <city id="101131405" name="吉木乃" en="Jimunai" /> 
+            <city id="101131406" name="布尔津" en="Buerjin" /> 
+            <city id="101131407" name="福海" en="Fuhai" /> 
+            <city id="101131408" name="富蕴" en="Fuyun" /> 
+            <city id="101131409" name="青河" en="Qinghe" /> 
+        </area> 
+        <area id="Kezhou" name="克州" en="Kezhou"> 
+            <city id="101131501" name="阿图什" en="Atushi" /> 
+            <city id="101131502" name="乌恰" en="Wuqia" /> 
+            <city id="101131503" name="阿克陶" en="Aketao" /> 
+            <city id="101131504" name="阿合奇" en="Aheqi" /> 
+        </area> 
+        <area id="Boertala" name="博尔塔拉" en="Boertala"> 
+            <city id="101131601" name="博乐" en="Bole" /> 
+            <city id="101131602" name="温泉" en="Wenquan" /> 
+            <city id="101131603" name="精河" en="Jinghe" /> 
+            <city id="101131606" name="阿拉山口" en="Alashankou" /> 
+        </area> 
+    </area> 
+    <area id="Xizang" name="" en="Xizang"> 
+        <area id="Lasa" name="拉萨" en="Lasa"> 
+            <city id="101140101" name="拉萨" en="Lasa" /> 
+            <city id="101140102" name="当雄" en="Dangxiong" /> 
+            <city id="101140103" name="尼木" en="Nimu" /> 
+            <city id="101140104" name="林周" en="Linzhou" /> 
+            <city id="101140105" name="堆龙德庆" en="Duilongdeqing" /> 
+            <city id="101140106" name="曲水" en="Qushui" /> 
+            <city id="101140107" name="达孜" en="Dazi" /> 
+            <city id="101140108" name="墨竹工卡" en="Mozhugongka" /> 
+        </area> 
+        <area id="Rikaze" name="日喀则" en="Rikaze"> 
+            <city id="101140201" name="日喀则" en="Rikaze" /> 
+            <city id="101140202" name="拉孜" en="Lazi" /> 
+            <city id="101140203" name="南木林" en="Nanmulin" /> 
+            <city id="101140204" name="聂拉木" en="Nielamu" /> 
+            <city id="101140205" name="定日" en="Dingri" /> 
+            <city id="101140206" name="江孜" en="Jiangzi" /> 
+            <city id="101140207" name="帕里" en="Pali" /> 
+            <city id="101140208" name="仲巴" en="Zhongba" /> 
+            <city id="101140209" name="萨嘎" en="Saga" /> 
+            <city id="101140210" name="吉隆" en="Jilong" /> 
+            <city id="101140211" name="昂仁" en="Angren" /> 
+            <city id="101140212" name="定结" en="Dingjie" /> 
+            <city id="101140213" name="萨迦" en="Sajia" /> 
+            <city id="101140214" name="谢通门" en="Xietongmen" /> 
+            <city id="101140216" name="岗巴" en="Gangba" /> 
+            <city id="101140217" name="白朗" en="Bailang" /> 
+            <city id="101140218" name="亚东" en="Yadong" /> 
+            <city id="101140219" name="康马" en="Kangma" /> 
+            <city id="101140220" name="仁布" en="Renbu" /> 
+        </area> 
+        <area id="Shannan" name="山南" en="Shannan"> 
+            <city id="101140301" name="山南" en="Shannan" /> 
+            <city id="101140302" name="贡嘎" en="Gongga" /> 
+            <city id="101140303" name="札囊" en="Zhanang" /> 
+            <city id="101140304" name="加查" en="Jiacha" /> 
+            <city id="101140305" name="浪卡子" en="Langkazi" /> 
+            <city id="101140306" name="错那" en="Cuona" /> 
+            <city id="101140307" name="隆子" en="Longzi" /> 
+            <city id="101140308" name="泽当" en="Zedang" /> 
+            <city id="101140309" name="乃东" en="Naidong" /> 
+            <city id="101140310" name="桑日" en="Sangri" /> 
+            <city id="101140311" name="洛扎" en="Luozha" /> 
+            <city id="101140312" name="措美" en="Cuomei" /> 
+            <city id="101140313" name="琼结" en="Qiongjie" /> 
+            <city id="101140314" name="曲松" en="Qusong" /> 
+        </area> 
+        <area id="Linzhi" name="林芝" en="Linzhi"> 
+            <city id="101140401" name="林芝" en="Linzhi" /> 
+            <city id="101140402" name="波密" en="Bomi" /> 
+            <city id="101140403" name="米林" en="Milin" /> 
+            <city id="101140404" name="察隅" en="Chayu" /> 
+            <city id="101140405" name="工布江达" en="Gongbujiangda" /> 
+            <city id="101140406" name="朗县" en="Langxian" /> 
+            <city id="101140407" name="墨脱" en="Motuo" /> 
+        </area> 
+        <area id="Changdu" name="昌都" en="Changdu"> 
+            <city id="101140501" name="昌都" en="Changdu" /> 
+            <city id="101140502" name="丁青" en="Dingqing" /> 
+            <city id="101140503" name="边坝" en="Bianba" /> 
+            <city id="101140504" name="洛隆" en="Luolong" /> 
+            <city id="101140505" name="左贡" en="Zuogong" /> 
+            <city id="101140506" name="芒康" en="Mangkang" /> 
+            <city id="101140507" name="类乌齐" en="Leiwuqi" /> 
+            <city id="101140508" name="八宿" en="Basu" /> 
+            <city id="101140509" name="江达" en="Jiangda" /> 
+            <city id="101140510" name="察雅" en="Chaya" /> 
+            <city id="101140511" name="贡觉" en="Gongjue" /> 
+        </area> 
+        <area id="Naqu" name="那曲" en="Naqu"> 
+            <city id="101140601" name="那曲" en="Naqu" /> 
+            <city id="101140602" name="尼玛" en="Nima" /> 
+            <city id="101140603" name="嘉黎" en="Jiali" /> 
+            <city id="101140604" name="班戈" en="Bange" /> 
+            <city id="101140605" name="安多" en="Anduo" /> 
+            <city id="101140606" name="索县" en="Suoxian" /> 
+            <city id="101140607" name="聂荣" en="Nierong" /> 
+            <city id="101140608" name="巴青" en="Baqing" /> 
+            <city id="101140609" name="比如" en="Biru" /> 
+            <city id="101140610" name="双湖" en="Shuanghu" /> 
+        </area> 
+        <area id="Ali" name="阿里" en="Ali"> 
+            <city id="101140701" name="阿里" en="Ali" /> 
+            <city id="101140702" name="改则" en="Gaize" /> 
+            <city id="101140703" name="申扎" en="Shenzha" /> 
+            <city id="101140704" name="狮泉河" en="Shiquanhe" /> 
+            <city id="101140705" name="普兰" en="Pulan" /> 
+            <city id="101140706" name="札达" en="Zhada" /> 
+            <city id="101140707" name="噶尔" en="Gaer" /> 
+            <city id="101140708" name="日土" en="Ritu" /> 
+            <city id="101140709" name="革吉" en="Geji" /> 
+            <city id="101140710" name="措勤" en="Cuoqin" /> 
+        </area> 
+    </area> 
+    <area id="Qinghai" name="青海" en="Qinghai"> 
+        <area id="Xining" name="西宁" en="Xining"> 
+            <city id="101150101" name="西宁" en="Xining" /> 
+            <city id="101150102" name="大通" en="Datong" /> 
+            <city id="101150103" name="湟源" en="Huangyuan" /> 
+            <city id="101150104" name="湟中" en="Huangzhong" /> 
+        </area> 
+        <area id="Haidong" name="海东" en="Haidong"> 
+            <city id="101150201" name="海东" en="Haidong" /> 
+            <city id="101150202" name="乐都" en="Ledu" /> 
+            <city id="101150203" name="民和" en="Minhe" /> 
+            <city id="101150204" name="合作" en="Huzhu" /> 
+            <city id="101150205" name="化隆" en="Hualong" /> 
+            <city id="101150206" name="循化" en="Xunhua" /> 
+            <city id="101150207" name="冷湖" en="Lenghu" /> 
+            <city id="101150208" name="安然" en="Pingan" /> 
+        </area> 
+        <area id="Huangnan" name="黄南" en="Huangnan"> 
+            <city id="101150301" name="黄南" en="Huangnan" /> 
+            <city id="101150302" name="尖扎" en="Jianzha" /> 
+            <city id="101150303" name="泽库" en="Zeku" /> 
+            <city id="101150304" name="河南" en="Henan" /> 
+            <city id="101150305" name="同仁" en="Tongren" /> 
+        </area> 
+        <area id="Hainan" name="海南" en="Hainan"> 
+            <city id="101150401" name="海南" en="Hainan" /> 
+            <city id="101150404" name="贵德" en="Guide" /> 
+            <city id="101150406" name="兴海" en="Xinghai" /> 
+            <city id="101150407" name="贵南" en="Guinan" /> 
+            <city id="101150408" name="同德" en="Tongde" /> 
+            <city id="101150409" name="共和" en="Gonghe" /> 
+        </area> 
+        <area id="Guoluo" name="果洛" en="Guoluo"> 
+            <city id="101150501" name="果洛" en="Guoluo" /> 
+            <city id="101150502" name="班玛" en="Banma" /> 
+            <city id="101150503" name="甘德" en="Gande" /> 
+            <city id="101150504" name="达日" en="Dari" /> 
+            <city id="101150505" name="久治" en="Jiuzhi" /> 
+            <city id="101150506" name="玛多" en="Madu" /> 
+            <city id="101150507" name="多县" en="Duoxian" /> 
+            <city id="101150508" name="玛沁" en="Maqin" /> 
+        </area> 
+        <area id="Yushu" name="玉树" en="Yushu"> 
+            <city id="101150601" name="玉树" en="Yushu" /> 
+            <city id="101150602" name="称多" en="Chenduo" /> 
+            <city id="101150603" name="治多" en="Zhiduo" /> 
+            <city id="101150604" name="杂多" en="Zaduo" /> 
+            <city id="101150605" name="囊谦" en="Nangqian" /> 
+            <city id="101150606" name="曲麻莱" en="Qumacai" /> 
+        </area> 
+        <area id="Haixi" name="海西" en="Haixi"> 
+            <city id="101150701" name="海西" en="Haixi" /> 
+            <city id="101150708" name="天峻" en="Tianjun" /> 
+            <city id="101150709" name="乌兰" en="Wulan" /> 
+            <city id="101150712" name="茫崖" en="Mangai" /> 
+            <city id="101150713" name="大柴旦" en="Dachaidan" /> 
+            <city id="101150716" name="德令哈" en="Delingha" /> 
+        </area> 
+        <area id="Haibei" name="海北" en="Haibei"> 
+            <city id="101150801" name="海北" en="Haibei" /> 
+            <city id="101150802" name="门源" en="Menyuan" /> 
+            <city id="101150803" name="祁连" en="Qilian" /> 
+            <city id="101150804" name="海晏" en="Haiyan" /> 
+            <city id="101150806" name="刚察" en="Gangcha" /> 
+        </area> 
+        <area id="Geermu" name="格尔木" en="Geermu"> 
+            <city id="101150901" name="格尔木" en="Geermu" /> 
+            <city id="101150902" name="都兰" en="Dulan" /> 
+        </area> 
+    </area> 
+    <area id="Gansu" name="甘肃" en="Gansu"> 
+        <area id="Lanzhou" name="兰州" en="Lanzhou"> 
+            <city id="101160101" name="兰州" en="Lanzhou" /> 
+            <city id="101160102" name="皋兰" en="Gaolan" /> 
+            <city id="101160103" name="永登" en="Yongdeng" /> 
+            <city id="101160104" name="榆中" en="Yuzhong" /> 
+        </area> 
+        <area id="Dingxi" name="定西" en="Dingxi"> 
+            <city id="101160201" name="定西" en="Dingxi" /> 
+            <city id="101160202" name="通渭" en="Tongwei" /> 
+            <city id="101160203" name="陇西" en="Longxi" /> 
+            <city id="101160204" name="渭源" en="Weiyuan" /> 
+            <city id="101160205" name="临洮" en="Lintao" /> 
+            <city id="101160206" name="漳县" en="Zhangxian" /> 
+            <city id="101160207" name="岷县" en="Minxian" /> 
+            <city id="101160208" name="安定" en="Anding" /> 
+        </area> 
+        <area id="Pingliang" name="平凉" en="Pingliang"> 
+            <city id="101160301" name="平凉" en="Pingliang" /> 
+            <city id="101160302" name="泾川" en="Jingchuan" /> 
+            <city id="101160303" name="灵台" en="Lingtai" /> 
+            <city id="101160304" name="崇信" en="Chongxin" /> 
+            <city id="101160305" name="华亭" en="Huating" /> 
+            <city id="101160306" name="庄浪" en="Zhuanglang" /> 
+            <city id="101160307" name="静宁" en="Jingning" /> 
+            <city id="101160308" name="崆峒" en="Kongtong" /> 
+        </area> 
+        <area id="Qingyang" name="庆阳" en="Qingyang"> 
+            <city id="101160401" name="庆阳" en="Qingyang" /> 
+            <city id="101160403" name="环县" en="Huanxian" /> 
+            <city id="101160404" name="华池" en="Huachi" /> 
+            <city id="101160405" name="合水" en="Heshui" /> 
+            <city id="101160406" name="正宁" en="Zhengning" /> 
+            <city id="101160407" name="宁县" en="Ningxian" /> 
+            <city id="101160408" name="镇原" en="Zhenyuan" /> 
+            <city id="101160409" name="庆城" en="Qingcheng" /> 
+        </area> 
+        <area id="Wuwei" name="武威" en="Wuwei"> 
+            <city id="101160501" name="武威" en="Wuwei" /> 
+            <city id="101160502" name="民勤" en="Minqin" /> 
+            <city id="101160503" name="古浪" en="Gulang" /> 
+            <city id="101160505" name="天祝" en="Tianzhu" /> 
+        </area> 
+        <area id="Jinchang" name="金昌" en="Jinchang"> 
+            <city id="101160601" name="金昌" en="Jinchang" /> 
+            <city id="101160602" name="永昌" en="Yongchang" /> 
+        </area> 
+        <area id="Zhangye" name="张掖" en="Zhangye"> 
+            <city id="101160701" name="张掖" en="Zhangye" /> 
+            <city id="101160702" name="肃南" en="Sunan" /> 
+            <city id="101160703" name="民乐" en="Minle" /> 
+            <city id="101160704" name="临泽" en="Linze" /> 
+            <city id="101160705" name="高台" en="Gaotai" /> 
+            <city id="101160706" name="山丹" en="Shandan" /> 
+        </area> 
+        <area id="Jiuquan" name="酒泉" en="Jiuquan"> 
+            <city id="101160801" name="酒泉" en="Jiuquan" /> 
+            <city id="101160803" name="金塔" en="Jinta" /> 
+            <city id="101160804" name="阿克塞" en="Akesai" /> 
+            <city id="101160805" name="瓜州" en="Guazhou" /> 
+            <city id="101160806" name="肃北" en="Subei" /> 
+            <city id="101160807" name="玉门" en="Yumen" /> 
+            <city id="101160808" name="敦煌" en="Dunhuang" /> 
+        </area> 
+        <area id="Tianshui" name="天水" en="Tianshui"> 
+            <city id="101160901" name="天水" en="Tianshui" /> 
+            <city id="101160903" name="净水" en="Qingshui" /> 
+            <city id="101160904" name="秦安" en="Qinan" /> 
+            <city id="101160905" name="甘谷" en="Gangu" /> 
+            <city id="101160906" name="武山" en="Wushan" /> 
+            <city id="101160907" name="张家川" en="Zhangjiachuan" /> 
+            <city id="101160908" name="麦积" en="Maiji" /> 
+        </area> 
+        <area id="Longnan" name="陇南" en="Longnan"> 
+            <city id="101161001" name="武都" en="Wudu" /> 
+            <city id="101161002" name="成县" en="Chengxian" /> 
+            <city id="101161003" name="文县" en="Wenxian" /> 
+            <city id="101161004" name="宕昌" en="Dangchang" /> 
+            <city id="101161005" name="康县" en="Kangxian" /> 
+            <city id="101161006" name="西和" en="Xihe" /> 
+            <city id="101161007" name="礼县" en="Lixian" /> 
+            <city id="101161008" name="徽县" en="Huixian" /> 
+            <city id="101161009" name="两当" en="Liangdang" /> 
+        </area> 
+        <area id="Linxia" name="临夏" en="Linxia"> 
+            <city id="101161101" name="临夏" en="Linxia" /> 
+            <city id="101161102" name="康乐" en="Kangle" /> 
+            <city id="101161103" name="永靖" en="Yongjing" /> 
+            <city id="101161104" name="广河" en="Guanghe" /> 
+            <city id="101161105" name="和政" en="Hezheng" /> 
+            <city id="101161106" name="东乡" en="Dongxiang" /> 
+            <city id="101161107" name="积石山" en="Jishishan" /> 
+        </area> 
+        <area id="Gannan" name="甘南" en="Gannan"> 
+            <city id="101161201" name="合作" en="Hezuo" /> 
+            <city id="101161202" name="临潭" en="Lintan" /> 
+            <city id="101161203" name="卓尼" en="Zhuoni" /> 
+            <city id="101161204" name="舟曲" en="Zhouqu" /> 
+            <city id="101161205" name="迭部" en="Diebu" /> 
+            <city id="101161206" name="玛曲" en="Maqu" /> 
+            <city id="101161207" name="碌曲" en="Luqu" /> 
+            <city id="101161208" name="夏河" en="Xiahe" /> 
+        </area> 
+        <area id="Baiyin" name="白银" en="Baiyin"> 
+            <city id="101161301" name="白银" en="Baiyin" /> 
+            <city id="101161302" name="靖远" en="Jingyuan" /> 
+            <city id="101161303" name="会宁" en="Huining" /> 
+            <city id="101161304" name="平川" en="Pingchuan" /> 
+            <city id="101161305" name="景泰" en="Jingtai" /> 
+        </area> 
+        <area id="Jiayuguan" name="嘉峪关" en="Jiayuguan"> 
+            <city id="101161401" name="嘉峪关" en="Jiayuguan" /> 
+        </area> 
+    </area> 
+    <area id="Ningxia" name="宁夏" en="Ningxia"> 
+        <area id="Yinchuan" name="银川" en="Yinchuan"> 
+            <city id="101170101" name="银川" en="Yinchuan" /> 
+            <city id="101170102" name="永宁" en="Yongning" /> 
+            <city id="101170103" name="灵武" en="Lingwu" /> 
+            <city id="101170104" name="贺兰" en="Helan" /> 
+        </area> 
+        <area id="Shizuishan" name="石嘴山" en="Shizuishan"> 
+            <city id="101170201" name="石嘴山" en="Shizuishan" /> 
+            <city id="101170202" name="惠农" en="Huinong" /> 
+            <city id="101170203" name="平罗" en="Pingluo" /> 
+            <city id="101170204" name="陶乐" en="Taole" /> 
+        </area> 
+        <area id="Wuzhong" name="吴忠" en="Wuzhong"> 
+            <city id="101170301" name="吴忠" en="Wuzhong" /> 
+            <city id="101170302" name="齐心" en="Tongxin" /> 
+            <city id="101170303" name="盐池" en="Yanchi" /> 
+            <city id="101170306" name="青铜峡" en="Qingtongxia" /> 
+        </area> 
+        <area id="Guyuan" name="固原" en="Guyuan"> 
+            <city id="101170401" name="固原" en="Guyuan" /> 
+            <city id="101170402" name="西吉" en="Xiji" /> 
+            <city id="101170403" name="隆德" en="Longde" /> 
+            <city id="101170404" name="泾源" en="Jingyuan" /> 
+            <city id="101170406" name="彭阳" en="Pengyang" /> 
+        </area> 
+        <area id="Zhongwei" name="中卫" en="Zhongwei"> 
+            <city id="101170501" name="中卫" en="Zhongwei" /> 
+            <city id="101170502" name="中宁" en="Zhongning" /> 
+            <city id="101170504" name="海原" en="Haiyuan" /> 
+        </area> 
+    </area> 
+    <area id="Hena" name="河南" en="Hena"> 
+        <area id="Zhengzhou" name="郑州" en="Zhengzhou"> 
+            <city id="101180101" name="郑州" en="Zhengzhou" /> 
+            <city id="101180102" name="巩义" en="Gongyi" /> 
+            <city id="101180103" name="荥阳" en="Xingyang" /> 
+            <city id="101180104" name="登封" en="Dengfeng" /> 
+            <city id="101180105" name="新密" en="Xinmi" /> 
+            <city id="101180106" name="新郑" en="Xinzheng" /> 
+            <city id="101180107" name="中牟" en="Zhongmou" /> 
+            <city id="101180108" name="上街" en="Shangjie" /> 
+        </area> 
+        <area id="Anyang" name="安阳" en="Anyang"> 
+            <city id="101180201" name="安阳" en="Anyang" /> 
+            <city id="101180202" name="汤阴" en="Tangyin" /> 
+            <city id="101180203" name="滑县" en="Huaxian" /> 
+            <city id="101180204" name="内黄" en="Neihuang" /> 
+            <city id="101180205" name="林州" en="Linzhou" /> 
+        </area> 
+        <area id="Xinxiang" name="新乡" en="Xinxiang"> 
+            <city id="101180301" name="新乡" en="Xinxiang" /> 
+            <city id="101180302" name="获嘉" en="Huojia" /> 
+            <city id="101180303" name="原阳" en="Yuanyang" /> 
+            <city id="101180304" name="辉县" en="Huixian" /> 
+            <city id="101180305" name="卫辉" en="Weihui" /> 
+            <city id="101180306" name="延津" en="Yanjin" /> 
+            <city id="101180307" name="封丘" en="Fengqiu" /> 
+            <city id="101180308" name="长垣" en="Changyuan" /> 
+        </area> 
+        <area id="Xuchang" name="许昌" en="Xuchang"> 
+            <city id="101180401" name="许昌" en="Xuchang" /> 
+            <city id="101180402" name="鄢陵" en="Yanling" /> 
+            <city id="101180403" name="襄城" en="Xiangcheng" /> 
+            <city id="101180404" name="长葛" en="Changge" /> 
+            <city id="101180405" name="禹州" en="Yuzhou" /> 
+        </area> 
+        <area id="Pingdingshan" name="平顶山" en="Pingdingshan"> 
+            <city id="101180501" name="平顶山" en="Pingdingshan" /> 
+            <city id="101180502" name="郏县" en="Jiaxian" /> 
+            <city id="101180503" name="宝丰" en="Baofeng" /> 
+            <city id="101180504" name="汝州" en="Ruzhou" /> 
+            <city id="101180505" name="叶县" en="Yexian" /> 
+            <city id="101180506" name="舞钢" en="Wugang" /> 
+            <city id="101180507" name="鲁山" en="Lushan" /> 
+            <city id="101180508" name="石龙" en="Shilong" /> 
+        </area> 
+        <area id="Xinyang" name="信阳" en="Xinyang"> 
+            <city id="101180601" name="信阳" en="Xinyang" /> 
+            <city id="101180602" name="息县" en="Xixian" /> 
+            <city id="101180603" name="罗山" en="Luoshan" /> 
+            <city id="101180604" name="光山" en="Guangshan" /> 
+            <city id="101180605" name="新县" en="Xinxian" /> 
+            <city id="101180606" name="淮滨" en="Huaibin" /> 
+            <city id="101180607" name="潢川" en="Huangchuan" /> 
+            <city id="101180608" name="固始" en="Gushi" /> 
+            <city id="101180609" name="商城" en="Shangcheng" /> 
+        </area> 
+        <area id="Nanyang" name="南阳" en="Nanyang"> 
+            <city id="101180701" name="南阳" en="Nanyang" /> 
+            <city id="101180702" name="南召" en="Nanzhao" /> 
+            <city id="101180703" name="方城" en="Fangcheng" /> 
+            <city id="101180704" name="社旗" en="Sheqi" /> 
+            <city id="101180705" name="西峡" en="Xixia" /> 
+            <city id="101180706" name="内乡" en="Neixiang" /> 
+            <city id="101180707" name="镇平" en="Zhenping" /> 
+            <city id="101180708" name="淅川" en="Xichuan" /> 
+            <city id="101180709" name="新野" en="Xinye" /> 
+            <city id="101180710" name="唐河" en="Tanghe" /> 
+            <city id="101180711" name="邓州" en="Dengzhou" /> 
+            <city id="101180712" name="桐柏" en="Tongbai" /> 
+        </area> 
+        <area id="Kaifeng" name="开封" en="Kaifeng"> 
+            <city id="101180801" name="开封" en="Kaifeng" /> 
+            <city id="101180802" name="杞县" en="Qixian" /> 
+            <city id="101180803" name="尉氏" en="Weishi" /> 
+            <city id="101180804" name="通许" en="Tongxu" /> 
+            <city id="101180805" name="兰考" en="Lankao" /> 
+        </area> 
+        <area id="Luoyang" name="洛阳" en="Luoyang"> 
+            <city id="101180901" name="洛阳" en="Luoyang" /> 
+            <city id="101180902" name="新安" en="Xinan" /> 
+            <city id="101180903" name="孟津" en="Mengjin" /> 
+            <city id="101180904" name="宜阳" en="Yiyang" /> 
+            <city id="101180905" name="洛宁" en="Luoning" /> 
+            <city id="101180906" name="伊川" en="Yichuan" /> 
+            <city id="101180907" name="嵩县" en="Songxian" /> 
+            <city id="101180908" name="偃师" en="Yanshi" /> 
+            <city id="101180909" name="栾川" en="Luanchuan" /> 
+            <city id="101180910" name="汝阳" en="Ruyang" /> 
+            <city id="101180911" name="吉利" en="Jili" /> 
+        </area> 
+        <area id="Shangqiu" name="商丘" en="Shangqiu"> 
+            <city id="101181001" name="商丘" en="Shangqiu" /> 
+            <city id="101181003" name="睢县" en="Suixian" /> 
+            <city id="101181004" name="民权" en="Minquan" /> 
+            <city id="101181005" name="虞城" en="Yucheng" /> 
+            <city id="101181006" name="柘城" en="Zhecheng" /> 
+            <city id="101181007" name="宁陵" en="Ningling" /> 
+            <city id="101181008" name="夏邑" en="Xiayi" /> 
+            <city id="101181009" name="永城" en="Yongcheng" /> 
+        </area> 
+        <area id="Jiaozuo" name="焦作" en="Jiaozuo"> 
+            <city id="101181101" name="焦作" en="Jiaozuo" /> 
+            <city id="101181102" name="修武" en="Xiuwu" /> 
+            <city id="101181103" name="武陟" en="Wuzhi" /> 
+            <city id="101181104" name="沁阳" en="Qinyang" /> 
+            <city id="101181106" name="博爱" en="Boai" /> 
+            <city id="101181107" name="温县" en="Wenxian" /> 
+            <city id="101181108" name="孟州" en="Mengzhou" /> 
+        </area> 
+        <area id="Hebi" name="鹤壁" en="Hebi"> 
+            <city id="101181201" name="鹤壁" en="Hebi" /> 
+            <city id="101181202" name="浚县" en="Xunxian" /> 
+            <city id="101181203" name="淇县" en="Qixian" /> 
+        </area> 
+        <area id="Puyang" name="濮阳" en="Puyang"> 
+            <city id="101181301" name="濮阳" en="Puyang" /> 
+            <city id="101181302" name="台前" en="Taiqian" /> 
+            <city id="101181303" name="南乐" en="Nanle" /> 
+            <city id="101181304" name="清丰" en="Qingfeng" /> 
+            <city id="101181305" name="范县" en="Fanxian" /> 
+        </area> 
+        <area id="Zhoukou" name="周口" en="Zhoukou"> 
+            <city id="101181401" name="周口" en="Zhoukou" /> 
+            <city id="101181402" name="扶沟" en="Fugou" /> 
+            <city id="101181403" name="太康" en="Taikang" /> 
+            <city id="101181404" name="淮阳" en="Huaiyang" /> 
+            <city id="101181405" name="西华" en="Xihua" /> 
+            <city id="101181406" name="商水" en="Shangshui" /> 
+            <city id="101181407" name="项城" en="Xiangcheng" /> 
+            <city id="101181408" name="郸城" en="Dancheng" /> 
+            <city id="101181409" name="鹿邑" en="Luyi" /> 
+            <city id="101181410" name="沈丘" en="Shenqiu" /> 
+        </area> 
+        <area id="Luohe" name="漯河" en="Luohe"> 
+            <city id="101181501" name="漯河" en="Luohe" /> 
+            <city id="101181502" name="临颍" en="Linying" /> 
+            <city id="101181503" name="舞阳" en="Wuyang" /> 
+        </area> 
+        <area id="Zhumadian" name="驻马店" en="Zhumadian"> 
+            <city id="101181601" name="驻马店" en="Zhumadian" /> 
+            <city id="101181602" name="西平" en="Xiping" /> 
+            <city id="101181603" name="遂平" en="Suiping" /> 
+            <city id="101181604" name="上蔡" en="Shangcai" /> 
+            <city id="101181605" name="汝南" en="Runan" /> 
+            <city id="101181606" name="泌阳" en="Biyang" /> 
+            <city id="101181607" name="平舆" en="Pingyu" /> 
+            <city id="101181608" name="新蔡" en="Xincai" /> 
+            <city id="101181609" name="确山" en="Queshan" /> 
+            <city id="101181610" name="正阳" en="Zhengyang" /> 
+        </area> 
+        <area id="Sanmenxia" name="三门峡" en="Sanmenxia"> 
+            <city id="101181701" name="三门峡" en="Sanmenxia" /> 
+            <city id="101181702" name="灵宝" en="Lingbao" /> 
+            <city id="101181703" name="渑池" en="Mianchi" /> 
+            <city id="101181704" name="卢氏" en="Lushi" /> 
+            <city id="101181705" name="义马" en="Yima" /> 
+            <city id="101181706" name="陕县" en="Shanxian" /> 
+        </area> 
+        <area id="Jiyuan" name="济源" en="Jiyuan"> 
+            <city id="101181801" name="济源" en="Jiyuan" /> 
+        </area> 
+    </area> 
+    <area id="Jiangsu" name="江苏" en="Jiangsu"> 
+        <area id="Nanjing" name="南京" en="Nanjing"> 
+            <city id="101190101" name="南京" en="Nanjing" /> 
+            <city id="101190102" name="溧水" en="Lishui" /> 
+            <city id="101190103" name="高淳" en="Gaochun" /> 
+            <city id="101190104" name="江宁" en="Jiangning" /> 
+            <city id="101190105" name="" en="Luhe" /> 
+            <city id="101190106" name="江浦" en="Jiangpu" /> 
+            <city id="101190107" name="浦口" en="Pukou" /> 
+        </area> 
+        <area id="Wuxi" name="无锡" en="Wuxi"> 
+            <city id="101190201" name="无锡" en="Wuxi" /> 
+            <city id="101190202" name="江阴" en="Jiangyin" /> 
+            <city id="101190203" name="宜兴" en="Yixing" /> 
+            <city id="101190204" name="锡山" en="Xishan" /> 
+        </area> 
+        <area id="Zhenjiang" name="镇江" en="Zhenjiang"> 
+            <city id="101190301" name="镇江" en="Zhenjiang" /> 
+            <city id="101190302" name="丹阳" en="Danyang" /> 
+            <city id="101190303" name="扬中" en="Yangzhong" /> 
+            <city id="101190304" name="句容" en="Jurong" /> 
+            <city id="101190305" name="丹徒" en="Dantu" /> 
+        </area> 
+        <area id="Suzhou" name="姑苏" en="Suzhou"> 
+            <city id="101190401" name="姑苏" en="Suzhou" /> 
+            <city id="101190402" name="常熟" en="Changshu" /> 
+            <city id="101190403" name="张家港" en="Zhangjiagang" /> 
+            <city id="101190404" name="昆山" en="Kunshan" /> 
+            <city id="101190405" name="吴中" en="Wuzhong" /> 
+            <city id="101190407" name="吴江" en="Wujiang" /> 
+            <city id="101190408" name="太仓" en="Taicang" /> 
+        </area> 
+        <area id="Nantong" name="南通" en="Nantong"> 
+            <city id="101190501" name="南通" en="Nantong" /> 
+            <city id="101190502" name="海安" en="Haian" /> 
+            <city id="101190503" name="如皋" en="Rugao" /> 
+            <city id="101190504" name="如东" en="Rudong" /> 
+            <city id="101190507" name="启东" en="Qidong" /> 
+            <city id="101190508" name="海门" en="Haimen" /> 
+            <city id="101190509" name="通州" en="Tongzhou" /> 
+        </area> 
+        <area id="Yangzhou" name="扬州" en="Yangzhou"> 
+            <city id="101190601" name="扬州" en="Yangzhou" /> 
+            <city id="101190602" name="宝应" en="Baoying" /> 
+            <city id="101190603" name="仪征" en="Yizheng" /> 
+            <city id="101190604" name="高邮" en="Gaoyou" /> 
+            <city id="101190605" name="江都" en="Jiangdu" /> 
+            <city id="101190606" name="邗江" en="Hanjiang" /> 
+        </area> 
+        <area id="Yancheng" name="盐城" en="Yancheng"> 
+            <city id="101190701" name="盐城" en="Yancheng" /> 
+            <city id="101190702" name="响水" en="Xiangshui" /> 
+            <city id="101190703" name="滨海" en="Binhai" /> 
+            <city id="101190704" name="阜宁" en="Funing" /> 
+            <city id="101190705" name="射阳" en="Sheyang" /> 
+            <city id="101190706" name="建湖" en="Jianhu" /> 
+            <city id="101190707" name="东台" en="Dongtai" /> 
+            <city id="101190708" name="大丰" en="Dafeng" /> 
+            <city id="101190709" name="盐都" en="Yandu" /> 
+        </area> 
+        <area id="Xuzhou" name="徐州" en="Xuzhou"> 
+            <city id="101190801" name="徐州" en="Xuzhou" /> 
+            <city id="101190802" name="宝穴" en="Tongshan" /> 
+            <city id="101190803" name="丰县" en="Fengxian" /> 
+            <city id="101190804" name="沛县" en="Peixian" /> 
+            <city id="101190805" name="邳州" en="Pizhou" /> 
+            <city id="101190806" name="睢宁" en="Suining" /> 
+            <city id="101190807" name="新沂" en="Xinyi" /> 
+        </area> 
+        <area id="Huaian" name="淮安" en="Huaian"> 
+            <city id="101190901" name="淮安" en="Huaian" /> 
+            <city id="101190902" name="金湖" en="Jinhu" /> 
+            <city id="101190903" name="盱眙" en="Xuyi" /> 
+            <city id="101190904" name="洪泽" en="Hongze" /> 
+            <city id="101190905" name="涟水" en="Lianshui" /> 
+            <city id="101190906" name="淮阴区" en="Huaiyinqu" /> 
+            <city id="101190908" name="淮安区" en="Huaianqu" /> 
+        </area> 
+        <area id="Lianyungang" name="连云港" en="Lianyungang"> 
+            <city id="101191001" name="连云港" en="Lianyungang" /> 
+            <city id="101191002" name="东海" en="Donghai" /> 
+            <city id="101191003" name="赣榆" en="Ganyu" /> 
+            <city id="101191004" name="灌云" en="Guanyun" /> 
+            <city id="101191005" name="灌南" en="Guannan" /> 
+        </area> 
+        <area id="Changzhou" name="常州" en="Changzhou"> 
+            <city id="101191101" name="常州" en="Changzhou" /> 
+            <city id="101191102" name="溧阳" en="Liyang" /> 
+            <city id="101191103" name="金坛" en="Jintan" /> 
+            <city id="101191104" name="武进" en="Wujin" /> 
+        </area> 
+        <area id="Taizhou" name="泰州" en="Taizhou"> 
+            <city id="101191201" name="泰州" en="Taizhou" /> 
+            <city id="101191202" name="兴化" en="Xinghua" /> 
+            <city id="101191203" name="泰兴" en="Taixing" /> 
+            <city id="101191204" name="姜堰" en="Jiangyan" /> 
+            <city id="101191205" name="靖江" en="Jingjiang" /> 
+        </area> 
+        <area id="Suqian" name="宿迁" en="Suqian"> 
+            <city id="101191301" name="宿迁" en="Suqian" /> 
+            <city id="101191302" name="沭阳" en="Shuyang" /> 
+            <city id="101191303" name="泗阳" en="Siyang" /> 
+            <city id="101191304" name="泗洪" en="Sihong" /> 
+            <city id="101191305" name="宿豫" en="Suyu" /> 
+        </area> 
+    </area> 
+    <area id="Hubei" name="湖北" en="Hubei"> 
+        <area id="Wuhan" name="武汉" en="Wuhan"> 
+            <city id="101200101" name="武汉" en="Wuhan" /> 
+            <city id="101200102" name="蔡甸" en="Caidian" /> 
+            <city id="101200103" name="黄陂" en="Huangpi" /> 
+            <city id="101200104" name="新洲" en="Xinzhou" /> 
+            <city id="101200105" name="江夏" en="Jiangxia" /> 
+            <city id="101200106" name="器材湖" en="Dongxihu" /> 
+        </area> 
+        <area id="Xiangyang" name="襄阳" en="Xiangyang"> 
+            <city id="101200201" name="襄樊" en="Xiangfan" /> 
+            <city id="101200202" name="襄阳" en="Xiangyang" /> 
+            <city id="101200203" name="保康" en="Baokang" /> 
+            <city id="101200204" name="南漳" en="Nanzhang" /> 
+            <city id="101200205" name="宜城" en="Yicheng" /> 
+            <city id="101200206" name="老河口" en="Laohekou" /> 
+            <city id="101200207" name="谷城" en="Gucheng" /> 
+            <city id="101200208" name="枣阳" en="Zaoyang" /> 
+        </area> 
+        <area id="Ezhou" name="鄂州" en="Ezhou"> 
+            <city id="101200301" name="鄂州" en="Ezhou" /> 
+            <city id="101200302" name="梁子湖" en="Liangzihu" /> 
+        </area> 
+        <area id="Xiaogan" name="孝感" en="Xiaogan"> 
+            <city id="101200401" name="孝感" en="Xiaogan" /> 
+            <city id="101200402" name="安陆" en="Anlu" /> 
+            <city id="101200403" name="云梦" en="Yunmeng" /> 
+            <city id="101200404" name="大悟" en="Dawu" /> 
+            <city id="101200405" name="应城" en="Yingcheng" /> 
+            <city id="101200406" name="汉川" en="Hanchuan" /> 
+            <city id="101200407" name="孝昌" en="Xiaochang" /> 
+        </area> 
+        <area id="Huanggang" name="黄冈" en="Huanggang"> 
+            <city id="101200501" name="黄冈" en="Huanggang" /> 
+            <city id="101200502" name="红安" en="Hongan" /> 
+            <city id="101200503" name="麻城" en="Macheng" /> 
+            <city id="101200504" name="罗田" en="Luotian" /> 
+            <city id="101200505" name="英山" en="Yingshan" /> 
+            <city id="101200506" name="浠水" en="Xishui" /> 
+            <city id="101200507" name="蕲春" en="Qichun" /> 
+            <city id="101200508" name="黄梅" en="Huangmei" /> 
+            <city id="101200509" name="武穴" en="Wuxue" /> 
+            <city id="101200510" name="团风" en="Tuanfeng" /> 
+        </area> 
+        <area id="Huangshi" name="黄石" en="Huangshi"> 
+            <city id="101200601" name="黄石" en="Huangshi" /> 
+            <city id="101200602" name="大冶" en="Daye" /> 
+            <city id="101200603" name="阳新" en="Yangxin" /> 
+            <city id="101200604" name="铁山" en="Tieshan" /> 
+            <city id="101200605" name="下陆" en="Xialu" /> 
+            <city id="101200606" name="西塞山" en="Xisaishan" /> 
+        </area> 
+        <area id="Xianning" name="咸宁" en="Xianning"> 
+            <city id="101200701" name="咸宁" en="Xianning" /> 
+            <city id="101200702" name="赤壁" en="Chibi" /> 
+            <city id="101200703" name="嘉鱼" en="Jiayu" /> 
+            <city id="101200704" name="崇阳" en="Chongyang" /> 
+            <city id="101200705" name="通城" en="Tongcheng" /> 
+            <city id="101200706" name="通山" en="Tongshan" /> 
+        </area> 
+        <area id="Jingzhou" name="荆州" en="Jingzhou"> 
+            <city id="101200801" name="荆州" en="Jingzhou" /> 
+            <city id="101200802" name="江陵" en="Jiangling" /> 
+            <city id="101200803" name="" en="Gongan" /> 
+            <city id="101200804" name="石首" en="Shishou" /> 
+            <city id="101200805" name="监利" en="Jianli" /> 
+            <city id="101200806" name="洪湖" en="Honghu" /> 
+            <city id="101200807" name="松滋" en="Songzi" /> 
+            <city id="101201406" name="沙市" en="Shashi" /> 
+        </area> 
+        <area id="Yichang" name="宜昌" en="Yichang"> 
+            <city id="101200901" name="宜昌" en="Yichang" /> 
+            <city id="101200902" name="远安" en="Yuanan" /> 
+            <city id="101200903" name="秭归" en="Zigui" /> 
+            <city id="101200904" name="兴山" en="Xingshan" /> 
+            <city id="101200906" name="五峰" en="Wufeng" /> 
+            <city id="101200907" name="当阳" en="Dangyang" /> 
+            <city id="101200908" name="长阳" en="Changyang" /> 
+            <city id="101200909" name="宜都" en="Yidu" /> 
+            <city id="101200910" name="枝江" en="Zhijiang" /> 
+            <city id="101200911" name="三峡" en="Sanxia" /> 
+            <city id="101200912" name="夷陵" en="Yiling" /> 
+        </area> 
+        <area id="Enshi" name="恩施" en="Enshi"> 
+            <city id="101201001" name="恩施" en="Enshi" /> 
+            <city id="101201002" name="利川" en="Lichuan" /> 
+            <city id="101201003" name="建始" en="Jianshi" /> 
+            <city id="101201004" name="咸丰" en="Xianfeng" /> 
+            <city id="101201005" name="宣恩" en="Xuanen" /> 
+            <city id="101201006" name="鹤峰" en="Hefeng" /> 
+            <city id="101201007" name="来凤" en="Laifeng" /> 
+            <city id="101201008" name="巴东" en="Badong" /> 
+        </area> 
+        <area id="Shiyan" name="十堰" en="Shiyan"> 
+            <city id="101201101" name="十堰" en="Shiyan" /> 
+            <city id="101201102" name="竹溪" en="Zhuxi" /> 
+            <city id="101201103" name="郧西" en="Yunxi" /> 
+            <city id="101201104" name="郧县" en="Yunxian" /> 
+            <city id="101201105" name="竹山" en="Zhushan" /> 
+            <city id="101201106" name="房县" en="Fangxian" /> 
+            <city id="101201107" name="丹江口" en="Danjiangkou" /> 
+            <city id="101201108" name="茅箭" en="Maojian" /> 
+            <city id="101201109" name="张湾" en="Zhangwan" /> 
+        </area> 
+        <area id="Shennongjia" name="神农架" en="Shennongjia"> 
+            <city id="101201201" name="神农架" en="Shennongjia" /> 
+        </area> 
+        <area id="Suizhou" name="随州" en="Suizhou"> 
+            <city id="101201301" name="随州" en="Suizhou" /> 
+            <city id="101201302" name="广水" en="Guangshui" /> 
+        </area> 
+        <area id="Jingmen" name="荆门" en="Jingmen"> 
+            <city id="101201401" name="荆门" en="Jingmen" /> 
+            <city id="101201402" name="钟祥" en="Zhongxiang" /> 
+            <city id="101201403" name="京山" en="Jingshan" /> 
+            <city id="101201404" name="掇刀" en="Duodao" /> 
+            <city id="101201405" name="沙洋" en="Shayang" /> 
+        </area> 
+        <area id="Tianmen" name="天门" en="Tianmen"> 
+            <city id="101201501" name="天门" en="Tianmen" /> 
+        </area> 
+        <area id="Xiantao" name="仙桃" en="Xiantao"> 
+            <city id="101201601" name="仙桃" en="Xiantao" /> 
+        </area> 
+        <area id="Qianjiang" name="潜江" en="Qianjiang"> 
+            <city id="101201701" name="潜江" en="Qianjiang" /> 
+        </area> 
+    </area> 
+    <area id="Zhejiang" name="浙江" en="Zhejiang"> 
+        <area id="Hangzhou" name="杭州" en="Hangzhou"> 
+            <city id="101210101" name="杭州" en="Hangzhou" /> 
+            <city id="101210102" name="萧山" en="Xiaoshan" /> 
+            <city id="101210103" name="桐庐" en="Tonglu" /> 
+            <city id="101210104" name="淳安" en="Chunan" /> 
+            <city id="101210105" name="建德" en="Jiande" /> 
+            <city id="101210106" name="余杭" en="Yuhang" /> 
+            <city id="101210107" name="临安" en="Linan" /> 
+            <city id="101210108" name="富阳" en="Fuyang" /> 
+        </area> 
+        <area id="Huzhou" name="湖州" en="Huzhou"> 
+            <city id="101210201" name="湖州" en="Huzhou" /> 
+            <city id="101210202" name="长兴" en="Changxing" /> 
+            <city id="101210203" name="安吉" en="Anji" /> 
+            <city id="101210204" name="德清" en="Deqing" /> 
+        </area> 
+        <area id="Jiaxing" name="嘉兴" en="Jiaxing"> 
+            <city id="101210301" name="嘉兴" en="Jiaxing" /> 
+            <city id="101210302" name="嘉善" en="Jiashan" /> 
+            <city id="101210303" name="海宁" en="Haining" /> 
+            <city id="101210304" name="桐乡" en="Tongxiang" /> 
+            <city id="101210305" name="平湖" en="Pinghu" /> 
+            <city id="101210306" name="海盐" en="Haiyan" /> 
+        </area> 
+        <area id="Ningbo" name="宁波" en="Ningbo"> 
+            <city id="101210401" name="宁波" en="Ningbo" /> 
+            <city id="101210403" name="慈溪" en="Cixi" /> 
+            <city id="101210404" name="余姚" en="Yuyao" /> 
+            <city id="101210405" name="奉化" en="Fenghua" /> 
+            <city id="101210406" name="象山" en="Xiangshan" /> 
+            <city id="101210408" name="宁海" en="Ninghai" /> 
+            <city id="101210410" name="北仑" en="Beilun" /> 
+            <city id="101210411" name="鄞州" en="Yinzhou" /> 
+            <city id="101210412" name="镇海" en="Zhenhai" /> 
+        </area> 
+        <area id="Shaoxing" name="绍兴" en="Shaoxing"> 
+            <city id="101210501" name="绍兴" en="Shaoxing" /> 
+            <city id="101210502" name="诸暨" en="Zhuji" /> 
+            <city id="101210503" name="上虞" en="Shangyu" /> 
+            <city id="101210504" name="新昌" en="Xinchang" /> 
+            <city id="101210505" name="嵊州" en="Shengzhou" /> 
+        </area> 
+        <area id="Taizhou" name="台州" en="Taizhou"> 
+            <city id="101210601" name="台州" en="Taizhou" /> 
+            <city id="101210603" name="玉环" en="Yuhuan" /> 
+            <city id="101210604" name="三门" en="Sanmen" /> 
+            <city id="101210605" name="晒台" en="Tiantai" /> 
+            <city id="101210606" name="仙居" en="Xianju" /> 
+            <city id="101210607" name="温岭" en="Wenling" /> 
+            <city id="101210609" name="洪家" en="Hongjia" /> 
+            <city id="101210610" name="临海" en="Linhai" /> 
+            <city id="101210611" name="椒江" en="Jiaojiang" /> 
+            <city id="101210612" name="黄岩" en="Huangyan" /> 
+            <city id="101210613" name="路桥" en="Luqiao" /> 
+        </area> 
+        <area id="Wenzhou" name="温州" en="Wenzhou"> 
+            <city id="101210701" name="温州" en="Wenzhou" /> 
+            <city id="101210702" name="泰顺" en="Taishun" /> 
+            <city id="101210703" name="文成" en="Wencheng" /> 
+            <city id="101210704" name="平阳" en="Pingyang" /> 
+            <city id="101210705" name="瑞安" en="Ruian" /> 
+            <city id="101210706" name="洞头" en="Dongtou" /> 
+            <city id="101210707" name="乐清" en="Yueqing" /> 
+            <city id="101210708" name="永嘉" en="Yongjia" /> 
+            <city id="101210709" name="苍南" en="Cangnan" /> 
+        </area> 
+        <area id="Lishui" name="丽水" en="Lishui"> 
+            <city id="101210801" name="丽水" en="Lishui" /> 
+            <city id="101210802" name="遂昌" en="Suichang" /> 
+            <city id="101210803" name="龙泉" en="Longquan" /> 
+            <city id="101210804" name="缙云" en="Jinyun" /> 
+            <city id="101210805" name="青田" en="Qingtian" /> 
+            <city id="101210806" name="云和" en="Yunhe" /> 
+            <city id="101210807" name="庆元" en="Qingyuan" /> 
+            <city id="101210808" name="松阳" en="Songyang" /> 
+            <city id="101210809" name="景宁" en="Jingning" /> 
+        </area> 
+        <area id="Jinhua" name="金华" en="Jinhua"> 
+            <city id="101210901" name="金华" en="Jinhua" /> 
+            <city id="101210902" name="浦江" en="Pujiang" /> 
+            <city id="101210903" name="兰溪" en="Lanxi" /> 
+            <city id="101210904" name="义乌" en="Yiwu" /> 
+            <city id="101210905" name="东阳" en="Dongyang" /> 
+            <city id="101210906" name="武义" en="Wuyi" /> 
+            <city id="101210907" name="永康" en="Yongkang" /> 
+            <city id="101210908" name="磐安" en="Panan" /> 
+        </area> 
+        <area id="Quzhou" name="衢州" en="Quzhou"> 
+            <city id="101211001" name="衢州" en="Quzhou" /> 
+            <city id="101211002" name="常山" en="Changshan" /> 
+            <city id="101211003" name="开化" en="Kaihua" /> 
+            <city id="101211004" name="龙游" en="Longyou" /> 
+            <city id="101211005" name="江山" en="Jiangshan" /> 
+            <city id="101211006" name="衢江" en="Qujiang" /> 
+        </area> 
+        <area id="Zhoushan" name="舟山" en="Zhoushan"> 
+            <city id="101211101" name="舟山" en="Zhoushan" /> 
+            <city id="101211102" name="嵊泗" en="Shengsi" /> 
+            <city id="101211104" name="岱山" en="Daishan" /> 
+            <city id="101211105" name="普陀" en="Putuo" /> 
+            <city id="101211106" name="定海" en="Dinghai" /> 
+        </area> 
+    </area> 
+    <area id="Anhui" name="安徽" en="Anhui"> 
+        <area id="Hefei" name="合肥" en="Hefei"> 
+            <city id="101220101" name="合肥" en="Hefei" /> 
+            <city id="101220102" name="长丰" en="Changfeng" /> 
+            <city id="101220103" name="肥东" en="Feidong" /> 
+            <city id="101220104" name="肥西" en="Feixi" /> 
+        </area> 
+        <area id="Bengbu" name="蚌埠" en="Bengbu"> 
+            <city id="101220201" name="蚌埠" en="Bengbu" /> 
+            <city id="101220202" name="怀远" en="Huaiyuan" /> 
+            <city id="101220203" name="固镇" en="Guzhen" /> 
+            <city id="101220204" name="五河" en="Wuhe" /> 
+        </area> 
+        <area id="Wuhu" name="芜湖" en="Wuhu"> 
+            <city id="101220301" name="芜湖" en="Wuhu" /> 
+            <city id="101220302" name="繁昌" en="Fanchang" /> 
+            <city id="101220303" name="芜湖县" en="Wuhuxian" /> 
+            <city id="101220304" name="南陵" en="Nanling" /> 
+        </area> 
+        <area id="Huainan" name="淮南" en="Huainan"> 
+            <city id="101220401" name="淮南" en="Huainan" /> 
+            <city id="101220402" name="凤台" en="Fengtai" /> 
+            <city id="101220403" name="潘集" en="Panji" /> 
+        </area> 
+        <area id="Maanshan" name="马鞍山" en="Maanshan"> 
+            <city id="101220501" name="马鞍山" en="Maanshan" /> 
+            <city id="101220502" name="当涂" en="Dangtu" /> 
+        </area> 
+        <area id="Anqing" name="安庆" en="Anqing"> 
+            <city id="101220601" name="安庆" en="Anqing" /> 
+            <city id="101220602" name="枞阳" en="Zongyang" /> 
+            <city id="101220603" name="太湖" en="Taihu" /> 
+            <city id="101220604" name="潜山" en="Qianshan" /> 
+            <city id="101220605" name="怀宁" en="Huaining" /> 
+            <city id="101220606" name="宿松" en="Susong" /> 
+            <city id="101220607" name="望江" en="Wangjiang" /> 
+            <city id="101220608" name="岳西" en="Yuexi" /> 
+            <city id="101220609" name="桐城" en="Tongcheng" /> 
+        </area> 
+        <area id="Suzhou" name="宿州" en="Suzhou"> 
+            <city id="101220701" name="宿州" en="Suzhou" /> 
+            <city id="101220702" name="砀山" en="Dangshan" /> 
+            <city id="101220703" name="灵璧" en="Lingbi" /> 
+            <city id="101220704" name="泗县" en="Sixian" /> 
+            <city id="101220705" name="萧县" en="Xiaoxian" /> 
+        </area> 
+        <area id="Fuyang" name="阜阳" en="Fuyang"> 
+            <city id="101220801" name="阜阳" en="Fuyang" /> 
+            <city id="101220802" name="阜南" en="Funan" /> 
+            <city id="101220803" name="颍上" en="Yingshang" /> 
+            <city id="101220804" name="临泉" en="Linquan" /> 
+            <city id="101220805" name="界首" en="Jieshou" /> 
+            <city id="101220806" name="太和" en="Taihe" /> 
+        </area> 
+        <area id="Bozhou" name="亳州" en="Bozhou"> 
+            <city id="101220901" name="亳州" en="Bozhou" /> 
+            <city id="101220902" name="涡阳" en="Guoyang" /> 
+            <city id="101220903" name="利辛" en="Lixin" /> 
+            <city id="101220904" name="蒙城" en="Mengcheng" /> 
+        </area> 
+        <area id="Huangshan" name="黄山" en="Huangshan"> 
+            <city id="101221001" name="黄山" en="Huangshan" /> 
+            <city id="101221002" name="黄山区" en="Huangshanqu" /> 
+            <city id="101221003" name="屯溪" en="Tunxi" /> 
+            <city id="101221004" name="祁门" en="Qimen" /> 
+            <city id="101221005" name="黟县" en="Yixian" /> 
+            <city id="101221006" name="歙县" en="Shexian" /> 
+            <city id="101221007" name="休宁" en="Xiuning" /> 
+            <city id="101221008" name="黄山景物区" en="Huangshanfengjingqu" /> 
+        </area> 
+        <area id="Chuzhou" name="滁州" en="Chuzhou"> 
+            <city id="101221101" name="滁州" en="Chuzhou" /> 
+            <city id="101221102" name="凤阳" en="Fengyang" /> 
+            <city id="101221103" name="明光" en="Mingguang" /> 
+            <city id="101221104" name="定远" en="Dingyuan" /> 
+            <city id="101221105" name="全椒" en="Quanjiao" /> 
+            <city id="101221106" name="来安" en="Laian" /> 
+            <city id="101221107" name="天长" en="Tianchang" /> 
+        </area> 
+        <area id="Huaibei" name="淮北" en="Huaibei"> 
+            <city id="101221201" name="淮北" en="Huaibei" /> 
+            <city id="101221202" name="濉溪" en="Suixi" /> 
+        </area> 
+        <area id="Tongling" name="铜陵" en="Tongling"> 
+            <city id="101221301" name="铜陵" en="Tongling" /> 
+        </area> 
+        <area id="Xuancheng" name="宣城" en="Xuancheng"> 
+            <city id="101221401" name="宣城" en="Xuancheng" /> 
+            <city id="101221402" name="泾县" en="Jingxian" /> 
+            <city id="101221403" name="旌德" en="Jingde" /> 
+            <city id="101221404" name="宁国" en="Ningguo" /> 
+            <city id="101221405" name="绩溪" en="Jixi" /> 
+            <city id="101221406" name="广德" en="Guangde" /> 
+            <city id="101221407" name="郎溪" en="Langxi" /> 
+        </area> 
+        <area id="Luan" name="六安" en="Luan"> 
+            <city id="101221501" name="六安" en="Luan" /> 
+            <city id="101221502" name="霍邱" en="Huoqiu" /> 
+            <city id="101221503" name="寿县" en="Shouxian" /> 
+            <city id="101221505" name="金寨" en="Jinzhai" /> 
+            <city id="101221506" name="霍山" en="Huoshan" /> 
+            <city id="101221507" name="舒城" en="Shucheng" /> 
+        </area> 
+        <area id="Chaohu" name="巢湖" en="Chaohu"> 
+            <city id="101221601" name="巢湖" en="Chaohu" /> 
+            <city id="101221602" name="庐江" en="Lujiang" /> 
+            <city id="101221603" name="无为" en="Wuwei" /> 
+            <city id="101221604" name="含山" en="Hanshan" /> 
+            <city id="101221605" name="和县" en="Hexian" /> 
+        </area> 
+        <area id="Chizhou" name="池州" en="Chizhou"> 
+            <city id="101221701" name="池州" en="Chizhou" /> 
+            <city id="101221702" name="东至" en="Dongzhi" /> 
+            <city id="101221703" name="青阳" en="Qingyang" /> 
+            <city id="101221704" name="九华山" en="Jiuhuashan" /> 
+            <city id="101221705" name="石台" en="Shitai" /> 
+        </area> 
+    </area> 
+    <area id="Fujian" name="福建" en="Fujian"> 
+        <area id="Fuzhou" name="福州" en="Fuzhou"> 
+            <city id="101230101" name="福州" en="Fuzhou" /> 
+            <city id="101230102" name="闽清" en="Minqing" /> 
+            <city id="101230103" name="闽侯" en="Minhou" /> 
+            <city id="101230104" name="罗源" en="Luoyuan" /> 
+            <city id="101230105" name="连江" en="Lianjiang" /> 
+            <city id="101230107" name="永泰" en="Yongtai" /> 
+            <city id="101230108" name="平潭" en="Pingtan" /> 
+            <city id="101230110" name="长乐" en="Changle" /> 
+            <city id="101230111" name="福清" en="Fuqing" /> 
+        </area> 
+        <area id="Xiamen" name="厦门" en="Xiamen"> 
+            <city id="101230201" name="厦门" en="Xiamen" /> 
+            <city id="101230202" name="同安" en="Tongan" /> 
+        </area> 
+        <area id="Ningde" name="宁德" en="Ningde"> 
+            <city id="101230301" name="宁德" en="Ningde" /> 
+            <city id="101230302" name="古田" en="Gutian" /> 
+            <city id="101230303" name="霞浦" en="Xiapu" /> 
+            <city id="101230304" name="寿宁" en="Shouning" /> 
+            <city id="101230305" name="周宁" en="Zhouning" /> 
+            <city id="101230306" name="福安" en="Fuan" /> 
+            <city id="101230307" name="柘荣" en="Zherong" /> 
+            <city id="101230308" name="福鼎" en="Fuding" /> 
+            <city id="101230309" name="屏南" en="Pingnan" /> 
+        </area> 
+        <area id="Putian" name="莆田" en="Putian"> 
+            <city id="101230401" name="莆田" en="Putian" /> 
+            <city id="101230402" name="" en="Xianyou" /> 
+            <city id="101230403" name="秀屿港" en="Xiuyugang" /> 
+            <city id="101230404" name="涵江" en="Hanjiang" /> 
+            <city id="101230405" name="秀屿" en="Xiuyu" /> 
+            <city id="101230406" name="荔城" en="Licheng" /> 
+            <city id="101230407" name="城厢" en="Chengxiang" /> 
+        </area> 
+        <area id="Quanzhou" name="泉州" en="Quanzhou"> 
+            <city id="101230501" name="泉州" en="Quanzhou" /> 
+            <city id="101230502" name="安溪" en="Anxi" /> 
+            <city id="101230504" name="永春" en="Yongchun" /> 
+            <city id="101230505" name="德化" en="Dehua" /> 
+            <city id="101230506" name="南安" en="Nanan" /> 
+            <city id="101230507" name="崇武" en="Chongwu" /> 
+            <city id="101230508" name="惠安" en="Huian" /> 
+            <city id="101230509" name="晋江" en="Jinjiang" /> 
+            <city id="101230510" name="石狮" en="Shishi" /> 
+        </area> 
+        <area id="Zhangzhou" name="漳州" en="Zhangzhou"> 
+            <city id="101230601" name="漳州" en="Zhangzhou" /> 
+            <city id="101230602" name="长泰" en="Changtai" /> 
+            <city id="101230603" name="南靖" en="Nanjing" /> 
+            <city id="101230604" name="平宁" en="Pinghe" /> 
+            <city id="101230605" name="龙海" en="Longhai" /> 
+            <city id="101230606" name="漳浦" en="Zhangpu" /> 
+            <city id="101230607" name="诏安" en="Zhaoan" /> 
+            <city id="101230608" name="东山" en="Dongshan" /> 
+            <city id="101230609" name="云霄" en="Yunxiao" /> 
+            <city id="101230610" name="华安" en="Huaan" /> 
+        </area> 
+        <area id="Longyan" name="龙岩" en="Longyan"> 
+            <city id="101230701" name="龙岩" en="Longyan" /> 
+            <city id="101230702" name="长汀" en="Changting" /> 
+            <city id="101230703" name="连城" en="Liancheng" /> 
+            <city id="101230704" name="武平" en="Wuping" /> 
+            <city id="101230705" name="上杭" en="Shanghang" /> 
+            <city id="101230706" name="永定" en="Yongding" /> 
+            <city id="101230707" name="漳平" en="Zhangping" /> 
+        </area> 
+        <area id="Sanming" name="三明" en="Sanming"> 
+            <city id="101230801" name="三明" en="Sanming" /> 
+            <city id="101230802" name="宁化" en="Ninghua" /> 
+            <city id="101230803" name="清流" en="Qingliu" /> 
+            <city id="101230804" name="泰宁" en="Taining" /> 
+            <city id="101230805" name="将乐" en="Jiangle" /> 
+            <city id="101230806" name="建宁" en="Jianning" /> 
+            <city id="101230807" name="明溪" en="Mingxi" /> 
+            <city id="101230808" name="沙县" en="Shaxian" /> 
+            <city id="101230809" name="尤溪" en="Youxi" /> 
+            <city id="101230810" name="永安" en="Yongan" /> 
+            <city id="101230811" name="大田" en="Datian" /> 
+        </area> 
+        <area id="Nanping" name="南平" en="Nanping"> 
+            <city id="101230901" name="南平" en="Nanping" /> 
+            <city id="101230902" name="顺昌" en="Shunchang" /> 
+            <city id="101230903" name="光泽" en="Guangze" /> 
+            <city id="101230904" name="邵武" en="Shaowu" /> 
+            <city id="101230905" name="武夷山" en="Wuyishan" /> 
+            <city id="101230906" name="浦城" en="Pucheng" /> 
+            <city id="101230907" name="建阳" en="Jianyang" /> 
+            <city id="101230908" name="松溪" en="Songxi" /> 
+            <city id="101230909" name="政和" en="Zhenghe" /> 
+            <city id="101230910" name="建瓯" en="Jianou" /> 
+        </area> 
+    </area> 
+    <area id="Jiangxi" name="江西" en="Jiangxi"> 
+        <area id="Nanchang" name="南昌" en="Nanchang"> 
+            <city id="101240101" name="南昌" en="Nanchang" /> 
+            <city id="101240102" name="新建" en="Xinjian" /> 
+            <city id="101240103" name="南昌县" en="Nanchangxian" /> 
+            <city id="101240104" name="安义" en="Anyi" /> 
+            <city id="101240105" name="进贤" en="Jinxian" /> 
+        </area> 
+        <area id="Jiujiang" name="九江" en="Jiujiang"> 
+            <city id="101240201" name="九江" en="Jiujiang" /> 
+            <city id="101240202" name="瑞昌" en="Ruichang" /> 
+            <city id="101240203" name="庐山" en="Lushan" /> 
+            <city id="101240204" name="武宁" en="Wuning" /> 
+            <city id="101240205" name="德安" en="Dean" /> 
+            <city id="101240206" name="永修" en="Yongxiu" /> 
+            <city id="101240207" name="湖口" en="Hukou" /> 
+            <city id="101240208" name="彭泽" en="Pengze" /> 
+            <city id="101240209" name="星子" en="Xingzi" /> 
+            <city id="101240210" name="都昌" en="Duchang" /> 
+            <city id="101240212" name="修水" en="Xiushui" /> 
+        </area> 
+        <area id="Shangrao" name="上饶" en="Shangrao"> 
+            <city id="101240301" name="上饶" en="Shangrao" /> 
+            <city id="101240302" name="鄱阳" en="Poyang" /> 
+            <city id="101240303" name="婺源" en="Wuyuan" /> 
+            <city id="101240305" name="余干" en="Yugan" /> 
+            <city id="101240306" name="万年" en="Wannian" /> 
+            <city id="101240307" name="德兴" en="Dexing" /> 
+            <city id="101240308" name="上饶县" en="Shangraoxian" /> 
+            <city id="101240309" name="弋阳" en="Yiyang" /> 
+            <city id="101240310" name="横峰" en="Hengfeng" /> 
+            <city id="101240311" name="铅山" en="Yanshan" /> 
+            <city id="101240312" name="玉山" en="Yushan" /> 
+            <city id="101240313" name="广丰" en="Guangfeng" /> 
+        </area> 
+        <area id="Fuzhou" name="抚州" en="Fuzhou"> 
+            <city id="101240401" name="抚州" en="Fuzhou" /> 
+            <city id="101240402" name="广昌" en="Guangchang" /> 
+            <city id="101240403" name="乐安" en="Anle" /> 
+            <city id="101240404" name="崇仁" en="Chongren" /> 
+            <city id="101240405" name="金溪" en="Jinxi" /> 
+            <city id="101240406" name="资溪" en="Zixi" /> 
+            <city id="101240407" name="宜黄" en="Yihuang" /> 
+            <city id="101240408" name="南城" en="Nancheng" /> 
+            <city id="101240409" name="南丰" en="Nanfeng" /> 
+            <city id="101240410" name="黎川" en="Lichuan" /> 
+            <city id="101240411" name="东乡" en="Dongxiang" /> 
+        </area> 
+        <area id="Yichun" name="宜春" en="Yichun"> 
+            <city id="101240501" name="宜春" en="Yichun" /> 
+            <city id="101240502" name="铜鼓" en="Tonggu" /> 
+            <city id="101240503" name="宜丰" en="Yifeng" /> 
+            <city id="101240504" name="万载" en="Wanzai" /> 
+            <city id="101240505" name="上高" en="Shanggao" /> 
+            <city id="101240506" name="靖安" en="Jingan" /> 
+            <city id="101240507" name="奉新" en="Fengxin" /> 
+            <city id="101240508" name="高安" en="Gaoan" /> 
+            <city id="101240509" name="樟树" en="Zhangshu" /> 
+            <city id="101240510" name="丰城" en="Fengcheng" /> 
+        </area> 
+        <area id="Jian" name="吉安" en="Jian"> 
+            <city id="101240601" name="吉安" en="Jian" /> 
+            <city id="101240602" name="吉安县" en="Jianxian" /> 
+            <city id="101240603" name="吉水" en="Jishui" /> 
+            <city id="101240604" name="新干" en="Xingan" /> 
+            <city id="101240605" name="峡江" en="Xiajiang" /> 
+            <city id="101240606" name="永丰" en="Yongfeng" /> 
+            <city id="101240607" name="永新" en="Yongxin" /> 
+            <city id="101240608" name="井冈山" en="Jinggangshan" /> 
+            <city id="101240609" name="万安" en="Wanan" /> 
+            <city id="101240610" name="遂川" en="Suichuan" /> 
+            <city id="101240611" name="泰和" en="Taihe" /> 
+            <city id="101240612" name="安福" en="Anfu" /> 
+            <city id="101240613" name="宁冈" en="Ninggang" /> 
+        </area> 
+        <area id="Ganzhou" name="赣州" en="Ganzhou"> 
+            <city id="101240701" name="赣州" en="Ganzhou" /> 
+            <city id="101240702" name="崇义" en="Chongyi" /> 
+            <city id="101240703" name="上犹" en="Shangyou" /> 
+            <city id="101240704" name="南康" en="Nankang" /> 
+            <city id="101240705" name="大余" en="Dayu" /> 
+            <city id="101240706" name="信丰" en="Xinfeng" /> 
+            <city id="101240707" name="宁都" en="Ningdu" /> 
+            <city id="101240708" name="石城" en="Shicheng" /> 
+            <city id="101240709" name="瑞金" en="Ruijin" /> 
+            <city id="101240710" name="于都" en="Yudu" /> 
+            <city id="101240711" name="会昌" en="Huichang" /> 
+            <city id="101240712" name="安远" en="Anyuan" /> 
+            <city id="101240713" name="全南" en="Quannan" /> 
+            <city id="101240714" name="龙南" en="Longnan" /> 
+            <city id="101240715" name="定南" en="Dingnan" /> 
+            <city id="101240716" name="寻乌" en="Xunwu" /> 
+            <city id="101240717" name="兴国" en="Xingguo" /> 
+            <city id="101240718" name="赣县" en="Ganxian" /> 
+        </area> 
+        <area id="Jingdezhen" name="景德镇" en="Jingdezhen"> 
+            <city id="101240801" name="景德镇" en="Jingdezhen" /> 
+            <city id="101240802" name="乐平" en="Leping" /> 
+            <city id="101240803" name="浮梁" en="Fuliang" /> 
+        </area> 
+        <area id="Pingxiang" name="萍乡" en="Pingxiang"> 
+            <city id="101240901" name="萍乡" en="Pingxiang" /> 
+            <city id="101240902" name="莲花" en="Lianhua" /> 
+            <city id="101240903" name="上栗" en="Shangli" /> 
+            <city id="101240904" name="安源" en="Anyuan" /> 
+            <city id="101240905" name="芦溪" en="Luxi" /> 
+            <city id="101240906" name="湘东" en="Xiangdong" /> 
+        </area> 
+        <area id="Xinyu" name="新余" en="Xinyu"> 
+            <city id="101241001" name="新余" en="Xinyu" /> 
+            <city id="101241002" name="分宜" en="Fenyi" /> 
+        </area> 
+        <area id="Yingtan" name="鹰潭" en="Yingtan"> 
+            <city id="101241101" name="鹰潭" en="Yingtan" /> 
+            <city id="101241102" name="余江" en="Yujiang" /> 
+            <city id="101241103" name="贵溪" en="Guixi" /> 
+        </area> 
+    </area> 
+    <area id="Huna" name="湖南" en="Huna"> 
+        <area id="Changsha" name="长沙" en="Changsha"> 
+            <city id="101250101" name="长沙" en="Changsha" /> 
+            <city id="101250102" name="宁乡" en="Ningxiang" /> 
+            <city id="101250103" name="浏阳" en="Liuyang" /> 
+            <city id="101250104" name="马坡岭" en="Mapoling" /> 
+            <city id="101250105" name="望城" en="Wangcheng" /> 
+        </area> 
+        <area id="Xiangtan" name="湘潭" en="Xiangtan"> 
+            <city id="101250201" name="湘潭" en="Xiangtan" /> 
+            <city id="101250202" name="韶山" en="Shaoshan" /> 
+            <city id="101250203" name="湘乡" en="Xiangxiang" /> 
+        </area> 
+        <area id="Zhuzhou" name="株洲" en="Zhuzhou"> 
+            <city id="101250301" name="株洲" en="Zhuzhou" /> 
+            <city id="101250302" name="攸县" en="Youxian" /> 
+            <city id="101250303" name="醴陵" en="Liling" /> 
+            <city id="101250305" name="茶陵" en="Chaling" /> 
+            <city id="101250306" name="炎陵" en="Yanling" /> 
+        </area> 
+        <area id="Hengyang" name="衡阳" en="Hengyang"> 
+            <city id="101250401" name="衡阳" en="Hengyang" /> 
+            <city id="101250402" name="衡山" en="Hengshan" /> 
+            <city id="101250403" name="衡东" en="Hengdong" /> 
+            <city id="101250404" name="祁东" en="Qidong" /> 
+            <city id="101250405" name="衡阳县" en="Hengyangxian" /> 
+            <city id="101250406" name="常宁" en="Changning" /> 
+            <city id="101250407" name="衡南" en="Hengnan" /> 
+            <city id="101250408" name="耒阳" en="Leiyang" /> 
+            <city id="101250409" name="南岳" en="Nanyue" /> 
+        </area> 
+        <area id="Chenzhou" name="郴州" en="Chenzhou"> 
+            <city id="101250501" name="郴州" en="Chenzhou" /> 
+            <city id="101250502" name="桂阳" en="Guiyang" /> 
+            <city id="101250503" name="嘉禾" en="Jiahe" /> 
+            <city id="101250504" name="宜章" en="Yizhang" /> 
+            <city id="101250505" name="临武" en="Linwu" /> 
+            <city id="101250507" name="资兴" en="Zixing" /> 
+            <city id="101250508" name="汝城" en="Rucheng" /> 
+            <city id="101250509" name="安仁" en="Anren" /> 
+            <city id="101250510" name="永兴" en="Yongxing" /> 
+            <city id="101250511" name="桂东" en="Guidong" /> 
+            <city id="101250512" name="苏仙" en="Suxian" /> 
+        </area> 
+        <area id="Changde" name="常德" en="Changde"> 
+            <city id="101250601" name="常德" en="Changde" /> 
+            <city id="101250602" name="安乡" en="Anxiang" /> 
+            <city id="101250603" name="桃源" en="Taoyuan" /> 
+            <city id="101250604" name="汉寿" en="Hanshou" /> 
+            <city id="101250605" name="澧县" en="Lixian" /> 
+            <city id="101250606" name="临澧" en="Linli" /> 
+            <city id="101250607" name="石门" en="Shimen" /> 
+            <city id="101250608" name="津市" en="Jinshi" /> 
+        </area> 
+        <area id="Yiyang" name="益阳" en="Yiyang"> 
+            <city id="101250700" name="益阳" en="Yiyang" /> 
+            <city id="101250701" name="赫山区" en="Heshanqu" /> 
+            <city id="101250702" name="南县" en="Nanxian" /> 
+            <city id="101250703" name="桃江" en="Taojiang" /> 
+            <city id="101250704" name="安化" en="Anhua" /> 
+            <city id="101250705" name="沅江" en="Yuanjiang" /> 
+        </area> 
+        <area id="Loudi" name="娄底" en="Loudi"> 
+            <city id="101250801" name="娄底" en="Loudi" /> 
+            <city id="101250802" name="双峰" en="Shuangfeng" /> 
+            <city id="101250803" name="冷水江" en="Lengshuijiang" /> 
+            <city id="101250805" name="新化" en="Xinhua" /> 
+            <city id="101250806" name="涟源" en="Lianyuan" /> 
+        </area> 
+        <area id="Shaoyang" name="邵阳" en="Shaoyang"> 
+            <city id="101250901" name="邵阳" en="Shaoyang" /> 
+            <city id="101250902" name="隆回" en="Longhui" /> 
+            <city id="101250903" name="洞口" en="Dongkou" /> 
+            <city id="101250904" name="新邵" en="Xinshao" /> 
+            <city id="101250905" name="邵东" en="Shaodong" /> 
+            <city id="101250906" name="绥宁" en="Suining" /> 
+            <city id="101250907" name="新宁" en="Xinning" /> 
+            <city id="101250908" name="武冈" en="Wugang" /> 
+            <city id="101250909" name="城步" en="Chengbu" /> 
+            <city id="101250910" name="邵阳县" en="Shaoyangxian" /> 
+        </area> 
+        <area id="Yueyang" name="岳阳" en="Yueyang"> 
+            <city id="101251001" name="岳阳" en="Yueyang" /> 
+            <city id="101251002" name="华容" en="Huarong" /> 
+            <city id="101251003" name="湘阴" en="Xiangyin" /> 
+            <city id="101251004" name="汨罗" en="Miluo" /> 
+            <city id="101251005" name="平江" en="Pingjiang" /> 
+            <city id="101251006" name="临湘" en="Linxiang" /> 
+        </area> 
+        <area id="Zhangjiajie" name="张家界" en="Zhangjiajie"> 
+            <city id="101251101" name="张家界" en="Zhangjiajie" /> 
+            <city id="101251102" name="桑植" en="Sangzhi" /> 
+            <city id="101251103" name="慈利" en="Cili" /> 
+            <city id="101251104" name="武陵源" en="Wulingyuan" /> 
+        </area> 
+        <area id="Huaihua" name="怀化" en="Huaihua"> 
+            <city id="101251201" name="怀化" en="Huaihua" /> 
+            <city id="101251203" name="沅陵" en="Yuanling" /> 
+            <city id="101251204" name="辰溪" en="Chenxi" /> 
+            <city id="101251205" name="靖州" en="Jingzhou" /> 
+            <city id="101251206" name="会同" en="Huitong" /> 
+            <city id="101251207" name="通道" en="Tongdao" /> 
+            <city id="101251208" name="麻阳" en="Mayang" /> 
+            <city id="101251209" name="新晃" en="Xinhuang" /> 
+            <city id="101251210" name="芷江" en="Zhijiang" /> 
+            <city id="101251211" name="溆浦" en="Xupu" /> 
+            <city id="101251212" name="中方" en="Zhongfang" /> 
+            <city id="101251213" name="洪江" en="Hongjiang" /> 
+        </area> 
+        <area id="Yongzhou" name="永州" en="Yongzhou"> 
+            <city id="101251401" name="永州" en="Yongzhou" /> 
+            <city id="101251402" name="祁阳" en="Qiyang" /> 
+            <city id="101251403" name="东安" en="Dongan" /> 
+            <city id="101251404" name="双牌" en="Shuangpai" /> 
+            <city id="101251405" name="道县" en="Daoxian" /> 
+            <city id="101251406" name="宁远" en="Ningyuan" /> 
+            <city id="101251407" name="江永" en="Jiangyong" /> 
+            <city id="101251408" name="蓝山" en="Lanshan" /> 
+            <city id="101251409" name="新田" en="Xintian" /> 
+            <city id="101251410" name="江华" en="Jianghua" /> 
+            <city id="101251411" name="冷水滩" en="Lengshuitan" /> 
+        </area> 
+        <area id="Xiangxi" name="湘西" en="Xiangxi"> 
+            <city id="101251501" name="吉首" en="Jishou" /> 
+            <city id="101251502" name="保靖" en="Baojing" /> 
+            <city id="101251503" name="永顺" en="Yongshun" /> 
+            <city id="101251504" name="古丈" en="Guzhang" /> 
+            <city id="101251505" name="凤凰" en="Fenghuang" /> 
+            <city id="101251506" name="泸溪" en="Luxi" /> 
+            <city id="101251507" name="龙山" en="Longshan" /> 
+            <city id="101251508" name="花垣" en="Huayuan" /> 
+        </area> 
+    </area> 
+    <area id="Guizhou" name="贵州" en="Guizhou"> 
+        <area id="Guiyang" name="贵阳" en="Guiyang"> 
+            <city id="101260101" name="贵阳" en="Guiyang" /> 
+            <city id="101260102" name="白云" en="Baiyun" /> 
+            <city id="101260103" name="花溪" en="Huaxi" /> 
+            <city id="101260104" name="乌当" en="Wudang" /> 
+            <city id="101260105" name="息烽" en="Xifeng" /> 
+            <city id="101260106" name="开阳" en="Kaiyang" /> 
+            <city id="101260107" name="修文" en="Xiuwen" /> 
+            <city id="101260108" name="清镇" en="Qingzhen" /> 
+            <city id="101260109" name="小河" en="Xiaohe" /> 
+            <city id="101260110" name="云岩" en="Yunyan" /> 
+            <city id="101260111" name="南明" en="Nanming" /> 
+        </area> 
+        <area id="Zunyi" name="遵义" en="Zunyi"> 
+            <city id="101260201" name="遵义" en="Zunyi" /> 
+            <city id="101260202" name="遵义县" en="Zunyixian" /> 
+            <city id="101260203" name="仁怀" en="Renhuai" /> 
+            <city id="101260204" name="绥阳" en="Suiyang" /> 
+            <city id="101260205" name="湄潭" en="Meitan" /> 
+            <city id="101260206" name="凤冈" en="Fenggang" /> 
+            <city id="101260207" name="桐梓" en="Tongzi" /> 
+            <city id="101260208" name="赤水" en="Chishui" /> 
+            <city id="101260209" name="习水" en="Xishui" /> 
+            <city id="101260210" name="道真" en="Daozhen" /> 
+            <city id="101260211" name="正安" en="Zhengan" /> 
+            <city id="101260212" name="务川" en="Wuchuan" /> 
+            <city id="101260213" name="余庆" en="Yuqing" /> 
+            <city id="101260214" name="汇川" en="Huichuan" /> 
+            <city id="101260215" name="红花岗" en="Honghuagang" /> 
+        </area> 
+        <area id="Anshun" name="安顺" en="Anshun"> 
+            <city id="101260301" name="安顺" en="Anshun" /> 
+            <city id="101260302" name="普定" en="Puding" /> 
+            <city id="101260303" name="镇宁" en="Zhenning" /> 
+            <city id="101260304" name="平坝" en="Pingba" /> 
+            <city id="101260305" name="紫云" en="Ziyun" /> 
+            <city id="101260306" name="关岭" en="Guanling" /> 
+        </area> 
+        <area id="Qiannan" name="黔南" en="Qiannan"> 
+            <city id="101260401" name="都匀" en="Duyun" /> 
+            <city id="101260402" name="贵定" en="Guiding" /> 
+            <city id="101260403" name="" en="Wengan" /> 
+            <city id="101260404" name="长顺" en="Changshun" /> 
+            <city id="101260405" name="福泉" en="Fuquan" /> 
+            <city id="101260406" name="惠水" en="Huishui" /> 
+            <city id="101260407" name="龙里" en="Longli" /> 
+            <city id="101260408" name="罗甸" en="Luodian" /> 
+            <city id="101260409" name="平塘" en="Pingtang" /> 
+            <city id="101260410" name="独山" en="Dushan" /> 
+            <city id="101260411" name="三都" en="Sandu" /> 
+            <city id="101260412" name="荔波" en="Libo" /> 
+        </area> 
+        <area id="Qiandongnan" name="黔东南" en="Qiandongnan"> 
+            <city id="101260501" name="凯里" en="Kaili" /> 
+            <city id="101260502" name="岑巩" en="Cengong" /> 
+            <city id="101260503" name="施秉" en="Shibing" /> 
+            <city id="101260504" name="镇远" en="Zhenyuan" /> 
+            <city id="101260505" name="黄平" en="Huangping" /> 
+            <city id="101260507" name="麻江" en="Majiang" /> 
+            <city id="101260508" name="丹寨" en="Danzhai" /> 
+            <city id="101260509" name="三穗" en="Sansui" /> 
+            <city id="101260510" name="台江" en="Taijiang" /> 
+            <city id="101260511" name="剑河" en="Jianhe" /> 
+            <city id="101260512" name="雷山" en="Leishan" /> 
+            <city id="101260513" name="黎平" en="Liping" /> 
+            <city id="101260514" name="天柱" en="Tianzhu" /> 
+            <city id="101260515" name="锦屏" en="Jinping" /> 
+            <city id="101260516" name="榕江" en="Rongjiang" /> 
+            <city id="101260517" name="从江" en="Congjiang" /> 
+        </area> 
+        <area id="Tongren" name="铜仁" en="Tongren"> 
+            <city id="101260601" name="铜仁" en="Tongren" /> 
+            <city id="101260602" name="江口" en="Jiangkou" /> 
+            <city id="101260603" name="玉屏" en="Yuping" /> 
+            <city id="101260604" name="万山" en="Wanshan" /> 
+            <city id="101260605" name="思南" en="Sinan" /> 
+            <city id="101260607" name="印江" en="Yinjiang" /> 
+            <city id="101260608" name="石阡" en="Shiqian" /> 
+            <city id="101260609" name="沿河" en="Yanhe" /> 
+            <city id="101260610" name="德江" en="Dejiang" /> 
+            <city id="101260611" name="松桃" en="Songtao" /> 
+        </area> 
+        <area id="Bijie" name="毕节" en="Bijie"> 
+            <city id="101260701" name="毕节" en="Bijie" /> 
+            <city id="101260702" name="赫章" en="Hezhang" /> 
+            <city id="101260703" name="金沙" en="Jinsha" /> 
+            <city id="101260704" name="威宁" en="Weining" /> 
+            <city id="101260705" name="大雅" en="Dafang" /> 
+            <city id="101260706" name="纳雍" en="Nayong" /> 
+            <city id="101260707" name="织金" en="Zhijin" /> 
+            <city id="101260708" name="黔西" en="Qianxi" /> 
+        </area> 
+        <area id="Liupanshui" name="六盘水" en="Liupanshui"> 
+            <city id="101260801" name="水城" en="Shuicheng" /> 
+            <city id="101260802" name="六枝" en="Liuzhi" /> 
+            <city id="101260804" name="盘县" en="Panxian" /> 
+        </area> 
+        <area id="Qianxinan" name="黔西南" en="Qianxinan"> 
+            <city id="101260901" name="兴义" en="Xingyi" /> 
+            <city id="101260902" name="晴隆" en="Qinglong" /> 
+            <city id="101260903" name="兴仁" en="Xingren" /> 
+            <city id="101260904" name="贞丰" en="Zhenfeng" /> 
+            <city id="101260905" name="望谟" en="Wangmo" /> 
+            <city id="101260907" name="安龙" en="Anlong" /> 
+            <city id="101260908" name="册亨" en="Ceheng" /> 
+            <city id="101260909" name="普安" en="Puan" /> 
+        </area> 
+    </area> 
+    <area id="Sichuan" name="四川" en="Sichuan"> 
+        <area id="Chengdu" name="成都" en="Chengdu"> 
+            <city id="101270101" name="成都" en="Chengdu" /> 
+            <city id="101270102" name="龙泉驿" en="Longquanyi" /> 
+            <city id="101270103" name="新都" en="Xindu" /> 
+            <city id="101270104" name="温江" en="Wenjiang" /> 
+            <city id="101270105" name="金堂" en="Jintang" /> 
+            <city id="101270106" name="双流" en="Shuangliu" /> 
+            <city id="101270107" name="郫县" en="Pixian" /> 
+            <city id="101270108" name="大邑" en="Dayi" /> 
+            <city id="101270109" name="蒲江" en="Pujiang" /> 
+            <city id="101270110" name="新津" en="Xinjin" /> 
+            <city id="101270111" name="都江堰" en="Dujiangyan" /> 
+            <city id="101270112" name="彭州" en="Pengzhou" /> 
+            <city id="101270113" name="邛崃" en="Qionglai" /> 
+            <city id="101270114" name="崇州" en="Chongzhou" /> 
+        </area> 
+        <area id="Panzhihua" name="攀枝花" en="Panzhihua"> 
+            <city id="101270201" name="攀枝花" en="Panzhihua" /> 
+            <city id="101270202" name="仁和" en="Renhe" /> 
+            <city id="101270203" name="米易" en="Miyi" /> 
+            <city id="101270204" name="盐边" en="Yanbian" /> 
+        </area> 
+        <area id="Zigong" name="自贡" en="Zigong"> 
+            <city id="101270301" name="自贡" en="Zigong" /> 
+            <city id="101270302" name="富顺" en="Fushun" /> 
+            <city id="101270303" name="荣县" en="Rongxian" /> 
+        </area> 
+        <area id="Mianyang" name="绵阳" en="Mianyang"> 
+            <city id="101270401" name="绵阳" en="Mianyang" /> 
+            <city id="101270402" name="三台" en="Santai" /> 
+            <city id="101270403" name="盐亭" en="Yanting" /> 
+            <city id="101270404" name="安县" en="Anxian" /> 
+            <city id="101270405" name="梓潼" en="Zitong" /> 
+            <city id="101270406" name="北川" en="Beichuan" /> 
+            <city id="101270407" name="平武" en="Pingwu" /> 
+            <city id="101270408" name="江油" en="Jiangyou" /> 
+        </area> 
+        <area id="Nanchong" name="南充" en="Nanchong"> 
+            <city id="101270501" name="南充" en="Nanchong" /> 
+            <city id="101270502" name="南部" en="Nanbu" /> 
+            <city id="101270503" name="营山" en="Yingshan" /> 
+            <city id="101270504" name="蓬安" en="Pengan" /> 
+            <city id="101270505" name="仪陇" en="Yilong" /> 
+            <city id="101270506" name="西充" en="Xichong" /> 
+            <city id="101270507" name="阆中" en="Langzhong" /> 
+        </area> 
+        <area id="Dazhou" name="达州" en="Dazhou"> 
+            <city id="101270601" name="达州" en="Dazhou" /> 
+            <city id="101270602" name="宣汉" en="Xuanhan" /> 
+            <city id="101270603" name="开江" en="Kaijiang" /> 
+            <city id="101270604" name="大竹" en="Dazhu" /> 
+            <city id="101270605" name="渠县" en="Quxian" /> 
+            <city id="101270606" name="万源" en="Wanyuan" /> 
+            <city id="101270607" name="通川" en="Tongchuan" /> 
+            <city id="101270608" name="达县" en="Daxian" /> 
+        </area> 
+        <area id="Suining" name="遂宁" en="Suining"> 
+            <city id="101270701" name="遂宁" en="Suining" /> 
+            <city id="101270702" name="蓬溪" en="Pengxi" /> 
+            <city id="101270703" name="射洪" en="Shehong" /> 
+        </area> 
+        <area id="Guangan" name="广安" en="Guangan"> 
+            <city id="101270801" name="广安" en="Guangan" /> 
+            <city id="101270802" name="岳池" en="Yuechi" /> 
+            <city id="101270803" name="武胜" en="Wusheng" /> 
+            <city id="101270804" name="邻水" en="Linshui" /> 
+            <city id="101270805" name="华蓥" en="Huaying" /> 
+        </area> 
+        <area id="Bazhong" name="巴中" en="Bazhong"> 
+            <city id="101270901" name="巴中" en="Bazhong" /> 
+            <city id="101270902" name="通江" en="Tongjiang" /> 
+            <city id="101270903" name="南江" en="Nanjiang" /> 
+            <city id="101270904" name="平昌" en="Pingchang" /> 
+        </area> 
+        <area id="Luzhou" name="泸州" en="Luzhou"> 
+            <city id="101271001" name="泸州" en="Luzhou" /> 
+            <city id="101271003" name="泸县" en="Luxian" /> 
+            <city id="101271004" name="合江" en="Hejiang" /> 
+            <city id="101271005" name="叙永" en="Xuyong" /> 
+            <city id="101271006" name="古蔺" en="Gulin" /> 
+            <city id="101271007" name="纳溪" en="Naxi" /> 
+        </area> 
+        <area id="Yibin" name="宜宾" en="Yibin"> 
+            <city id="101271101" name="宜宾" en="Yibin" /> 
+            <city id="101271103" name="宜宾县" en="Yibinxian" /> 
+            <city id="101271104" name="南溪" en="Nanxi" /> 
+            <city id="101271105" name="江安" en="Jiangan" /> 
+            <city id="101271106" name="长宁" en="Changning" /> 
+            <city id="101271107" name="高县" en="Gaoxian" /> 
+            <city id="101271108" name="珙县" en="Gongxian" /> 
+            <city id="101271109" name="筠连" en="Junlian" /> 
+            <city id="101271110" name="兴文" en="Xingwen" /> 
+            <city id="101271111" name="屏山" en="Pingshan" /> 
+        </area> 
+        <area id="Neijiang" name="内江" en="Neijiang"> 
+            <city id="101271201" name="内江" en="Neijiang" /> 
+            <city id="101271202" name="东兴" en="Dongxing" /> 
+            <city id="101271203" name="威远" en="Weiyuan" /> 
+            <city id="101271204" name="资中" en="Zizhong" /> 
+            <city id="101271205" name="隆昌" en="Longchang" /> 
+        </area> 
+        <area id="Ziyang" name="资阳" en="Ziyang"> 
+            <city id="101271301" name="资阳" en="Ziyang" /> 
+            <city id="101271302" name="安岳" en="Anyue" /> 
+            <city id="101271303" name="乐至" en="Lezhi" /> 
+            <city id="101271304" name="简阳" en="Jianyang" /> 
+        </area> 
+        <area id="Leshan" name="乐山" en="Leshan"> 
+            <city id="101271401" name="乐山" en="Leshan" /> 
+            <city id="101271402" name="犍为" en="Qianwei" /> 
+            <city id="101271403" name="井研" en="Jingyan" /> 
+            <city id="101271404" name="夹江" en="Jiajiang" /> 
+            <city id="101271405" name="沐川" en="Muchuan" /> 
+            <city id="101271406" name="峨边" en="Ebian" /> 
+            <city id="101271407" name="马边" en="Mabian" /> 
+            <city id="101271408" name="峨眉" en="Emei" /> 
+            <city id="101271409" name="峨眉山" en="Emeishan" /> 
+        </area> 
+        <area id="Meishan" name="眉山" en="Meishan"> 
+            <city id="101271501" name="眉山" en="Meishan" /> 
+            <city id="101271502" name="仁寿" en="Renshou" /> 
+            <city id="101271503" name="彭山" en="Pengshan" /> 
+            <city id="101271504" name="洪雅" en="Hongya" /> 
+            <city id="101271505" name="丹棱" en="Danleng" /> 
+            <city id="101271506" name="青神" en="Qingshen" /> 
+        </area> 
+        <area id="Liangshan" name="凉山" en="Liangshan"> 
+            <city id="101271601" name="凉山" en="Liangshan" /> 
+            <city id="101271603" name="木里" en="Muli" /> 
+            <city id="101271604" name="盐源" en="Yanyuan" /> 
+            <city id="101271605" name="德昌" en="Dechang" /> 
+            <city id="101271606" name="会理" en="Huili" /> 
+            <city id="101271607" name="会东" en="Huidong" /> 
+            <city id="101271608" name="宁南" en="Ningnan" /> 
+            <city id="101271609" name="普格" en="Puge" /> 
+            <city id="101271610" name="西昌" en="Xichang" /> 
+            <city id="101271611" name="金阳" en="Jinyang" /> 
+            <city id="101271612" name="昭觉" en="Zhaojue" /> 
+            <city id="101271613" name="喜德" en="Xide" /> 
+            <city id="101271614" name="冕宁" en="Mianning" /> 
+            <city id="101271615" name="越西" en="Yuexi" /> 
+            <city id="101271616" name="甘洛" en="Ganluo" /> 
+            <city id="101271617" name="雷波" en="Leibo" /> 
+            <city id="101271618" name="美姑" en="Meigu" /> 
+            <city id="101271619" name="布拖" en="Butuo" /> 
+        </area> 
+        <area id="Yaan" name="雅安" en="Yaan"> 
+            <city id="101271701" name="雅安" en="Yaan" /> 
+            <city id="101271702" name="名山" en="Mingshan" /> 
+            <city id="101271703" name="荥经" en="Yingjing" /> 
+            <city id="101271704" name="汉源" en="Hanyuan" /> 
+            <city id="101271705" name="石棉" en="Shimian" /> 
+            <city id="101271706" name="天全" en="Tianquan" /> 
+            <city id="101271707" name="芦山" en="Lushan" /> 
+            <city id="101271708" name="宝兴" en="Baoxing" /> 
+        </area> 
+        <area id="Ganzi" name="甘孜" en="Ganzi"> 
+            <city id="101271801" name="甘孜" en="Ganzi" /> 
+            <city id="101271802" name="康定" en="Kangding" /> 
+            <city id="101271803" name="泸定" en="Luding" /> 
+            <city id="101271804" name="丹巴" en="Danba" /> 
+            <city id="101271805" name="九龙" en="Jiulong" /> 
+            <city id="101271806" name="雅江" en="Yajiang" /> 
+            <city id="101271807" name="道孚" en="Daofu" /> 
+            <city id="101271808" name="炉霍" en="Luhuo" /> 
+            <city id="101271809" name="新龙" en="Xinlong" /> 
+            <city id="101271810" name="德格" en="Dege" /> 
+            <city id="101271811" name="白玉" en="Baiyu" /> 
+            <city id="101271812" name="石渠" en="Shiqu" /> 
+            <city id="101271813" name="色达" en="Seda" /> 
+            <city id="101271814" name="理塘" en="Litang" /> 
+            <city id="101271815" name="巴塘" en="Batang" /> 
+            <city id="101271816" name="乡城" en="Xiangcheng" /> 
+            <city id="101271817" name="稻城" en="Daocheng" /> 
+            <city id="101271818" name="得荣" en="Derong" /> 
+        </area> 
+        <area id="Aba" name="阿坝" en="Aba"> 
+            <city id="101271901" name="阿坝" en="Aba" /> 
+            <city id="101271902" name="汶川" en="Wenchuan" /> 
+            <city id="101271903" name="理县" en="Lixian" /> 
+            <city id="101271904" name="茂县" en="Maoxian" /> 
+            <city id="101271905" name="松潘" en="Songfan" /> 
+            <city id="101271906" name="九寨沟" en="Jiuzhaigou" /> 
+            <city id="101271907" name="金川" en="Jinchuan" /> 
+            <city id="101271908" name="小金" en="Xiaojin" /> 
+            <city id="101271909" name="黑水" en="Heishui" /> 
+            <city id="101271910" name="马尔康" en="Maerkang" /> 
+            <city id="101271911" name="壤塘" en="Rangtang" /> 
+            <city id="101271912" name="若尔盖" en="Nuoergai" /> 
+            <city id="101271913" name="红原" en="Hongyuan" /> 
+        </area> 
+        <area id="Deyang" name="德阳" en="Deyang"> 
+            <city id="101272001" name="德阳" en="Deyang" /> 
+            <city id="101272002" name="中江" en="Zhongjiang" /> 
+            <city id="101272003" name="广汉" en="Guanghan" /> 
+            <city id="101272004" name="什邡" en="Shifang" /> 
+            <city id="101272005" name="绵竹" en="Mianzhu" /> 
+            <city id="101272006" name="罗江" en="Luojiang" /> 
+        </area> 
+        <area id="Guangyuan" name="广元" en="Guangyuan"> 
+            <city id="101272101" name="广元" en="Guangyuan" /> 
+            <city id="101272102" name="旺苍" en="Wangcang" /> 
+            <city id="101272103" name="青川" en="Qingchuan" /> 
+            <city id="101272104" name="剑阁" en="Jiange" /> 
+            <city id="101272105" name="苍溪" en="Cangxi" /> 
+        </area> 
+    </area> 
+    <area id="Guangdong" name="广东" en="Guangdong"> 
+        <area id="Guangzhou" name="广州" en="Guangzhou"> 
+            <city id="101280101" name="广州" en="Guangzhou" /> 
+            <city id="101280102" name="番禺" en="Panyu" /> 
+            <city id="101280103" name="从化" en="Conghua" /> 
+            <city id="101280104" name="增城" en="Zengcheng" /> 
+            <city id="101280105" name="花都" en="Huadu" /> 
+        </area> 
+        <area id="Shaoguan" name="韶关" en="Shaoguan"> 
+            <city id="101280201" name="韶关" en="Shaoguan" /> 
+            <city id="101280202" name="乳源" en="Ruyuan" /> 
+            <city id="101280203" name="始兴" en="Shixing" /> 
+            <city id="101280204" name="翁源" en="Wengyuan" /> 
+            <city id="101280205" name="乐昌" en="Lechang" /> 
+            <city id="101280206" name="仁化" en="Renhua" /> 
+            <city id="101280207" name="南雄" en="Nanxiong" /> 
+            <city id="101280208" name="新丰" en="Xinfeng" /> 
+            <city id="101280209" name="曲江" en="Qujiang" /> 
+            <city id="101280210" name="浈江" en="Zhenjiang" /> 
+            <city id="101280211" name="武江" en="Wujiang" /> 
+        </area> 
+        <area id="Huizhou" name="惠州" en="Huizhou"> 
+            <city id="101280301" name="惠州" en="Huizhou" /> 
+            <city id="101280302" name="博罗" en="Boluo" /> 
+            <city id="101280303" name="惠阳" en="Huiyang" /> 
+            <city id="101280304" name="惠东" en="Huidong" /> 
+            <city id="101280305" name="龙门" en="Longmen" /> 
+        </area> 
+        <area id="Meizhou" name="梅州" en="Meizhou"> 
+            <city id="101280401" name="梅州" en="Meizhou" /> 
+            <city id="101280402" name="兴宁" en="Xingning" /> 
+            <city id="101280403" name="蕉岭" en="Jiaoling" /> 
+            <city id="101280404" name="大埔" en="Dabu" /> 
+            <city id="101280406" name="丰顺" en="Fengshun" /> 
+            <city id="101280407" name="平远" en="Pingyuan" /> 
+            <city id="101280408" name="五华" en="Wuhua" /> 
+            <city id="101280409" name="梅县" en="Meixian" /> 
+        </area> 
+        <area id="Shantou" name="汕头" en="Shantou"> 
+            <city id="101280501" name="汕头" en="Shantou" /> 
+            <city id="101280502" name="潮阳" en="Chaoyang" /> 
+            <city id="101280503" name="澄海" en="Chenghai" /> 
+            <city id="101280504" name="南澳" en="Nanao" /> 
+        </area> 
+        <area id="Shenzhen" name="深圳" en="Shenzhen"> 
+            <city id="101280601" name="深圳" en="Shenzhen" /> 
+        </area> 
+        <area id="Zhuhai" name="珠海" en="Zhuhai"> 
+            <city id="101280701" name="珠海" en="Zhuhai" /> 
+            <city id="101280702" name="斗门" en="Doumen" /> 
+            <city id="101280703" name="金湾" en="Jinwan" /> 
+        </area> 
+        <area id="Foshan" name="佛山" en="Foshan"> 
+            <city id="101280800" name="佛山" en="Foshan" /> 
+            <city id="101280801" name="顺德" en="Shunde" /> 
+            <city id="101280802" name="三水" en="Sanshui" /> 
+            <city id="101280803" name="南海" en="Nanhai" /> 
+            <city id="101280804" name="高妙" en="Gaoming" /> 
+        </area> 
+        <area id="Zhaoqing" name="肇庆" en="Zhaoqing"> 
+            <city id="101280901" name="肇庆" en="Zhaoqing" /> 
+            <city id="101280902" name="广宁" en="Guangning" /> 
+            <city id="101280903" name="四会" en="Sihui" /> 
+            <city id="101280905" name="德庆" en="Deqing" /> 
+            <city id="101280906" name="怀集" en="Huaiji" /> 
+            <city id="101280907" name="封开" en="Fengkai" /> 
+            <city id="101280908" name="高要" en="Gaoyao" /> 
+        </area> 
+        <area id="Zhanjiang" name="湛江" en="Zhanjiang"> 
+            <city id="101281001" name="湛江" en="Zhanjiang" /> 
+            <city id="101281002" name="吴川" en="Wuchuan" /> 
+            <city id="101281003" name="雷州" en="Leizhou" /> 
+            <city id="101281004" name="徐闻" en="Xuwen" /> 
+            <city id="101281005" name="廉江" en="Lianjiang" /> 
+            <city id="101281006" name="赤坎" en="Chikan" /> 
+            <city id="101281007" name="遂溪" en="Suixi" /> 
+            <city id="101281008" name="坡头" en="Potou" /> 
+            <city id="101281009" name="霞山" en="Xiashan" /> 
+            <city id="101281010" name="麻章" en="Mazhang" /> 
+        </area> 
+        <area id="Jiangmen" name="江门" en="Jiangmen"> 
+            <city id="101281101" name="江门" en="Jiangmen" /> 
+            <city id="101281103" name="开平" en="Kaiping" /> 
+            <city id="101281104" name="新会" en="Xinhui" /> 
+            <city id="101281105" name="恩平" en="Enping" /> 
+            <city id="101281106" name="台山" en="Taishan" /> 
+            <city id="101281107" name="蓬江" en="Pengjiang" /> 
+            <city id="101281108" name="鹤山" en="Heshan" /> 
+            <city id="101281109" name="江海" en="Jianghai" /> 
+        </area> 
+        <area id="Heyuan" name="河源" en="Heyuan"> 
+            <city id="101281201" name="河源" en="Heyuan" /> 
+            <city id="101281202" name="紫金" en="Zijin" /> 
+            <city id="101281203" name="连平" en="Lianping" /> 
+            <city id="101281204" name="和平" en="Heping" /> 
+            <city id="101281205" name="龙川" en="Longchuan" /> 
+            <city id="101281206" name="东源" en="Dongyuan" /> 
+        </area> 
+        <area id="Qingyuan" name="清远" en="Qingyuan"> 
+            <city id="101281301" name="清远" en="Qingyuan" /> 
+            <city id="101281302" name="连南" en="Liannan" /> 
+            <city id="101281303" name="连州" en="Lianzhou" /> 
+            <city id="101281304" name="连山" en="Lianshan" /> 
+            <city id="101281305" name="阳山" en="Yangshan" /> 
+            <city id="101281306" name="佛冈" en="Fogang" /> 
+            <city id="101281307" name="英德" en="Yingde" /> 
+            <city id="101281308" name="清爽" en="Qingxin" /> 
+        </area> 
+        <area id="Yunfu" name="云浮" en="Yunfu"> 
+            <city id="101281401" name="云浮" en="Yunfu" /> 
+            <city id="101281402" name="罗定" en="Luoding" /> 
+            <city id="101281403" name="新兴" en="Xinxing" /> 
+            <city id="101281404" name="郁南" en="Yunan" /> 
+            <city id="101281406" name="云安" en="Yunan" /> 
+        </area> 
+        <area id="Chaozhou" name="潮州" en="Chaozhou"> 
+            <city id="101281501" name="潮州" en="Chaozhou" /> 
+            <city id="101281502" name="饶平" en="Raoping" /> 
+            <city id="101281503" name="潮安" en="Chaoan" /> 
+        </area> 
+        <area id="Dongguan" name="东莞" en="Dongguan"> 
+            <city id="101281601" name="东莞" en="Dongguan" /> 
+        </area> 
+        <area id="Zhongshan" name="" en="Zhongshan"> 
+            <city id="101281701" name="" en="Zhongshan" /> 
+        </area> 
+        <area id="Yangjiang" name="阳江" en="Yangjiang"> 
+            <city id="101281801" name="阳江" en="Yangjiang" /> 
+            <city id="101281802" name="阳春" en="Yangchun" /> 
+            <city id="101281803" name="阳东" en="Yangdong" /> 
+            <city id="101281804" name="阳西" en="Yangxi" /> 
+        </area> 
+        <area id="Jieyang" name="揭阳" en="Jieyang"> 
+            <city id="101281901" name="揭阳" en="Jieyang" /> 
+            <city id="101281902" name="揭西" en="Jiexi" /> 
+            <city id="101281903" name="普宁" en="Puning" /> 
+            <city id="101281904" name="惠来" en="Huilai" /> 
+            <city id="101281905" name="揭东" en="Jiedong" /> 
+        </area> 
+        <area id="Maoming" name="茂名" en="Maoming"> 
+            <city id="101282001" name="茂名" en="Maoming" /> 
+            <city id="101282002" name="高州" en="Gaozhou" /> 
+            <city id="101282003" name="化州" en="Huazhou" /> 
+            <city id="101282004" name="电白" en="Dianbai" /> 
+            <city id="101282005" name="信宜" en="Xinyi" /> 
+            <city id="101282006" name="茂港" en="Maogang" /> 
+        </area> 
+        <area id="Shanwei" name="汕尾" en="Shanwei"> 
+            <city id="101282101" name="汕尾" en="Shanwei" /> 
+            <city id="101282102" name="海丰" en="Haifeng" /> 
+            <city id="101282103" name="陆丰" en="Lufeng" /> 
+            <city id="101282104" name="陆河" en="Luhe" /> 
+        </area> 
+    </area> 
+    <area id="Yunna" name="云南" en="Yunna"> 
+        <area id="Kunming" name="昆明" en="Kunming"> 
+            <city id="101290101" name="昆明" en="Kunming" /> 
+            <city id="101290103" name="东川" en="Dongchuan" /> 
+            <city id="101290104" name="寻甸" en="Xundian" /> 
+            <city id="101290105" name="晋宁" en="Jinning" /> 
+            <city id="101290106" name="宜良" en="Yiliang" /> 
+            <city id="101290107" name="石林" en="Shilin" /> 
+            <city id="101290108" name="呈贡" en="Chenggong" /> 
+            <city id="101290109" name="富民" en="Fumin" /> 
+            <city id="101290110" name="嵩明" en="Songming" /> 
+            <city id="101290111" name="禄劝" en="Luquan" /> 
+            <city id="101290112" name="安定" en="Anning" /> 
+            <city id="101290113" name="太华山" en="Taihuashan" /> 
+        </area> 
+        <area id="Dali" name="大理" en="Dali"> 
+            <city id="101290201" name="大理" en="Dali" /> 
+            <city id="101290202" name="云龙" en="Yunlong" /> 
+            <city id="101290203" name="漾濞" en="Yangbi" /> 
+            <city id="101290204" name="永平" en="Yongping" /> 
+            <city id="101290205" name="宾川" en="Binchuan" /> 
+            <city id="101290206" name="弥渡" en="Midu" /> 
+            <city id="101290207" name="祥云" en="Xiangyun" /> 
+            <city id="101290208" name="巍山" en="Weishan" /> 
+            <city id="101290209" name="剑川" en="Jianchuan" /> 
+            <city id="101290210" name="洱源" en="Eryuan" /> 
+            <city id="101290211" name="鹤庆" en="Heqing" /> 
+            <city id="101290212" name="南涧" en="Nanjian" /> 
+        </area> 
+        <area id="Honghe" name="红河" en="Honghe"> 
+            <city id="101290301" name="红河" en="Honghe" /> 
+            <city id="101290302" name="石屏" en="Shiping" /> 
+            <city id="101290303" name="建水" en="Jianshui" /> 
+            <city id="101290304" name="弥勒" en="Mile" /> 
+            <city id="101290305" name="元阳" en="Yuanyang" /> 
+            <city id="101290306" name="绿春" en="Lvchun" /> 
+            <city id="101290307" name="开远" en="Kaiyuan" /> 
+            <city id="101290308" name="个旧" en="Gejiu" /> 
+            <city id="101290309" name="蒙自" en="Mengzi" /> 
+            <city id="101290310" name="屏边" en="Pingbian" /> 
+            <city id="101290311" name="泸西" en="Luxi" /> 
+            <city id="101290312" name="金平" en="Jinping" /> 
+            <city id="101290313" name="河口" en="Hekou" /> 
+        </area> 
+        <area id="Qujing" name="曲靖" en="Qujing"> 
+            <city id="101290401" name="曲靖" en="Qujing" /> 
+            <city id="101290402" name="沾益" en="Zhanyi" /> 
+            <city id="101290403" name="陆良" en="Luliang" /> 
+            <city id="101290404" name="富源" en="Fuyuan" /> 
+            <city id="101290405" name="马龙" en="Malong" /> 
+            <city id="101290406" name="师宗" en="Shizong" /> 
+            <city id="101290407" name="罗平" en="Luoping" /> 
+            <city id="101290408" name="会泽" en="Huize" /> 
+            <city id="101290409" name="宣威" en="Xuanwei" /> 
+        </area> 
+        <area id="Baoshan" name="保山" en="Baoshan"> 
+            <city id="101290501" name="保山" en="Baoshan" /> 
+            <city id="101290503" name="龙陵" en="Longling" /> 
+            <city id="101290504" name="施甸" en="Shidian" /> 
+            <city id="101290505" name="昌宁" en="Changning" /> 
+            <city id="101290506" name="腾冲" en="Tengchong" /> 
+        </area> 
+        <area id="Wenshan" name="文山" en="Wenshan"> 
+            <city id="101290601" name="文山" en="Wenshan" /> 
+            <city id="101290602" name="西畴" en="Xichou" /> 
+            <city id="101290603" name="马关" en="Maguan" /> 
+            <city id="101290604" name="麻栗坡" en="Malipo" /> 
+            <city id="101290605" name="砚山" en="Yanshan" /> 
+            <city id="101290606" name="丘北" en="Qiubei" /> 
+            <city id="101290607" name="广南" en="Guangnan" /> 
+            <city id="101290608" name="富宁" en="Funing" /> 
+        </area> 
+        <area id="Yuxi" name="玉溪" en="Yuxi"> 
+            <city id="101290701" name="玉溪" en="Yuxi" /> 
+            <city id="101290702" name="澄江" en="Chengjiang" /> 
+            <city id="101290703" name="江川" en="Jiangchuan" /> 
+            <city id="101290704" name="通海" en="Tonghai" /> 
+            <city id="101290705" name="华宁" en="Huaning" /> 
+            <city id="101290706" name="新平" en="Xinping" /> 
+            <city id="101290707" name="易门" en="Yimen" /> 
+            <city id="101290708" name="峨山" en="Eshan" /> 
+            <city id="101290709" name="元江" en="Yuanjiang" /> 
+        </area> 
+        <area id="Chuxiong" name="楚雄" en="Chuxiong"> 
+            <city id="101290801" name="楚雄" en="Chuxiong" /> 
+            <city id="101290802" name="大姚" en="Dayao" /> 
+            <city id="101290803" name="元谋" en="Yuanmou" /> 
+            <city id="101290804" name="姚安" en="Yaoan" /> 
+            <city id="101290805" name="牟定" en="Mouding" /> 
+            <city id="101290806" name="南华" en="Nanhua" /> 
+            <city id="101290807" name="武定" en="Wuding" /> 
+            <city id="101290808" name="禄丰" en="Lufeng" /> 
+            <city id="101290809" name="双柏" en="Shuangbai" /> 
+            <city id="101290810" name="永仁" en="Yongren" /> 
+        </area> 
+        <area id="Puer" name="普洱" en="Puer"> 
+            <city id="101290901" name="普洱" en="Puer" /> 
+            <city id="101290902" name="景谷" en="Jinggu" /> 
+            <city id="101290903" name="景东" en="Jingdong" /> 
+            <city id="101290904" name="澜沧" en="Lancang" /> 
+            <city id="101290906" name="墨江" en="Mojiang" /> 
+            <city id="101290907" name="江城" en="Jiangcheng" /> 
+            <city id="101290908" name="孟连" en="Menglian" /> 
+            <city id="101290909" name="西盟" en="Ximeng" /> 
+            <city id="101290911" name="镇沅" en="Zhenyuan" /> 
+            <city id="101290912" name="宁洱" en="Ninger" /> 
+        </area> 
+        <area id="Zhaotong" name="昭通" en="Zhaotong"> 
+            <city id="101291001" name="昭通" en="Zhaotong" /> 
+            <city id="101291002" name="鲁甸" en="Ludian" /> 
+            <city id="101291003" name="彝良" en="Yiliang" /> 
+            <city id="101291004" name="镇雄" en="Zhenxiong" /> 
+            <city id="101291005" name="威望" en="Weixin" /> 
+            <city id="101291006" name="巧家" en="Qiaojia" /> 
+            <city id="101291007" name="绥江" en="Suijiang" /> 
+            <city id="101291008" name="永善" en="Yongshan" /> 
+            <city id="101291009" name="盐津" en="Yanjin" /> 
+            <city id="101291010" name="大关" en="Daguan" /> 
+            <city id="101291011" name="水富" en="Shuifu" /> 
+        </area> 
+        <area id="Lincang" name="临沧" en="Lincang"> 
+            <city id="101291101" name="临沧" en="Lincang" /> 
+            <city id="101291102" name="沧源" en="Cangyuan" /> 
+            <city id="101291103" name="耿马" en="Gengma" /> 
+            <city id="101291104" name="双江" en="Shuangjiang" /> 
+            <city id="101291105" name="凤庆" en="Fengqing" /> 
+            <city id="101291106" name="永德" en="Yongde" /> 
+            <city id="101291107" name="云县" en="Yunxian" /> 
+            <city id="101291108" name="镇康" en="Zhenkang" /> 
+        </area> 
+        <area id="Nujiang" name="怒江" en="Nujiang"> 
+            <city id="101291201" name="怒江" en="Nujiang" /> 
+            <city id="101291203" name="福贡" en="Fugong" /> 
+            <city id="101291204" name="兰坪" en="Lanping" /> 
+            <city id="101291205" name="泸水" en="Lushui" /> 
+            <city id="101291206" name="六库" en="Liuku" /> 
+            <city id="101291207" name="贡山" en="Gongshan" /> 
+        </area> 
+        <area id="Diqing" name="迪庆" en="Diqing"> 
+            <city id="101291301" name="香格里拉" en="Xianggelila" /> 
+            <city id="101291302" name="德钦" en="Deqin" /> 
+            <city id="101291303" name="维西" en="Weixi" /> 
+            <city id="101291304" name="中甸" en="Zhongdian" /> 
+        </area> 
+        <area id="Lijiang" name="丽江" en="Lijiang"> 
+            <city id="101291401" name="丽江" en="Lijiang" /> 
+            <city id="101291402" name="永胜" en="Yongsheng" /> 
+            <city id="101291403" name="华坪" en="Huaping" /> 
+            <city id="101291404" name="宁蒗" en="Ninglang" /> 
+        </area> 
+        <area id="Dehong" name="德宏" en="Dehong"> 
+            <city id="101291501" name="德宏" en="Dehong" /> 
+            <city id="101291503" name="陇川" en="Longchuan" /> 
+            <city id="101291504" name="盈江" en="Yingjiang" /> 
+            <city id="101291506" name="瑞丽" en="Ruili" /> 
+            <city id="101291507" name="梁河" en="Lianghe" /> 
+            <city id="101291508" name="潞西" en="Luxi" /> 
+        </area> 
+        <area id="Xishuangbanna" name="西双版纳" en="Xishuangbanna"> 
+            <city id="101291601" name="景洪" en="Jinghong" /> 
+            <city id="101291603" name="勐海" en="Menghai" /> 
+            <city id="101291605" name="勐腊" en="Mengla" /> 
+        </area> 
+    </area> 
+    <area id="Guangxi" name="广西" en="Guangxi"> 
+        <area id="Nanning" name="南宁" en="Nanning"> 
+            <city id="101300101" name="南宁" en="Nanning" /> 
+            <city id="101300103" name="邕宁" en="Yongning" /> 
+            <city id="101300104" name="横县" en="Hengxian" /> 
+            <city id="101300105" name="隆安" en="Longan" /> 
+            <city id="101300106" name="马山" en="Mashan" /> 
+            <city id="101300107" name="上林" en="Shanglin" /> 
+            <city id="101300108" name="武鸣" en="Wuming" /> 
+            <city id="101300109" name="宾阳" en="Binyang" /> 
+        </area> 
+        <area id="Chongzuo" name="崇左" en="Chongzuo"> 
+            <city id="101300201" name="崇左" en="Chongzuo" /> 
+            <city id="101300202" name="天等" en="Tiandeng" /> 
+            <city id="101300203" name="龙州" en="Longzhou" /> 
+            <city id="101300204" name="凭祥" en="Pingxiang" /> 
+            <city id="101300205" name="大新" en="Daxin" /> 
+            <city id="101300206" name="扶绥" en="Fusui" /> 
+            <city id="101300207" name="宁明" en="Ningming" /> 
+        </area> 
+        <area id="Liuzhou" name="柳州" en="Liuzhou"> 
+            <city id="101300301" name="柳州" en="Liuzhou" /> 
+            <city id="101300302" name="柳城" en="Liucheng" /> 
+            <city id="101300304" name="鹿寨" en="Luzhai" /> 
+            <city id="101300305" name="柳江" en="Liujiang" /> 
+            <city id="101300306" name="融安" en="Rongan" /> 
+            <city id="101300307" name="融水" en="Rongshui" /> 
+            <city id="101300308" name="三江" en="Sanjiang" /> 
+        </area> 
+        <area id="Laibin" name="宾客" en="Laibin"> 
+            <city id="101300401" name="宾客" en="Laibin" /> 
+            <city id="101300402" name="忻城" en="Xincheng" /> 
+            <city id="101300403" name="金秀" en="Jinxiu" /> 
+            <city id="101300404" name="象州" en="Xiangzhou" /> 
+            <city id="101300405" name="武宣" en="Wuxuan" /> 
+            <city id="101300406" name="合山" en="Heshan" /> 
+        </area> 
+        <area id="Guilin" name="桂林" en="Guilin"> 
+            <city id="101300501" name="桂林" en="Guilin" /> 
+            <city id="101300503" name="龙胜" en="Longsheng" /> 
+            <city id="101300504" name="永福" en="Yongfu" /> 
+            <city id="101300505" name="临桂" en="Lingui" /> 
+            <city id="101300506" name="兴安" en="Xingan" /> 
+            <city id="101300507" name="灵川" en="Lingchuan" /> 
+            <city id="101300508" name="全州" en="Quanzhou" /> 
+            <city id="101300509" name="灌阳" en="Guanyang" /> 
+            <city id="101300510" name="阳朔" en="Yangshuo" /> 
+            <city id="101300511" name="恭城" en="Gongcheng" /> 
+            <city id="101300512" name="平乐" en="Pingle" /> 
+            <city id="101300513" name="荔浦" en="Lipu" /> 
+            <city id="101300514" name="资料" en="Ziyuan" /> 
+        </area> 
+        <area id="Wuzhou" name="梧州" en="Wuzhou"> 
+            <city id="101300601" name="梧州" en="Wuzhou" /> 
+            <city id="101300602" name="藤县" en="Tengxian" /> 
+            <city id="101300604" name="苍梧" en="Cangwu" /> 
+            <city id="101300605" name="蒙山" en="Mengshan" /> 
+            <city id="101300606" name="岑溪" en="Cenxi" /> 
+        </area> 
+        <area id="Hezhou" name="贺州" en="Hezhou"> 
+            <city id="101300701" name="贺州" en="Hezhou" /> 
+            <city id="101300702" name="昭平" en="Zhaoping" /> 
+            <city id="101300703" name="富川" en="Fuchuan" /> 
+            <city id="101300704" name="钟山" en="Zhongshan" /> 
+        </area> 
+        <area id="Guigang" name="贵港" en="Guigang"> 
+            <city id="101300801" name="贵港" en="Guigang" /> 
+            <city id="101300802" name="桂平" en="Guiping" /> 
+            <city id="101300803" name="平南" en="Pingnan" /> 
+        </area> 
+        <area id="Yulin" name="玉林" en="Yulin"> 
+            <city id="101300901" name="玉林" en="Yulin" /> 
+            <city id="101300902" name="博白" en="Bobai" /> 
+            <city id="101300903" name="北流" en="Beiliu" /> 
+            <city id="101300904" name="容县" en="Rongxian" /> 
+            <city id="101300905" name="陆川" en="Luchuan" /> 
+            <city id="101300906" name="兴业" en="Xingye" /> 
+        </area> 
+        <area id="Baise" name="百色" en="Baise"> 
+            <city id="101301001" name="百色" en="Baise" /> 
+            <city id="101301002" name="那坡" en="Napo" /> 
+            <city id="101301003" name="田阳" en="Tianyang" /> 
+            <city id="101301004" name="德保" en="Debao" /> 
+            <city id="101301005" name="靖西" en="Jingxi" /> 
+            <city id="101301006" name="田东" en="Tiandong" /> 
+            <city id="101301007" name="平果" en="Pingguo" /> 
+            <city id="101301008" name="隆林" en="Longlin" /> 
+            <city id="101301009" name="西林" en="Xilin" /> 
+            <city id="101301010" name="乐业" en="Leye" /> 
+            <city id="101301011" name="凌云" en="Lingyun" /> 
+            <city id="101301012" name="田林" en="Tianlin" /> 
+        </area> 
+        <area id="Qinzhou" name="钦州" en="Qinzhou"> 
+            <city id="101301101" name="钦州" en="Qinzhou" /> 
+            <city id="101301102" name="浦北" en="Pubei" /> 
+            <city id="101301103" name="灵山" en="Lingshan" /> 
+        </area> 
+        <area id="Hechi" name="河池" en="Hechi"> 
+            <city id="101301201" name="河池" en="Hechi" /> 
+            <city id="101301202" name="天峨" en="Tiane" /> 
+            <city id="101301203" name="东兰" en="Donglan" /> 
+            <city id="101301204" name="巴马" en="Bama" /> 
+            <city id="101301205" name="环江" en="Huanjiang" /> 
+            <city id="101301206" name="罗城" en="Luocheng" /> 
+            <city id="101301207" name="宜州" en="Yizhou" /> 
+            <city id="101301208" name="凤山" en="Fengshan" /> 
+            <city id="101301209" name="南丹" en="Nandan" /> 
+            <city id="101301210" name="都安" en="Duan" /> 
+            <city id="101301211" name="大化" en="Dahua" /> 
+        </area> 
+        <area id="Beihai" name="北海" en="Beihai"> 
+            <city id="101301301" name="北海" en="Beihai" /> 
+            <city id="101301302" name="合浦" en="Hepu" /> 
+            <city id="101301303" name="涠洲岛" en="Weizhoudao" /> 
+        </area> 
+        <area id="Fangchenggang" name="防城港" en="Fangchenggang"> 
+            <city id="101301401" name="防城港" en="Fangchenggang" /> 
+            <city id="101301402" name="上思" en="Shangsi" /> 
+            <city id="101301403" name="东兴" en="Dongxing" /> 
+            <city id="101301405" name="防城" en="Fangcheng" /> 
+        </area> 
+    </area> 
+    <area id="Haina" name="海南" en="Haina"> 
+        <area id="Haikou" name="海口" en="Haikou"> 
+            <city id="101310101" name="海口" en="Haikou" /> 
+        </area> 
+        <area id="Sanya" name="三亚" en="Sanya"> 
+            <city id="101310201" name="三亚" en="Sanya" /> 
+        </area> 
+        <area id="Dongfang" name="东方" en="Dongfang"> 
+            <city id="101310202" name="东方" en="Dongfang" /> 
+        </area> 
+        <area id="Lingao" name="临高" en="Lingao"> 
+            <city id="101310203" name="临高" en="Lingao" /> 
+        </area> 
+        <area id="Chengmai" name="澄迈" en="Chengmai"> 
+            <city id="101310204" name="澄迈" en="Chengmai" /> 
+        </area> 
+        <area id="Danzhou" name="儋州" en="Danzhou"> 
+            <city id="101310205" name="儋州" en="Danzhou" /> 
+        </area> 
+        <area id="Changjiang" name="昌江" en="Changjiang"> 
+            <city id="101310206" name="昌江" en="Changjiang" /> 
+        </area> 
+        <area id="Baisha" name="白沙" en="Baisha"> 
+            <city id="101310207" name="白沙" en="Baisha" /> 
+        </area> 
+        <area id="Qiongzhong" name="琼中" en="Qiongzhong"> 
+            <city id="101310208" name="琼中" en="Qiongzhong" /> 
+        </area> 
+        <area id="Dingan" name="定安" en="Dingan"> 
+            <city id="101310209" name="定安" en="Dingan" /> 
+        </area> 
+        <area id="Tunchang" name="屯昌" en="Tunchang"> 
+            <city id="101310210" name="屯昌" en="Tunchang" /> 
+        </area> 
+        <area id="Qionghai" name="琼海" en="Qionghai"> 
+            <city id="101310211" name="琼海" en="Qionghai" /> 
+        </area> 
+        <area id="Wenchang" name="文昌" en="Wenchang"> 
+            <city id="101310212" name="文昌" en="Wenchang" /> 
+        </area> 
+        <area id="Baoting" name="保亭" en="Baoting"> 
+            <city id="101310214" name="保亭" en="Baoting" /> 
+        </area> 
+        <area id="Wanning" name="万宁" en="Wanning"> 
+            <city id="101310215" name="万宁" en="Wanning" /> 
+        </area> 
+        <area id="Lingshui" name="陵水" en="Lingshui"> 
+            <city id="101310216" name="陵水" en="Lingshui" /> 
+        </area> 
+        <area id="Xisha" name="西沙" en="Xisha"> 
+            <city id="101310217" name="西沙" en="Xisha" /> 
+        </area> 
+        <area id="Nansha" name="南沙" en="Nansha"> 
+            <city id="101310220" name="南沙" en="Nansha" /> 
+        </area> 
+        <area id="Ledong" name="乐东" en="Ledong"> 
+            <city id="101310221" name="乐东" en="Ledong" /> 
+        </area> 
+        <area id="Wuzhishan" name="五指山" en="Wuzhishan"> 
+            <city id="101310222" name="五指山" en="Wuzhishan" /> 
+        </area> 
+    </area> 
+    <area id="Hong Kong" name="香港" en="Hong Kong"> 
+        <area id="Hong Kong" name="香港" en="Hong Kong"> 
+            <city id="101320101" name="香港" en="Hong Kong" /> 
+            <city id="101320102" name="九龙" en="Jiulong" /> 
+            <city id="101320103" name="新界" en="Xinjie" /> 
+        </area> 
+    </area> 
+    <area id="Macao" name="澳门" en="Macao"> 
+        <area id="Macao" name="澳门" en="Macao"> 
+            <city id="101330101" name="澳门" en="Macao" /> 
+            <city id="101330102" name="氹仔岛" en="Dangzidao" /> 
+            <city id="101330103" name="路环岛" en="Luhuandao" /> 
+        </area> 
+    </area> 
+    <area id="Taiwan" name="台湾" en="Taiwan"> 
+        <area id="Taipei" name="台北" en="Taipei"> 
+            <city id="101340101" name="台北" en="Taipei" /> 
+            <city id="101340102" name="桃园" en="Taoyuan" /> 
+            <city id="101340103" name="新竹" en="Xinzhu" /> 
+            <city id="101340104" name="宜兰" en="Yilan" /> 
+        </area> 
+        <area id="Gaoxiong" name="高雄" en="Gaoxiong"> 
+            <city id="101340201" name="高雄" en="Gaoxiong" /> 
+            <city id="101340202" name="嘉义" en="Jiayi" /> 
+            <city id="101340203" name="台南" en="Tainan" /> 
+            <city id="101340204" name="台东" en="Taidong" /> 
+            <city id="101340205" name="屏东" en="Pingdong" /> 
+        </area> 
+        <area id="Taizhong" name="台中" en="Taizhong"> 
+            <city id="101340401" name="台中" en="Taizhong" /> 
+            <city id="101340402" name="苗栗" en="Miaoli" /> 
+            <city id="101340403" name="彰化" en="Zhanghua" /> 
+            <city id="101340404" name="南投" en="Nantou" /> 
+            <city id="101340405" name="花莲" en="Hualian" /> 
+            <city id="101340406" name="云林" en="Yunlin" /> 
+        </area> 
+    </area> 
+    <area id="United States" name="美国" en="United States"> 
+        <area id="NY" name="纽约" en="NY"> 
+            <city id="USNY0996" name="纽约" en="New York" /> 
+        </area> 
+        <area id="DC" name="哥伦比亚特区" en="DC"> 
+            <city id="USDC0001" name="华盛顿" en="Washington" /> 
+        </area> 
+        <area id="CA" name="加利福尼亚" en="CA"> 
+            <city id="USCA0987" name="旧金山" en="San Francisco" /> 
+            <city id="USCA0638" name="洛杉矶" en="Los Angeles" /> 
+            <city id="USCA0403" name="弗里蒙特" en="Fremont" /> 
+            <city id="USCA0830" name="帕洛阿尔托" en="Palo Alto" /> 
+            <city id="USCA1116" name="森尼维耳" en="Sunnyvale" /> 
+        </area> 
+        <area id="GA" name="乔治亚" en="GA"> 
+            <city id="USGA0028" name="亚特兰大" en="Atlanta" /> 
+        </area> 
+        <area id="MA" name="马萨诸塞" en="MA"> 
+            <city id="USMA0046" name="波士顿" en="Boston" /> 
+        </area> 
+        <area id="WA" name="华盛顿" en="WA"> 
+            <city id="USWA0395" name="西雅图" en="Seattle" /> 
+        </area> 
+        <area id="HI" name="夏威夷" en="HI"> 
+            <city id="USHI0026" name="火奴鲁鲁" en="Honolulu" /> 
+        </area> 
+    </area> 
+    <area id="Europe" name="欧洲" en="Europe"> 
+        <area id="United Kingdom" name="英国" en="United Kingdom"> 
+            <city id="UKXX0085" name="伦敦" en="London" /> 
+            <city id="UKXX0015" name="贝尔法斯特" en="Belfast" /> 
+            <city id="UKXX0052" name="爱丁堡" en="Edinburgh" /> 
+            <city id="UKXX0030" name="卡迪夫" en="Cardiff" /> 
+            <city id="UKXX0976" name="圣安德鲁斯" en="St Andrews" /> 
+        </area> 
+        <area id="Germany" name="德国" en="Germany"> 
+            <city id="GMXX0007" name="柏林" en="Berlin" /> 
+            <city id="GMXX0010" name="波恩" en="Bonn" /> 
+            <city id="GMXX0028" name="杜塞尔多夫" en="Dusseldorf" /> 
+            <city id="GMXX0040" name="法兰克福" en="Frankfurt" /> 
+            <city id="GMXX0049" name="汉堡" en="Hamburg" /> 
+            <city id="GMXX0051" name="汉诺威" en="Hannover" /> 
+            <city id="GMXX0018" name="科隆" en="Koln" /> 
+            <city id="GMXX0072" name="莱比锡" en="Leipzig" /> 
+            <city id="GMXX0128" name="斯图加特" en="Stuttgart" /> 
+            <city id="GMXX0024" name="多特蒙德" en="Dortmund" /> 
+            <city id="GMXX0096" name="纽伦堡" en="Nurnberg" /> 
+            <city id="GMXX0087" name="慕尼黑" en="Munchen" /> 
+            <city id="GMXX0014" name="不莱梅" en="Bremen" /> 
+        </area> 
+        <area id="Europe Others" name="其他" en="Europe Others"> 
+            <city id="FRXX0076" name="巴黎" en="Paris" /> 
+            <city id="EGXX0004" name="开罗" en="Cairo" /> 
+            <city id="SPXX0050" name="马德里" en="Madrid" /> 
+            <city id="RSXX0063" name="莫斯科" en="Moscow" /> 
+            <city id="ITXX0067" name="罗马" en="Rome" /> 
+            <city id="NLXX0002" name="阿姆斯特丹" en="Amsterdam" /> 
+            <city id="EZXX0012" name="布拉格" en="Prague" /> 
+            <city id="DAXX0009" name="哥本哈根" en="Copenhagen" /> 
+            <city id="NOXX0029" name="奥斯陆" en="Oslo" /> 
+            <city id="SWXX0031" name="斯德哥尔摩" en="Stockholm" /> 
+            <city id="GRXX0004" name="雅典" en="Athens" /> 
+            <city id="SZXX0006" name="伯尔尼" en="Berne" /> 
+            <city id="ICXX0002" name="雷克雅未克" en="Reykjavik" /> 
+            <city id="HUXX0002" name="布达佩斯" en="Budapest" /> 
+            <city id="TUXX0014" name="伊斯坦布尔" en="Istanbul" /> 
+            <city id="MNXX0001" name="摩纳哥" en="Monaco" /> 
+            <city id="BEXX0005" name="布鲁塞尔" en="Brussels" /> 
+            <city id="EIXX0014" name="都柏林" en="Dublin" /> 
+            <city id="LUXX0003" name="卢森堡" en="Luxembourg" /> 
+            <city id="POXX0016" name="里斯本" en="Lisbon" /> 
+            <city id="AUXX0025" name="维也纳" en="Vienna" /> 
+        </area> 
+    </area> 
+    <area id="Asia" name="" en="Asia"> 
+        <area id="Japan" name="日本" en="Japan"> 
+            <city id="JAXX0085" name="东京" en="Tokyo" /> 
+            <city id="JAXX0078" name="札幌" en="Sapporo" /> 
+            <city id="JAXX0004" name="青森" en="Aomori" /> 
+            <city id="JAXX0104" name="仙台" en="Sendai" /> 
+            <city id="JAXX0071" name="大阪" en="Osaka" /> 
+            <city id="JAXX0009" name="福冈" en="Fukuoka" /> 
+            <city id="JAXX0057" name="名古屋" en="Nagoya" /> 
+            <city id="JAXX0040" name="神户" en="Kobe" /> 
+        </area> 
+        <area id="Malaysia" name="马来西亚" en="Malaysia"> 
+            <city id="MYXX0008" name="吉隆坡" en="Kuala Lumpur" /> 
+            <city id="MYXX0001" name="彭亨" en="Batu Pahat" /> 
+            <city id="MYXX0003" name="怡保" en="Ipoh" /> 
+            <city id="MYXX0004" name="新山" en="Johor Bahru" /> 
+            <city id="MYXX0009" name="登嘉" en="Kuala Terengganu" /> 
+            <city id="MYXX0013" name="马六甲" en="Melaka" /> 
+            <city id="MYXX0022" name="槟城" en="Penang" /> 
+            <city id="MYXX0032" name="兰卡威" en="Langkawi" /> 
+            <city id="MYXX0028" name="亚庇" en="Kota Kinabalu" /> 
+            <city id="MYXX0005" name="加影" en="Kajang" /> 
+            <city id="MYXX0010" name="关丹" en="Kuantan" /> 
+            <city id="MYXX0011" name="古晋" en="Kuching" /> 
+            <city id="MYXX0014" name="麻坡" en="Muar" /> 
+            <city id="MYXX0017" name="芙蓉" en="Seremban" /> 
+            <city id="MYXX0019" name="诗巫" en="Sibu" /> 
+            <city id="MYXX0030" name="山打根" en="Sandakan" /> 
+        </area> 
+        <area id="Asia Others" name="其他" en="Asia Others"> 
+            <city id="INXX0038" name="新德里" en="Delhi" /> 
+            <city id="SNXX0006" name="新加坡" en="Singapore" /> 
+            <city id="KSXX0037" name="首尔" en="Seoul" /> 
+            <city id="KNXX0006" name="平壤" en="Pyongyang" /> 
+            <city id="THXX0002" name="曼谷" en="Bangkok" /> 
+            <city id="THXX0003" name="清迈" en="Chiang Mai" /> 
+            <city id="THXX0018" name="普吉" en="Phuket" /> 
+            <city id="THXX0046" name="苏梅岛" en="Koh Samui" /> 
+            <city id="THXX0015" name="芭堤雅" en="Pattaya" /> 
+            <city id="IDXX0022" name="雅加达" en="Jakarta" /> 
+            <city id="IDXX0005" name="巴厘岛" en="Bali" /> 
+            <city id="VMXX0007" name="胡志明市" en="Ho Chi Minh" /> 
+            <city id="VMXX0028" name="岘港" en="Da Nang" /> 
+            <city id="CBXX0001" name="金边" en="Phnom Penh" /> 
+            <city id="QAXX0003" name="多哈" en="Doha" /> 
+            <city id="RPXX0017" name="马尼拉" en="Manila" /> 
+            <city id="RPXX0007" name="宿务" en="Cebu" /> 
+            <city id="NPXX0002" name="加德满都" en="Kathmandu" /> 
+            <city id="CEXX0001" name="科伦坡" en="Colombo" /> 
+            <city id="VMXX0006" name="河内" en="Hanoi" /> 
+            <city id="MVXX0001" name="马累" en="Male" /> 
+            <city id="AEXX0004" name="迪拜" en="Dubai" /> 
+            <city id="TUXX0002" name="安卡拉" en="Ankara" /> 
+            <city id="USMP0001" name="塞班岛" en="Saipan" /> 
+            <city id="USGU0008" name="关岛" en="Guahan" /> 
+            <city id="BXXX0001" name="斯里巴加湾市" en="Bandar Seri Begawan" /> 
+        </area> 
+    </area> 
+    <area id="Others" name="其他" en="Others"> 
+        <area id="Canada" name="加拿大" en="Canada"> 
+            <city id="CAXX0504" name="多伦多" en="Toronto" /> 
+            <city id="CAXX0343" name="渥太华" en="Ottawa" /> 
+            <city id="CAXX0518" name="温哥华" en="Vancouver" /> 
+            <city id="CAXX0547" name="温尼泊" en="Winnipeg" /> 
+            <city id="CAXX0044" name="布兰顿" en="Brandon" /> 
+        </area> 
+        <area id="Africa" name="非洲" en="Africa"> 
+            <city id="SFXX0010" name="开普敦" en="Cape Town" /> 
+            <city id="SFXX0023" name="约翰内斯堡" en="Johannesburg" /> 
+            <city id="SFXX0044" name="比勒陀利亚" en="Pretoria" /> 
+            <city id="SFXX0008" name="布隆方丹" en="Bloemfontein" /> 
+            <city id="MPXX0005" name="毛里求斯" en="Mauritius" /> 
+            <city id="KEXX0009" name="内罗毕" en="Nairobi" /> 
+            <city id="TSXX0010" name="突尼斯" en="Tunis" /> 
+        </area> 
+        <area id="South America" name="南美洲" en="South America"> 
+            <city id="BRXX0043" name="巴西利亚" en="Brasilia" /> 
+            <city id="BRXX0232" name="圣保罗" en="Sao Paulo" /> 
+            <city id="BRXX0201" name="里约热内卢" en="Rio de Janeiro" /> 
+            <city id="MXDF0132" name="墨西哥城" en="Mexico City" /> 
+            <city id="HAXX0004" name="太子港" en="Port-au-Prince" /> 
+            <city id="ARBA0009" name="布宜诺斯艾利斯" en="Buenos Aires" /> 
+        </area> 
+        <area id="Oceania" name="大洋洲" en="Oceania"> 
+            <city id="ASXX0112" name="悉尼" en="Sydney" /> 
+            <city id="ASXX0075" name="墨尔本" en="Melbourne" /> 
+            <city id="ASXX0023" name="堪培拉" en="Canberra" /> 
+            <city id="ASXX0016" name="布里斯班" en="Brisbane" /> 
+            <city id="ASXX0001" name="阿德莱德" en="Adelaide" /> 
+            <city id="NZXX0049" name="惠灵顿" en="Wellington" /> 
+            <city id="FJXX0009" name="斐济" en="Fiji" /> 
+            <city id="FPXX0001" name="大溪地" en="Tahiti" /> 
+        </area> 
+    </area> 
+</root>

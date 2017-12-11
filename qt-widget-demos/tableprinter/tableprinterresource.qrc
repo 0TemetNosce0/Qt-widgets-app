@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/16x16" >
+    <file>icons/16x16/actions/viewzoomin.png</file>
+    <file>icons/16x16/actions/viewzoomout.png</file>
+    <file>icons/16x16/actions/ok.png</file>
+    <file>icons/16x16/actions/1leftarrow.png</file>
+    <file>icons/16x16/actions/1rightarrow.png</file>
+    <file>icons/16x16/actions/configure.png</file>
+    <file>icons/16x16/actions/fileprint.png</file>
+    <file>icons/16x16/actions/button_cancel.png</file>
+    <file>icons/16x16/actions/fileopen.png</file>
+    <file>icons/16x16/actions/preview.png</file>
+  </qresource>
+</RCC>

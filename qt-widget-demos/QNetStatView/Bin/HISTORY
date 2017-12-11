@@ -1,0 +1,21 @@
+20.12.2013
+  - Support Qt5
+  - Setup programm for close connect (example killcx)
+
+11.03.2013
+  - Added filter by prot and state
+  - Fixed compile under OS2
+  - Fixed minor bugs
+
+03.03.2013
+  - implemented kill process.
+  - implemented close TCP connection (linux only)
+
+23.02.2013
+  - Support windows (Over QProcess)
+  - Maybe will work under os/2
+  - Implemented sorting.
+  - Added russian translate.
+
+19.02.2013
+  - release.

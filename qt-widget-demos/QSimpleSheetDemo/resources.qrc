@@ -1,0 +1,23 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>images/new.png</file>
+    <file>images/open.png</file>
+    <file>images/save.png</file>
+    <file>images/saveAs.png</file>
+    <file>images/copy.png</file>
+    <file>images/cut.png</file>
+    <file>images/paste.png</file>
+    <file>images/find.png</file>
+    <file>images/applicationIcon.png</file>
+    <file>images/undo.png</file>
+    <file>images/redo.png</file>
+    <file>images/font.png</file>
+    <file>images/alignLeft.png</file>
+    <file>images/alignCenter.png</file>
+    <file>images/alignRight.png</file>
+    <file>images/background.png</file>
+    <file>images/foreground.png</file>
+    <file>images/splashscreen.png</file>
+
+</qresource>
+</RCC>

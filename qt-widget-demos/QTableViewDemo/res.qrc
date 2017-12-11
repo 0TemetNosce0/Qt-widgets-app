@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>tableview.qss</file>
+        <file>icons/scrolldownarrow.png</file>
+        <file>icons/scrollleftarrow.png</file>
+        <file>icons/scrollrightarrow.png</file>
+        <file>icons/scrolluparrow.png</file>
+    </qresource>
+</RCC>

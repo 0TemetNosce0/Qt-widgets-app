@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o:GridSetting xmlns:a="attribute" xmlns:c="collection" xmlns:o="object" Version="2.2.6" Description="新建配置">
+    <a:FixedCols>1</a:FixedCols>
+    <a:FixedEditCols>1</a:FixedEditCols>
+    <a:LeftMargin>2</a:LeftMargin>
+    <a:RightMargin>2</a:RightMargin>
+    <a:TopMargin>2</a:TopMargin>
+    <a:BottomMargin>2</a:BottomMargin>
+    <a:InvalidValueLabel>!非法值</a:InvalidValueLabel>
+    <a:GridLineWidth>1</a:GridLineWidth>
+    <a:GridLineColor>12632256</a:GridLineColor>
+    <a:GridColor>-16777211</a:GridColor>
+    <a:BoundLineColor>128</a:BoundLineColor>
+    <a:AllowSort>True</a:AllowSort>
+    <a:ShowAsTree>True</a:ShowAsTree>
+    <a:CellFilling>True</a:CellFilling>
+    <a:TotalRowAtFooter>False</a:TotalRowAtFooter>
+    <c:ColSettings>
+        <o:ColSetting DisplayWidth="50" AutoWrapType="cstSuitColWidth"/>
+        <o:ColSetting DisplayWidth="130" AutoWrapType="cstSuitRowHeight" Identity="MC"/>
+        <o:ColSetting DisplayWidth="100"/>
+        <o:ColSetting DisplayWidth="80"/>
+        <o:ColSetting DisplayWidth="80"/>
+        <o:ColSetting DisplayWidth="80" AutoWrapType="cstSuitColWidth"/>
+        <o:ColSetting DisplayWidth="80"/>
+        <o:ColSetting DisplayWidth="80"/>
+    </c:ColSettings>
+    <c:TitleRows>
+        <o:TitleRow>
+            <a:RowHeight>20</a:RowHeight>
+            <c:TitleCells>
+                <o:TitleCell Index="0" MergeID="2147483647"/>
+                <o:TitleCell Index="1" Caption="名称"/>
+                <o:TitleCell Index="2" Caption="编码"/>
+                <o:TitleCell Index="3" Caption="单位"/>
+                <o:TitleCell Index="4" Caption="工程量"/>
+                <o:TitleCell Index="5" Caption="PID"/>
+                <o:TitleCell Index="6" Caption="创建时间"/>
+                <o:TitleCell Index="7" Caption="合价"/>
+            </c:TitleCells>
+        </o:TitleRow>
+    </c:TitleRows>
+    <c:TableSettings>
+        <o:TableSetting>
+            <a:PrimaryKeyFieldName>FBFXID</a:PrimaryKeyFieldName>
+            <a:ParentKeyFieldName>PID</a:ParentKeyFieldName>
+            <a:IsTree>True</a:IsTree>
+            <a:IsTreeWithMasterView>True</a:IsTreeWithMasterView>
+            <a:RefTableName>FBFX</a:RefTableName>
+            <a:RefDatabaseName>DB</a:RefDatabaseName>
+            <a:DefRowHeight>18</a:DefRowHeight>
+            <c:FieldSettings>
+                <o:FieldSetting Index="0" DisplayExpr="=@RowNo">
+                    <o:CellFormat HorzAlignment="0"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="1" EditFieldName="MC">
+                    <o:CellFormat BackColor="16769217"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="2">
+                    <o:CellFormat BackColor="16769217"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="3" EditFieldName="&amp;FBLX">
+                    <o:CellFormat BackColor="16769217" HorzAlignment="1"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="4">
+                    <o:CellFormat BackColor="16769217"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="5" EditFieldName="#PID">
+                    <o:CellFormat BackColor="16769217" HorzAlignment="1"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="6" EditFieldName="&amp;CJSJ">
+                    <o:CellFormat BackColor="16769217" HorzAlignment="1"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="7" EditFieldName="JE">
+                    <o:CellFormat BackColor="16769217"/>
+                </o:FieldSetting>
+            </c:FieldSettings>
+            <c:Rules>
+                <o:GridRule RuleType="grtBackColor" Name="背景色规则" Enable="True">
+                    <a:RecordCondition>PID=NULL</a:RecordCondition>
+                    <a:BackColor>16691636</a:BackColor>
+                </o:GridRule>
+                <o:GridRule RuleType="grtEditStyle" Name="编辑方式规则" Enable="True">
+                    <a:FieldCondition>ColIdentity=&apos;MC&apos;</a:FieldCondition>
+                    <a:EditStyle>11</a:EditStyle>
+                </o:GridRule>
+            </c:Rules>
+        </o:TableSetting>
+        <o:TableSetting>
+            <a:SelfFieldName>FBFXID</a:SelfFieldName>
+            <a:MasterFieldName>FBFXID</a:MasterFieldName>
+            <a:PrimaryKeyFieldName>NormItemID</a:PrimaryKeyFieldName>
+            <a:IsTree>True</a:IsTree>
+            <a:IsTreeWithMasterView>True</a:IsTreeWithMasterView>
+            <a:RefTableName>NormItem</a:RefTableName>
+            <a:RefDatabaseName>DB</a:RefDatabaseName>
+            <a:DefRowHeight>18</a:DefRowHeight>
+            <c:FieldSettings>
+                <o:FieldSetting Index="0" DisplayExpr="=@RowNo">
+                    <o:CellFormat HorzAlignment="0"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="1" EditFieldName="MC">
+                    <o:CellFormat BackColor="13434828"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="2" EditFieldName="BH">
+                    <o:CellFormat BackColor="13434828"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="3" MergeID="103" EditFieldName="DW">
+                    <o:CellFormat BackColor="13434828"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="4" EditFieldName="&amp;BDS">
+                    <o:CellFormat BackColor="13434828" HorzAlignment="1"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="5" EditFieldName="DJ">
+                    <o:CellFormat BackColor="13434828"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="6" EditFieldName="Main">
+                    <o:CellFormat BackColor="13434828"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="7" EditFieldName="HJ">
+                    <o:CellFormat BackColor="13434828"/>
+                </o:FieldSetting>
+            </c:FieldSettings>
+        </o:TableSetting>
+        <o:TableSetting>
+            <a:SelfFieldName>NormItemID</a:SelfFieldName>
+            <a:MasterFieldName>NormItemID</a:MasterFieldName>
+            <a:PrimaryKeyFieldName>UsageID</a:PrimaryKeyFieldName>
+            <a:IsTree>True</a:IsTree>
+            <a:IsTreeWithMasterView>True</a:IsTreeWithMasterView>
+            <a:RefTableName>NormItemUsage</a:RefTableName>
+            <a:RefDatabaseName>DB</a:RefDatabaseName>
+            <a:DefRowHeight>18</a:DefRowHeight>
+            <c:FieldSettings>
+                <o:FieldSetting Index="0" DisplayExpr="=@RowNo">
+                    <o:CellFormat HorzAlignment="0"/>
+                </o:FieldSetting>
+                <o:FieldSetting Index="1" DisplayExpr="=~ResID.CLM"/>
+                <o:FieldSetting Index="2" DisplayExpr="=~ResID.CLH"/>
+                <o:FieldSetting Index="3" DisplayExpr="=~ResID.DW"/>
+                <o:FieldSetting Index="4" EditFieldName="YSHL"/>
+                <o:FieldSetting Index="5" MergeID="105" EditFieldName="~ResID.DJ"/>
+                <o:FieldSetting Index="6" MergeID="105"/>
+                <o:FieldSetting Index="7" EditFieldName="JE"/>
+            </c:FieldSettings>
+        </o:TableSetting>
+    </c:TableSettings>
+</o:GridSetting>

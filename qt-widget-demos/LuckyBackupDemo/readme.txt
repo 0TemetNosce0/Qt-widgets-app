@@ -1,0 +1,1 @@
+打开前，需要用相应版本的Qt Creator编译QFtp，具体编译方法详见博客http://blog.csdn.net/shuangshuang37278752/article/details/43666923

@@ -1,0 +1,55 @@
+﻿生成启动时间为 2015/6/26 16:03:55。
+     1>项目“D:\workspace\QtCreator\Social Networks Visualizer\Social Networks Visualizer 1.7\socnetv.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isrc /I\usr\local\include /I\usr\include /I\usr\include\qt5 /I\usr\share\qt5\include /I\usr\local\include /I\usr\include /I\usr\include\qt /I\usr\include\qt5 /I\usr\share\qt5\include /I..\..\..\..\Qt\Qt5.1.1\5.1.1\msvc2010\include /I..\..\..\..\Qt\Qt5.1.1\5.1.1\msvc2010\include\QtPrintSupport /I..\..\..\..\Qt\Qt5.1.1\5.1.1\msvc2010\include\QtWidgets /I..\..\..\..\Qt\Qt5.1.1\5.1.1\msvc2010\include\QtNetwork /I..\..\..\..\Qt\Qt5.1.1\5.1.1\msvc2010\include\QtXml /I..\..\..\..\Qt\Qt5.1.1\5.1.1\msvc2010\include\QtGui /I..\..\..\..\Qt\Qt5.1.1\5.1.1\msvc2010\include\QtANGLE /I..\..\..\..\Qt\Qt5.1.1\5.1.1\msvc2010\include\QtCore /Idebug /I. /I"..\..\..\..\Qt\Qt5.1.1\5.1.1\msvc2010\mkspecs\win32-msvc2010" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D QT_NETWORK_LIB /D QT_XML_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_OPENGL_ES_2 /D QT_OPENGL_ES_2_ANGLE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\datasetselectdialog.cpp -Zm200 -msse -mfpmath=sse -w34100 -w34189 
+     1>cl : 命令行 warning D9002: 忽略未知选项“-msse”
+     1>cl : 命令行 warning D9002: 忽略未知选项“-mfpmath=sse”
+         datasetselectdialog.cpp
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\socnetv.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.1.1\5.1.1\msvc2010\lib /LIBPATH:D:\Qt\Qt5.1.1\5.1.1\msvc2010\lib qtmaind.lib D:\Qt\Qt5.1.1\5.1.1\msvc2010\lib\Qt5PrintSupportd.lib D:\Qt\Qt5.1.1\5.1.1\msvc2010\lib\Qt5Widgetsd.lib D:\Qt\Qt5.1.1\5.1.1\msvc2010\lib\Qt5Networkd.lib D:\Qt\Qt5.1.1\5.1.1\msvc2010\lib\Qt5Xmld.lib D:\Qt\Qt5.1.1\5.1.1\msvc2010\lib\Qt5Guid.lib D:\Qt\Qt5.1.1\5.1.1\msvc2010\lib\Qt5Cored.lib libEGLd.lib libGLESv2d.lib gdi32.lib user32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\socnetv.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\workspace\QtCreator\Social Networks Visualizer\Social Networks Visualizer 1.7\debug\socnetv.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Debug\icon.res
+         Win32\Debug\moc_datasetselectdialog.obj
+         Win32\Debug\moc_edge.obj
+         Win32\Debug\moc_filteredgesbyweightdialog.obj
+         Win32\Debug\moc_graph.obj
+         Win32\Debug\moc_graphicswidget.obj
+         Win32\Debug\moc_guide.obj
+         Win32\Debug\moc_mainwindow.obj
+         Win32\Debug\moc_node.obj
+         Win32\Debug\moc_nodeeditdialog.obj
+         Win32\Debug\moc_parser.obj
+         Win32\Debug\moc_previewform.obj
+         Win32\Debug\moc_texteditor.obj
+         Win32\Debug\moc_vertex.obj
+         Win32\Debug\moc_webcrawler.obj
+         Win32\Debug\moc_webcrawlerdialog.obj
+         Win32\Debug\qrc_src.obj
+         Win32\Debug\datasetselectdialog.obj
+         Win32\Debug\edge.obj
+         Win32\Debug\edgeweight.obj
+         Win32\Debug\filteredgesbyweightdialog.obj
+         Win32\Debug\graph.obj
+         Win32\Debug\graphicswidget.obj
+         Win32\Debug\guide.obj
+         Win32\Debug\main.obj
+         Win32\Debug\mainwindow.obj
+         Win32\Debug\matrix.obj
+         Win32\Debug\node.obj
+         Win32\Debug\nodeeditdialog.obj
+         Win32\Debug\nodelabel.obj
+         Win32\Debug\nodenumber.obj
+         Win32\Debug\parser.obj
+         Win32\Debug\previewform.obj
+         Win32\Debug\texteditor.obj
+         Win32\Debug\vertex.obj
+         Win32\Debug\webcrawler.obj
+         Win32\Debug\webcrawlerdialog.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         LINK : 没有找到 debug\\socnetv.exe 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 debug\\socnetv.lib 和对象 debug\\socnetv.exp
+         socnetv.vcxproj -> D:\workspace\QtCreator\Social Networks Visualizer\Social Networks Visualizer 1.7\debug\socnetv.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"debug\\socnetv.exe;#1" /manifest Win32\Debug\socnetv.exe.intermediate.manifest
+     1>已完成生成项目“D:\workspace\QtCreator\Social Networks Visualizer\Social Networks Visualizer 1.7\socnetv.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.97

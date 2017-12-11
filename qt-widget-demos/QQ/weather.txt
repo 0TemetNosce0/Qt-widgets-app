@@ -1,0 +1,49 @@
+﻿获取IP地址和城市ID ：http://61.4.185.48:81/g/
+
+{"weatherinfo":{"city":"北京","city_en":"beijing","date_y":"2013年5月24日","date":"","week":"星期五","fchh":"11","cityid":"101010100","temp1":"30℃~18℃","temp2":"28℃~17℃","temp3":"21℃~17℃","temp4":"24℃~17℃","temp5":"26℃~18℃","temp6":"29℃~17℃","tempF1":"86℉~64.4℉","tempF2":"82.4℉~62.6℉","tempF3":"69.8℉~62.6℉","tempF4":"75.2℉~62.6℉","tempF5":"78.8℉~64.4℉","tempF6":"84.2℉~62.6℉","weather1":"阴转多云","weather2":"阴转小雨","weather3":"中雨转小雨","weather4":"阴转阵雨","weather5":"阴转晴","weather6":"晴","img1":"2","img2":"1","img3":"2","img4":"7","img5":"8","img6":"7","img7":"2","img8":"3","img9":"2","img10":"0","img11":"0","img12":"99","img_single":"2","img_title1":"阴","img_title2":"多云","img_title3":"阴","img_title4":"小雨","img_title5":"中雨","img_title6":"小雨","img_title7":"阴","img_title8":"阵雨","img_title9":"阴","img_title10":"晴","img_title11":"晴","img_title12":"晴","img_title_single":"阴","wind1":"微风","wind2":"微风","wind3":"微风","wind4":"微风","wind5":"北风3-4级转微风","wind6":"微风","fx1":"微风","fx2":"微风","fl1":"小于3级","fl2":"小于3级","fl3":"小于3级","fl4":"小于3级","fl5":"3-4级转小于3级","fl6":"小于3级","index":"热","index_d":"天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。","index48":"热","index48_d":"天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。","index_uv":"弱","index48_uv":"弱","index_xc":"不宜","index_tr":"适宜","index_co":"较舒适","st1":"31","st2":"17","st3":"29","st4":"16","st5":"17","st6":"15","index_cl":"较适宜","index_ls":"不太适宜","index_ag":"较易发"}}
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>MJBlog天气预报-jQuery版</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="/jscss/demoimg/201208/weather_mj.js" language="javascript"charset="UTF-8"></script>
+<script type="text/javascript">
+//创建天气预报核心对象
+var weather_=new weather();
+var city = "";
+$(document).ready(function(){
+$.getScript('http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js',function(){
+city=remote_ip_info.city;
+jintian();
+$(".city").html(remote_ip_info.city);
+})
+});
+</script>
+<style type="text/css">
+.weather{ float:left; color:#333333; padding:10px;}
+.weather a{ color:#333333;}
+.wt{line-height:17px; font-size:12px; float:left; padding:3px 5px; text-align:center;}
+.wtimg{ vertical-align:middle;padding:0px 1px; margin:0PX auto;}
+</style>
+</head>
+<body>
+<div>当前城市：<span class="city"></span></div>
+<div class="weather">
+<div class="wtimg" id="T_weather_img"></div>
+<div class="wt">今 天<br /><span id="T_weather"></span><br /><span id="T_temperature"></span><br/><span id="T_direction"></span><br/><span id="T_wind"></span></div>
+</div>
+<div class="weather">
+<div class="wtimg" id="M_weather_img"></div>
+<div class="wt">明 天<br /><span id="M_weather"></span><br /><span id="M_temperature"></span><br/><span id="M_direction"></span><br/><span id="M_wind"></span></div>
+</div>
+<div class="weather">
+<div class="wtimg" id="L_weather_img"></div>
+<div class="wt">后 天<br /><span id="L_weather"></span><br /><span id="L_temperature"></span><br/><span id="L_direction"></span><br/><span id="L_wind"></span></div>
+</div>
+</div>
+</body>
+</html>

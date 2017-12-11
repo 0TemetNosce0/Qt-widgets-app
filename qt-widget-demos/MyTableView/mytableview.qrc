@@ -1,0 +1,20 @@
+<RCC>
+    <qresource>
+      <file>Resources/up.ico</file>
+      <file>Resources/down.ico</file>
+      <file>Resources/hide.ico</file>
+      <file>Resources/show.ico</file>
+      <file>Resources/update.ico</file>
+      <file>Resources/zoomout.ico</file>
+      <file>Resources/zoomin.ico</file>
+      <file>Resources/delete.ico</file>
+      <file>Resources/addsummary.ico</file>
+      <file>Resources/addtask.ico</file>
+      <file>Resources/logo.ico</file>
+      <file>Resources/undo.ico</file>
+      <file>Resources/redo.ico</file>
+      <file>Resources/scene.svg</file>
+      <file>Resources/search.svg</file>
+      <file>Resources/scale.svg</file>
+    </qresource>
+</RCC>

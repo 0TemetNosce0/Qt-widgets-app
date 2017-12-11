@@ -1,0 +1,113 @@
+
+body {
+font-family: serif;
+color: #000;
+background-color: #F6F6FA;
+}
+
+body div.preface,
+{
+    padding:20px;
+    text-align:justify;
+}
+div.preface {
+    padding:0px;
+}
+div.book div.titlepage h1.title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a9d00;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200%;
+}
+div.book div.titlepage h2.subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6a9d00;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100%;
+
+}
+div.userfootercontent {
+   font-size:50%;
+}
+
+div.preface div.titlepage h2.title,
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a9d00;
+    font-size: 150%;
+}
+div.example {
+    background-color: #efefef;
+    padding:5px;
+}
+h2.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+}
+h1.title {
+    font-size: x-large;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+h2.subtitle {
+    font-size: large;
+    text-align: center;
+}
+
+div.important h3.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: oblique;
+    color: #ffffff;
+    background-color: #ff6600;
+    padding: 3px;
+}
+div.important table tr.head td,
+div.important table tr.head th {
+   vertical-align: middle;
+   color: #ffffff;
+   background-color: #ff8000;
+   padding: 3px;
+   text-align: center;
+}
+div.tip table tr.head td,
+div.tip table tr.head th {
+   vertical-align: middle;
+   color: #ffffff;
+   background-color: #669900;
+   padding: 3px;
+   /*text-align: center;*/
+}
+/* Table */
+table thead th {
+  background-color:#9defbc;
+  border-top: 0px solid black;
+}
+
+
+/* Navigation */
+.navheader {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px groove #ffffff;
+    background-color:#E6E7EF;
+}
+.navfooter {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px groove #ffffff;
+    background-color:#E6E7EF;
+}
+:link {
+    color:#6a9d00;
+}
+:visited {
+    color:#444444;
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+/* EOF */

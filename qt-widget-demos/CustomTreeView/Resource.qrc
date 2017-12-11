@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file alias="branchClose">Resources/Images/branchClose.png</file>
+        <file alias="branchOpen">Resources/Images/branchOpen.png</file>
+        <file alias="arrowBottom">Resources/Images/arrowBottom.png</file>
+        <file alias="arrowBottomHover">Resources/Images/arrowBottomHover.png</file>
+        <file alias="arrowLeft">Resources/Images/arrowLeft.png</file>
+        <file alias="arrowLeftHover">Resources/Images/arrowLeftHover.png</file>
+        <file alias="arrowRight">Resources/Images/arrowRight.png</file>
+        <file alias="arrowRightHover">Resources/Images/arrowRightHover.png</file>
+        <file alias="arrowTop">Resources/Images/arrowTop.png</file>
+        <file alias="arrowTopHover">Resources/Images/arrowTopHover.png</file>
+    </qresource>
+</RCC>

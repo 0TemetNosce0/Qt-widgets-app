@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>helpBrowser</class>
+ <widget class="QDialog" name="helpBrowser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>980</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>luckyBackup - help</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resources/luckybackup.qrc">
+    <normaloff>:/luckyPrefix/luckybackup_96.png</normaloff>:/luckyPrefix/luckybackup_96.png</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextBrowser" name="browser">
+     <property name="font">
+      <font>
+       <family>FreeSans</family>
+      </font>
+     </property>
+     <property name="searchPaths">
+      <stringlist>
+       <string>manual/</string>
+      </stringlist>
+     </property>
+     <property name="openLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="button_ok">
+     <property name="text">
+      <string>Okay</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/luckybackup.qrc">
+       <normaloff>:/luckyPrefix/okay.png</normaloff>:/luckyPrefix/okay.png</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../resources/luckybackup.qrc"/>
+ </resources>
+ <connections/>
+</ui>

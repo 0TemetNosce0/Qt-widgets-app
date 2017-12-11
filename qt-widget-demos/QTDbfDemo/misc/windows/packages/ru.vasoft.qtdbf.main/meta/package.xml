@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Main components of application</DisplayName>
+    <Description>Install executable file of application.</Description>
+    <Version>1.0</Version>
+	<ReleaseDate>2013-10-05</ReleaseDate>
+    <Name>ru.vasoft.qtdbf.main</Name>
+    <SortingPriority>99</SortingPriority>
+    <Licenses>
+        <License name="GNU GPLv3" file="license.txt" />
+    </Licenses>
+    <Default>True</Default>
+    <Script>installscript.qs</Script>
+    <UserInterfaces>
+        <UserInterface>associatecommonfiletypesform.ui</UserInterface>
+        <UserInterface>launchqtdbfcheckboxform.ui</UserInterface>
+    </UserInterfaces>
+</Package>

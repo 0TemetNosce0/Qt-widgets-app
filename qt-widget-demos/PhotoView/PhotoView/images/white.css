@@ -1,0 +1,116 @@
+QPushButton{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #54A0EC;
+	color: #000000;
+	padding: 1px 10px 1px 10px;	
+	min-height: 25px;
+	min-width: 60px;
+	border-radius:5px;
+	background-color: #F3F5F8; 
+}
+
+QPushButton:hover{ 
+	background: #F8FAFC;
+}
+
+QPushButton:pressed{ 
+	background: #D3D8DD;
+}
+
+
+QPushButton#ZoomIn,QPushButton#ZoomOut,QPushButton#ZoomFit,QPushButton#FullScreen,QPushButton#Prev,QPushButton#Next,QPushButton#RotateLeft,QPushButton#RotateRight,QPushButton#Delete,QPushButton#Info,QPushButton#FlipV,QPushButton#FlipH,QPushButton#Play{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ACACAC;
+	color: #000000;
+	padding: 2px;	
+	min-height: 25px;
+	min-width: 25px;
+	border-radius:5px;
+	background-color: #E8E8E8; 
+}
+
+QPushButton#ZoomIn:hover,QPushButton#ZoomOut:hover,QPushButton#ZoomFit:hover,QPushButton#FullScreen:hover,QPushButton#Prev:hover,QPushButton#Next:hover,QPushButton#RotateLeft:hover,QPushButton#RotateRight:hover,QPushButton#Delete:hover,QPushButton#Info:hover,QPushButton#FlipV:hover,QPushButton#FlipH:hover,QPushButton#Play:hover{ 
+	background: #FBFBFB;
+}
+
+
+QPushButton#ZoomIn:pressed,QPushButton#ZoomOut:pressed,QPushButton#ZoomFit:pressed,QPushButton#FullScreen:pressed,QPushButton#Prev:pressed,QPushButton#Next:pressed,QPushButton#RotateLeft:pressed,QPushButton#RotateRight:pressed,QPushButton#Delete:pressed,QPushButton#Info:pressed,QPushButton#FlipV:pressed,QPushButton#FlipH:pressed,QPushButton#Play:pressed{ 
+	background: #DDDDDD;
+}
+
+.QFrame{
+	border:1px solid #0F7DBE;
+	border-radius:5px;
+}
+
+
+QMenuBar {
+    background-color: #D3D3CF;
+    border-style: none;
+    font-weight: bold;
+    min-height: 21px;
+}
+
+QMenuBar::item {
+    spacing: 20px; /* spacing between menu bar items */
+    padding: 1px 5px;
+    background: transparent;
+    color: black;
+}
+
+QMenuBar::item:selected { /* when selected using mouse or keyboard */
+    background: #B8B8B2;
+}
+
+QMenuBar::item:pressed {
+    background: #B8B8B2;
+}
+
+
+
+QMenu {
+    background-color: #F0F0F0;
+    border-style: none;
+    font-weight: bold;
+}
+
+QMenu::item {
+    background: transparent;
+    color: black;
+}
+
+QMenu::item:selected {
+    background: #B8B8B2;
+}
+
+QMenu::separator {
+    height: 1px;
+    background: #B8B8B2;
+}
+
+
+QStatusBar::item {
+     background-color: #D3D3CF;
+     border-style: none;
+}
+
+QLabel#label{
+	border-radius:5px;
+	padding: 2px 20px 3px 20px;
+	background: transparent;
+	border-style:none;
+	min-height: 13px;
+}
+
+QLabel#photo{
+	padding: 1px 1px 1px 1px;
+	border-style: solid #F0F0F0;
+}
+
+
+
+QDialog{
+	background-color: #F0F0F0;
+}

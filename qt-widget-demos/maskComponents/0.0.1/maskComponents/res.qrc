@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/mask">
+        <file>images/close-hover.png</file>
+        <file>images/close-normal.png</file>
+        <file>images/close-pressed.png</file>
+        <file>images/next-hover.png</file>
+        <file>images/next-normal.png</file>
+        <file>images/next-pressed.png</file>
+        <file>images/target.png</file>
+        <file>images/next.png</file>
+    </qresource>
+</RCC>

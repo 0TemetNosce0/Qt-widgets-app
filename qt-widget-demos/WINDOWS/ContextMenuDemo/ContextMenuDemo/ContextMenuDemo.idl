@@ -1,0 +1,32 @@
+// ContextMenuDemo.idl : IDL source for ContextMenuDemo
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ContextMenuDemo.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(AE48C9C2-D068-40F2-9C9E-EB5DB709A092),
+	pointer_default(unique)
+]
+interface IDisplayNamesCtxMenuShellExt : IUnknown{
+};
+[
+	uuid(FD1297A3-3039-4D42-A188-DABC84C8CB3C),
+	version(1.0),
+]
+library ContextMenuDemoLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(09EC6C12-BF1B-4B30-A304-8F7EED67CB71)		
+	]
+	coclass DisplayNamesCtxMenuShellExt
+	{
+		[default] interface IDisplayNamesCtxMenuShellExt;
+	};
+};
+

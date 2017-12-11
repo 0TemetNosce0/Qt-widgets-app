@@ -1,0 +1,35 @@
+
+QWidget#m_pCurHintWidget
+{
+    border-image: url(:/mask/images/target.png);
+}
+
+QPushButton#m_pCloseButton
+{
+    border-image: url(:/mask/images/close-normal.png);
+}
+
+QPushButton#m_pCloseButton:hover
+{
+    border-image: url(:/mask/images/close-hover.png);
+}
+
+QPushButton#m_pCloseButton:pressed
+{
+    border-image: url(:/mask/images/close-pressed.png);
+}
+
+QPushButton#m_pGuideNextButton
+{
+    border-image: url(:/mask/images/next-normal.png);
+}
+
+QPushButton#m_pGuideNextButton:hover
+{
+    border-image: url(:/mask/images/next-hover.png);
+}
+
+QPushButton#m_pGuideNextButton:pressed
+{
+    border-image: url(:/mask/images/next-pressed.png);
+}

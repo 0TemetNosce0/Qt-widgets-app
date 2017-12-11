@@ -1,0 +1,252 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.4.8 :
+* Added support for vss implementation (windows)
+* Added support for nt-streams (windows)
+* Added support for e-mail notifications (windows)
+* Added various libs used for the windows port
+* Added option to disable TLS for email reports
+* Added some (useful) statistics at the end of a profile run
+* Added destination disk free space at information window
+* Minor modifications to "modify task" dialog
+* View of remote places is now available through the "manage backup" dialog
+* Default email options are now loaded when a new profile is created
+* Split of full email command to command & arguments
+* Changed the default exclude "system folders" from "/dev /proc /sys /var" to "/dev /proc /sys /run /var/run"
+* Safety checks of mount-points now include deeper levels in paths than /media/<1st-level>/ and /mnt/<1st-level>/
+* Fixed issue: When one or more items were manually removed from an existing schedule list, LB would delete entries from the bottom of the list instead, when the cronIT button is pressed.
+* Fixed issue: Progress bar did not update normally
+* Fixed issue: Segmentation fault under certain circumstances, when --skip-critical is used as an argument and there exists one or more actual CRITICAL tasks.
+* Fixed issue: Confusion at task list when an item's box state changed.
+* Fixed issue (windows): Warning message regarding the changes.log files during a run
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.4.7 :
+* Introduced compatibility for the windows port
+* Improved OS2 compatibility for snapshots
+* Added option to compress the logfile before sending it via e-mail
+* Added next/previous error buttons at commands output window
+* Added feature to backup profile, log and snapshot data to the destination after a task run
+* Added protection rule: Exclude list is disabled when user selects "only include", to avoid confusion
+* Added a "repeat-on-fail" feature for running tasks
+* Added "quite mode" during run, to only display errors and important messages
+* Added the ".gvfs" folder as an exclude template
+* Added "--super" and "--numeric-ids" as command options templates
+* Added option to schedule profile runs on an hourly basis
+* Changed the global settings file from Qvariant to simple text
+* Changed the schedule file from Qvariant to simple text
+* Changed the profile import/export feature so that logs and snapshot data are included too
+* Fixed issue: email feature sent the oldest logfile instead of the newest one
+* Fixed issue: email feature reported "process timeout"
+* Fixed various issues when spaces are used at a remote path
+* Fixed issue: Creation of the snapshot directory at a remote destination when the max No. of snapshots was not reached
+* Fixed issue: wrong snapshot directory name when remote source was used
+* Updated manual
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.4.6 :
+* Fixed issue: Older snapshots restore did not always work as expected
+* Fixed issue: ".changes.log" files sometimes did not update their lines normaly
+* Improved gui. Thank you Michael :)
+* Changed default help browser size
+* Increased the limit of maximum snapshots
+* Improved OS2 compatibility for snapshots
+* Updated manual
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.4.5 :
+* Added feature to email a report after backup
+* Added a "shutdown system when finished" feature (looks much cooler within kde)
+* Added move & edit options for the "exclude", "include", "command options" and "also execute" lists of items
+* Added option to delay @reboot scheduled jobs so as to allow the graphical environment to launch
+* Added conditional statements (stop task execution on error) for the "also execute" commands, in the form of a check-box
+* Added a command line argument to display current application version
+* Added extra directory check for mounted filesystems under /media or /mnt
+* Added actions after a profile/task rename, removal or deletion that will pass the changes to the snapshot & log files
+* Changed tray baloon notification to something that does not remind of windowz (only for kde-normal user)
+* Reduced the 2 backup task types to 1 and added a checkbox instead. Seemed like the 2 backup types were confusing to many
+* Save profile button is now greyed when not needed
+* Various (well, lots actually) changes to make LB more "OS/2 compatible"
+* Fixed issue: Useless lines accumulating within .profile files
+* Fixed issue: When the gpl license is not available no feedback to user was available
+* Fixed issue: Profile actions toolbar was not visible when gui run from command-line with a profile argument
+* Fixed issue: Profile execution pause, when an "also execute" command reported error (eg fail to start, timeout etc)
+* Updated manpage
+* Updated manual
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.4.4 :
+* Fixed issue: Displayed task last execution time at the main window, was always "not available" (thank you Michele)
+* Added support for snapshots when remote destination is used
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.4.3 :
+* Fixed issue: Fail to add a new schedule, due to an "invalid profile" message.
+* Fixed annoying gui freeze while calculating differences between a snapshot & the source. Also added a "STOP caclulations" button.
+* Fixed issue: Seg fault occurs when a system tray notification area is not available and LB is minimized to tray (eg scheduled jobs).
+* Minor gui improvements.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.4.2 :
+* Added extra description field for profiles and individual tasks.
+* Change .profile files to simple text so that they can be edited directly (original profiles are backed-up to ~/.luckyBackup/profiles/backups/ just in case).
+* Improved logviewer to handle huge files much faster.
+* Fixed issue: Normal user menu entry title is "luckybackup (super user)".
+* Fixed issue: When using remote destination, a directory named exactly as the destination, will be created localy.
+* Fixed issue: Non-workings links inside manual, when application is run from command-line
+* Fixed issue: The gui freezes when huge amount of information is desplayed in the "commands output" window
+* Update manual
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.4.1 :
+* Added feature to restore a snapshot to any local directory
+* Updated manual
+* Improved the cron logfile: Different logfiles for each profile, listing results from only the last cronjob.
+* Fixed issue: Command-line mode fails to execute some tasks within a profile
+* Fixed issue: Various snapshots issues when task type is "Backup the entire source directory (by name)".
+* Fixed issue: Command-line mode fails to delete older snapshots
+* Fixed issue: Specific snapshots can now be deleted if more than one exist.
+* Fixed issue: Restoring from any snapshot, but the last one, will cause an error to be displayed if the directory .luckybackup-snaphots/XXXXXX has not been created.
+* Fixed issue: Creation of full path of destination directory if it does not exist.
+* Fixed issue: Translation of standard yes/no - ok/cancel Qt dialogs. 
+* Fixed issue: Logfiles manipulation when invalid characters are used within the task name.
+* Fixed issue: Some character encoding issues at command-line mode.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.4.0 :
+* Added support for snapshots
+* Officialy added feature to manage created backups:
+	-> Restore
+	-> Delete
+	-> View log
+	-> View source & destination
+	-> Calculate differences between source & destination
+* Updated manual
+* Added option to copy the actual command to be executed, to clipboard, at "validate" dialog, for direct use at a terminal (...or anywhere).
+* Added option to duplicate a profile.
+* Added option to duplicate a task.
+* Added option to use exclude/include patterns from a file.
+* Added "command option" template to support destination FAT/ntfs partitions.
+* Added @reboot option at schedule dialog.
+* Added "view current crontab" option at schedule dialog
+* Added 2 modes for include patterns: "Only Include" and "Normal Include".
+* Changed behaviour of pre-task commands to prevent task execution if there is an error.
+* Improved pattern editor.
+* Updated manpage.
+* Improved main gui.
+* Improved help dialog (manual) so that it is visible while the user can interact with the main window.
+* Changed the way of creating RESTORE tasks from within the task properties to a menu entry.
+* Added option to minimize the main window to tray by using the close button when a profile execution is in progress.
+* Improved profiles to implement backward compatibility (older versions of application can load newer version profiles).
+* Fixed check of 2 tasks within the same profile, using identical destination directories and "backup dir contents" as task type.
+* Fixed (hopefully) lots of problems caused by non-standard characters (eg Cyrillic, Greek) especially at schedules and console-mode.
+* Fixed lots of problems when a profile execution was ABORTED by the user
+* Improved propject file for ubuntu, fedora & openSuse compatibility
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.3.5 :
+* BUG fix: Segmentation fault (window vanishes) produced when adding a new task
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.3.4 :
+* Improved logfiles to a much more useable format
+* Added cool "pattern editor"
+* Added tray notification support
+* Changed "delete files on the destination" as a default option again, together with a WARNING message
+* Added "by-pass WARNING" option as a task property, so that the user has the ability to execute tasks with a WARNING message
+* Added more command line arguments so that that the gui executes the profile given as argument in normal, dry-run or silent mode
+* Improved (simplified) input of a valid profile at command-line mode
+* Introduced error codes at console mode
+* Improved schedule settings file (please excuse me for no compatibility with older versions)
+* Minor "task properties" dialog improvements
+* Introduced information messages regarding schedules
+* Introduced information messages regarding the current user running LB
+* Fixed schedule dialog bug. When one schedule existed the modify option did not work correctly
+* Added refresh list function, after a profile execution to update the gui
+* Updated manpage
+* Minor gui improvements
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.3.3 :
+* Changed "Delete files on the Destination" as a not-default option
+* Fixed display of license at about dialog
+* Bug fix: Checking of same source and destination directories when using remote
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.3.2 :
+* More fixes to comply with various package standards
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.3.1 :
+* Bug fix: fixed rsync progress window that displayed wrong information about source & destination directories
+* Added backup time-stamps to know when tasks were last executed
+* Updated manpage
+* Minor fixes to comply with various package standards
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.3 :
+
+* Completely re-designed gui
+* Added option to execute commands before or after a specific task
+* Bug fix: Build errors at some systems (including ubuntu 8.04) that refer to wrong use of the 'count' variable
+* Bug fix: Window no more disappears when the user has no write permissions at the destination folder
+* Bug fix: Window no more disappears when the user clicks the close button at the task properties dialog
+* Bug fix: Same destination of 2 included tasks check fixed
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.2.1-2 :
+
+* Fixed display of characters other than English at rsync progress window.
+* Added "make install" option.
+* Improved deb & rpm packages to meet standards.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.2.1 :
+
+* Bug fix: Command-line mode no more asks for an X-Server to execute
+* Bug fix: Scheduling is now supported for all users including the super-user
+* Bug fix: Remote connections actually work now :-)
+* Added v0.2 manual
+* Added ssh specific port support
+* Added translation to other languages support using .ts files 
+* Added Greek & Czech language support (gui only)
+* Improved checks for safer backups and data protection
+* Added the “validate” option to the operation properties window
+* Improved “save/load profile” code. After this version don't worry if your saved profile will work at the next release.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.2 :
+
+* Completely changed gui
+* Added support for infinite number of operations for each profile
+* Added command line support
+* Added support for scheduling of certain profiles execution via cron
+* Added support for remote connections
+* Added manual
+* Added SSH support for remote connections
+* Added option to restore an operation
+* Added option to remove/add any rsync option
+* Added support for certain files, folders or patterns tranfer only (Only Include) & not whole directory
+* Added support to exclude the tranfer of certain files, folders or patterns from an operation
+* Added option to actually see the rsync command to be executed
+* Improved checks to protect user from doing stuff that he/she shoudn't
+* Added simple/advanced mode for every type of user ;-)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.1.2 :
+
+* Help dialog fix
+* Added man page
+* Fixed menu links
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.1.1 :
+
+* Fixed bug when user declares 2 or more identical destination directories (or uses the master backup directory for 2 or more tasks) and only the last task would be performed
+* Added manual in html format
+* Added licence files
+* Added readme files
+* Added new logo :-)
+* Minor gui improvements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 0.1 :
+
+* Initial release
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

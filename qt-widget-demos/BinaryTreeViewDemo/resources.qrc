@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>img/addvalue.png</file>
+        <file>img/removevalue.png</file>
+        <file>img/deleteselected.png</file>
+        <file>img/zoomin.png</file>
+        <file>img/zoomout.png</file>
+        <file>img/hand.png</file>
+        <file>img/arrow.png</file>
+        <file>img/icon.png</file>
+        <file>img/leftrotation.png</file>
+        <file>img/rightrotation.png</file>
+        <file>img/index.png</file>
+        <file>img/nodeglow.png</file>
+    </qresource>
+</RCC>

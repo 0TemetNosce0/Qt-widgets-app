@@ -1,0 +1,31 @@
+<UI version="4.0" >
+ <class>UiApplicationManager</class>
+ <widget class="UiImsBaseDialog" name="UiApplicationManager" >
+  <property name="objectName" >
+   <string notr="true">UiApplicationManager</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>400</width>
+	<height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>UiApplicationManager</string>
+  </property>  
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+  <customwidgets>
+  <customwidget>
+   <class>UiImsBaseDialog</class>
+   <extends>QWidget</extends>
+   <header>uiimsbasedialog.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</UI>

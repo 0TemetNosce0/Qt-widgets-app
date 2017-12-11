@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/new/prefix1" >
+        <file>icons/private/delRecord.png</file>
+        <file>icons/private/delRecord1.png</file>
+        <file>icons/private/key.png</file>
+        <file>icons/private/key1.png</file>
+        <file>icons/private/margin-quer.png</file>
+        <file>icons/private/margin.png</file>
+        <file>icons/private/myLabel.png</file>
+        <file>icons/private/newRecord.png</file>
+        <file>icons/private/newRecord1.png</file>
+        <file>icons/qt/copy.png</file>
+        <file>icons/qt/cut.png</file>
+        <file>icons/qt/exit.png</file>
+        <file>icons/qt/fileclose.png</file>
+        <file>icons/qt/find_normal.png</file>
+        <file>icons/qt/new.png</file>
+        <file>icons/qt/open.png</file>
+        <file>icons/qt/paste.png</file>
+        <file>icons/qt/print-record.png</file>
+        <file>icons/qt/print.png</file>
+        <file>icons/qt/qt-logo.png</file>
+        <file>icons/qt/redo.png</file>
+        <file>icons/qt/save.png</file>
+        <file>icons/qt/undo.png</file>
+    </qresource>
+</RCC>

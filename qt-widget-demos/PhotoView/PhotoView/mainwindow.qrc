@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/about.png</file>
+        <file>images/delete.png</file>
+        <file>images/drop.png</file>
+        <file>images/fliphorizontal.png</file>
+        <file>images/flipvertical.png</file>
+        <file>images/fullscreen.png</file>
+        <file>images/fullscreenexit.png</file>
+        <file>images/home.png</file>
+        <file>images/icon.png</file>
+        <file>images/info.png</file>
+        <file>images/next.png</file>
+        <file>images/open.png</file>
+        <file>images/option.png</file>
+        <file>images/prev.png</file>
+        <file>images/print.png</file>
+        <file>images/resize.png</file>
+        <file>images/rotateleft.png</file>
+        <file>images/rotateright.png</file>
+        <file>images/save.png</file>
+        <file>images/saveas.png</file>
+        <file>images/zoomfit.png</file>
+        <file>images/zoomin.png</file>
+        <file>images/zoomout.png</file>
+        <file>images/exit.png</file>
+        <file>images/play.png</file>
+        <file>images/skin.png</file>
+        <file>images/language.png</file>
+        <file>images/logo.png</file>
+        <file>translation/photoview_en.qm</file>
+        <file>translation/photoview_zh.qm</file>
+        <file>images/blue.css</file>
+        <file>images/gray.css</file>
+        <file>images/white.css</file>
+    </qresource>
+</RCC>

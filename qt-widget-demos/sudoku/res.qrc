@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/about.png</file>
+        <file>images/clear.png</file>
+        <file>images/erase.png</file>
+        <file>images/eyeOff.png</file>
+        <file>images/eyeOn.png</file>
+        <file>images/help.png</file>
+        <file>images/newPuzzle.png</file>
+        <file>images/next.png</file>
+        <file>images/previous.png</file>
+        <file>images/settings.png</file>
+        <file>images/sudoku.png</file>
+        <file>images/xiake.png</file>
+    </qresource>
+</RCC>

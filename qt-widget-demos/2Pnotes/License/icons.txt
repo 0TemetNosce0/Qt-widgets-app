@@ -1,0 +1,14 @@
+Licence of the icons, used in 2Pnotes:
+
+There are two kinds of icons used in this application:
+
+1. Icons designed specifically for Qt Software (formerly Trolltech), that are 
+	primary used in Qt's tools (i.e. Qt Designer, Qt Linguist and Qt Assistant).
+
+-----------The copyright of these icons belongs to Qt Software.-----------
+
+You have permission to use these in your own application, but you will need 
+to add a notice that indicates that the copyright of the icons belong to Qt Software.
+
+2. Icons created by the author (the /icons/private directory)
+Licence: GPL

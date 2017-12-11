@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>img/Logom.png</file>
+        <file>img/add.png</file>
+        <file>img/cash-add.png</file>
+        <file>img/cash-change.png</file>
+        <file>img/cash-delete.png</file>
+        <file>img/cash-income.png</file>
+        <file>img/cash2.png</file>
+        <file>img/cash_outgoes.png</file>
+        <file>img/check_off.png</file>
+        <file>img/check_off_hover.png</file>
+        <file>img/check_on.png</file>
+        <file>img/check_on_hover.png</file>
+        <file>img/combo_down_arrow.png</file>
+        <file>img/combo_left_arrow.png</file>
+        <file>img/combo_right_arrow.png</file>
+        <file>img/combo_up_arrow.png</file>
+        <file>img/help.png</file>
+        <file>img/pagefold.png</file>
+        <file>img/password.png</file>
+        <file>img/preferences.png</file>
+        <file>img/print.png</file>
+        <file>img/radio_off.png</file>
+        <file>img/radio_off_hover.png</file>
+        <file>img/radio_on.png</file>
+        <file>img/radio_on_hover.png</file>
+        <file>img/view.png</file>
+        <file>style/style.qss</file>
+    </qresource>
+</RCC>

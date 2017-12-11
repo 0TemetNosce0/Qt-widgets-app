@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/del.ico</file>
+        <file>res/del.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>enterKeyDialog</class>
+ <widget class="QDialog" name="enterKeyDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>497</width>
+    <height>160</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>2Pnotes - enter Key</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="pbase-icons.qrc">
+    <normaloff>:/new/prefix1/icons/private/myLabel.png</normaloff>:/new/prefix1/icons/private/myLabel.png</iconset>
+  </property>
+  <property name="toolTip">
+   <string>Enter, load , save or change the key.
+This key is used to encrypt the data.</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>451</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter Key, 6 to 56 characters</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="okKeyButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>90</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&amp;OK</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelKeyButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>110</y>
+     <width>90</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&amp;Cancel</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveKeyButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>110</y>
+     <width>90</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>For long keys: Save the key to a file. Be careful with this file!!!</string>
+   </property>
+   <property name="text">
+    <string>&amp;Save Key as ...</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loadKeyButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>110</y>
+     <width>90</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Good for long keys: Loads the key from a file.</string>
+   </property>
+   <property name="text">
+    <string>&amp;Load Key ...</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enterKeyEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>451</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Enter a random number of characters. They are used to encode the data.</string>
+   </property>
+   <property name="maxLength">
+    <number>56</number>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>enterKeyEdit</tabstop>
+  <tabstop>okKeyButton</tabstop>
+  <tabstop>cancelKeyButton</tabstop>
+  <tabstop>loadKeyButton</tabstop>
+  <tabstop>saveKeyButton</tabstop>
+ </tabstops>
+ <resources>
+  <include location="pbase-icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

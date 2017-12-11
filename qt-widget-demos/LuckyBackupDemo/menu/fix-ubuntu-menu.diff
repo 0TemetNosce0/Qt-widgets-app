@@ -1,0 +1,11 @@
+--- luckybackup-gnome-su.orig.desktop   2014-03-04 12:51:30.000000000 +0200
++++ luckybackup-gnome-su.desktop    2014-03-04 12:55:46.000000000 +0200
+@@ -83,7 +83,7 @@
+ Comment[sv]=Säkerhetskopiera och synkronisera din data med hjälp av rsync
+ Comment[tr]=rsync gücüyle verinizi yedekleyin & şipşaklayın
+ Comment[vi]=Backup & sync your data with the power of rsync
+-Exec=su-to-root -X -c /usr/bin/luckybackup
++Exec=gksu /usr/bin/luckybackup
+ Terminal=false
+ Type=Application
+ Icon=/usr/share/pixmaps/luckybackup.png

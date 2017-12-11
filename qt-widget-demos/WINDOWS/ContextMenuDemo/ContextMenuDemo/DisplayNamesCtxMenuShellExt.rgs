@@ -1,0 +1,24 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {09EC6C12-BF1B-4B30-A304-8F7EED67CB71} = s 'DisplayNamesCtxMenuShellExt Class'
+		{
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+
+	NoRemove txtfile
+	{
+		NoRemove ShellEx
+		{
+			NoRemove ContextMenuHandlers
+			{
+				ForceRemove DanielGrigg.DisplayNamesIContextMenu = s '{09EC6C12-BF1B-4B30-A304-8F7EED67CB71}'
+			}
+		}
+	}
+}

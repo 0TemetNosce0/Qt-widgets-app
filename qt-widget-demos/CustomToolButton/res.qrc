@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>accept.png</file>
+        <file>add.png</file>
+        <file>anchor.png</file>
+        <file>application.png</file>
+        <file>application_add.png</file>
+        <file>application_cascade.png</file>
+    </qresource>
+</RCC>

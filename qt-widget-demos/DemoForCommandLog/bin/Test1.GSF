@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<o:GridSetting xmlns:a="attribute" xmlns:c="collection" xmlns:o="object" Version="2.2.6">
+    <a:FixedCols>1</a:FixedCols>
+    <a:LeftMargin>2</a:LeftMargin>
+    <a:RightMargin>2</a:RightMargin>
+    <a:TopMargin>2</a:TopMargin>
+    <a:BottomMargin>2</a:BottomMargin>
+    <a:InvalidValueLabel>!非法值</a:InvalidValueLabel>
+    <a:GridLineWidth>1</a:GridLineWidth>
+    <a:GridColor>-16777211</a:GridColor>
+    <a:ShowAsTree>True</a:ShowAsTree>
+    <c:ColSettings>
+        <o:ColSetting DisplayWidth="25" AutoWrapType="cstSuitColWidth"/>
+        <o:ColSetting DisplayWidth="80"/>
+        <o:ColSetting DisplayWidth="80"/>
+        <o:ColSetting DisplayWidth="80"/>
+        <o:ColSetting DisplayWidth="80"/>
+        <o:ColSetting DisplayWidth="80"/>
+        <o:ColSetting DisplayWidth="80"/>
+    </c:ColSettings>
+    <c:TitleRows>
+        <o:TitleRow>
+            <a:RowHeight>20</a:RowHeight>
+            <c:TitleCells>
+                <o:TitleCell Index="1" Caption="ID"/>
+                <o:TitleCell Index="2" Caption="姓名"/>
+                <o:TitleCell Index="3" Caption="城市"/>
+                <o:TitleCell Index="4" Caption="A"/>
+                <o:TitleCell Index="5" Caption="Test1"/>
+                <o:TitleCell Index="6" Caption="Test2"/>
+            </c:TitleCells>
+        </o:TitleRow>
+    </c:TitleRows>
+    <c:TableSettings>
+        <o:TableSetting>
+            <a:IsTree>True</a:IsTree>
+            <a:IsTreeWithMasterView>True</a:IsTreeWithMasterView>
+            <a:RefTableName>Test</a:RefTableName>
+            <a:RefDatabaseName>DB</a:RefDatabaseName>
+            <a:DefRowHeight>18</a:DefRowHeight>
+            <c:FieldSettings>
+                <o:FieldSetting Index="0" DisplayExpr="=@RowNo"/>
+                <o:FieldSetting Index="1" EditFieldName="TestID"/>
+                <o:FieldSetting Index="2" EditFieldName="Name"/>
+                <o:FieldSetting Index="3" EditFieldName="home"/>
+                <o:FieldSetting Index="4" EditFieldName="A"/>
+                <o:FieldSetting Index="5"/>
+                <o:FieldSetting Index="6"/>
+            </c:FieldSettings>
+        </o:TableSetting>
+    </c:TableSettings>
+</o:GridSetting>

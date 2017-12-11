@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/CustomMenu">
+        <file>box-shadow.png</file>
+        <file>classic.png</file>
+        <file>E16.png</file>
+    </qresource>
+</RCC>

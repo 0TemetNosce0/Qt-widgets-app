@@ -1,0 +1,249 @@
+QLabel#titleLabel {
+    color: white;
+    font-weight: bold;
+}
+
+/**********树形列表**********/
+/**QTreeView{
+        border: 1px solid lightgray;
+}
+QTreeView::item {
+        height: 40px;
+        border-radius: 2px;
+        border: 1px solid transparent;
+        background: transparent;
+        color: black;
+}
+QTreeView::item:hover {
+        border: 1px solid rgb(185, 215, 250);
+}
+QTreeView::item:selected {
+        border: 1px solid rgb(170, 190, 230);
+        background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 rgb(230, 240, 250), stop: 0.5 rgb(220, 235, 255), stop: 1.0 rgb(210, 230, 255));
+}
+QTreeView::branch:open:has-children {
+        image: url(./Resources/Images/branchOpen.png);
+}
+QTreeView::branch:closed:has-children {
+        image: url(./Resources/Images/branchClose.png);
+}
+
+QTreeView{
+        border: 1px solid lightgray;
+}
+QTreeView::item {
+        height: 40px;
+        border-radius: 2px;
+        border: 1px solid transparent;
+        background: transparent;
+        color: black;
+}
+QTreeView::item:has-children {
+        border: none;
+        border-bottom: 1px solid lightgray;
+}
+QTreeView::item:hover {
+        border: 1px solid rgb(170, 190, 230);
+        background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 rgb(230, 240, 250), stop: 0.5 rgb(220, 235, 255), stop: 1.0 rgb(210, 230, 255));
+}
+QTreeView::item:selected {
+        border: 1px solid rgb(170, 190, 230);
+        background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 rgb(230, 240, 250), stop: 0.5 rgb(220, 235, 255), stop: 1.0 rgb(210, 230, 255));
+}
+QTreeView::branch:open:has-children {
+        image: url(./Resources/Images/branchOpen2.png);
+}
+QTreeView::branch:closed:has-children {
+        image: url(./Resources/Images/branchClose2.png);
+}
+
+QTreeView{
+        border: 1px solid lightgray;
+}
+QTreeView::item {
+        height: 25px;
+        border: none;
+        background: transparent;
+        color: black;
+}
+QTreeView::item:hover {
+        background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 rgb(255, 220, 130), stop: 0.5 rgb(255, 220, 130), stop: 1.0 rgb(255, 230, 150));
+}
+QTreeView::item:selected {
+        background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 rgb(255, 200, 100), stop: 0.5 rgb(255, 230, 150), stop: 1.0 rgb(255, 240, 150));
+}
+QTreeView::branch:open:has-children {
+        image: url(./Resources/Images/branchOpen.png);
+}
+QTreeView::branch:closed:has-children {
+        image: url(./Resources/Images/branchClose.png);
+}*/
+
+/**********水平滚动条**********/
+QScrollBar:horizontal
+{
+    height: 9px;
+    background: transparent;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+QScrollBar::handle:horizontal
+{
+    height: 9px;
+    min-width: 20px;
+    background: rgb(190, 190, 190);
+}
+QScrollBar::handle:horizontal:hover
+{
+    background: rgb(170, 170, 170);
+}
+QScrollBar::sub-line:horizontal
+{
+    height: 9px;
+    width: 9px;
+    border-image: url(./Resources/Images/arrowLeft.png);
+    subcontrol-position: left;
+}
+QScrollBar::add-line:horizontal
+{
+    height: 9px;
+    width: 9px;
+    border-image: url(./Resources/Images/arrowRight.png);
+    subcontrol-position: right;
+}
+QScrollBar::sub-line:horizontal:hover
+{
+    background: rgb(190, 190, 190);
+    border-image: url(./Resources/Images/arrowLeftHover.png);
+}
+QScrollBar::add-line:horizontal:hover
+{
+    background: rgb(190, 190, 190);
+    border-image: url(./Resources/Images/arrowRightHover.png);
+}
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal
+{
+    background: rgb(220, 220, 220);
+}
+/**********垂直滚动条**********/
+QScrollBar:vertical
+{
+    width: 9px;
+    background: transparent;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+QScrollBar::handle:vertical
+{
+    width: 9px;
+    min-height: 20px;
+    background: rgb(190, 190, 190);
+}
+QScrollBar::handle:vertical:hover
+{
+    background: rgb(170, 170, 170);
+}
+QScrollBar::sub-line:vertical
+{
+    height: 9px;
+    width: 9px;
+    border-image: url(./Resources/Images/arrowTop.png);
+    subcontrol-position: top;
+}
+QScrollBar::add-line:vertical
+{
+    height: 9px;
+    width: 9px;
+    border-image: url(./Resources/Images/arrowBottom.png);
+    subcontrol-position: bottom;
+}
+QScrollBar::sub-line:vertical:hover
+{
+    background: rgb(190, 190, 190);
+    border-image: url(./Resources/Images/arrowTopHover.png);
+}
+QScrollBar::add-line:vertical:hover
+{
+    background: rgb(190, 190, 190);
+    border-image: url(./Resources/Images/arrowBottomHover.png);
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical
+{
+    background: rgb(220, 220, 220);
+}
+
+QTableView {
+    border: none;
+    background: transparent;
+}
+QTableView::item {
+    height: 30px;
+}
+QTableView::item:hover {
+    border: 1px solid rgb(185, 215, 250);
+}
+QTableView::item:selected {
+    border: 1px solid rgb(170, 190, 230);
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 rgb(230, 240, 250), stop: 0.5 rgb(220, 235, 255), stop: 1.0 rgb(210, 230, 255));
+}
+
+QMenu {
+    border: 1px solid lightgray;
+    background: white;
+    padding: 3px;
+}
+QMenu::item {
+    padding: 2px 25px 2px 20px;
+    border: 1px solid transparent;
+}
+QMenu::item:selected:!enabled {
+    border: 1px solid rgb(210, 210, 210);
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 rgb(240, 240, 240), stop: 0.5 rgb(235, 235, 235), stop: 1.0 rgb(230, 230, 230));
+}
+QMenu::item:selected:enabled {
+    border: 1px solid rgb(170, 190, 230);
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 rgb(230, 240, 250), stop: 0.5 rgb(220, 235, 255), stop: 1.0 rgb(210, 230, 255));
+}
+QMenu::icon:checked {
+    background: gray;
+    border: 1px inset gray;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+}
+QMenu::separator {
+    height: 1px;
+    background: lightgray;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+QMenu::indicator {
+    width: 13px;
+    height: 13px;
+}
+
+QPushButton#closeButton {
+        border-image: url(./Resources/Images/close.png);
+}
+QPushButton#closeButton:hover {
+        border-image: url(./Resources/Images/closeHover.png);
+}
+QPushButton#closeButton:pressed {
+        border-image: url(./Resources/Images/closePressed.png);
+}
+
+QComboBox{
+        border:1px solid rgb(180, 180, 180);
+}
+QComboBox QAbstractItemView::item{
+        height:30px;
+}
+QComboBox::down-arrow{
+        image:url(./Resources/Images/arrowBottom.png);
+}
+QComboBox::drop-down{
+        width:20px;
+        border:none;
+}

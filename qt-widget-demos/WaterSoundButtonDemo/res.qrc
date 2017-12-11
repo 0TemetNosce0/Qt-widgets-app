@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/onoff.wav</file>
+        <file>Resource/sound.wav</file>
+        <file>Resource/waterWave.gif</file>
+        <file>Resource/1.png</file>
+        <file>Resource/2.png</file>
+        <file>Resource/3.png</file>
+        <file>Resource/4.png</file>
+        <file>Resource/5.png</file>
+        <file>Resource/6.png</file>
+        <file>Resource/7.png</file>
+        <file>Resource/8.png</file>
+        <file>Resource/off.png</file>
+        <file>Resource/on.png</file>
+    </qresource>
+</RCC>

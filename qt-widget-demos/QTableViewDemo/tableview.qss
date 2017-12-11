@@ -1,0 +1,72 @@
+/*
+  http://stackoverflow.com/questions/26162387/qtableview-qtablewidget-grid-stylesheet-grid-line-width
+  http://stackoverflow.com/questions/10024525/howto-draw-correct-css-border-in-header
+*/
+/*
+QWidget
+{
+    background-color: #333333;
+    color: #fffff8;
+}
+
+QHeaderView::section
+{
+    background-color: #646464;
+    padding: 4px;
+    font-size: 14pt;
+    border-style: none;
+    border-bottom: 1px solid #fffff8;
+    border-right: 1px solid #fffff8;
+}
+
+QHeaderView::section:horizontal
+{
+    border-top: 1px solid #fffff8;
+}
+
+QHeaderView::section:vertical
+{
+    border-left: 1px solid #fffff8;
+}
+*/
+
+QHeaderView::section
+{
+    background-color: #FCFCFC;
+    padding: 4px;
+    font: italic large "Times New Roman";
+    border-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    border-right: 1px solid  #BCBCBC;
+}
+
+QHeaderView::section:checked
+{
+    background-color: #009507;
+    font: bold italic;
+}
+
+QTableView
+{
+    gridline-color: #BCBCBC;
+    font-size: 12pt;
+    font: bold italic large "Times New Roman";
+}
+
+QTableView QTableCornerButton::section
+{
+    background-color: #FCFCFC;
+    border: 1px solid #BCBCBC;
+}
+
+QTableView::item::selected
+{
+    selection-background-color: #E6FFBF;
+    selection-color:black;
+}
+
+QTableView::item::hover
+{
+    background-color: #C8EDFF;
+    selection-color:black;
+}

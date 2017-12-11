@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/biology">
+        <file>DNA.jpg</file>
+    </qresource>
+    <qresource prefix="/other">
+        <file>YAY.jpg</file>
+    </qresource>
+</RCC>

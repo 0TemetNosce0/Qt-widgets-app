@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/win/win_border_down.png</file>
+        <file>images/win/win_border_left.png</file>
+        <file>images/win/win_border_right.png</file>
+        <file>images/win/win_border_up.png</file>
+    </qresource>
+</RCC>

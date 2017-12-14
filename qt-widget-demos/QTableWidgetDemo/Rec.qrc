@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/IED.png</file>
+    </qresource>
+</RCC>

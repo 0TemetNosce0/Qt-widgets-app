@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/asave.png</file>
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/exportpdf.png</file>
+        <file>images/find.png</file>
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>images/paste.png</file>
+        <file>images/redo.png</file>
+        <file>images/save.png</file>
+        <file>images/textcenter.png</file>
+        <file>images/textjustify.png</file>
+        <file>images/textleft.png</file>
+        <file>images/textright.png</file>
+        <file>images/undo.png</file>
+        <file>images/fileprint.png</file>
+        <file>images/quit.png</file>
+        <file>images/editclear.png</file>
+        <file>images/edit-select-all.png</file>
+        <file>images/stock_delete.png</file>
+        <file>images/font.png</file>
+        <file>images/textcolor.png</file>
+        <file>images/qt.png</file>
+        <file>images/zoom-1.png</file>
+        <file>images/zoom-in.png</file>
+        <file>images/zoom-out.png</file>
+        <file>images/yafeilinux.gif</file>
+    </qresource>
+</RCC>

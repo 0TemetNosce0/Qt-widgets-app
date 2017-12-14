@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{37cc9d7f-2226-425b-9bb5-523b84fd8a01}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{5745ad0b-3a51-4bda-ae6b-b4c4721581a2}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\datasetselectdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\edge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\edgeweight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filteredgesbyweightdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphicswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\guide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nodeeditdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nodelabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nodenumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\previewform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texteditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\webcrawler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\webcrawlerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_datasetselectdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_datasetselectdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_edge.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_edge.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_filteredgesbyweightdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_filteredgesbyweightdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_graph.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_graph.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_graphicswidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_graphicswidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_guide.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_guide.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_node.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_node.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_nodeeditdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_nodeeditdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_parser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_parser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_previewform.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_previewform.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_texteditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_texteditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_vertex.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_vertex.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_webcrawler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_webcrawler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_webcrawlerdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_webcrawlerdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_src.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="src\datasetselectdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\edge.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\edgeweight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\filteredgesbyweightdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\graph.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\graphicswidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\guide.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\node.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\nodeeditdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\nodelabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nodenumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\parser.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\previewform.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\texteditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\vertex.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\webcrawler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\webcrawlerdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="translations\socnetv_el.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="translations\socnetv_es.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="src\forms\datasetselectdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\forms\filteredgesbyweightdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\forms\nodeeditdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\forms\webcrawlerdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\images\add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\addrelation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\avdistance.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\box.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\centrality.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\circle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\circular.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\clique.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\color.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\colorize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\connect.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\diameter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\diamond.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\disconnect.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\distance.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\dm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\eccentricity.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\ellipse.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\erdos.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\exit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\find.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\forward.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\gridlines.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\home.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\letters.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\line.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\net.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\net1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\net2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\net3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\nextrelation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\node.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\nodecolor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\nodein.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\nodeout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\nodes.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\plines.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\prestige.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\prevrelation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\print.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\properties.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\remove.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\resize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\saved.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\selectall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\selectnone.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\sm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\socnetv-32px.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\socnetv.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="src\src.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="src\images\sw.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\symmetrize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\symmetry.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\triad.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\triangle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\view.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\walk.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\webcrawler.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\zoomin.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\images\zoomout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_datasetselectdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_filteredgesbyweightdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_nodeeditdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_webcrawlerdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

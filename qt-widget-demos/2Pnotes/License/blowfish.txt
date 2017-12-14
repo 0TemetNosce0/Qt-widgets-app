@@ -1,0 +1,10 @@
+The Blowfish Encryption Algorithm
+designed in 1993 by Bruce Schneier
+http://www.schneier.com
+
+Everyone is welcome to download Blowfish and use it in their application. 
+There are no rules about use, although I would appreciate being notified 
+of any commercial applications using the product so that I can list 
+them on this website.
+
+There is no license required!

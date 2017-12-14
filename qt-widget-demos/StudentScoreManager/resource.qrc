@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/mainBackground">
+        <file>image/background.png</file>
+        <file>image/edit.png</file>
+        <file>image/new.png</file>
+        <file>image/saveAndExit.png</file>
+    </qresource>
+</RCC>

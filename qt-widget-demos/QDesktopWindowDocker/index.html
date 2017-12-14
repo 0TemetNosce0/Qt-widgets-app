@@ -1,0 +1,176 @@
+<html>
+
+	<head>
+	
+		<meta name="verify-v1" content="XxzUc+JQMw6i5II8pBcMunAzrOyEVpYBeASe5GiZDq8="/>
+		<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+	    <meta name="QDesktopWindowDocker" content="qt, dock window in desktop, QDesktopWindowDocker, qt window docking, desktop docking windows">
+		<title>QDesktopWindowDocker</title>
+
+	</head>
+	
+	<body>
+		
+		<h1> QDesktopWindowDocker </h1>
+
+		<h2> What is it? </h2>
+		QDesktopWindowDocker is simple qt widget which allows you to create
+		widgets docked across entire desktop. It's emitting signal
+		'edgeReached' when mouse is reaching edge of the screen. 
+
+		<h2> How to use it? </h2>
+		Simply add QDesktopWidget to your e.g MainWindow and configure it, by
+		selecting which edge should be trigger of edgeReached singal and
+		handle this signal. Simple sample (header file):
+
+		<pre>
+<font color="0000ff"><strong>#ifndef __QMAIN_WINDOW_EXAMPLE_H__</strong></font>
+<font color="0000ff"><strong>#define __QMAIN_WINDOW_EXAMPLE_H__</strong></font>
+
+<font color="0000ff"><strong>#include <font color="#008000">&lt;QMainWindow&gt;</font></strong></font>
+<font color="0000ff"><strong>#include <font color="#008000">&lt;QWidget&gt;</font></strong></font>
+<font color="0000ff"><strong>#include <font color="#008000">&quot;QDesktopWindowDocker.h&quot;</font></strong></font>
+<font color="0000ff"><strong>#include <font color="#008000">&lt;stdexcept&gt;</font></strong></font>
+
+<font color="#2040a0">class</font> <font color="#2040a0">QEvent</font><font color="4444FF">;</font>
+
+<font color="#444444">/*
+ * \class QMainWindowExample 
+ * Represents sample usage of QDesktopWindowDocker with QMainWindow. 
+ * Add QDesktopWindowDocker as member of QMainWindow and initialize it
+ * properly. Next connect to edgeReached signal and prepare slot. 
+ *
+ * This example presents case when window should be hidden by default, but
+ * when edgeReached signal is emited it should be shown.
+ */</font>
+<font color="#2040a0">class</font> <font color="#2040a0">QMainWindowExample</font> <font color="4444FF">:</font> <font color="#2040a0">public</font> <font color="#2040a0">QMainWindow</font> 
+<font color="4444FF"><strong>{</strong></font>
+	<font color="#2040a0">Q_OBJECT</font>
+
+	<font color="#2040a0">public</font><font color="4444FF">:</font>
+		<font color="#444444">/*
+		 * simple ctor.
+		 * @throw bad_alloc, when unable to allocate memory for docker.
+		 */</font>
+		<font color="#2040a0">QMainWindowExample</font><font color="4444FF">(</font> <font color="#2040a0">QWidget</font> <font color="4444FF">*</font><font color="#2040a0">parent</font> <font color="4444FF">=</font> <font color="#FF0000">0</font> <font color="4444FF">)</font> <font color="#2040a0">throw</font> <font color="4444FF">(</font><font color="#2040a0">std</font><font color="4444FF">:</font><font color="4444FF">:</font><font color="#2040a0">bad_alloc</font><font color="4444FF">)</font><font color="4444FF">;</font>
+
+		<font color="#444444">/*
+		 * simple dtor.
+		 */</font>
+		~<font color="#2040a0">QMainWindowExample</font><font color="4444FF">(</font><font color="4444FF">)</font><font color="4444FF">;</font>
+
+	<font color="#2040a0">private</font><font color="4444FF">:</font>
+		<font color="#2040a0">QDesktopWindowDocker</font> <font color="4444FF">*</font><font color="#2040a0">m_pWindowDocker</font><font color="4444FF">;</font>		<font color="#444444"><i>/**&lt; window docker made member of this class. */</i></font>
+
+	<font color="#2040a0">protected</font><font color="4444FF">:</font>
+		<font color="#444444">/*
+		 * Mouse leave event.
+		 */</font>
+		<strong>void</strong> <font color="#2040a0">leaveEvent</font><font color="4444FF">(</font> <font color="#2040a0">QEvent</font> <font color="4444FF">*</font><font color="#2040a0">pEvent</font> <font color="4444FF">)</font><font color="4444FF">;</font>
+
+	<font color="#2040a0">private</font> <font color="#2040a0">slots</font><font color="4444FF">:</font>
+
+		<font color="#444444">/*
+		 * Slot for unhiding window when edge is reached.
+		 */</font>
+		<strong>void</strong> <font color="#2040a0">QMainWindowDockerSlot</font><font color="4444FF">(</font> <strong>const</strong> <strong>int</strong> <font color="4444FF">&amp;</font><font color="#2040a0">rDesktopDockType</font> <font color="4444FF">)</font><font color="4444FF">;</font>
+<font color="4444FF"><strong>}</strong></font><font color="4444FF">;</font>
+
+<font color="0000ff"><strong>#endif<font color="#444444"> /* __QMAIN_WINDOW_EXAMPLE_H__ */</font></strong></font>
+
+		</pre>
+
+
+		Here is source file:
+
+<pre>
+
+<font color="0000ff"><strong>#include <font color="#008000">&quot;QMainWindowExample.h&quot;</font></strong></font>
+<font color="0000ff"><strong>#include <font color="#008000">&lt;QDebug&gt;</font></strong></font>
+<font color="0000ff"><strong>#include <font color="#008000">&lt;QApplication&gt;</font></strong></font>
+<font color="0000ff"><strong>#include <font color="#008000">&lt;QDesktopWidget&gt;</font></strong></font>
+<font color="0000ff"><strong>#include <font color="#008000">&lt;QRect&gt;</font></strong></font>
+<font color="0000ff"><strong>#include <font color="#008000">&lt;QEvent&gt;</font></strong></font>
+
+
+<font color="#444444">/*
+ * Ctor.
+ */</font>
+<font color="#2040a0">QMainWindowExample</font><font color="4444FF">:</font><font color="4444FF">:</font><font color="#2040a0">QMainWindowExample</font><font color="4444FF">(</font> <font color="#2040a0">QWidget</font> <font color="4444FF">*</font><font color="#2040a0">parent</font><font color="4444FF">)</font> <strong>throw</strong> <font color="4444FF">(</font><font color="#2040a0">std</font><font color="4444FF">:</font><font color="4444FF">:</font><font color="#2040a0">bad_alloc</font><font color="4444FF">)</font> <font color="4444FF">:</font> 	<font color="#2040a0">QMainWindow</font><font color="4444FF">(</font><font color="#2040a0">parent</font><font color="4444FF">)</font>,
+																					<font color="#2040a0">m_pWindowDocker</font><font color="4444FF">(</font> <font color="#FF0000">0</font> <font color="4444FF">)</font>
+<font color="4444FF"><strong>{</strong></font>
+	<strong>this</strong><font color="4444FF">-</font><font color="4444FF">&gt;</font><font color="#2040a0">resize</font><font color="4444FF">(</font><font color="#FF0000">500</font>,<font color="#FF0000">500</font><font color="4444FF">)</font><font color="4444FF">;</font>
+
+	<font color="#2040a0">m_pWindowDocker</font> <font color="4444FF">=</font> <strong>new</strong> <font color="#2040a0">QDesktopWindowDocker</font><font color="4444FF">(</font> <strong>this</strong>, <font color="#2040a0">TOP_RIGHT_CORNER</font> <font color="4444FF">)</font><font color="4444FF">;</font>
+	<font color="#2040a0">m_pWindowDocker</font><font color="4444FF">-</font><font color="4444FF">&gt;</font><font color="#2040a0">enable</font><font color="4444FF">(</font><font color="4444FF">)</font><font color="4444FF">;</font>
+
+	<strong>this</strong><font color="4444FF">-</font><font color="4444FF">&gt;</font><font color="#2040a0">hide</font><font color="4444FF">(</font><font color="4444FF">)</font><font color="4444FF">;</font>
+
+	<font color="#2040a0">connect</font><font color="4444FF">(</font><font color="#2040a0">m_pWindowDocker</font>, <font color="#2040a0">SIGNAL</font><font color="4444FF">(</font> <font color="#2040a0">edgeReached</font><font color="4444FF">(</font> <strong>const</strong> <strong>int</strong><font color="4444FF">&amp;</font> <font color="4444FF">)</font> <font color="4444FF">)</font>, <strong>this</strong>, <font color="#2040a0">SLOT</font><font color="4444FF">(</font> <font color="#2040a0">QMainWindowDockerSlot</font><font color="4444FF">(</font> <strong>const</strong> <strong>int</strong> <font color="4444FF">&amp;</font> <font color="4444FF">)</font> <font color="4444FF">)</font> <font color="4444FF">)</font><font color="4444FF">;</font>
+<font color="4444FF"><strong>}</strong></font>
+
+<font color="#444444">/*
+ * Dtor.
+ */</font>
+<font color="#2040a0">QMainWindowExample</font><font color="4444FF">:</font><font color="4444FF">:</font>~<font color="#2040a0">QMainWindowExample</font><font color="4444FF">(</font><font color="4444FF">)</font>
+<font color="4444FF"><strong>{</strong></font>
+	<strong>delete</strong> <font color="#2040a0">m_pWindowDocker</font><font color="4444FF">;</font>
+<font color="4444FF"><strong>}</strong></font>
+
+<font color="#444444">/*
+ * Slot for edgeREached signal.
+ */</font>
+<strong>void</strong> <font color="#2040a0">QMainWindowExample</font><font color="4444FF">:</font><font color="4444FF">:</font><font color="#2040a0">QMainWindowDockerSlot</font><font color="4444FF">(</font> <strong>const</strong> <strong>int</strong> <font color="4444FF">&amp;</font><font color="#2040a0">rDesktopDockType</font> <font color="4444FF">)</font>
+<font color="4444FF"><strong>{</strong></font>
+	
+	<font color="#2040a0">qDebug</font><font color="4444FF">(</font><font color="4444FF">)</font> <font color="4444FF">&lt;</font><font color="4444FF">&lt;</font> <font color="#008000">&quot;Got edgeReached slot, edge: &quot;</font> <font color="4444FF">&lt;</font><font color="4444FF">&lt;</font> <font color="#2040a0">rDesktopDockType</font><font color="4444FF">;</font>
+	<font color="#2040a0">QRect</font> <font color="#2040a0">screenRect</font> <font color="4444FF">=</font>	<font color="#2040a0">QApplication</font><font color="4444FF">:</font><font color="4444FF">:</font><font color="#2040a0">desktop</font><font color="4444FF">(</font><font color="4444FF">)</font><font color="4444FF">-</font><font color="4444FF">&gt;</font><font color="#2040a0">availableGeometry</font><font color="4444FF">(</font><font color="4444FF">)</font><font color="4444FF">;</font>
+
+	<font color="#444444">//TOP_RIGHT_CORNER</font>
+	<strong>this</strong><font color="4444FF">-</font><font color="4444FF">&gt;</font><font color="#2040a0">move</font><font color="4444FF">(</font> <font color="#2040a0">screenRect</font>.<font color="#2040a0">topRight</font><font color="4444FF">(</font><font color="4444FF">)</font>.<font color="#2040a0">x</font><font color="4444FF">(</font><font color="4444FF">)</font> <font color="4444FF">-</font> <strong>this</strong><font color="4444FF">-</font><font color="4444FF">&gt;</font><font color="#2040a0">width</font><font color="4444FF">(</font><font color="4444FF">)</font>, <font color="#2040a0">screenRect</font>.<font color="#2040a0">topRight</font><font color="4444FF">(</font><font color="4444FF">)</font>.<font color="#2040a0">y</font><font color="4444FF">(</font><font color="4444FF">)</font> <font color="4444FF">)</font><font color="4444FF">;</font>
+	
+	<font color="#444444">//BOTTOM_RIGHT_CORNER</font>
+	<font color="#444444">//this-&gt;move( screenRect.topRight().x() - this-&gt;width(), screenRect.bottomRight().y() - this-&gt;height() );</font>
+
+	<font color="#444444">//TOP_LEFT_CORNER</font>
+	<font color="#444444">//this-&gt;move( screenRect.topLeft().x(), screenRect.topLeft().y() );</font>
+	
+	<font color="#444444">//BOTTOM_LEFT_CORNER</font>
+	<font color="#444444">//this-&gt;move( screenRect.topLeft().x(), screenRect.bottomLeft().y() - this-&gt;height() );</font>
+
+	<font color="#444444">//CENTER_TOP</font>
+	<font color="#444444">//this-&gt;move( screenRect.width()/2 - this-&gt;width()/2, 0 );</font>
+
+	<font color="#444444">//CENTER_BOTTOM</font>
+	<font color="#444444">//this-&gt;move( screenRect.width()/2 - this-&gt;width()/2, screenRect.height() - this-&gt;height() );</font>
+
+	<strong>this</strong><font color="4444FF">-</font><font color="4444FF">&gt;</font><font color="#2040a0">show</font><font color="4444FF">(</font><font color="4444FF">)</font><font color="4444FF">;</font>
+<font color="4444FF"><strong>}</strong></font>
+
+<font color="#444444">/*
+ * Leave event.
+ */</font>
+<strong>void</strong> <font color="#2040a0">QMainWindowExample</font><font color="4444FF">:</font><font color="4444FF">:</font><font color="#2040a0">leaveEvent</font><font color="4444FF">(</font> <font color="#2040a0">QEvent</font> <font color="4444FF">*</font><font color="#2040a0">pEvent</font> <font color="4444FF">)</font>
+<font color="4444FF"><strong>{</strong></font>
+	<strong>this</strong><font color="4444FF">-</font><font color="4444FF">&gt;</font><font color="#2040a0">hide</font><font color="4444FF">(</font><font color="4444FF">)</font><font color="4444FF">;</font>
+<font color="4444FF"><strong>}</strong></font>
+
+</pre>
+
+
+
+
+		<h2> On which platforms it's working? </h2>
+		I've tested in on Gentoo machine and Windows Xp machine, no idea how
+		it is bahaving on let's say Mac OS. 
+
+		<h2> Lincense </h2>
+		This widget is provided with LGPL license.
+
+		<h2> Where to get it? </h2>
+		Take a look here at <a href="http://qt-apps.org">http://qt-apps.org</a> or at
+		<a href="http://sourceforge.net/projects/qdeskwindocker/">sourceforge download page</a>
+
+	</body>
+</html>
+

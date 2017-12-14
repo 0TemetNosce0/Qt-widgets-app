@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/1.png</file>
+        <file>image/2.png</file>
+        <file>image/3.png</file>
+        <file>image/4.png</file>
+        <file>image/addpage.png</file>
+        <file>image/green.jpg</file>
+        <file>image/indigo.jpg</file>
+        <file>image/rabit.png</file>
+        <file>image/scrollbar.qss</file>
+        <file>image/subpage.png</file>
+        <file>image/test.png</file>
+        <file>image/tiao.png</file>
+    </qresource>
+</RCC>

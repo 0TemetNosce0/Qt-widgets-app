@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/16x16" >
+        <file>icons/16x16/actions/button_cancel.png</file>
+        <file>icons/16x16/actions/filesave.png</file>
+    </qresource>
+    <qresource prefix="/48x48" >
+        <file>icons/48x48/spreadsheet.png</file>
+    </qresource>
+
+</RCC>

@@ -1,0 +1,97 @@
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH LUCKYBACKUP 8 "2011-01-12"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+\fBluckybackup\fP \- a powerful, fast and reliable backup & sync tool
+.SH SYNOPSIS
+.B \fBluckybackup\fP [OPTIONS]... [FILE]...
+.SH DESCRIPTION
+
+.\" TeX users may be more comfortable with the \fB<whatever>\fP and
+.\" \fI<whatever>\fP escape sequences to invode bold face and italics,
+.\" respectively.
+\fBluckybackup\fP is an application that backs\-up and/or synchronizes any directories with the power of rsync
+.SH OPTIONS
+\fB \-\-help\fP
+.br
+	displays this help message
+.br
+\fB \-\-version\fP
+.br
+    displays the current version of the application
+.br
+.br
+\fB \-\-skip\-critical\fP
+.br
+	does not execute tasks that appear with a 'CRITICAL' warning message
+.br
+\fB \-\-dry\-run\fP
+.br
+	executes luckybackup in dry\-run (simulation) mode
+.br
+\fB \-\-silent\fP
+.br
+	executes luckybackup in silent mode (just tray notification icon shown)
+.br
+.br
+\fB \-c\fP
+.br
+	console mode. Use this, if there is no graphical envrironment available
+.br
+\fB \-\-no\-questions\fP
+.br
+	skips confirmation questions asked to user. Implies \-c (console mode)
+
+.br
+.br
+
+\fB [FILE]\fP
+.br
+	is the filename of the already created profile that is going to be executed
+
+ \fB examples\fP
+.br
+1. Execute luckybackup gui :
+.br
+$ luckybackup
+.br
+.br
+2. Execute luckybackup in silent mode for profile '~/.luckyBackup/profiles/BackupHome.profile' :
+.br
+$ luckybackup \-\-silent ~/.luckyBackup/profiles/BackupHome.profile
+.br
+.br
+
+3. Execute luckybackup in console mode for profile '~/.luckyBackup/profiles/BackupHome.profile' :
+.br
+$ luckybackup \-c BackupHome.profile
+.br
+.br
+4. Execute luckybackup in console mode for profile '~/.luckyBackup/profiles/BackupHome.profile'
+.br
+Do not ask any questions and skip all operations that appear CRITICAL after the checks :
+.br
+$ luckybackup \-\-skip\-critical \-\-no\-questions ~/.luckyBackup/profiles/BackupHome.profile
+
+
+.SH SEE ALSO
+For a complete documentation, please have a look at the application manual
+via the gui main window help menu.
+.SH AUTHOR
+luckybackup was written by <Loukas Avgeriou>.
+.PP
+This manual page was written by luckyb <luckyb69@sourceforge.net>,
+for the Debian project (but may be used by others).

@@ -1,0 +1,71 @@
+=====================================2011=======================================
+04-19:
+-C option supports zip, unzip, unrar.
+
+
+04-18:
+QOutParser only change unit without recount total steps when use -x option.
+move steps calculation from Option to Qop to reduce dependency.
+Fix tar extracting progress when using -C option
+
+04-17:
+You can just omit the -s and -n like the following:
+tar zcvvf test.tgz test |qop test -m
+tar zcvvf test.tgz test |qop test -m
+because i calculate the frequency of the unit when analyzing the output message
+Pause button is checkable.
+Show approximate total steps, progress using -C option for tar. Also can get correct number/size of archive and files with -C option.
+(check vv or v, c or x)
+
+04-16:
+show the correct total steps when compressing use -C option. filter out the symlinks.
+New: -o, --outdir=dir. set output dir when using internal extracting method
+QString::fromLocal8Bit(cstr) to have a right decoder. File name can be show correctly
+Pause button is checkable
+
+04-12:
+size2Str<float> to size2Str<double>
+~Qop()
+add macro: QFILENAME and replace QFileinfo::fileName()
+
+04-11: Version 0.1.6
+new: qop -C|--cmd commad (e.g. qop -C tar zxvf test.tgz)
+bug: can't show correct progress 
+=====================================2010=======================================
+11-27:
+auto detect tar output message format and determin the right unit in single thread mode.
+
+10-02:
+new classes: QArchive, QTar
+support extract tar archive using: qop -d -x test.tar or qop -dtest.tar or qop --diy=test.dir
+TODO: complete tar functions
+	pause and continue
+	read from stdin and write to stdout
+
+10-01:
+long options support
+
+09-26:
+ezprogressdialog print labelText() to stdout without return when hidden;
+
+09-23:
+detect format by reading header
+add [-x archive] option.
+add QArcReader  as alternative
+add lha detect
+
+09-22:
+add class ArcReader to get uncompressed size by reading the archieve. Using std c++;
+-x x_file option
+
+09-17:
+version 0.0.4
+show dialog with text "Calculating..." while counting without multi-thread support.
+change dialog title
+add class QUntarOutParser to indicate extraction progress exactly when extracting a .tar and .tar.xxx file. need -tuntar option.
+
+09-15:
+version 0.0.2
+7z support
+in number mode displaying speed, remaining time
+and other 

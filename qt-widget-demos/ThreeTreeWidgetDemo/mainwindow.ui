@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>631</width>
+    <height>529</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>三态树</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="Q3TreeWidget" name="treeWidget">
+      <column>
+       <property name="text">
+        <string>树形列表</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>根项目</string>
+       </property>
+       <property name="checkState">
+        <enum>Unchecked</enum>
+       </property>
+       <item>
+        <property name="text">
+         <string>子项目1</string>
+        </property>
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+        <item>
+         <property name="text">
+          <string>子项目1.1</string>
+         </property>
+         <property name="checkState">
+          <enum>Unchecked</enum>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>子项目1.2</string>
+         </property>
+         <property name="checkState">
+          <enum>Unchecked</enum>
+         </property>
+         <item>
+          <property name="text">
+           <string>子项目1.2.1</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>子项目1.2.2</string>
+          </property>
+          <property name="checkState">
+           <enum>Unchecked</enum>
+          </property>
+         </item>
+        </item>
+        <item>
+         <property name="text">
+          <string>子项目1.3</string>
+         </property>
+         <property name="checkState">
+          <enum>Unchecked</enum>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>子项目2</string>
+        </property>
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+        <item>
+         <property name="text">
+          <string>子项目2.1</string>
+         </property>
+         <property name="checkState">
+          <enum>Unchecked</enum>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>子项目2.2</string>
+         </property>
+         <property name="checkState">
+          <enum>Unchecked</enum>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>子项目3</string>
+        </property>
+        <property name="checkState">
+         <enum>Unchecked</enum>
+        </property>
+       </item>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>Q3TreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>q3treewidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

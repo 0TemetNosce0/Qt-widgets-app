@@ -1,0 +1,13 @@
+?package(luckybackup):\
+	needs="X11"\
+	section="Applications/System/Administration"\
+	title="luckybackup (super user)"\
+	command="su-to-root -X -c /usr/bin/luckybackup"\
+	icon="/usr/share/pixmaps/luckybackup.xpm"
+
+?package(luckybackup):\
+	needs="X11"\
+	section="Applications/File Management"\
+	title="luckybackup"\
+	command="/usr/bin/luckybackup"\
+	icon="/usr/share/pixmaps/luckybackup.xpm"

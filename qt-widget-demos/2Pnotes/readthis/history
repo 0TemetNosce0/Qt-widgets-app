@@ -1,0 +1,76 @@
+2Pnotes, formerly pbase, history
+
+January 2013 V 2.0.5 stable
+		Solves a bug which delays the start of the application when it
+		runs under OS/2.
+		Small changes of the code to increase the useability.
+
+August 2012 V 2.0.4 stable
+		Solves a bug in the function which reads the encrypted path
+		from the resource file. In some cases it didn't work correctly.
+		Solves a bug, which sets the 'data changed' flag in some
+		cases without any reason.
+
+August 2009 V 2.0.3 stable
+		New page preview.
+		New print all entries one after another.
+		New save and restore size and position of the window.
+		Add some small changes of the code for better usability.
+
+February 2009 V 2.0.2 stable
+		New submenu to set up the page for printing.
+		New submenu to switch off the displaying of the tooltips.
+		New submenu to select the font by the user.
+		Sourcecode for print out the entries completely new written
+		to get better work with different distributions.
+		Add some new sourcecode to enable the compiling using Windows.
+		The tooltips gets more detailed information. 
+		Fix some bugs.
+		This version is based on the Qt 4.4.x libraries.
+
+April 2008	V 2.0.1 stable
+		Workaround to avoid that the Qt library saves the history
+		of the File Open Dialog. This feature was introduced in Qt 4.3.
+		This is useful for the users, but in this application it
+		can be a security leak. 
+		Now the history is deleted after close the File Open Dialog. 
+
+February 2008	V 2.0 stable
+		Projekt renamed in 2Pnotes - Protect your Private notes
+		Develop new sources, using the Qt 4.3.x library.
+
+		The source is usable for 32bit and 64bit operating systems.
+
+		The user interface becomes now a main window with menubar
+		and toolbar, added by tool tips to support the the user.
+
+		Availabe for the english language (default) and german.
+
+		New mode to link the keyword and the full path to the data.
+		Once opened a file, only the keyword is used to open it
+		again. This makes ist esier to hide files in very different
+		directory trees.
+
+January 2003	V 1.1 stable
+		Source updated for use of the Qt 3.0.x library.
+		The user interface becomes more comfortable when
+		changing the dimensions of the widget.
+		New the menu File-Print ...
+		Class QMultiLineEdit replaced with QTextEdit.
+		Needs the Trolltech qmake-utility to generate a
+		machine depended makefile for the application.
+		Solve bug, which generates a segmentation fault
+		if the software starts with a present pbdescript
+		file.
+
+July 2001	V 1.0.1 stable
+		Source updated for use of the Qt 2.3.1 library.
+
+April 2001	V 1.0 stable
+
+
+
+
+
+
+

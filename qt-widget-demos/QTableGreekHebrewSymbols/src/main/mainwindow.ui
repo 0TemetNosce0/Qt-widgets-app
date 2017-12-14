@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>757</width>
+    <height>538</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>757</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="mFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action_File_Close"/>
+   </widget>
+   <widget class="QMenu" name="mAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="action_About_About"/>
+    <addaction name="action_About_About_Qt"/>
+    <addaction name="action_About_Site"/>
+   </widget>
+   <addaction name="mFile"/>
+   <addaction name="mAbout"/>
+  </widget>
+  <action name="action_About_Help">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="action_About_About">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="action_Search_Find">
+   <property name="text">
+    <string>Find</string>
+   </property>
+  </action>
+  <action name="action_Search_Find_More">
+   <property name="text">
+    <string>Find more</string>
+   </property>
+  </action>
+  <action name="action_Search_Find_and_replace">
+   <property name="text">
+    <string>Find / Replace</string>
+   </property>
+  </action>
+  <action name="action_Settings_General">
+   <property name="text">
+    <string>General</string>
+   </property>
+  </action>
+  <action name="action_Settings_Module">
+   <property name="text">
+    <string>Module</string>
+   </property>
+  </action>
+  <action name="action_Settings_Lan">
+   <property name="text">
+    <string>Lan</string>
+   </property>
+  </action>
+  <action name="action_About_Site">
+   <property name="text">
+    <string>Site of program</string>
+   </property>
+  </action>
+  <action name="action_Settings_Font">
+   <property name="text">
+    <string>Fonts</string>
+   </property>
+  </action>
+  <action name="actionView">
+   <property name="text">
+    <string>View</string>
+   </property>
+  </action>
+  <action name="action_File_Close">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionLang">
+   <property name="text">
+    <string>Lang</string>
+   </property>
+  </action>
+  <action name="actionRussian">
+   <property name="text">
+    <string>Russian</string>
+   </property>
+  </action>
+  <action name="actionEnglish">
+   <property name="text">
+    <string>English</string>
+   </property>
+  </action>
+  <action name="actionRussian_2">
+   <property name="text">
+    <string>Russian</string>
+   </property>
+  </action>
+  <action name="actionEnglish_2">
+   <property name="text">
+    <string>English</string>
+   </property>
+  </action>
+  <action name="actionFrance">
+   <property name="text">
+    <string>France</string>
+   </property>
+  </action>
+  <action name="actionDeutsch">
+   <property name="text">
+    <string>Deutsch</string>
+   </property>
+  </action>
+  <action name="action_Settings_Language_Russian">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Russian</string>
+   </property>
+  </action>
+  <action name="action_Settings_Language_France">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>France</string>
+   </property>
+  </action>
+  <action name="action_Settings_Language_English">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>English</string>
+   </property>
+  </action>
+  <action name="action_Settings_Language_Deutsch">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Deutsch</string>
+   </property>
+  </action>
+  <action name="action_About_About_Qt">
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

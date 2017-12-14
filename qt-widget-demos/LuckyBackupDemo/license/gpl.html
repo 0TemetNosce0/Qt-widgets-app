@@ -1,0 +1,1351 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<meta name="generator" content="Bluefish 2.2.0" >
+	<meta name="author" content="luckyb" >
+	<META NAME="CREATED" CONTENT="20090129;11250300">
+	<META NAME="CHANGEDBY" CONTENT="Loukas Avgeriou">
+	<META NAME="CHANGED" CONTENT="20090130;11491600">
+	<META NAME="CHANGEDBY" CONTENT="Loukas Avgeriou">
+	<META NAME="CHANGEDBY" CONTENT="Loukas Avgeriou">
+</HEAD>
+<BODY LANG="el-GR" DIR="LTR">
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif"><B>(C) 2012,
+Loukas Avgeriou</B></FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">This program is
+distributed under the terms of the GPL v3.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif"><B>GNU GENERAL
+PUBLIC LICENSE</B></FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Version 3, 29 June
+2007</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Copyright (C) 2007
+Free Software Foundation, Inc. &lt;<A HREF="http://fsf.org/" TARGET="_blank">http://fsf.org/</A>&gt;</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Everyone is
+permitted to copy and distribute verbatim copies</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">of this license
+document, but changing it is not allowed.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Preamble</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">The GNU General
+Public License is a free, copyleft license for</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">software and other
+kinds of works.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">The licenses for
+most software and other practical works are designed</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">to take away your
+freedom to share and change the works. By contrast,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the GNU General
+Public License is intended to guarantee your freedom to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">share and change
+all versions of a program--to make sure it remains free</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">software for all
+its users. We, the Free Software Foundation, use the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">GNU General Public
+License for most of our software; it applies also to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">any other work
+released this way by its authors. You can apply it to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">your programs, too.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">When we speak of
+free software, we are referring to freedom, not</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">price. Our General
+Public Licenses are designed to make sure that you</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">have the freedom to
+distribute copies of free software (and charge for</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">them if you wish),
+that you receive source code or can get it if you</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">want it, that you
+can change the software or use pieces of it in new</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">free programs, and
+that you know you can do these things.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">To protect your
+rights, we need to prevent others from denying you</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">these rights or
+asking you to surrender the rights. Therefore, you have</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">certain
+responsibilities if you distribute copies of the software, or if</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">you modify it:
+responsibilities to respect the freedom of others.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">For example, if you
+distribute copies of such a program, whether</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">gratis or for a
+fee, you must pass on to the recipients the same</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">freedoms that you
+received. You must make sure that they, too, receive</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">or can get the
+source code. And you must show them these terms so they</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">know their rights.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Developers that use
+the GNU GPL protect your rights with two steps:</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">(1) assert
+copyright on the software, and (2) offer you this License</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">giving you legal
+permission to copy, distribute and/or modify it.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">For the developers'
+and authors' protection, the GPL clearly explains</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">that there is no
+warranty for this free software. For both users' and</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">authors' sake, the
+GPL requires that modified versions be marked as</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">changed, so that
+their problems will not be attributed erroneously to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">authors of previous
+versions.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Some devices are
+designed to deny users access to install or run</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">modified versions
+of the software inside them, although the manufacturer</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">can do so. This is
+fundamentally incompatible with the aim of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">protecting users'
+freedom to change the software. The systematic</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">pattern of such
+abuse occurs in the area of products for individuals to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">use, which is
+precisely where it is most unacceptable. Therefore, we</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">have designed this
+version of the GPL to prohibit the practice for those</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">products. If such
+problems arise substantially in other domains, we</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">stand ready to
+extend this provision to those domains in future versions</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">of the GPL, as
+needed to protect the freedom of users.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Finally, every
+program is threatened constantly by software patents.</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">States should not
+allow patents to restrict development and use of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">software on
+general-purpose computers, but in those that do, we wish to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">avoid the special
+danger that patents applied to a free program could</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">make it effectively
+proprietary. To prevent this, the GPL assures that</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">patents cannot be
+used to render the program non-free.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">The precise terms
+and conditions for copying, distribution and</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">modification
+follow.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">TERMS AND
+CONDITIONS</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">0. Definitions.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&quot;This License&quot;
+refers to version 3 of the GNU General Public License.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&quot;Copyright&quot;
+also means copyright-like laws that apply to other kinds of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">works, such as
+semiconductor masks.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&quot;The Program&quot;
+refers to any copyrightable work licensed under this</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">License. Each
+licensee is addressed as &quot;you&quot;. &quot;Licensees&quot; and</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&quot;recipients&quot;
+may be individuals or organizations.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">To &quot;modify&quot;
+a work means to copy from or adapt all or part of the work</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">in a fashion
+requiring copyright permission, other than the making of an</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">exact copy. The
+resulting work is called a &quot;modified version&quot; of the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">earlier work or a
+work &quot;based on&quot; the earlier work.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">A &quot;covered
+work&quot; means either the unmodified Program or a work based</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">on the Program.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">To &quot;propagate&quot;
+a work means to do anything with it that, without</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">permission, would
+make you directly or secondarily liable for</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">infringement under
+applicable copyright law, except executing it on a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">computer or
+modifying a private copy. Propagation includes copying,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">distribution (with
+or without modification), making available to the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">public, and in some
+countries other activities as well.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">To &quot;convey&quot;
+a work means any kind of propagation that enables other</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">parties to make or
+receive copies. Mere interaction with a user through</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">a computer network,
+with no transfer of a copy, is not conveying.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">An interactive user
+interface displays &quot;Appropriate Legal Notices&quot;</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">to the extent that
+it includes a convenient and prominently visible</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">feature that (1)
+displays an appropriate copyright notice, and (2)</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">tells the user that
+there is no warranty for the work (except to the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">extent that
+warranties are provided), that licensees may convey the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">work under this
+License, and how to view a copy of this License. If</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the interface
+presents a list of user commands or options, such as a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">menu, a prominent
+item in the list meets this criterion.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">1. Source Code.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">The &quot;source
+code&quot; for a work means the preferred form of the work</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">for making
+modifications to it. &quot;Object code&quot; means any non-source</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">form of a work.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">A &quot;Standard
+Interface&quot; means an interface that either is an official</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">standard defined by
+a recognized standards body, or, in the case of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">interfaces
+specified for a particular programming language, one that</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">is widely used
+among developers working in that language.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">The &quot;System
+Libraries&quot; of an executable work include anything, other</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">than the work as a
+whole, that (a) is included in the normal form of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">packaging a Major
+Component, but which is not part of that Major</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Component, and (b)
+serves only to enable use of the work with that</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Major Component, or
+to implement a Standard Interface for which an</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">implementation is
+available to the public in source code form. A</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&quot;Major
+Component&quot;, in this context, means a major essential component</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">(kernel, window
+system, and so on) of the specific operating system</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">(if any) on which
+the executable work runs, or a compiler used to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">produce the work,
+or an object code interpreter used to run it.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">The &quot;Corresponding
+Source&quot; for a work in object code form means all</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the source code
+needed to generate, install, and (for an executable</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">work) run the
+object code and to modify the work, including scripts to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">control those
+activities. However, it does not include the work's</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">System Libraries,
+or general-purpose tools or generally available free</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">programs which are
+used unmodified in performing those activities but</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">which are not part
+of the work. For example, Corresponding Source</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">includes interface
+definition files associated with source files for</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the work, and the
+source code for shared libraries and dynamically</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">linked subprograms
+that the work is specifically designed to require,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">such as by intimate
+data communication or control flow between those</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">subprograms and
+other parts of the work.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">The Corresponding
+Source need not include anything that users</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">can regenerate
+automatically from other parts of the Corresponding</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Source.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">The Corresponding
+Source for a work in source code form is that</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">same work.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">2. Basic
+Permissions.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">All rights granted
+under this License are granted for the term of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">copyright on the
+Program, and are irrevocable provided the stated</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">conditions are met.
+This License explicitly affirms your unlimited</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">permission to run
+the unmodified Program. The output from running a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">covered work is
+covered by this License only if the output, given its</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">content,
+constitutes a covered work. This License acknowledges your</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">rights of fair use
+or other equivalent, as provided by copyright law.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">You may make, run
+and propagate covered works that you do not</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">convey, without
+conditions so long as your license otherwise remains</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">in force. You may
+convey covered works to others for the sole purpose</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">of having them make
+modifications exclusively for you, or provide you</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">with facilities for
+running those works, provided that you comply with</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the terms of this
+License in conveying all material for which you do</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">not control
+copyright. Those thus making or running the covered works</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">for you must do so
+exclusively on your behalf, under your direction</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">and control, on
+terms that prohibit them from making any copies of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">your copyrighted
+material outside their relationship with you.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Conveying under any
+other circumstances is permitted solely under</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the conditions
+stated below. Sublicensing is not allowed; section 10</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">makes it
+unnecessary.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">3. Protecting
+Users' Legal Rights From Anti-Circumvention Law.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">No covered work
+shall be deemed part of an effective technological</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">measure under any
+applicable law fulfilling obligations under article</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">11 of the WIPO
+copyright treaty adopted on 20 December 1996, or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">similar laws
+prohibiting or restricting circumvention of such</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">measures.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">When you convey a
+covered work, you waive any legal power to forbid</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">circumvention of
+technological measures to the extent such circumvention</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">is effected by
+exercising rights under this License with respect to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the covered work,
+and you disclaim any intention to limit operation or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">modification of the
+work as a means of enforcing, against the work's</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">users, your or
+third parties' legal rights to forbid circumvention of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">technological
+measures.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">4. Conveying
+Verbatim Copies.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">You may convey
+verbatim copies of the Program's source code as you</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">receive it, in any
+medium, provided that you conspicuously and</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">appropriately
+publish on each copy an appropriate copyright notice;</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">keep intact all
+notices stating that this License and any</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">non-permissive
+terms added in accord with section 7 apply to the code;</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">keep intact all
+notices of the absence of any warranty; and give all</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">recipients a copy
+of this License along with the Program.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">You may charge any
+price or no price for each copy that you convey,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">and you may offer
+support or warranty protection for a fee.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">5. Conveying
+Modified Source Versions.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">You may convey a
+work based on the Program, or the modifications to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">produce it from the
+Program, in the form of source code under the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">terms of section 4,
+provided that you also meet all of these conditions:</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">a) The work must
+carry prominent notices stating that you modified</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">it, and giving a
+relevant date.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">b) The work must
+carry prominent notices stating that it is</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">released under this
+License and any conditions added under section</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">7. This requirement
+modifies the requirement in section 4 to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&quot;keep intact
+all notices&quot;.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">c) You must license
+the entire work, as a whole, under this</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">License to anyone
+who comes into possession of a copy. This</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">License will
+therefore apply, along with any applicable section 7</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">additional terms,
+to the whole of the work, and all its parts,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">regardless of how
+they are packaged. This License gives no</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">permission to
+license the work in any other way, but it does not</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">invalidate such
+permission if you have separately received it.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">d) If the work has
+interactive user interfaces, each must display</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Appropriate Legal
+Notices; however, if the Program has interactive</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">interfaces that do
+not display Appropriate Legal Notices, your</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">work need not make
+them do so.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">A compilation of a
+covered work with other separate and independent</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">works, which are
+not by their nature extensions of the covered work,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">and which are not
+combined with it such as to form a larger program,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">in or on a volume
+of a storage or distribution medium, is called an</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&quot;aggregate&quot;
+if the compilation and its resulting copyright are not</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">used to limit the
+access or legal rights of the compilation's users</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">beyond what the
+individual works permit. Inclusion of a covered work</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">in an aggregate
+does not cause this License to apply to the other</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">parts of the
+aggregate.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">6. Conveying
+Non-Source Forms.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">You may convey a
+covered work in object code form under the terms</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">of sections 4 and
+5, provided that you also convey the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">machine-readable
+Corresponding Source under the terms of this License,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">in one of these
+ways:</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">a) Convey the
+object code in, or embodied in, a physical product</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">(including a
+physical distribution medium), accompanied by the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Corresponding
+Source fixed on a durable physical medium</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">customarily used
+for software interchange.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">b) Convey the
+object code in, or embodied in, a physical product</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">(including a
+physical distribution medium), accompanied by a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">written offer,
+valid for at least three years and valid for as</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">long as you offer
+spare parts or customer support for that product</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">model, to give
+anyone who possesses the object code either (1) a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">copy of the
+Corresponding Source for all the software in the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">product that is
+covered by this License, on a durable physical</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">medium customarily
+used for software interchange, for a price no</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">more than your
+reasonable cost of physically performing this</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">conveying of
+source, or (2) access to copy the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Corresponding
+Source from a network server at no charge.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">c) Convey
+individual copies of the object code with a copy of the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">written offer to
+provide the Corresponding Source. This</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">alternative is
+allowed only occasionally and noncommercially, and</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">only if you
+received the object code with such an offer, in accord</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">with subsection 6b.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">d) Convey the
+object code by offering access from a designated</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">place (gratis or
+for a charge), and offer equivalent access to the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Corresponding
+Source in the same way through the same place at no</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">further charge. You
+need not require recipients to copy the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Corresponding
+Source along with the object code. If the place to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">copy the object
+code is a network server, the Corresponding Source</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">may be on a
+different server (operated by you or a third party)</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">that supports
+equivalent copying facilities, provided you maintain</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">clear directions
+next to the object code saying where to find the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Corresponding
+Source. Regardless of what server hosts the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Corresponding
+Source, you remain obligated to ensure that it is</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">available for as
+long as needed to satisfy these requirements.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">e) Convey the
+object code using peer-to-peer transmission, provided</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">you inform other
+peers where the object code and Corresponding</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Source of the work
+are being offered to the general public at no</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">charge under
+subsection 6d.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">A separable portion
+of the object code, whose source code is excluded</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">from the
+Corresponding Source as a System Library, need not be</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">included in
+conveying the object code work.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">A &quot;User
+Product&quot; is either (1) a &quot;consumer product&quot;, which
+means any</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">tangible personal
+property which is normally used for personal, family,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">or household
+purposes, or (2) anything designed or sold for incorporation</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">into a dwelling. In
+determining whether a product is a consumer product,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">doubtful cases
+shall be resolved in favor of coverage. For a particular</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">product received by
+a particular user, &quot;normally used&quot; refers to a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">typical or common
+use of that class of product, regardless of the status</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">of the particular
+user or of the way in which the particular user</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">actually uses, or
+expects or is expected to use, the product. A product</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">is a consumer
+product regardless of whether the product has substantial</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">commercial,
+industrial or non-consumer uses, unless such uses represent</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the only
+significant mode of use of the product.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&quot;Installation
+Information&quot; for a User Product means any methods,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">procedures,
+authorization keys, or other information required to install</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">and execute
+modified versions of a covered work in that User Product from</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">a modified version
+of its Corresponding Source. The information must</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">suffice to ensure
+that the continued functioning of the modified object</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">code is in no case
+prevented or interfered with solely because</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">modification has
+been made.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">If you convey an
+object code work under this section in, or with, or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">specifically for
+use in, a User Product, and the conveying occurs as</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">part of a
+transaction in which the right of possession and use of the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">User Product is
+transferred to the recipient in perpetuity or for a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">fixed term
+(regardless of how the transaction is characterized), the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Corresponding
+Source conveyed under this section must be accompanied</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">by the Installation
+Information. But this requirement does not apply</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">if neither you nor
+any third party retains the ability to install</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">modified object
+code on the User Product (for example, the work has</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">been installed in
+ROM).</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">The requirement to
+provide Installation Information does not include a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">requirement to
+continue to provide support service, warranty, or updates</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">for a work that has
+been modified or installed by the recipient, or for</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the User Product in
+which it has been modified or installed. Access to a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">network may be
+denied when the modification itself materially and</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">adversely affects
+the operation of the network or violates the rules and</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">protocols for
+communication across the network.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Corresponding
+Source conveyed, and Installation Information provided,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">in accord with this
+section must be in a format that is publicly</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">documented (and
+with an implementation available to the public in</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">source code form),
+and must require no special password or key for</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">unpacking, reading
+or copying.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">7. Additional
+Terms.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&quot;Additional
+permissions&quot; are terms that supplement the terms of this</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">License by making
+exceptions from one or more of its conditions.</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Additional
+permissions that are applicable to the entire Program shall</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">be treated as
+though they were included in this License, to the extent</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">that they are valid
+under applicable law. If additional permissions</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">apply only to part
+of the Program, that part may be used separately</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">under those
+permissions, but the entire Program remains governed by</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">this License
+without regard to the additional permissions.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">When you convey a
+copy of a covered work, you may at your option</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">remove any
+additional permissions from that copy, or from any part of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">it. (Additional
+permissions may be written to require their own</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">removal in certain
+cases when you modify the work.) You may place</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">additional
+permissions on material, added by you to a covered work,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">for which you have
+or can give appropriate copyright permission.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Notwithstanding any
+other provision of this License, for material you</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">add to a covered
+work, you may (if authorized by the copyright holders of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">that material)
+supplement the terms of this License with terms:</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">a) Disclaiming
+warranty or limiting liability differently from the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">terms of sections
+15 and 16 of this License; or</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">b) Requiring
+preservation of specified reasonable legal notices or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">author attributions
+in that material or in the Appropriate Legal</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Notices displayed
+by works containing it; or</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">c) Prohibiting
+misrepresentation of the origin of that material, or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">requiring that
+modified versions of such material be marked in</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">reasonable ways as
+different from the original version; or</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">d) Limiting the use
+for publicity purposes of names of licensors or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">authors of the
+material; or</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">e) Declining to
+grant rights under trademark law for use of some</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">trade names,
+trademarks, or service marks; or</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">f) Requiring
+indemnification of licensors and authors of that</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">material by anyone
+who conveys the material (or modified versions of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">it) with
+contractual assumptions of liability to the recipient, for</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">any liability that
+these contractual assumptions directly impose on</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">those licensors and
+authors.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">All other
+non-permissive additional terms are considered &quot;further</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">restrictions&quot;
+within the meaning of section 10. If the Program as you</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">received it, or any
+part of it, contains a notice stating that it is</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">governed by this
+License along with a term that is a further</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">restriction, you
+may remove that term. If a license document contains</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">a further
+restriction but permits relicensing or conveying under this</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">License, you may
+add to a covered work material governed by the terms</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">of that license
+document, provided that the further restriction does</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">not survive such
+relicensing or conveying.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">If you add terms to
+a covered work in accord with this section, you</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">must place, in the
+relevant source files, a statement of the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">additional terms
+that apply to those files, or a notice indicating</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">where to find the
+applicable terms.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Additional terms,
+permissive or non-permissive, may be stated in the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">form of a
+separately written license, or stated as exceptions;</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the above
+requirements apply either way.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">8. Termination.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">You may not
+propagate or modify a covered work except as expressly</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">provided under this
+License. Any attempt otherwise to propagate or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">modify it is void,
+and will automatically terminate your rights under</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">this License
+(including any patent licenses granted under the third</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">paragraph of
+section 11).</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">However, if you
+cease all violation of this License, then your</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">license from a
+particular copyright holder is reinstated (a)</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">provisionally,
+unless and until the copyright holder explicitly and</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">finally terminates
+your license, and (b) permanently, if the copyright</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">holder fails to
+notify you of the violation by some reasonable means</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">prior to 60 days
+after the cessation.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Moreover, your
+license from a particular copyright holder is</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">reinstated
+permanently if the copyright holder notifies you of the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">violation by some
+reasonable means, this is the first time you have</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">received notice of
+violation of this License (for any work) from that</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">copyright holder,
+and you cure the violation prior to 30 days after</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">your receipt of the
+notice.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Termination of your
+rights under this section does not terminate the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">licenses of parties
+who have received copies or rights from you under</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">this License. If
+your rights have been terminated and not permanently</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">reinstated, you do
+not qualify to receive new licenses for the same</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">material under
+section 10.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">9. Acceptance Not
+Required for Having Copies.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">You are not
+required to accept this License in order to receive or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">run a copy of the
+Program. Ancillary propagation of a covered work</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">occurring solely as
+a consequence of using peer-to-peer transmission</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">to receive a copy
+likewise does not require acceptance. However,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">nothing other than
+this License grants you permission to propagate or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">modify any covered
+work. These actions infringe copyright if you do</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">not accept this
+License. Therefore, by modifying or propagating a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">covered work, you
+indicate your acceptance of this License to do so.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">10. Automatic
+Licensing of Downstream Recipients.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Each time you
+convey a covered work, the recipient automatically</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">receives a license
+from the original licensors, to run, modify and</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">propagate that
+work, subject to this License. You are not responsible</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">for enforcing
+compliance by third parties with this License.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">An &quot;entity
+transaction&quot; is a transaction transferring control of an</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">organization, or
+substantially all assets of one, or subdividing an</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">organization, or
+merging organizations. If propagation of a covered</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">work results from
+an entity transaction, each party to that</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">transaction who
+receives a copy of the work also receives whatever</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">licenses to the
+work the party's predecessor in interest had or could</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">give under the
+previous paragraph, plus a right to possession of the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Corresponding
+Source of the work from the predecessor in interest, if</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the predecessor has
+it or can get it with reasonable efforts.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">You may not impose
+any further restrictions on the exercise of the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">rights granted or
+affirmed under this License. For example, you may</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">not impose a
+license fee, royalty, or other charge for exercise of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">rights granted
+under this License, and you may not initiate litigation</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">(including a
+cross-claim or counterclaim in a lawsuit) alleging that</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">any patent claim is
+infringed by making, using, selling, offering for</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">sale, or importing
+the Program or any portion of it.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">11. Patents.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">A &quot;contributor&quot;
+is a copyright holder who authorizes use under this</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">License of the
+Program or a work on which the Program is based. The</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">work thus licensed
+is called the contributor's &quot;contributor version&quot;.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">A contributor's
+&quot;essential patent claims&quot; are all patent claims</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">owned or controlled
+by the contributor, whether already acquired or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">hereafter acquired,
+that would be infringed by some manner, permitted</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">by this License, of
+making, using, or selling its contributor version,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">but do not include
+claims that would be infringed only as a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">consequence of
+further modification of the contributor version. For</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">purposes of this
+definition, &quot;control&quot; includes the right to grant</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">patent sublicenses
+in a manner consistent with the requirements of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">this License.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Each contributor
+grants you a non-exclusive, worldwide, royalty-free</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">patent license
+under the contributor's essential patent claims, to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">make, use, sell,
+offer for sale, import and otherwise run, modify and</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">propagate the
+contents of its contributor version.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">In the following
+three paragraphs, a &quot;patent license&quot; is any express</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">agreement or
+commitment, however denominated, not to enforce a patent</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">(such as an express
+permission to practice a patent or covenant not to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">sue for patent
+infringement). To &quot;grant&quot; such a patent license to a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">party means to make
+such an agreement or commitment not to enforce a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">patent against the
+party.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">If you convey a
+covered work, knowingly relying on a patent license,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">and the
+Corresponding Source of the work is not available for anyone</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">to copy, free of
+charge and under the terms of this License, through a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">publicly available
+network server or other readily accessible means,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">then you must
+either (1) cause the Corresponding Source to be so</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">available, or (2)
+arrange to deprive yourself of the benefit of the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">patent license for
+this particular work, or (3) arrange, in a manner</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">consistent with the
+requirements of this License, to extend the patent</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">license to
+downstream recipients. &quot;Knowingly relying&quot; means you have</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">actual knowledge
+that, but for the patent license, your conveying the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">covered work in a
+country, or your recipient's use of the covered work</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">in a country, would
+infringe one or more identifiable patents in that</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">country that you
+have reason to believe are valid.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">If, pursuant to or
+in connection with a single transaction or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">arrangement, you
+convey, or propagate by procuring conveyance of, a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">covered work, and
+grant a patent license to some of the parties</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">receiving the
+covered work authorizing them to use, propagate, modify</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">or convey a
+specific copy of the covered work, then the patent license</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">you grant is
+automatically extended to all recipients of the covered</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">work and works
+based on it.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">A patent license is
+&quot;discriminatory&quot; if it does not include within</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the scope of its
+coverage, prohibits the exercise of, or is</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">conditioned on the
+non-exercise of one or more of the rights that are</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">specifically
+granted under this License. You may not convey a covered</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">work if you are a
+party to an arrangement with a third party that is</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">in the business of
+distributing software, under which you make payment</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">to the third party
+based on the extent of your activity of conveying</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the work, and under
+which the third party grants, to any of the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">parties who would
+receive the covered work from you, a discriminatory</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">patent license (a)
+in connection with copies of the covered work</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">conveyed by you (or
+copies made from those copies), or (b) primarily</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">for and in
+connection with specific products or compilations that</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">contain the covered
+work, unless you entered into that arrangement,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">or that patent
+license was granted, prior to 28 March 2007.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Nothing in this
+License shall be construed as excluding or limiting</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">any implied license
+or other defenses to infringement that may</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">otherwise be
+available to you under applicable patent law.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">12. No Surrender of
+Others' Freedom.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">If conditions are
+imposed on you (whether by court order, agreement or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">otherwise) that
+contradict the conditions of this License, they do not</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">excuse you from the
+conditions of this License. If you cannot convey a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">covered work so as
+to satisfy simultaneously your obligations under this</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">License and any
+other pertinent obligations, then as a consequence you may</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">not convey it at
+all. For example, if you agree to terms that obligate you</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">to collect a
+royalty for further conveying from those to whom you convey</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the Program, the
+only way you could satisfy both those terms and this</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">License would be to
+refrain entirely from conveying the Program.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">13. Use with the
+GNU Affero General Public License.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Notwithstanding any
+other provision of this License, you have</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">permission to link
+or combine any covered work with a work licensed</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">under version 3 of
+the GNU Affero General Public License into a single</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">combined work, and
+to convey the resulting work. The terms of this</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">License will
+continue to apply to the part which is the covered work,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">but the special
+requirements of the GNU Affero General Public License,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">section 13,
+concerning interaction through a network will apply to the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">combination as
+such.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">14. Revised
+Versions of this License.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">The Free Software
+Foundation may publish revised and/or new versions of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the GNU General
+Public License from time to time. Such new versions will</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">be similar in
+spirit to the present version, but may differ in detail to</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">address new
+problems or concerns.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Each version is
+given a distinguishing version number. If the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Program specifies
+that a certain numbered version of the GNU General</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Public License &quot;or
+any later version&quot; applies to it, you have the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">option of following
+the terms and conditions either of that numbered</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">version or of any
+later version published by the Free Software</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Foundation. If the
+Program does not specify a version number of the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">GNU General Public
+License, you may choose any version ever published</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">by the Free
+Software Foundation.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">If the Program
+specifies that a proxy can decide which future</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">versions of the GNU
+General Public License can be used, that proxy's</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">public statement of
+acceptance of a version permanently authorizes you</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">to choose that
+version for the Program.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Later license
+versions may give you additional or different</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">permissions.
+However, no additional obligations are imposed on any</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">author or copyright
+holder as a result of your choosing to follow a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">later version.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">15. Disclaimer of
+Warranty.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">THERE IS NO
+WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">APPLICABLE LAW.
+EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">HOLDERS AND/OR
+OTHER PARTIES PROVIDE THE PROGRAM &quot;AS IS&quot; WITHOUT WARRANTY</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">OF ANY KIND, EITHER
+EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">PURPOSE. THE ENTIRE
+RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">IS WITH YOU. SHOULD
+THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">ALL NECESSARY
+SERVICING, REPAIR OR CORRECTION.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">16. Limitation of
+Liability.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">IN NO EVENT UNLESS
+REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">WILL ANY COPYRIGHT
+HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">THE PROGRAM AS
+PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">GENERAL, SPECIAL,
+INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">USE OR INABILITY TO
+USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">DATA OR DATA BEING
+RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">PARTIES OR A
+FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">EVEN IF SUCH HOLDER
+OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">SUCH DAMAGES.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">17. Interpretation
+of Sections 15 and 16.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">If the disclaimer
+of warranty and limitation of liability provided</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">above cannot be
+given local legal effect according to their terms,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">reviewing courts
+shall apply local law that most closely approximates</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">an absolute waiver
+of all civil liability in connection with the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Program, unless a
+warranty or assumption of liability accompanies a</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">copy of the Program
+in return for a fee.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">END OF TERMS AND
+CONDITIONS</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">How to Apply These
+Terms to Your New Programs</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">If you develop a
+new program, and you want it to be of the greatest</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">possible use to the
+public, the best way to achieve this is to make it</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">free software which
+everyone can redistribute and change under these terms.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">To do so, attach
+the following notices to the program. It is safest</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">to attach them to
+the start of each source file to most effectively</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">state the exclusion
+of warranty; and each file should have at least</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the &quot;copyright&quot;
+line and a pointer to where the full notice is found.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&lt;one line to
+give the program's name and a brief idea of what it does.&gt;</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Copyright (C)
+&lt;year&gt; &lt;name of author&gt;</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">This program is
+free software: you can redistribute it and/or modify</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">it under the terms
+of the GNU General Public License as published by</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the Free Software
+Foundation, either version 3 of the License, or</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">(at your option)
+any later version.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">This program is
+distributed in the hope that it will be useful,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">but WITHOUT ANY
+WARRANTY; without even the implied warranty of</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE. See the</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">GNU General Public
+License for more details.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">You should have
+received a copy of the GNU General Public License</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">along with this
+program. If not, see &lt;http://www.gnu.org/licenses/&gt;.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Also add
+information on how to contact you by electronic and paper mail.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">If the program does
+terminal interaction, make it output a short</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">notice like this
+when it starts in an interactive mode:</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&lt;program&gt;
+Copyright (C) &lt;year&gt; &lt;name of author&gt;</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">This program comes
+with ABSOLUTELY NO WARRANTY; for details type `show w'.</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">This is free
+software, and you are welcome to redistribute it</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">under certain
+conditions; type `show c' for details.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">The hypothetical
+commands `show w' and `show c' should show the appropriate</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">parts of the
+General Public License. Of course, your program's commands</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">might be different;
+for a GUI interface, you would use an &quot;about box&quot;.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">You should also get
+your employer (if you work as a programmer) or school,</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">if any, to sign a
+&quot;copyright disclaimer&quot; for the program, if necessary.</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">For more
+information on this, and how to apply and follow the GNU GPL, see</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&lt;http://www.gnu.org/licenses/&gt;.</FONT></P>
+<P ALIGN=CENTER><BR><BR>
+</P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">The GNU General
+Public License does not permit incorporating your program</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">into proprietary
+programs. If your program is a subroutine library, you</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">may consider it
+more useful to permit linking proprietary applications with</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">the library. If
+this is what you want to do, use the GNU Lesser General</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">Public License
+instead of this License. But first, please read</FONT></P>
+<P ALIGN=CENTER><FONT FACE="FreeSans, sans-serif">&lt;http://www.gnu.org/philosophy/why-not-lgpl.html&gt;.</FONT></P>
+</BODY>
+</HTML>

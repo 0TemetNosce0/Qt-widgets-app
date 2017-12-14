@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Romanian</DisplayName>
+    <Description>Romanian languages files.</Description>
+    <Version>1.0</Version>
+    <ReleaseDate>2013-08-29</ReleaseDate>
+    <Name>ru.vasoft.qtdbf.lang.ro</Name>
+    <SortingPriority>92</SortingPriority>
+    <Translations>
+    </Translations>
+</Package>

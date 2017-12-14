@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/">
+    <file>res/flag_us.png</file>
+    <file>res/flag_uk.png</file>
+    <file>res/flag_de.png</file>
+    <file>res/flag_fr.png</file>
+    <file>res/flag_it.png</file>
+    <file>res/flag_ua.png</file>
+    <file>res/flag_ru.png</file>
+    <file>res/flag_br.png</file>
+    <file>res/flag_mx.png</file>
+    <file>res/flag_at.png</file>
+    <file>res/flag_hu.png</file>
+    <file>res/flag_bg.png</file>
+    <file>res/flag_po.png</file>
+    <file>res/flag_no.png</file>
+    <file>res/flag_es.png</file>
+    <file>res/flag_se.png</file>
+    </qresource>
+</RCC>

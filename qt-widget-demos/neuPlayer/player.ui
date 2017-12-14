@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Player</class>
+ <widget class="QMainWindow" name="Player">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>45</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>285</width>
+    <height>45</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>45</height>
+   </size>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>neuPlayer</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="assets.qrc">
+    <normaloff>:/Ressources/neuPlayerv2.png</normaloff>:/Ressources/neuPlayerv2.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="minimumSize">
+    <size>
+     <width>400</width>
+     <height>45</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>400</width>
+     <height>45</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#a_menubtn{	
+	background-image: url(:/Ressources/roundedmenubtn.png);
+}
+QPushButton#a_menubtn:hover{
+	background-image: url(:/Ressources/roundedmenubtn_onHover.png);
+}
+QPushButton#a_playbtn{ 
+background-image: url(:/Ressources/Playbtn.png);}
+QPushButton#a_playbtn:hover{ 
+background-image: url(:/Ressources/Playbtn_onHover.png);}
+QPushButton#a_pausebtn{
+	background-image: url(:/Ressources/Pausebtn.png);
+}
+QPushButton#a_pausebtn:hover{
+	background-image: url(:/Ressources/Pausebtn_onHover.png);
+}
+QPushButton#a_closeButton{
+	background-image: url(:/Ressources/closeButton.png);
+}
+QPushButton#a_closeButton:hover{
+	background-image: url(:/Ressources/closeButton_onHover.png);
+}
+QPushButton#a_hideButton{
+	background-image: url(:/Ressources/hideButton.png);
+}
+QPushButton#a_hideButton:hover{
+	background-image: url(:/Ressources/hideButton_onHover.png);
+}
+QSlider::handle:horizontal {
+	image: url(:/Ressources/handle.png);
+}</string>
+   </property>
+   <widget class="QLabel" name="a_label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>0</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>170</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a_playbtn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Jouer (Espace)</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>42</width>
+      <height>42</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string>Space</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a_pausebtn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Pause (Espace)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>42</width>
+      <height>42</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string>Space</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a_volumebtn">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>25</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Volume (cliquez pour muet)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="assets.qrc">
+      <normaloff>:/Ressources/volumebtn.png</normaloff>:/Ressources/volumebtn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>42</width>
+      <height>42</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a_menubtn">
+    <property name="geometry">
+     <rect>
+      <x>372</x>
+      <y>22</y>
+      <width>24</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Menu (Click droit)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>35</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="a_image">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>0</y>
+      <width>400</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="assets.qrc">:/Ressources/neudarkbg.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="a_currenttime">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>28</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>--:--</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="a_duration">
+    <property name="geometry">
+     <rect>
+      <x>252</x>
+      <y>20</y>
+      <width>28</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>--:--</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a_closeButton">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>0</y>
+      <width>18</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Fermer le player (ALT + F4)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>15</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a_hideButton">
+    <property name="geometry">
+     <rect>
+      <x>363</x>
+      <y>0</y>
+      <width>18</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Réduire le player</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>15</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a_forward">
+    <property name="geometry">
+     <rect>
+      <x>65</x>
+      <y>24</y>
+      <width>22</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="toolTip">
+     <string>Suivant (Ctrl + Droite)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="assets.qrc">
+      <normaloff>:/Ressources/forwardbtn.png</normaloff>:/Ressources/forwardbtn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>38</width>
+      <height>38</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string>Ctrl+Right</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a_previous">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>23</y>
+      <width>22</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Précédent (Ctrl + Gauche)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="assets.qrc">
+      <normaloff>:/Ressources/previousbtn.png</normaloff>:/Ressources/previousbtn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>38</width>
+      <height>38</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string>Ctrl+Left</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>a_image</zorder>
+   <zorder>a_label</zorder>
+   <zorder>a_playbtn</zorder>
+   <zorder>a_pausebtn</zorder>
+   <zorder>a_volumebtn</zorder>
+   <zorder>a_menubtn</zorder>
+   <zorder>a_currenttime</zorder>
+   <zorder>a_duration</zorder>
+   <zorder>a_closeButton</zorder>
+   <zorder>a_hideButton</zorder>
+   <zorder>a_forward</zorder>
+   <zorder>a_previous</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="assets.qrc"/>
+ </resources>
+ <connections/>
+</ui>

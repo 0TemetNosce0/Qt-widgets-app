@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<guideinfos>
+    <guideinfo>
+        <mask  name="mask"  width="900"  height="600" normalimage=":/GLDMaskWidget/bin/images/360.png" hoverimage=":/GLDMaskWidget/bin/images/360.png" 
+pressedimage=":/GLDMaskWidget/bin/images/360.png" leftXpos="24" leftYpos="86"/>
+        <close name="close" width="30"   height="30"  normalimage=":/GLDMaskWidget/bin/images/close-normal.png" hoverimage=":/GLDMaskWidget/bin/images/close-hover.png" 
+pressedimage=":/GLDMaskWidget/bin/images/close-pressed.png" leftXpos="870" leftYpos="0"/>
+        <next  name="next"  width="128"  height="38"  normalimage=":/GLDMaskWidget/bin/images/next-normal.png" hoverimage=":/GLDMaskWidget/bin/images/next-hover.png" 
+pressedimage=":/GLDMaskWidget/bin/images/next-pressed.png" leftXpos="90" leftYpos="450"/>
+    </guideinfo>
+    <guideinfo>
+        <mask   name="mask" width="507"   height="511" normalimage=":/GLDMaskWidget/bin/images/next.png" hoverimage=":/GLDMaskWidget/bin/images/next.png" 
+pressedimage=":/GLDMaskWidget/bin/images/next.png" leftXpos="600" leftYpos="180"/>
+        <close  name="close" width="30"   height="30"  normalimage=":/GLDMaskWidget/bin/images/close-normal.png" hoverimage=":/GLDMaskWidget/bin/images/close-hover.png" 
+pressedimage=":/GLDMaskWidget/bin/images/close-pressed.png" leftXpos="455" leftYpos="255"/>
+        <next   name="next"  width="128"  height="38"  normalimage=":/GLDMaskWidget/bin/images/next-normal.png" hoverimage=":/GLDMaskWidget/bin/images/next-hover.png" 
+pressedimage=":/GLDMaskWidget/bin/images/next-pressed.png" leftXpos="295" leftYpos="446"/>
+    </guideinfo>
+</guideinfos>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Playlist</class>
+ <widget class="QWidget" name="Playlist">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>265</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>265</width>
+    <height>142</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>265</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Playlist</string>
+  </property>
+  <widget class="QPushButton" name="a_tools">
+   <property name="geometry">
+    <rect>
+     <x>228</x>
+     <y>55</y>
+     <width>30</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="a_cover">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>11</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="assets.qrc">:/Ressources/noCoverHeader.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="a_searchLine">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>77</y>
+     <width>245</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="a_titleHeader">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>171</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="a_switchRandomPlay">
+   <property name="geometry">
+    <rect>
+     <x>236</x>
+     <y>0</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Switch lecture playlist aléatoire (Alt + R)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="assets.qrc">
+     <normaloff>:/Ressources/randomPlaybtn.png</normaloff>:/Ressources/randomPlaybtn.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>22</width>
+     <height>22</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string>Alt+R</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="a_switchLoopPlay">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>-1</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Switch lecture en boucle de la playlist (Alt + L)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="assets.qrc">
+     <normaloff>:/Ressources/loopPlaybtn.png</normaloff>:/Ressources/loopPlaybtn.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="shortcut">
+    <string>Alt+L</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="a_tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>55</y>
+     <width>251</width>
+     <height>235</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="library">
+    <attribute name="title">
+     <string>Liste de lecture</string>
+    </attribute>
+    <attribute name="toolTip">
+     <string>Liste de lecture actuelle</string>
+    </attribute>
+    <widget class="QListWidget" name="a_playlistWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>251</width>
+       <height>209</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>242</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>2550</width>
+       <height>220</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="dragEnabled">
+      <bool>true</bool>
+     </property>
+     <property name="dragDropMode">
+      <enum>QAbstractItemView::DragDrop</enum>
+     </property>
+     <property name="movement">
+      <enum>QListView::Free</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="favourites">
+    <attribute name="title">
+     <string>Favoris</string>
+    </attribute>
+    <attribute name="toolTip">
+     <string>Vos favoris
+Il est possible d'en rajouter en appuyant sur le bouton
+d'ajout de favoris, ou par click droit sur la musique</string>
+    </attribute>
+    <widget class="QListWidget" name="a_playlistFavWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>251</width>
+       <height>209</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>242</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>2550</width>
+       <height>220</height>
+      </size>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="dragEnabled">
+      <bool>true</bool>
+     </property>
+     <property name="dragDropMode">
+      <enum>QAbstractItemView::DragDrop</enum>
+     </property>
+     <property name="movement">
+      <enum>QListView::Free</enum>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="a_addFavStar">
+   <property name="geometry">
+    <rect>
+     <x>234</x>
+     <y>22</y>
+     <width>18</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="assets.qrc">
+     <normaloff>:/Ressources/star.png</normaloff>:/Ressources/star.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>18</width>
+     <height>18</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>a_cover</zorder>
+  <zorder>a_searchLine</zorder>
+  <zorder>a_titleHeader</zorder>
+  <zorder>a_switchRandomPlay</zorder>
+  <zorder>a_switchLoopPlay</zorder>
+  <zorder>a_tabWidget</zorder>
+  <zorder>a_tools</zorder>
+  <zorder>a_addFavStar</zorder>
+ </widget>
+ <resources>
+  <include location="assets.qrc"/>
+ </resources>
+ <connections/>
+</ui>

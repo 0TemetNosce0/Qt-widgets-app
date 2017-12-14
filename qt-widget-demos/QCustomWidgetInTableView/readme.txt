@@ -1,0 +1,1 @@
+https://forum.qt.io/topic/23353/solved-custom-widget-s-position-is-incorrect-in-qitemdelegate-after-removed-item-from-qtableview/6

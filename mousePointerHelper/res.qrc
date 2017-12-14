@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/cursors">
+        <file>ICO/Cursor.png</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>ICO/icon.ico</file>
+    </qresource>
+</RCC>

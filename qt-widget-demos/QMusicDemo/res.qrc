@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/search_add.png</file>
+        <file>icons/search_add1.png</file>
+        <file>icons/search_down.png</file>
+        <file>icons/search_down1.png</file>
+        <file>icons/search_listen.png</file>
+        <file>icons/search_listen1.png</file>
+        <file>qheaderview.qss</file>
+    </qresource>
+</RCC>

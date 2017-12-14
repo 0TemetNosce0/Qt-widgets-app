@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>688</width>
+    <height>327</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="cCustomTableView" name="tableView">
+     <property name="selectionMode">
+      <enum>QAbstractItemView::SingleSelection</enum>
+     </property>
+     <property name="verticalScrollMode">
+      <enum>QAbstractItemView::ScrollPerPixel</enum>
+     </property>
+     <property name="horizontalScrollMode">
+      <enum>QAbstractItemView::ScrollPerPixel</enum>
+     </property>
+     <property name="gridStyle">
+      <enum>Qt::SolidLine</enum>
+     </property>
+     <property name="sortingEnabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="verticalScrollMode">
+      <enum>QAbstractItemView::ScrollPerPixel</enum>
+     </property>
+     <property name="horizontalScrollMode">
+      <enum>QAbstractItemView::ScrollPerPixel</enum>
+     </property>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>row</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>col</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>col</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>col</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>col</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>col</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>col</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>col</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>col</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>col</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>col</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>cCustomTableView</class>
+   <extends>QTableView</extends>
+   <header>ccustomtableview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

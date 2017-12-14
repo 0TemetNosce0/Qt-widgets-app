@@ -1,0 +1,79 @@
+qtdbf (1.0.0-1) stable; urgency=low
+
+  * Aggregate functions was added
+
+ -- Alexander Vorobyev <mvoral@mail.ru>  Sat, 05 Oct 2013 11:34:56 +0400
+
+qtdbf (0.9.11-1) stable; urgency=low
+
+  * Created icns file for MacOS
+  * At the opening of the filter current field is set by default
+  * Added some lines and icon-file for OS/2 and eComStation
+  * Ukrainian help and language files was added (Motsyo Gennadi aka Drool)
+  * Created scripts for building macOS application and dmg-file
+  * Configure files for Qt Installer Famework (for windows installer)
+  * Bugfix filter
+  * Fixed a typo in a Russian help
+  * Remove memory leak on application exit
+
+ -- Alexander Vorobyev <mvoral@mail.ru>  Thu, 29 Aug 2013 10:40:50 +0400
+
+qtdbf (0.9.10-1) stable; urgency=low
+
+  * Bugfix !!! Overwriting a file when it is opened after editing the previous
+  * Added simple filter
+  * Filter "All files" was added into Open file dialog.
+
+ -- Alexander Vorobyev <mvoral@mail.ru>  Thu, 01 Aug 2013 22:14:59 +0400
+
+qtdbf (0.9.9-1) testing; urgency=low
+
+  * Some changes of repo-structure
+
+ -- Alexander Vorobyev <mvoral@mail.ru>  Sun, 28 Jul 2013 21:45:00 +0300
+
+qtdbf (0.9.8-1) testing; urgency=low
+
+  * Minor changes have been made to conform freedesktop.org
+
+ -- Alexander Vorobyev <mvoral@mail.ru>  Fri, 27 Jul 2013 02:53:00 +0300
+
+qtdbf (0.9.7-1) testing; urgency=low
+
+  * "Open file" button has been added
+  * The locale is automatically determined unless explicitly specified in the settings
+  * File encoding of Russian help fix
+
+ -- Alexander Vorobyev <mvoral@mail.ru>  Wed, 24 Jul 2013 09:00:00 +0300
+
+qtdbf (0.9.6-1) testing; urgency=low
+
+
+  * Fixed bug with non-English characters in the DBF file name
+
+ -- Alexander Vorobyev <mvoral@mail.ru>  Mon, 22 Jul 2013 13:00:00 +0300
+
+qtdbf (0.9.5-1) testing; urgency=low
+
+
+  * Bug with 'The loss of settings' is closed
+  * Fixed a typo in Russian translation
+
+ -- Alexander Vorobyev <mvoral@mail.ru>  Thu, 18 Jul 2013 12:23:00 +0300
+
+qtdbf (0.9.4-1) testing; urgency=low
+
+
+  * Problem with non-standard characters in the file name resolved
+
+ -- Alexander Vorobyev <mvoral@mail.ru>  Fri, 12 Jul 2013 15:00:00 +0300
+
+qtdbf (0.9.3-1) testing; urgency=low
+
+
+  * Added encoding setting DBF-file
+  * Added Russian Language
+  * For Linux systems, if the files of Help and translations are not found in the standard path, the application will try to find them in their catalog.
+  * Fixed filter in file open dialog
+
+ -- Alexander Vorobyev <mvoral@mail.ru>  Thu, 25 Jan 2011 18:00:00 +0300

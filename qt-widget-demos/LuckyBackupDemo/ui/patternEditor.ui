@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>patternEditor</class>
+ <widget class="QDialog" name="patternEditor">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>515</width>
+    <height>401</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>pattern editor</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resources/luckybackup.qrc">
+    <normaloff>:/luckyPrefix/luckybackup_96.png</normaloff>:/luckyPrefix/luckybackup_96.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="1" column="0" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_browse">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_browse">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>29</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButton_browseFile">
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>browse localy for a file</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../resources/luckybackup.qrc">
+         <normaloff>:/luckyPrefix/fileopen.png</normaloff>:/luckyPrefix/fileopen.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="toolButton_browseDir">
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>browse localy for a directory path</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../resources/luckybackup.qrc">
+         <normaloff>:/luckyPrefix/fileopen.png</normaloff>:/luckyPrefix/fileopen.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QCheckBox" name="checkBox_pathAbsolute">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="toolTip">
+        <string>Check this to use the directory above as an absolute path
+if unchecked, the pattern will match any file/directory that meets the &quot;name&quot; criteria</string>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>use absolute path</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_6">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_pathDeeper">
+         <property name="toolTip">
+          <string>Use this to refer to deeper sub-directories
+eg
+The directory &quot;/media/music&quot; includes 3 sub-directories:
+1.Rock
+2.Jazz
+3.Soundtracks
+ and you would like to refer to all the contents of these 3, define the following:
+* Set of directories
+* Directory contents
+* path:/media/music/
+* Go deeper in path by &quot;1&quot;</string>
+         </property>
+         <property name="text">
+          <string>Go deeper in path by :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_pathDeeper">
+         <property name="maximumSize">
+          <size>
+           <width>45</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>Use this to refer to deeper sub-directories
+eg
+The directory &quot;/media/music&quot; includes 3 sub-directories:
+1.Rock
+2.Jazz
+3.Soundtracks
+ and you would like to refer to all the contents of these 3, define the following:
+* Set of directories
+* Directory contents
+* path:/media/music/
+* Go deeper in path by &quot;1&quot;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_pathAny">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="toolTip">
+          <string>Go deeper in path by any level</string>
+         </property>
+         <property name="text">
+          <string>any</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="0" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="pushButton_reset">
+       <property name="toolTip">
+        <string>Reset the pattern editor fields to the default values</string>
+       </property>
+       <property name="text">
+        <string>reset</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../resources/luckybackup.qrc">
+         <normaloff>:/luckyPrefix/abort.png</normaloff>:/luckyPrefix/abort.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>218</width>
+         <height>17</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_okay">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>Okay</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>:/luckyPrefix/okay.png</normalon>
+        </iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_cancel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>:/luckyPrefix/cancel.png</normalon>
+        </iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox_fileOrDir">
+     <property name="font">
+      <font>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Define here, what would you like the pattern to refer to</string>
+     </property>
+     <property name="title">
+      <string>The pattern refers to a:</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="radioButton_fileSpecific">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="toolTip">
+         <string>Use this if the pattern refers to a specific file
+eg &quot;/media/music/album/song.mp3&quot;</string>
+        </property>
+        <property name="text">
+         <string>Specific file</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QRadioButton" name="radioButton_directorySpecific">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="toolTip">
+         <string>Use this if the pattern refers to a specific directory
+eg &quot;/media/music/Album/&quot;</string>
+        </property>
+        <property name="text">
+         <string>Specific directory</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="radioButton_fileSet">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="toolTip">
+         <string>Use this if the pattern refers to a set of files that have something in common
+eg all the files with a &quot;.txt&quot; extension</string>
+        </property>
+        <property name="text">
+         <string>Set of files</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QRadioButton" name="radioButton_directorySet">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="toolTip">
+         <string>Use this if the pattern refers to a set of directories that have something in common
+eg all the directories that are named as &quot;temp&quot;</string>
+        </property>
+        <property name="text">
+         <string>Set of directories</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="1">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="2" column="2">
+       <widget class="QCheckBox" name="checkBox_directoryContents">
+        <property name="toolTip">
+         <string>Use this if the pattern refers to the contents of a directory (or a set of directories), not the directory itself
+eg the contents of the directory &quot;/media/music/Album/&quot;</string>
+        </property>
+        <property name="text">
+         <string>Directory contents</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="groupBox_name">
+     <property name="toolTip">
+      <string>Define here the name criteria for the files/directories to be matched</string>
+     </property>
+     <property name="title">
+      <string>name</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_nameStartsWith">
+        <property name="text">
+         <string>starts with :</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="lineEdit_nameStartsWith">
+        <property name="toolTip">
+         <string>Enter here the starting characters of the name of the files/directories that the pattern refers to</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_nameEndsWith">
+        <property name="text">
+         <string>ends with :</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="lineEdit_nameEndsWith">
+        <property name="toolTip">
+         <string>Enter here the ending characters of the name of the files/directories that the pattern refers to
+eg to refer to all &quot;.txt&quot; files, enter
+.txt</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="lineEdit_nameIsExactly">
+        <property name="toolTip">
+         <string>Enter here the name of the files/directories that the pattern refers to</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_nameIsExactly">
+        <property name="text">
+         <string>is exactly :</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="lineEdit_nameContains">
+        <property name="toolTip">
+         <string>Enter here the characters contained in any position of the name of the files/directories that the pattern refers to</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_nameContains">
+        <property name="text">
+         <string>contains :</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox_finalPattern">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>final pattern</string>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QLineEdit" name="lineEdit_patternFinal">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="toolTip">
+         <string>The actual pattern is displayed here</string>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>radioButton_fileSpecific</tabstop>
+  <tabstop>radioButton_directorySpecific</tabstop>
+  <tabstop>radioButton_fileSet</tabstop>
+  <tabstop>radioButton_directorySet</tabstop>
+  <tabstop>checkBox_directoryContents</tabstop>
+  <tabstop>lineEdit_browse</tabstop>
+  <tabstop>toolButton_browseFile</tabstop>
+  <tabstop>toolButton_browseDir</tabstop>
+  <tabstop>checkBox_pathAbsolute</tabstop>
+  <tabstop>spinBox_pathDeeper</tabstop>
+  <tabstop>checkBox_pathAny</tabstop>
+  <tabstop>lineEdit_nameIsExactly</tabstop>
+  <tabstop>lineEdit_nameStartsWith</tabstop>
+  <tabstop>lineEdit_nameContains</tabstop>
+  <tabstop>lineEdit_nameEndsWith</tabstop>
+  <tabstop>lineEdit_patternFinal</tabstop>
+  <tabstop>pushButton_reset</tabstop>
+  <tabstop>pushButton_okay</tabstop>
+  <tabstop>pushButton_cancel</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../resources/luckybackup.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>radioButton_fileSpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>groupBox_name</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>groupBox_name</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>groupBox_name</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>groupBox_name</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_pathDeeper</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>314</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>spinBox_pathDeeper</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_pathDeeper</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>314</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>spinBox_pathDeeper</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_pathDeeper</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>314</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>spinBox_pathDeeper</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_pathDeeper</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>314</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>spinBox_pathDeeper</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>toolButton_browseDir</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>479</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>toolButton_browseFile</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>toolButton_browseDir</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>479</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>toolButton_browseFile</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>toolButton_browseDir</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>479</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>toolButton_browseFile</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>toolButton_browseDir</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>479</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>toolButton_browseFile</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_directoryContents</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>271</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_directoryContents</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>271</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_directoryContents</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>271</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_directoryContents</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>271</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_pathAbsolute</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>267</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>120</x>
+     <y>230</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_pathAbsolute</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>120</x>
+     <y>230</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_pathAbsolute</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>55</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>120</x>
+     <y>230</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_pathAbsolute</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>68</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>120</x>
+     <y>230</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_pathAny</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>478</x>
+     <y>230</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_directorySpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_pathAny</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>478</x>
+     <y>230</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSet</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_pathAny</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>478</x>
+     <y>230</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_fileSpecific</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>checkBox_pathAny</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>67</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>478</x>
+     <y>230</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

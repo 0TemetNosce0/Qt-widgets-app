@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Find_Replace</class>
+ <widget class="QDialog" name="Find_Replace">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>160</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>查找&amp;替换</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/images/find.png</normaloff>:/images/find.png</iconset>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>422</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="find">
+    <attribute name="title">
+     <string>查找(&amp;F)</string>
+    </attribute>
+    <widget class="QPushButton" name="nextButtonF">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>10</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>查找下一个(&amp;F)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditF">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>10</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelFindF">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>10</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>查找内容：</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxSenceF">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>区分大小写(&amp;H)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancleButtonF">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>100</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>取消(&amp;C)</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxDirectionF">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>70</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>方向：</string>
+     </property>
+     <widget class="QRadioButton" name="radioButtonUpF">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>向上(&amp;U)</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonDownF">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>20</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>向下(&amp;D)</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="replace">
+    <attribute name="title">
+     <string>替换(&amp;R)</string>
+    </attribute>
+    <widget class="QCheckBox" name="checkBoxSenceR">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>区分大小写(&amp;H)</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxDirectionR">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>70</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>方向：</string>
+     </property>
+     <widget class="QRadioButton" name="radioButtonUpR">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>向上(&amp;U)</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButtonDownR">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>20</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>向下(&amp;D)</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="labelFindR">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>10</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>查找内容：</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditR">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>10</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="nextButtonR">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>10</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>查找下一个(&amp;F)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancleButtonR">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>100</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>取消(&amp;C)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditreplace">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelReplace">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>40</y>
+       <width>61</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string> 替换为：</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonReplace">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>40</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>替换(&amp;R)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonReplaceAll">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>70</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>全部替换(&amp;A)</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>lineEditF</tabstop>
+  <tabstop>nextButtonF</tabstop>
+  <tabstop>checkBoxSenceF</tabstop>
+  <tabstop>radioButtonUpF</tabstop>
+  <tabstop>radioButtonDownF</tabstop>
+  <tabstop>cancleButtonF</tabstop>
+  <tabstop>lineEditR</tabstop>
+  <tabstop>lineEditreplace</tabstop>
+  <tabstop>nextButtonR</tabstop>
+  <tabstop>pushButtonReplace</tabstop>
+  <tabstop>pushButtonReplaceAll</tabstop>
+  <tabstop>cancleButtonR</tabstop>
+  <tabstop>radioButtonDownR</tabstop>
+  <tabstop>radioButtonUpR</tabstop>
+  <tabstop>checkBoxSenceR</tabstop>
+  <tabstop>tabWidget</tabstop>
+ </tabstops>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

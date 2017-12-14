@@ -1,0 +1,315 @@
+QWidget#UiWeatherInfo
+{
+	border-image:url(:/WorkStation/Resources/theme/interface/weather-back.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelRegister
+{	
+	background-image:url(:/WorkStation/Resources/theme/login/zhuce.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelRegister:hover
+{	
+	background-image:url(:/WorkStation/Resources/theme/login/zhuce_hover.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelRegister:pressed
+{
+	background-image:url(:/WorkStation/Resources/theme/login/zhuce_press.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelForget
+{
+	background-image:url(:/WorkStation/Resources/theme/login/mima.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelForget:hover
+{	
+	background-image:url(:/WorkStation/Resources/theme/login/mima_hover.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelForget:pressed
+{
+	background-image:url(:/WorkStation/Resources/theme/login/mima_press.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelTwo
+{
+	border-image:url(:/WorkStation/Resources/theme/login/corner_right_normal_down.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelTwo:hover
+{
+	border-image:url(:/WorkStation/Resources/theme/login/corner_right_hover.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelTwo:pressed
+{
+	border-image:url(:/WorkStation/Resources/theme/login/corner_right_normal_down.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelMoreAccount
+{
+	border-image:url(:/WorkStation/Resources/theme/login/corner_back.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelMoreAccount:hover
+{
+	border-image:url(:/WorkStation/Resources/theme/login/corner_back_hover.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#labelMoreAccount:pressed
+{
+	border-image:url(:/WorkStation/Resources/theme/login/corner_back_press.png) 0 0 0 0 stretch stretch;
+}
+
+QLabel#imageLabel
+{
+	border-color: rgb(0,88,152);
+	background-color: rgba(97%,80%,9%,50%);
+}
+
+QLineEdit
+{
+	border-image:url(:/WorkStation/Resources/theme/login/inputbox.png) 0 0 0 0 stretch stretch;
+}
+
+QLineEdit:hover
+{
+	border-image:url(:/WorkStation/Resources/theme/login/inputbox_hover.png) 0 0 0 0 stretch stretch;
+}
+
+QWidget#widgetColumn>QPushButton
+{
+	height:35px;
+}
+
+QWidget#widgetColumn>QPushButton:checked,QPushButton#pushButtonInter:checked,QPushButton#pushButtonSkin:checked
+{	
+	border-image:url(:/WorkStation/Resources/theme/maintabbar/main_tab_check.png) 0 0 0 0 stretch stretch;
+}
+
+QWidget#widgetColumn>QPushButton:hover,QPushButton#pushButtonInter:hover,QPushButton#pushButtonSkin:hover
+{
+	border-image:url(:/WorkStation/Resources/theme/maintabbar/main_tab_highlight.png) 0 0 0 0 stretch stretch;
+}
+
+QWidget#widgetColumn>QPushButton::menu-indicator
+{
+	border-image: none;
+}
+
+QWidget#widgetColumn>QPushButton::menu-indicator:checked:hover
+{
+	width:20px;
+	height:30;
+	border-image:url(:/WorkStation/Resources/theme/maintabbar/main_tabbtn_highlight.png) 0 0 0 0 stretch stretch;
+}
+
+QWidget#widgetColumn>QPushButton::menu-indicator:pressed, QWidget#widgetColumn>QPushButton::menu-indicator:open
+{
+	border-image:url(:/WorkStation/Resources/theme/maintabbar/main_tabbtn_down.png) 0 0 0 0 stretch stretch;
+}
+
+QPushButton#pushButtonLogin:hover 
+{
+	border-image:url(:/WorkStation/Resources/theme/login/button_login_hover.png) 0 0 0 0 stretch stretch;
+}
+
+QPushButton#pushButtonLogin
+{
+	border:0px;
+	padding:-1px;
+	width:185px;
+	height:49px;
+	border-image:url(:/WorkStation/Resources/theme/login/button_login_normal.png) 0 0 0 0 stretch stretch;
+}
+
+QPushButton#pushButtonLogin:pressed 
+{
+	border-image:url(:/WorkStation/Resources/theme/login/button_login_down.png) 0 0 0 0 stretch stretch;
+}
+
+QPushButton#pushButtonSignature:hover
+{
+	border-image:url(:/WorkStation/Resources/theme/maintool/allbtn_highlight.png) 0 0 0 0 stretch stretch;
+}
+
+QPushButton#pushButtonClassic,QPushButton#pushButtonCover
+{
+	border:2px groove gray;
+	border-radius:10px;
+	padding:2px 4px;
+}
+
+QLabel#labelSignature:hover,QToolButton:hover 
+{
+	margin:0px;
+	border-image:url(:/WorkStation/Resources/theme/maintool/allbtn_highlight.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton:pressed
+{
+	border-image:url(:/WorkStation/Resources/theme/maintool/allbtn_down.png.png) 0 0 0 0 stretch stretch;		
+}
+/*
+QToolButton::menu-indicator
+{
+	width:9px;
+	height:4px;
+	border-image:url(:/WorkStation/Resources/theme/maintool/arrow_down.png) 0 0 0 0 stretch stretch;
+}
+*/
+QToolButton::menu-button:hover
+{
+	border-image:url(:/WorkStation/Resources/theme/maintool/allbtn_right_highlight.png) 0 0 0 0 stretch stretch;		
+}
+
+QToolButton::menu-button:pressed
+{
+	border-image:url(:/WorkStation/Resources/theme/maintool/allbtn_right_down.png) 0 0 0 0 stretch stretch;		
+}
+
+
+QToolButton#toolButtonClose
+{
+	width: 39px;
+	height: 20px;
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_close_normal.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonClose:hover 
+{
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_close_highlight.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonClose:pressed 
+{
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_close_down.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonMax
+{
+	width: 28px;
+	height: 20px;
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_max_normal.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonMax:hover 
+{
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_max_highlight.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonMax:pressed 
+{
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_max_down.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonNor
+{
+	width: 28px;
+	height: 20px;
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_restore_normal.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonNor:hover 
+{
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_restore_highlight.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonNor:pressed 
+{
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_restore_down.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonMin
+{
+	width: 28px;
+	height: 20px;
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_mini_normal.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonMin:hover 
+{
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_mini_highlight.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonMin:pressed 
+{
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_mini_down.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonSet
+{
+	width: 28px;
+	height: 20px;
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_set_normal.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonSet:hover 
+{
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_set_hover.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonSet:pressed 
+{
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_set_press.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonSkin
+{
+	width: 28px;
+	height: 20px;
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_Skin_normal.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonSkin:hover 
+{
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_Skin_highlight.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonSkin:pressed 
+{
+	border-image:url(:/WorkStation/Resources/theme/systembutton/btn_Skin_down.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonQQGroup:hover,QToolButton#toolButtonDiscussion:hover
+{
+	border-image:url(:/WorkStation/Resources/theme/maintabbar/tabbtn_bgk_pushed_hover.png) 0 0 0 0 stretch stretch;
+}
+
+QToolButton#toolButtonQQGroup:checked,QToolButton#toolButtonDiscussion:checked
+{
+	border-image:url(:/WorkStation/Resources/theme/maintabbar/tabbtn_bgk_pushed.png) 0 0 0 0 stretch stretch;
+}
+
+QCheckBox::indicator,QListView::indicator
+{     
+     width: 17px;
+     height:17px;     
+}
+
+QCheckBox::indicator:!checked,QListView::indicator:!checked 
+{
+	border-image:url(:/WorkStation/Resources/theme/login/checkbox_normal.png) 0 0 0 0 stretch stretch;
+}
+
+QCheckBox::indicator:hover:!checked,QListView::indicator:hover:!checked 
+{
+	border-image:url(:/WorkStation/Resources/theme/login/checkbox_hover.png) 0 0 0 0 stretch stretch;
+}
+
+QCheckBox::indicator:checked,QListView::indicator:checked 
+{
+	border-image:url(:/WorkStation/Resources/theme/login/checkbox_selected_normal.png) 0 0 0 0 stretch stretch;
+}
+
+QCheckBox::indicator:checked:hover,QListView::indicator:checked:hover 
+{
+	border-image:url(:/WorkStation/Resources/theme/login/checkbox_selected_hover.png) 0 0 0 0 stretch stretch;
+}
+
+QTableWidget::item:selected
+{
+	border-image:url(:/WorkStation/Resources/theme/menu/menu_highlight.png) 0 0 0 0 stretch stretch;
+}

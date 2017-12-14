@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>closed.png</file>
+        <file>closed_hover.png</file>
+        <file>open.png</file>
+        <file>open_hover.png</file>
+    </qresource>
+</RCC>

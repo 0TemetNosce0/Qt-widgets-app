@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContextMenuDemo", "ContextMenuDemo\ContextMenuDemo.vcxproj", "{11456A20-5284-47C4-80AD-B62CD8D4F825}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContextMenuDemoPS", "ContextMenuDemo\ContextMenuDemoPS.vcxproj", "{2CE2A20F-7118-40FD-90BC-8FAD86658C97}"
+	ProjectSection(ProjectDependencies) = postProject
+		{11456A20-5284-47C4-80AD-B62CD8D4F825} = {11456A20-5284-47C4-80AD-B62CD8D4F825}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11456A20-5284-47C4-80AD-B62CD8D4F825}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11456A20-5284-47C4-80AD-B62CD8D4F825}.Debug|Win32.Build.0 = Debug|Win32
+		{11456A20-5284-47C4-80AD-B62CD8D4F825}.Debug|Win32.Deploy.0 = Debug|Win32
+		{11456A20-5284-47C4-80AD-B62CD8D4F825}.Debug|x64.ActiveCfg = Debug|x64
+		{11456A20-5284-47C4-80AD-B62CD8D4F825}.Debug|x64.Build.0 = Debug|x64
+		{11456A20-5284-47C4-80AD-B62CD8D4F825}.Release|Win32.ActiveCfg = Release|Win32
+		{11456A20-5284-47C4-80AD-B62CD8D4F825}.Release|Win32.Build.0 = Release|Win32
+		{11456A20-5284-47C4-80AD-B62CD8D4F825}.Release|Win32.Deploy.0 = Release|Win32
+		{11456A20-5284-47C4-80AD-B62CD8D4F825}.Release|x64.ActiveCfg = Release|x64
+		{11456A20-5284-47C4-80AD-B62CD8D4F825}.Release|x64.Build.0 = Release|x64
+		{2CE2A20F-7118-40FD-90BC-8FAD86658C97}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CE2A20F-7118-40FD-90BC-8FAD86658C97}.Debug|Win32.Deploy.0 = Debug|Win32
+		{2CE2A20F-7118-40FD-90BC-8FAD86658C97}.Debug|x64.ActiveCfg = Debug|x64
+		{2CE2A20F-7118-40FD-90BC-8FAD86658C97}.Release|Win32.ActiveCfg = Release|Win32
+		{2CE2A20F-7118-40FD-90BC-8FAD86658C97}.Release|Win32.Deploy.0 = Release|Win32
+		{2CE2A20F-7118-40FD-90BC-8FAD86658C97}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MortgagorsPanel</class>
+ <widget class="QWidget" name="MortgagorsPanel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>454</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout">
+   <item row="0" column="0">
+    <widget class="QTreeWidget" name="listMortgagors">
+     <column>
+      <property name="text">
+       <string>Mortgagors</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout">
+     <item>
+      <widget class="QPushButton" name="NewBtn">
+       <property name="text">
+        <string>New mortgagor...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="infBtn">
+       <property name="text">
+        <string>About  mortgagor...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="RemBtn">
+       <property name="text">
+        <string>Paying off...</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,12 @@
+QHeaderView::section
+{
+    font-size: 12pt;
+    border-style: none;
+    border-bottom: 1px solid #BCBCBC;
+    border-right: 1px solid  #BCBCBC;
+}
+
+QTableView
+{
+    gridline-color: rgb(188, 188, 188);
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<guideinfos>
+    <guideinfo>
+        <mask  name="mask"  width="900"  height="600" normalimage=":/bin/images/360.png" hoverimage=":/bin/images/360.png" 
+pressedimage=":/bin/images/360.png" leftXpos="24" leftYpos="86"/>
+        <close name="close" width="30"   height="30"  normalimage=":/bin/images/close-normal.png" hoverimage=":/bin/images/close-hover.png" 
+pressedimage=":/bin/images/close-pressed.png" leftXpos="870" leftYpos="0"/>
+        <next  name="next"  width="128"  height="38"  normalimage=":/bin/images/next-normal.png" hoverimage=":/bin/images/next-hover.png" 
+pressedimage=":/bin/images/next-pressed.png" leftXpos="450" leftYpos="450"/>
+    </guideinfo>
+    <guideinfo>
+        <mask   name="mask" width="507"   height="511" normalimage=":/bin/images/next.png" hoverimage=":/bin/images/next.png" 
+pressedimage=":/bin/images/next.png" leftXpos="600" leftYpos="180"/>
+        <close  name="close" width="30"   height="30"  normalimage=":/bin/images/close-normal.png" hoverimage=":/bin/images/close-hover.png" 
+pressedimage=":/bin/images/close-pressed.png" leftXpos="455" leftYpos="255"/>
+        <next   name="next"  width="128"  height="38"  normalimage=":/bin/images/next-normal.png" hoverimage=":/bin/images/next-hover.png" 
+pressedimage=":/bin/images/next-pressed.png" leftXpos="295" leftYpos="446"/>
+    </guideinfo>
+</guideinfos>

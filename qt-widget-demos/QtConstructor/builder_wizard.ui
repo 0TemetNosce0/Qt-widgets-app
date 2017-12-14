@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>builder_wizard</class>
+ <widget class="QWidget" name="builder_wizard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>910</width>
+    <height>705</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <property name="bottomMargin">
+      <number>20</number>
+     </property>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="icones.qrc">:/new/prefix1/icons/brick_edit.png</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_titulo">
+       <property name="text">
+        <string>   Select one option below</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ajuda_acl">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="icones.qrc">
+         <normaloff>:/new/prefix1/icons/help.png</normaloff>:/new/prefix1/icons/help.png</iconset>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="wizard_pages">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_start">
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>Form Options:</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QPushButton" name="btn_menu">
+            <property name="toolTip">
+             <string>Create a new menu</string>
+            </property>
+            <property name="text">
+             <string>New Menu</string>
+            </property>
+            <property name="icon">
+             <iconset resource="icones.qrc">
+              <normaloff>:/new/prefix1/icons/tab_add.png</normaloff>:/new/prefix1/icons/tab_add.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_action">
+            <property name="toolTip">
+             <string>Create a new qaction</string>
+            </property>
+            <property name="text">
+             <string>New Action</string>
+            </property>
+            <property name="icon">
+             <iconset resource="icones.qrc">
+              <normaloff>:/new/prefix1/icons/book_add.png</normaloff>:/new/prefix1/icons/book_add.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_componente">
+            <property name="toolTip">
+             <string>Associate components to a qaction</string>
+            </property>
+            <property name="text">
+             <string>New Component</string>
+            </property>
+            <property name="icon">
+             <iconset resource="icones.qrc">
+              <normaloff>:/new/prefix1/icons/book_add.png</normaloff>:/new/prefix1/icons/book_add.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btn_database">
+            <property name="toolTip">
+             <string>Associate components to a qaction</string>
+            </property>
+            <property name="text">
+             <string>Database</string>
+            </property>
+            <property name="icon">
+             <iconset resource="icones.qrc">
+              <normaloff>:/new/prefix1/icons/database_gear.png</normaloff>:/new/prefix1/icons/database_gear.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Maximum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>413</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="title">
+             <string>General Options:</string>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <widget class="QCheckBox" name="criar_coluna_automatico">
+               <property name="toolTip">
+                <string>To Create the table and column automatically</string>
+               </property>
+               <property name="text">
+                <string>Automatic database</string>
+               </property>
+               <property name="icon">
+                <iconset resource="icones.qrc">
+                 <normaloff>:/new/prefix1/icons/database_add.png</normaloff>:/new/prefix1/icons/database_add.png</iconset>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="paranoia_mode">
+               <property name="toolTip">
+                <string>Confirm every action. Don't delete database</string>
+               </property>
+               <property name="text">
+                <string>Paranoia mode</string>
+               </property>
+               <property name="icon">
+                <iconset resource="icones.qrc">
+                 <normaloff>:/new/prefix1/icons/bomb.png</normaloff>:/new/prefix1/icons/bomb.png</iconset>
+               </property>
+               <property name="checked">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>413</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string>Quick View </string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QTreeView" name="treeView">
+            <property name="contextMenuPolicy">
+             <enum>Qt::CustomContextMenu</enum>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="animated">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_menu">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="5" column="2">
+          <widget class="QSpinBox" name="menu_acl"/>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLabel" name="label_34">
+           <property name="text">
+            <string>ACL: </string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLineEdit" name="menu_descricao">
+           <property name="placeholderText">
+            <string>Menu description</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_17">
+           <property name="text">
+            <string>Name: </string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLineEdit" name="menu_nome">
+           <property name="placeholderText">
+            <string>Menu Name</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLabel" name="label_20">
+           <property name="text">
+            <string>Description: </string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string>Order: </string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_21">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/application_form_magnify.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QSpinBox" name="menu_ordem"/>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_33">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/bug_error.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_24">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/text_list_numbers.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Status:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QCheckBox" name="menu_status">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_22">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/style_edit.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/accept.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="2">
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="3" column="2">
+          <widget class="QListView" name="menu_lista_icones">
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_58">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/application_key.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="label_59">
+           <property name="text">
+            <string>Icon:</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_action">
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="1" column="1">
+          <widget class="QLabel" name="label_29">
+           <property name="text">
+            <string>Description:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QLineEdit" name="action_slot">
+           <property name="toolTip">
+            <string>Slot ao ser chamado quando clicar na action. Caso vazio, chama um slot padrão.</string>
+           </property>
+           <property name="placeholderText">
+            <string>What slot we call when action is clicked?</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_27">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/folder_page.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLabel" name="label_31">
+           <property name="text">
+            <string>Tooltip:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLineEdit" name="action_tooltip">
+           <property name="toolTip">
+            <string>Tooltip da action.</string>
+           </property>
+           <property name="placeholderText">
+            <string>Action Tooltip</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLabel" name="label_25">
+           <property name="text">
+            <string>Status</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_32">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/application_go.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_35">
+           <property name="text">
+            <string>Name:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLabel" name="label_42">
+           <property name="text">
+            <string>Icon:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLineEdit" name="action_descricao">
+           <property name="toolTip">
+            <string>Descrição da action.</string>
+           </property>
+           <property name="placeholderText">
+            <string>Description </string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_41">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/script_add.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_26">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/accept.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLineEdit" name="action_nome">
+           <property name="toolTip">
+            <string>Nome da action. </string>
+           </property>
+           <property name="placeholderText">
+            <string>Action Name</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_30">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/user_comment.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="label_40">
+           <property name="text">
+            <string>Slot:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_39">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/style_edit.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="2">
+          <widget class="QCheckBox" name="action_status">
+           <property name="toolTip">
+            <string>Caso status seja negativo, não aparece na lista.</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_28">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/text_list_bullets.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QLabel" name="label_36">
+           <property name="text">
+            <string>Menu</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="2">
+          <widget class="QListView" name="lista_menus">
+           <property name="autoScrollMargin">
+            <number>6</number>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QListView" name="action_lista_icones">
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_componentes">
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="4" column="1">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>Tooltip:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="1">
+          <widget class="QLabel" name="label_tabela">
+           <property name="text">
+            <string>Table:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLabel" name="label_14">
+           <property name="text">
+            <string>Status:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QSpinBox" name="componente_ordem"/>
+         </item>
+         <item row="6" column="1">
+          <widget class="QLabel" name="label_38">
+           <property name="text">
+            <string>Action:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>Icon:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/application_form_edit.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_15">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/folder_database.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>Widget Type:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="2">
+          <widget class="QListView" name="componente_widgets_tipo">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="autoScrollMargin">
+            <number>3</number>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+           <property name="selectionBehavior">
+            <enum>QAbstractItemView::SelectRows</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/text_list_bullets.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/text_list_bullets.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="2">
+          <widget class="QListView" name="componente_tipo_dados">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="autoScrollMargin">
+            <number>3</number>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+           <property name="selectionBehavior">
+            <enum>QAbstractItemView::SelectRows</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/folder_database.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_37">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/folder_database.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/folder_database.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="label_16">
+           <property name="text">
+            <string>Order:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QCheckBox" name="componente_status">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="1">
+          <widget class="QLabel" name="label_43">
+           <property name="text">
+            <string>Data Type:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLineEdit" name="componente_titulo">
+           <property name="toolTip">
+            <string>Titulo do menu.</string>
+           </property>
+           <property name="placeholderText">
+            <string>Titulo do componente.</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="0">
+          <widget class="QLabel" name="icon_tabela">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/text_list_bullets.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/user_comment.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLineEdit" name="componente_tooltip">
+           <property name="toolTip">
+            <string>Tooltip do menu.</string>
+           </property>
+           <property name="placeholderText">
+            <string>Tooltip do componente.</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>Title</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="2">
+          <widget class="QListView" name="lista_actions">
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QListView" name="componente_lista_icone">
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_60">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/folder_database.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLabel" name="label_61">
+           <property name="text">
+            <string>Menu:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="2">
+          <layout class="QHBoxLayout" name="horizontalLayout_10">
+           <item>
+            <widget class="QListView" name="componente_db_tabelas">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="autoScrollMargin">
+              <number>3</number>
+             </property>
+             <property name="editTriggers">
+              <set>QAbstractItemView::NoEditTriggers</set>
+             </property>
+             <property name="selectionBehavior">
+              <enum>QAbstractItemView::SelectRows</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QListView" name="componente_db_colunas">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="autoScrollMargin">
+              <number>3</number>
+             </property>
+             <property name="editTriggers">
+              <set>QAbstractItemView::NoEditTriggers</set>
+             </property>
+             <property name="selectionBehavior">
+              <enum>QAbstractItemView::SelectRows</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="5" column="2">
+          <widget class="QListView" name="lista_menu_select">
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="1">
+          <widget class="QLabel" name="label_19">
+           <property name="text">
+            <string>SQL:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QLabel" name="label_23">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="icones.qrc">:/new/prefix1/icons/database_connect.png</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="2">
+          <widget class="QLineEdit" name="component_sql">
+           <property name="toolTip">
+            <string/>
+           </property>
+           <property name="placeholderText">
+            <string>Digite aqui a SQL a ser chamada para preencher os itens do QComboBox</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page">
+      <layout class="QHBoxLayout" name="horizontalLayout_9">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QGroupBox" name="groupBox_4">
+           <property name="title">
+            <string>Basic configuration</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="6" column="1">
+             <layout class="QHBoxLayout" name="horizontalLayout_8">
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="btn_connect">
+                <property name="text">
+                 <string>Connect</string>
+                </property>
+                <property name="icon">
+                 <iconset resource="icones.qrc">
+                  <normaloff>:/new/prefix1/icons/database_lightning.png</normaloff>:/new/prefix1/icons/database_lightning.png</iconset>
+                </property>
+                <property name="flat">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_46">
+              <property name="text">
+               <string>Porta:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLineEdit" name="db_paswd">
+              <property name="echoMode">
+               <enum>QLineEdit::Password</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="db_user"/>
+            </item>
+            <item row="3" column="1">
+             <widget class="QSpinBox" name="db_port">
+              <property name="maximum">
+               <number>65535</number>
+              </property>
+              <property name="value">
+               <number>3306</number>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_45">
+              <property name="text">
+               <string>Usuário: </string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="1">
+             <spacer name="verticalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_44">
+              <property name="text">
+               <string>Senha: </string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QComboBox" name="db_driver">
+              <item>
+               <property name="text">
+                <string>QMYSQL3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>SQLite</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_47">
+              <property name="text">
+               <string>Driver:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_48">
+              <property name="text">
+               <string>Host: </string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="db_host"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_5">
+           <property name="title">
+            <string>Options</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_5">
+            <property name="horizontalSpacing">
+             <number>13</number>
+            </property>
+            <item row="2" column="0">
+             <spacer name="verticalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="0" column="0">
+             <widget class="QPushButton" name="btn_create_database">
+              <property name="toolTip">
+               <string>Create all the tables for the QtConstructor works</string>
+              </property>
+              <property name="text">
+               <string>Create System Database </string>
+              </property>
+              <property name="icon">
+               <iconset resource="icones.qrc">
+                <normaloff>:/new/prefix1/icons/database_edit.png</normaloff>:/new/prefix1/icons/database_edit.png</iconset>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QPushButton" name="btn_dump_db">
+              <property name="toolTip">
+               <string>Creates a backup from the actual database</string>
+              </property>
+              <property name="text">
+               <string>Dump Database</string>
+              </property>
+              <property name="icon">
+               <iconset resource="icones.qrc">
+                <normaloff>:/new/prefix1/icons/database_gear.png</normaloff>:/new/prefix1/icons/database_gear.png</iconset>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPlainTextEdit" name="log"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QWidget" name="widget_btn_wizard" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QPushButton" name="btn_save">
+          <property name="text">
+           <string>Save</string>
+          </property>
+          <property name="icon">
+           <iconset resource="icones.qrc">
+            <normaloff>:/new/prefix1/icons/database_edit.png</normaloff>:/new/prefix1/icons/database_edit.png</iconset>
+          </property>
+          <property name="shortcut">
+           <string>Ctrl+S</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_update">
+          <property name="text">
+           <string>Update</string>
+          </property>
+          <property name="icon">
+           <iconset resource="icones.qrc">
+            <normaloff>:/new/prefix1/icons/arrow_refresh_small.png</normaloff>:/new/prefix1/icons/arrow_refresh_small.png</iconset>
+          </property>
+          <property name="shortcut">
+           <string>Ctrl+S</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_cancel">
+          <property name="text">
+           <string>Cancel</string>
+          </property>
+          <property name="icon">
+           <iconset resource="icones.qrc">
+            <normaloff>:/new/prefix1/icons/cancel.png</normaloff>:/new/prefix1/icons/cancel.png</iconset>
+          </property>
+          <property name="shortcut">
+           <string>Esc</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>db_host</tabstop>
+  <tabstop>db_user</tabstop>
+  <tabstop>db_paswd</tabstop>
+  <tabstop>db_port</tabstop>
+  <tabstop>db_driver</tabstop>
+  <tabstop>action_nome</tabstop>
+  <tabstop>btn_connect</tabstop>
+  <tabstop>action_descricao</tabstop>
+  <tabstop>action_slot</tabstop>
+  <tabstop>action_tooltip</tabstop>
+  <tabstop>action_status</tabstop>
+  <tabstop>lista_menus</tabstop>
+  <tabstop>btn_save</tabstop>
+  <tabstop>btn_cancel</tabstop>
+  <tabstop>componente_widgets_tipo</tabstop>
+  <tabstop>componente_ordem</tabstop>
+  <tabstop>componente_tipo_dados</tabstop>
+  <tabstop>componente_status</tabstop>
+  <tabstop>componente_titulo</tabstop>
+  <tabstop>componente_tooltip</tabstop>
+  <tabstop>lista_actions</tabstop>
+  <tabstop>componente_db_tabelas</tabstop>
+  <tabstop>componente_db_colunas</tabstop>
+  <tabstop>ajuda_acl</tabstop>
+  <tabstop>btn_menu</tabstop>
+  <tabstop>btn_database</tabstop>
+  <tabstop>criar_coluna_automatico</tabstop>
+  <tabstop>paranoia_mode</tabstop>
+  <tabstop>treeView</tabstop>
+  <tabstop>menu_acl</tabstop>
+  <tabstop>menu_lista_icones</tabstop>
+  <tabstop>action_lista_icones</tabstop>
+  <tabstop>componente_lista_icone</tabstop>
+  <tabstop>lista_menu_select</tabstop>
+  <tabstop>component_sql</tabstop>
+  <tabstop>btn_componente</tabstop>
+  <tabstop>menu_descricao</tabstop>
+  <tabstop>menu_status</tabstop>
+  <tabstop>menu_ordem</tabstop>
+  <tabstop>btn_action</tabstop>
+  <tabstop>btn_create_database</tabstop>
+  <tabstop>btn_dump_db</tabstop>
+  <tabstop>log</tabstop>
+  <tabstop>btn_update</tabstop>
+  <tabstop>menu_nome</tabstop>
+ </tabstops>
+ <resources>
+  <include location="icones.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,95 @@
+/******QScrollBarÑùÊ½****/
+QScrollBar:horizontal
+{
+    border: 0px;
+    background: rgb(158, 158, 158);
+    height: 15px;
+	margin:  0px 12px 0px 12px ;
+}
+QScrollBar::handle:horizontal
+{
+    background: grey;
+    min-width: 15px;
+}
+QScrollBar::handle:horizontal:pressed
+{
+    background: rgb(24, 24, 31);
+    min-width: 15px;
+}
+QScrollBar::add-line:horizontal
+{
+    border: 0px;
+    background: rgb(158, 158, 158);
+    width: 12px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:horizontal
+{
+    border: 0px solid grey;
+    background: rgb(158, 158, 158);
+    width: 12px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+QScrollBar:left-arrow:horizontal{
+	border: 0px;
+	background: transparent;
+	image: url(:/image/left_arrow.png);
+}
+QScrollBar::right-arrow:horizontal {
+	border: 0px;
+	background: transparent;
+	image: url(:/image/right_arrow.png);
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+QScrollBar:vertical
+{
+    border: 0px;
+    background: rgb(158, 158, 158);
+    width: 15px;
+    margin: 12px 0 12px 0;
+}
+QScrollBar::handle:vertical
+{
+    background: grey;
+    min-height: 15px;
+}
+QScrollBar::handle:vertical:pressed
+{
+    background: rgb(24, 24, 31);
+    min-height: 15px;
+}
+QScrollBar::add-line:vertical
+{
+    border: 0px;
+    background: rgb(158, 158, 158);
+    height: 12px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical
+{
+    border: 0px solid grey;
+    background: rgb(158, 158, 158);
+    height: 12px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+QScrollBar:up-arrow:vertical{
+	border: 0px;
+	background: transparent;
+	image: url(:/image/up_arrow.png);
+}
+QScrollBar::down-arrow:vertical {
+	border: 0px;
+	background: rgb(158, 158, 158);
+	image: url(:/image/down_arrow.png);
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}

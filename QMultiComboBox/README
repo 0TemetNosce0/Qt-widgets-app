@@ -1,0 +1,27 @@
+/****************************************************************************
+**
+** Copyright (c) 2011 Richard Steffen and/or its subsidiary(-ies).
+** All rights reserved.
+** Contact: rsteffen@messbild.de, rsteffen@uni-bonn.de
+**
+** QMultiComboBox is free to use unter the terms of the LGPL 2.1 License in
+** Free and Commercial Products.
+****************************************************************************/
+
+Please also observe other widgets:
+
+QColorRampEdit
+QMultiComboBox
+QFullScreenAdapter
+
+
+Changelog:
+
+1.2
+* Qt5 support
+
+1.1
+* adding dynamic height adjustment
+
+1.0
+* init release

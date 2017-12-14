@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>images/change_skin_text.png</file>
+    </qresource>
+</RCC>

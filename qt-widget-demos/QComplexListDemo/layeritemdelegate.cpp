@@ -1,5 +1,5 @@
 #include "layeritemdelegate.h"
-
+#include <QMouseEvent>
 LayerItemDelegate::LayerItemDelegate(QObject *parent)
     : QStyledItemDelegate(parent)
 {
@@ -29,9 +29,10 @@ LayerItemDelegate::~LayerItemDelegate()
 
 }
 
+//绘制
 void LayerItemDelegate::paint(QPainter * painter, const QStyleOptionViewItem & option, const QModelIndex & index) const
 {
-    if (index.column() == 1) // value column
+    if (index.column() == 1) // value column，列为1
     {
         if (option.state & QStyle::State_Selected)
             painter->fillRect(option.rect, option.palette.highlight());
@@ -63,15 +64,28 @@ void LayerItemDelegate::paint(QPainter * painter, const QStyleOptionViewItem & o
     }
 }
 
-
+//编辑事件,如果返回true，不在往后处理，否则往后面传递，createEditor执行。
 bool LayerItemDelegate::editorEvent(QEvent * event,
     QAbstractItemModel * model,
     const QStyleOptionViewItem & option,
     const QModelIndex & index)
 {
+    //构造一个矩形区域 用于相应删除按钮的操作区域
+    QRect decorationRect = QRect(option.rect.left() + option.rect.width()-12, option.rect.top(), 12, 12);
+//MouseEvent *mouseEvent = static_cast<QMouseEvent*>(event);//将事件转换为鼠标事件
+QMouseEvent * pMouseEvent = static_cast<QMouseEvent*>(event);
+if (event->type() == QEvent::MouseButtonDblClick && decorationRect.contains(pMouseEvent->pos()))//鼠标双击，鼠标在decorationRect区域内
+{
+//    emit deleteItem(index);
+    qDebug("delete");
+    return true;
+}
     return false;
 }
 
+//创建编辑事件，QStyleOption类的作用就是用于显示用的。该类的成员变量有，QRect，QFont等。都是用于控制item的显示使用的
+//index是索引
+//返回QWidget
 QWidget *LayerItemDelegate::createEditor(QWidget *parent,
     const QStyleOptionViewItem &option,
     const QModelIndex &index) const
@@ -87,6 +101,7 @@ QWidget *LayerItemDelegate::createEditor(QWidget *parent,
     else return 0;  // no editor attached
 }
 
+//设置createEditor返回的QWidget
 void LayerItemDelegate::setEditorData(QWidget *editor, const QModelIndex &index) const
 {
     QString value = index.model()->data(index, Qt::EditRole).toString();
@@ -96,12 +111,15 @@ void LayerItemDelegate::setEditorData(QWidget *editor, const QModelIndex &index)
     qDebug() << "setEditorData";
 }
 
+//QWidget显示的大小位置。
 void LayerItemDelegate::updateEditorGeometry(QWidget *editor,
     const QStyleOptionViewItem &option, const QModelIndex & index ) const
 {
     editor->setGeometry(option.rect);
+    qDebug()<<"updateEditorGeometry";
 }
 
+//QWidget修改完后设置
 void LayerItemDelegate::setModelData(QWidget *editor, QAbstractItemModel *model,
     const QModelIndex &index) const
 {

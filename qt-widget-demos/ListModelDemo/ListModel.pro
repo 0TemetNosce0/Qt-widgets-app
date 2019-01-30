@@ -16,9 +16,15 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     tagmngrlistitem.cpp \
     tagmngrlistmodel.cpp \
-    tagmngrlistview.cpp
+    tagmngrlistview.cpp \
+    ../../../dy-vp/videopro_win/gui/obs/UI/reclistwidget/reclistview.cpp \
+    ../../../dy-vp/videopro_win/gui/obs/UI/reclistwidget/reclistviewmodel.cpp \
+    ../../../dy-vp/videopro_win/gui/obs/UI/reclistwidget/reclistviewdelegate.cpp
 
 HEADERS  += mainwindow.h \
     tagmngrlistitem.h \
     tagmngrlistmodel.h \
-    tagmngrlistview.h
+    tagmngrlistview.h \
+    ../../../dy-vp/videopro_win/gui/obs/UI/reclistwidget/reclistview.h \
+    ../../../dy-vp/videopro_win/gui/obs/UI/reclistwidget/reclistviewmodel.h \
+    ../../../dy-vp/videopro_win/gui/obs/UI/reclistwidget/reclistviewdelegate.h

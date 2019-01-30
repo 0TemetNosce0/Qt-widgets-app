@@ -45,6 +45,7 @@ void LayerTableView::contextMenuEvent(QContextMenuEvent * event)
     pMenu->popup(mapToGlobal(event->pos()));
 }
 
+//添加
 void LayerTableView::addNewLayer()
 {
     model->addItem(QString(), QImage(layerSize, QImage::Format_RGB32), true);
@@ -53,6 +54,7 @@ void LayerTableView::addNewLayer()
     this->resizeRowsToContents();
 }
 
+//点击
 void LayerTableView::itemClicked(const QModelIndex& index)
 {
     if (index.isValid() )

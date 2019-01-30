@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    QPushButton * btn = new QPushButton(this);
+   /* QPushButton **/ btn = new QPushButton(this);
     QPushButton * btn2 = new QPushButton(this);
     btn->setGeometry(100,100,100,100);
     btn->setText("test");
@@ -25,9 +25,18 @@ MainWindow::MainWindow(QWidget *parent) :
 //    bodyShadow2->setDistance(6.0);
     bodyShadow2->setColor(QColor(0, 0, 0, 80));
     btn2->setGraphicsEffect(bodyShadow2);
+    connect(btn,&QPushButton::clicked,this,&MainWindow::on_btn_clicked);
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::on_btn_clicked()
+{
+    m_paintTool = new QDialog(this);
+
+    m_paintTool->move(10,10);
+    m_paintTool->show();
 }

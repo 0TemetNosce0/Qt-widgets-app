@@ -17,6 +17,7 @@ LayerTableModel::~LayerTableModel()
 
 }
 
+//数据
 QVariant LayerTableModel::data(const QModelIndex &index, int role) const
 {
     if (!index.isValid())
@@ -77,17 +78,20 @@ QVariant LayerTableModel::data(const QModelIndex &index, int role) const
     return QVariant();
 }
 
+//行数
 int LayerTableModel::rowCount(const QModelIndex &parent) const
 {
     return (parent.isValid() && parent.column() != 0) ? 0 : layerList.size();
 }
 
+//列数
 int LayerTableModel::columnCount(const QModelIndex &parent) const
 {
     Q_UNUSED(parent);
     return 2;
 }
 
+//头部
 QVariant LayerTableModel::headerData(int section, Qt::Orientation orientation, int role) const
 {
     if (role == Qt::DisplayRole)

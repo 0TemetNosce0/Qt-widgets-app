@@ -117,15 +117,15 @@ QWidget *LayerItemDelegate::createEditor(QWidget *parent,
 	const QStyleOptionViewItem &option,
 	const QModelIndex &index) const
 {
-	if (index.column() == 1) // value column
-	{
-		QLineEdit* edit = new QLineEdit(parent);
-		edit->setFixedWidth(200);
-		edit->setFixedHeight(36);
-		edit->setContentsMargins(56, 17, 50, 0);
-		return edit;
-	}
-	else return 0;  // no editor attached
+    if (index.column() == 1) // value column
+    {
+        QLineEdit* edit = new QLineEdit(parent);
+        edit->setFixedWidth(200);
+        edit->setFixedHeight(36);
+        edit->setContentsMargins(56, 17, 50, 0);
+        return edit;
+    }
+    else return 0;  // no editor attached
 }
 
 void LayerItemDelegate::setEditorData(QWidget *editor, const QModelIndex &index) const
